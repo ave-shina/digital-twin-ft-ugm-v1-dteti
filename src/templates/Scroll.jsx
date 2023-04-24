@@ -31,7 +31,7 @@ export default function Scroll({ children }) {
       smooth: true,
       smoothTouch: false,
       touchMultiplier: 2,
-      infinite: false,
+      infinite: true,
     })
 
     lenis.on('scroll', ({ scroll, progress }) => {
@@ -49,17 +49,17 @@ export default function Scroll({ children }) {
     <div
       ref={wrapper}
       style={{
-        position: 'absolute',
-        overflow: 'hidden',
+        position: 'relative',
+
         width: '100%',
-        height: '100%',
+        height: 'auto',
         top: 0,
       }}>
       <div
         ref={content}
         style={{
           position: 'relative',
-          minHeight: '100%',
+          minHeight: 'auto',
         }}>
         {children}
       </div>

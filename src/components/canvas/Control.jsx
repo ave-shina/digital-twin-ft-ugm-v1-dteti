@@ -32,6 +32,7 @@ export default function Controls(props) {
   })
 
   // scene.fog = new THREE.Fog('#000000', 600, 1000)
+  // console.log(props.freeControl)
 
   return (
     <>

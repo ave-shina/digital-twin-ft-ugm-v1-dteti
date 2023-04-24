@@ -15,9 +15,7 @@ export default function App({ Component, pageProps }) {
       <Provider store={store}>
         <Header title={pageProps.title} />
         <Layout ref={ref}>
-          <Scroll>
-            <Component {...pageProps} />
-          </Scroll>
+          <Component {...pageProps} />
         </Layout>
       </Provider>
     </>

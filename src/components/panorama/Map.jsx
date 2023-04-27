@@ -44,8 +44,8 @@ function Map(props) {
                 alt='Sample image'
                 hideFullscreenControl={false}
                 hideZoomControls={false}
-                hotspots={map}
-                src={mapImage}
+                hotspots={map.length > 0 && map}
+                src={map.length > 0 && mapImage}
                 className='hidden'
               />
             </div>

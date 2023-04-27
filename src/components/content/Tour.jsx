@@ -15,7 +15,7 @@ export default function Tour() {
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({
       sceneName: mapInformation[i]?.name,
-      scenePanoImg: mapInformation[i].mapImage.data.attributes.formats.large?.url,
+      scenePanoImg: `${mapInformation[i].mapImage.data.attributes.formats.large?.url}`,
       hotSpotsArr: mapInformation[i].panoramaCoordinate,
     })
   }

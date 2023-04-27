@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Logo() {
   return (
-    <div className={clsx(' absolute left-6 top-6 flex  flex-row items-center justify-center')}>
+    <div className={clsx(' absolute left-6 top-6 z-20 flex  flex-row items-center justify-center')}>
       <div className={clsx('relative mr-2 h-12 w-12 ')}>
         <Image
           src='/img/logo/logo-teknik-filled-white.svg'

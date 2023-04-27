@@ -21,6 +21,8 @@ export default function Page(props) {
   const [loading, setLoading] = useState(true)
   const [mode, setMode] = useState('')
   const [content, setContent] = useState('')
+  const [showTooltip, setShowTooltip] = useState(false)
+  const [zoom, setZoom] = useState(false)
 
   const [freeControl, setFreeControl] = useState(false)
 
@@ -33,7 +35,7 @@ export default function Page(props) {
 
   return (
     <>
-      {loading ? <Loading></Loading> : ''}
+      {loading && <Loading></Loading>}
 
       <div className='relative h-full w-full bg-black'>
         <Scene
@@ -41,6 +43,10 @@ export default function Page(props) {
           colorManagement
           shadowMap
           mode={mode}
+          setContent={setContent}
+          zoom={zoom}
+          setZoom={setZoom}
+          showTooltip={showTooltip}
           freeControl={freeControl}
           className='pointer-events-none h-screen'
           eventSource={props.ref}
@@ -52,16 +58,21 @@ export default function Page(props) {
         {mode === 'storyBoard' && <StoryBoard setMode={setMode} />}
         {mode === 'tutorial' && <Tutorial setFreeControl={setFreeControl} setMode={setMode} />}
 
-        <Layout setContent={setContent} content={content}></Layout>
+        <Layout setZoom={setZoom} setContent={setContent} content={content}></Layout>
 
         {/*  */}
         {/*  */}
 
-        <Logo></Logo>
-        <TopRight></TopRight>
-        <BottomRight setContent={setContent}></BottomRight>
-        <Main setContent={setContent}></Main>
-        <BottomLeft setMode={setMode}></BottomLeft>
+        {content == '' && (
+          <>
+            {' '}
+            <Logo></Logo>
+            <TopRight></TopRight>
+            <BottomRight setContent={setContent}></BottomRight>
+            <Main setShowTooltip={setShowTooltip} showTooltip={showTooltip} setContent={setContent}></Main>
+            <BottomLeft showTooltip={showTooltip} setShowTooltip={setShowTooltip} setMode={setMode}></BottomLeft>
+          </>
+        )}
 
         {/*  */}
         {/*  */}

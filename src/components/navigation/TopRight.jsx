@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function TopRight() {
   return (
-    <div className={clsx('absolute right-6 top-6 flex flex-row items-center justify-center')}>
+    <div className={clsx('absolute right-6 top-6 z-20 flex flex-row items-center justify-center')}>
       <button
         className={clsx(
           ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-14 sm:w-14 ',

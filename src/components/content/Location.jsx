@@ -13,8 +13,10 @@ SwiperCore.use([Navigation, Pagination])
 
 import { Landmarks } from '../data/Landamarks'
 import Gallery from '../gallery/Gallery'
+import Navbar from './Navbar'
 
-export default function Location() {
+export default function Location(props) {
+  const { setContent, setZoom } = props
   const [openPanorama, setOpenPanorama] = useState(false)
 
   const [prevEl, setPrevEl] = useState(null)
@@ -82,7 +84,9 @@ export default function Location() {
           <>
             {panoramaDetail.map((item, index) => {
               // console.log('test', item.show === true)
-              return <Panorama panoramaImage={item.panoramaImage.data.attributes.formats.large.url} key={index} />
+              return (
+                <Panorama panoramaImage={`${item?.panoramaImage?.data.attributes.formats.large.url}`} key={index} />
+              )
             })}
           </>
         )
@@ -101,16 +105,19 @@ export default function Location() {
           currentScene={currentScene}
           setCurrentScene={setCurrentScene}></ModalPanorama>
       )}
-
-      <div className={clsx('flex min-h-[calc(100vh-96px)]  w-full flex-col  px-[10%]')}>
-        <div className='mb-4 flex w-full flex-row'>
-          <h1 className={clsx(' pb-8  font-medium leading-none text-black', 'text-6xl sm:text-8xl')}>
+      <div className='relative flex h-screen w-full '>
+        <div className='absolute bottom-4 left-8 mb-8 flex flex-row'>
+          <h1 className={clsx('  font-medium leading-none text-white', 'text-6xl sm:text-9xl')}>
             {data.attributes.name}.
           </h1>
-          <div className='mx-4 border border-solid border-black'></div>
-          <p className=' flex w-96 items-center text-3xl font-medium'>{data.attributes.subName}</p>
+          <div className='mx-4 border border-solid border-white'></div>
+          <p className=' mt-2 flex w-1/2 items-center text-4xl font-medium text-white'>{data.attributes.subName}</p>
         </div>
-
+        <div className='absolute top-0 w-full'>
+          <Navbar theme='light' setZoom={setZoom} setContent={setContent}></Navbar>
+        </div>
+      </div>
+      <div className={clsx('flex min-h-screen w-full  flex-col bg-white px-[10%]  py-8')}>
         <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>
           {section.map((item, index) => {
             // console.log('test', item.show === true)

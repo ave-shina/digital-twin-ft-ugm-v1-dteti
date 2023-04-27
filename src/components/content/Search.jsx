@@ -13,7 +13,7 @@ export default function Search() {
     locations.push({
       name: Landmarks.data[i].attributes.name,
       description: Landmarks.data[i].attributes.description,
-      image: Landmarks.data[i].attributes.thumbnail.data?.attributes.formats.thumbnail.url,
+      image: `${Landmarks?.data[i].attributes.thumbnail.data?.attributes.formats.thumbnail.url}`,
     })
   }
 

@@ -12,7 +12,7 @@ export default function Tutorial(props) {
   const [prevEl, setPrevEl] = useState(null)
   const [nextEl, setNextEl] = useState(null)
   return (
-    <div className='absolute z-10  h-screen w-screen'>
+    <div className='absolute z-[9999999999]  h-screen w-screen'>
       <div className='relative h-screen w-screen'>
         <div className='animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black  bg-opacity-40'>
           {' '}

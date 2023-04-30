@@ -6,32 +6,55 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
+import clsx from 'clsx'
+
 SwiperCore.use([Navigation, Pagination])
 
+import { useSelector } from 'react-redux'
+
 export default function Tutorial(props) {
+  const { setIntroduction, setFreeControl } = props
   const [prevEl, setPrevEl] = useState(null)
   const [nextEl, setNextEl] = useState(null)
+
+  const navigation = useSelector((state) => state.navigation)
+
   return (
-    <div className='absolute z-[9999999999]  h-screen w-screen'>
-      <div className='relative h-screen w-screen'>
-        <div className='animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black  bg-opacity-40'>
+    <div className={clsx('absolute z-[99999999]  h-screen w-screen')}>
+      <div className={clsx('relative h-screen w-screen')}>
+        <div
+          className={clsx(
+            'animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black  bg-opacity-40',
+          )}>
           {' '}
         </div>
-        <div className='absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center'>
+        <div className={clsx('absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center')}>
           <Swiper
             loop={true}
             pagination={true}
             navigation={{ prevEl, nextEl }}
-            className='mySwiper z-20 flex h-[550px] w-4/5 items-center justify-center rounded-3xl border-2 border-solid border-black bg-white p-8 md:h-[350px] md:w-[550px] '>
+            className={clsx(
+              'mySwiper z-20 flex h-[550px] w-4/5 items-center justify-center rounded-3xl border-2 border-solid border-black  p-8 md:h-[350px] md:w-[550px] ',
+              navigation.theme === 'dark' ? ' bg-gray-950' : 'bg-white',
+            )}>
             <SwiperSlide>
-              <div className='tutorial-container flex h-full w-full flex-col items-center justify-center py-4'>
+              <div className={clsx('tutorial-container flex h-full w-full flex-col items-center justify-center py-4')}>
                 <Fade top duration={1000}>
-                  <h1 className='w-full text-center text-lg text-black'>Penggunaan Desktop</h1>
+                  <h1
+                    className={clsx(
+                      'w-full text-center text-lg ',
+                      navigation.theme === 'dark' ? ' text-white' : 'text-dark',
+                    )}>
+                    Penggunaan Desktop
+                  </h1>
                 </Fade>
-                <div className='tutorial-section my-8 flex w-2/3 flex-col items-center justify-between sm:flex-row'>
+                <div
+                  className={clsx(
+                    'tutorial-section my-8 flex w-2/3 flex-col items-center justify-between sm:flex-row',
+                  )}>
                   <Fade top duration={1000}>
-                    <div className='tutorial-card mb-4 flex  flex-col items-center justify-center sm:mb-0'>
-                      <div className='image-card h-32 w-32'>
+                    <div className={clsx('tutorial-card mb-4 flex  flex-col items-center justify-center sm:mb-0')}>
+                      <div className={clsx('image-card h-32 w-32')}>
                         <svg
                           width='100%'
                           height='100%'
@@ -46,19 +69,23 @@ export default function Tutorial(props) {
                             fillRule='evenodd'
                             clipRule='evenodd'
                             d='M34.9293 0.219985C18.2007 1.99376 4.63354 14.1348 0.695643 30.8556L0 33.809V60.5129V87.2168L0.695643 90.1702C3.92763 103.894 13.5483 114.596 26.566 118.948C34.7503 121.684 43.2497 121.684 51.434 118.948C61.5481 115.566 69.7144 108.308 74.3386 98.5897C75.8424 95.4298 76.6351 93.1045 77.4364 89.5035L78 86.9707V60.3899V33.809L77.3044 30.8556C72.6632 11.1484 54.654 -1.87153 34.9293 0.219985ZM36.3103 9.56142V13.4942L35.3047 14.0108C33.8075 14.7796 32.2587 16.5153 31.6795 18.0739C31.2022 19.3577 31.1755 19.9378 31.1755 29.0097C31.1755 38.0817 31.2022 38.6618 31.6795 39.9455C32.2587 41.5042 33.8075 43.2398 35.3047 44.0087L36.3103 44.5253V48.5811V52.6371H20.7837H5.25705V44.6626C5.25705 35.9089 5.53727 33.1758 6.84957 29.1328C10.7664 17.0661 21.0717 8.12483 33.4984 6.01116C34.5743 5.82829 35.647 5.66733 35.8824 5.65355C36.2732 5.63066 36.3103 5.9703 36.3103 9.56142ZM45.8464 6.28534C55.7323 8.241 64.7642 15.2534 69.1926 24.4117C70.8548 27.8493 71.6563 30.3225 72.2661 33.8949C72.672 36.2724 72.7429 37.8759 72.7429 44.6626V52.6371H57.2163H41.6897V48.5811V44.5253L42.6953 44.0087C44.1925 43.2398 45.7413 41.5042 46.3205 39.9455C46.7978 38.6618 46.8245 38.0817 46.8245 29.0097C46.8245 19.9378 46.7978 19.3577 46.3205 18.0739C45.7413 16.5153 44.1925 14.7796 42.6953 14.0108L41.6897 13.4942V9.54616V5.59817L42.8511 5.76036C43.49 5.84971 44.8378 6.08573 45.8464 6.28534ZM40.1871 19.0235C41.3982 19.6538 41.4451 20.0284 41.4451 29.0336C41.4451 38.1122 41.3987 38.4604 40.1072 39.0526C38.8526 39.628 37.4852 39.2131 36.9033 38.0804C36.4116 37.1233 36.405 20.8221 36.8962 19.9304C37.5373 18.7658 38.9462 18.3776 40.1871 19.0235ZM72.7429 71.1947C72.7429 83.0874 72.6977 84.6033 72.2679 87.1309C70.6998 96.3478 65.4995 104.443 57.7755 109.689C46.4792 117.362 31.5208 117.362 20.2245 109.689C15.4222 106.427 11.3212 101.74 8.73062 96.5531C7.51294 94.1145 6.23951 90.1134 5.73214 87.1309C5.30229 84.6033 5.25705 83.0874 5.25705 71.1947V58.0517H39H72.7429V71.1947Z'
-                            fill='black'
+                            className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
                           />
                         </svg>
                       </div>
-                      <p className='mt-4 text-center text-black'>
+                      <p
+                        className={clsx(
+                          'mt-4 text-center ',
+                          navigation.theme === 'dark' ? 'text-white' : 'text-black',
+                        )}>
                         Memutar <br /> Kamera
                       </p>
                     </div>
                   </Fade>
 
                   <Fade delay={500} top duration={1000}>
-                    <div className='tutorial-card flex flex-col items-center justify-center'>
-                      <div className='image-card h-32 w-32'>
+                    <div className={clsx('tutorial-card flex flex-col items-center justify-center')}>
+                      <div className={clsx('image-card h-32 w-32')}>
                         <svg
                           width='100%'
                           height='100%'
@@ -70,11 +97,15 @@ export default function Tutorial(props) {
                             fillRule='evenodd'
                             clipRule='evenodd'
                             d='M34.9293 0.219985C18.2007 1.99376 4.63354 14.1348 0.695643 30.8556L0 33.809V60.5129V87.2168L0.695643 90.1702C3.92763 103.894 13.5483 114.596 26.566 118.948C34.7503 121.684 43.2497 121.684 51.434 118.948C61.5481 115.566 69.7144 108.308 74.3386 98.5897C75.8424 95.4298 76.6351 93.1045 77.4364 89.5035L78 86.9707V60.3899V33.809L77.3044 30.8556C72.6632 11.1484 54.654 -1.87153 34.9293 0.219985ZM36.3103 9.56142V13.4942L35.3047 14.0108C33.8075 14.7796 32.2587 16.5153 31.6795 18.0739C31.2022 19.3577 31.1755 19.9378 31.1755 29.0097C31.1755 38.0817 31.2022 38.6618 31.6795 39.9455C32.2587 41.5042 33.8075 43.2398 35.3047 44.0087L36.3103 44.5253V48.5811V52.6371H20.7837H5.25705V44.6626C5.25705 35.9089 5.53727 33.1758 6.84957 29.1328C10.7664 17.0661 21.0717 8.12483 33.4984 6.01116C34.5743 5.82829 35.647 5.66733 35.8824 5.65355C36.2732 5.63066 36.3103 5.9703 36.3103 9.56142ZM45.8464 6.28534C55.7323 8.241 64.7642 15.2534 69.1926 24.4117C70.8548 27.8493 71.6563 30.3225 72.2661 33.8949C72.672 36.2724 72.743 37.8759 72.743 44.6626V52.6371H57.2163H41.6897V48.5811V44.5253L42.6953 44.0087C44.1925 43.2398 45.7413 41.5042 46.3205 39.9455C46.7978 38.6618 46.8245 38.0817 46.8245 29.0097C46.8245 19.9378 46.7978 19.3577 46.3205 18.0739C45.7413 16.5153 44.1925 14.7796 42.6953 14.0108L41.6897 13.4942V9.54616V5.59817L42.8511 5.76036C43.49 5.84971 44.8378 6.08573 45.8464 6.28534ZM40.1871 19.0235C41.3982 19.6538 41.4451 20.0284 41.4451 29.0336C41.4451 38.1122 41.3987 38.4604 40.1072 39.0526C38.8526 39.628 37.4852 39.2131 36.9033 38.0804C36.4116 37.1233 36.405 20.8221 36.8962 19.9304C37.5373 18.7658 38.9462 18.3776 40.1871 19.0235ZM72.743 71.1947C72.743 83.0874 72.6977 84.6033 72.2679 87.1309C70.6998 96.3478 65.4995 104.443 57.7755 109.689C46.4792 117.362 31.5208 117.362 20.2245 109.689C15.4222 106.427 11.3212 101.74 8.73062 96.5531C7.51294 94.1145 6.23951 90.1134 5.73214 87.1309C5.30229 84.6033 5.25705 83.0874 5.25705 71.1947V58.0517H39H72.743V71.1947Z'
-                            fill='black'
+                            className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
                           />
                         </svg>
                       </div>
-                      <p className='mt-4 text-center text-black'>
+                      <p
+                        className={clsx(
+                          'mt-4 text-center ',
+                          navigation.theme === 'dark' ? 'text-white' : 'text-black',
+                        )}>
                         Mengatur Jarak <br />
                         Kamera
                       </p>
@@ -84,14 +115,23 @@ export default function Tutorial(props) {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='tutorial-container flex h-full w-full flex-col items-center justify-center py-4'>
+              <div className={clsx('tutorial-container flex h-full w-full flex-col items-center justify-center py-4')}>
                 <Fade top duration={1000}>
-                  <h1 className='w-full text-center text-lg text-black'>Penggunaan Mobile</h1>
+                  <h1
+                    className={clsx(
+                      'w-full text-center text-lg text-black',
+                      navigation.theme === 'dark' ? ' text-white' : 'text-dark',
+                    )}>
+                    Penggunaan Mobile
+                  </h1>
                 </Fade>
-                <div className='tutorial-section my-8 flex w-2/3 flex-col items-center  justify-between sm:flex-row'>
+                <div
+                  className={clsx(
+                    'tutorial-section my-8 flex w-2/3 flex-col items-center  justify-between sm:flex-row',
+                  )}>
                   <Fade top duration={1000}>
-                    <div className='tutorial-card mb-4 flex flex-col items-center justify-center sm:mb-0'>
-                      <div className='image-card h-32 w-32'>
+                    <div className={clsx('tutorial-card mb-4 flex flex-col items-center justify-center sm:mb-0')}>
+                      <div className={clsx('image-card h-32 w-32')}>
                         <svg
                           width='100%'
                           height='100%'
@@ -102,7 +142,7 @@ export default function Tutorial(props) {
                             fillRule='evenodd'
                             clipRule='evenodd'
                             d='M51.6507 27.2679C48.0952 28.4451 45.489 31.1602 44.588 34.6253C44.2555 35.9044 44.2094 39.8499 44.2094 67.0519V98.0221L36.4631 94.1746C31.1528 91.5367 28.1689 90.1951 26.9742 89.9075C24.7323 89.368 21.495 89.3614 19.9162 89.8931C13.1071 92.1859 10.7798 100.545 15.4156 106.057C16.0582 106.822 24.529 115.374 34.2393 125.062C49.3375 140.125 52.2738 142.944 54.5123 144.522C60.1583 148.503 66.2731 150.923 72.9163 151.805C75.8087 152.189 82.7095 151.977 85.1974 151.428C98.3067 148.534 108.323 138.494 111.349 125.215C111.886 122.858 111.891 122.642 111.971 97.7133C112.04 76.3088 111.999 72.3819 111.696 71.2029C110.489 66.5071 106.331 63.3444 101.363 63.3444C99.8254 63.3444 97.2947 64.0229 96.3434 64.6902C95.9048 64.9978 95.8213 64.927 95.2411 63.7561C94.3479 61.9534 92.362 60.0562 90.3877 59.1196C88.8255 58.3786 88.5813 58.3356 85.9293 58.3356C83.3749 58.3356 82.9945 58.3961 81.6836 59.0109C80.8914 59.3825 80.2222 59.6574 80.1961 59.6217C80.17 59.5863 79.8392 58.9789 79.461 58.2718C77.0903 53.8393 71.3517 51.7637 66.5332 53.5957C65.8623 53.8508 65.2858 54.0594 65.2523 54.0594C65.2189 54.0597 65.1913 50.0147 65.1913 45.0706C65.1913 35.2884 65.0828 34.2779 63.7955 32.0776C62.7938 30.3656 60.9671 28.7019 59.1507 27.8472C57.6978 27.1638 57.2219 27.0661 55.0663 27.0092C53.5285 26.9686 52.2657 27.0641 51.6507 27.2679ZM56.5956 32.6921C57.752 33.1759 58.5174 33.897 59.1766 35.1238L59.7019 36.1011L59.8239 62.0006C59.891 76.2453 60.0373 88.086 60.1493 88.313C60.496 89.0167 61.4683 89.4885 62.56 89.4828C63.666 89.477 64.4501 89.0171 64.9188 88.0994C65.1089 87.7273 65.1918 83.8426 65.1928 75.2718C65.1935 67.3586 65.2862 62.6454 65.4529 62.0443C65.7652 60.9182 67.0936 59.3859 68.2227 58.8494C69.2799 58.347 71.3498 58.347 72.4069 58.8494C73.5361 59.3859 74.8645 60.9182 75.1768 62.0443C75.3434 62.6454 75.4361 67.3586 75.4369 75.2718C75.4378 83.8426 75.5208 87.7273 75.7108 88.0994C76.1795 89.0171 76.9637 89.477 78.0696 89.4828C79.1614 89.4885 80.1336 89.0167 80.4803 88.313C80.5923 88.086 80.7387 83.2821 80.8058 77.638C80.9236 67.72 80.9454 67.3432 81.4531 66.3986C82.4226 64.5939 84.0243 63.5887 85.9293 63.5887C87.8343 63.5887 89.436 64.5939 90.4055 66.3986C90.9132 67.3432 90.935 67.72 91.0528 77.638C91.1199 83.2821 91.2663 88.086 91.3783 88.313C92.1417 89.8623 95.3365 89.8623 96.0929 88.313C96.2039 88.086 96.3503 84.4366 96.4183 80.2035L96.5423 72.507L97.2198 71.353C99.185 68.0046 103.903 68.0046 105.868 71.353L106.545 72.507V96.9404C106.545 123.802 106.597 122.772 105.033 127.36C102.316 135.331 95.8174 141.969 87.8147 144.95C83.5644 146.532 77.9 147.055 73.1279 146.304C67.0543 145.348 62.2524 143.34 57.1401 139.62C55.2037 138.21 19.9106 103.159 19.0864 101.827C17.6677 99.5343 18.6395 96.462 21.1436 95.3229C22.3142 94.7903 23.8681 94.7463 25.5452 95.1981C26.2161 95.3789 31.0737 97.6864 36.3399 100.326C46.2456 105.292 47.0349 105.59 48.3675 104.876C49.4871 104.276 49.448 105.401 49.5769 69.8193L49.6988 36.1011L50.2241 35.1238C51.5314 32.6909 54.1785 31.6806 56.5956 32.6921Z'
-                            fill='black'
+                            className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
                           />
                           <path
                             fillRule='evenodd'
@@ -118,15 +158,19 @@ export default function Tutorial(props) {
                           />
                         </svg>
                       </div>
-                      <p className='mt-4 text-center text-black'>
+                      <p
+                        className={clsx(
+                          'mt-4 text-center ',
+                          navigation.theme === 'dark' ? 'text-white' : 'text-black',
+                        )}>
                         Menmutar <br />
                         Kamera
                       </p>
                     </div>
                   </Fade>
                   <Fade top delay={500} duration={1000}>
-                    <div className='tutorial-card flex flex-col items-center justify-center'>
-                      <div className='image-card h-32 w-32'>
+                    <div className={clsx('tutorial-card flex flex-col items-center justify-center')}>
+                      <div className={clsx('image-card h-32 w-32')}>
                         <svg
                           width='100%'
                           height='100%'
@@ -137,7 +181,7 @@ export default function Tutorial(props) {
                             fillRule='evenodd'
                             clipRule='evenodd'
                             d='M127.567 42.325C124.732 39.8767 121.065 39.0322 117.628 40.0362C116.36 40.4068 112.949 42.3911 89.5982 56.3442L63.0127 72.2301L62.3421 63.607C61.8826 57.6954 61.5037 54.4458 61.1378 53.2727C60.4509 51.0715 58.796 48.2891 57.5298 47.2066C52.0689 42.5376 43.6996 44.8274 41.3455 51.6345C41.0191 52.5782 38.023 64.2364 34.6873 77.5414C29.501 98.2287 28.5875 102.195 28.3808 104.926C27.8598 111.815 28.9193 118.305 31.5697 124.46C32.7236 127.14 36.445 132.955 38.1926 134.809C47.4009 144.578 61.1571 148.027 74.1083 143.813C76.4069 143.065 76.595 142.958 98.0358 130.24C116.445 119.32 119.795 117.271 120.652 116.406C124.064 112.961 124.646 107.769 122.097 103.504C121.309 102.185 119.428 100.36 118.367 99.8858C117.878 99.667 117.896 99.559 118.604 98.4604C119.693 96.769 120.303 94.091 120.094 91.9159C119.929 90.1947 119.841 89.963 118.48 87.6865C117.17 85.4937 116.923 85.1983 115.723 84.3883C114.998 83.8989 114.418 83.4654 114.436 83.4247C114.453 83.3841 114.804 82.7886 115.217 82.1012C117.806 77.7926 116.644 71.8018 112.6 68.6052C112.037 68.1601 111.562 67.7722 111.545 67.7435C111.528 67.7149 114.986 65.6164 119.23 63.0804C127.627 58.0627 128.439 57.4511 129.668 55.2175C130.623 53.4794 131.114 51.058 130.916 49.0604C130.758 47.4626 130.598 47.0039 129.541 45.1243C128.787 43.7835 128.057 42.7484 127.567 42.325ZM125.447 49.3521C125.625 50.593 125.398 51.6198 124.683 52.815L124.114 53.7672L101.944 67.1569C89.7502 74.5213 79.6609 80.7205 79.5235 80.9331C79.0973 81.5917 79.191 82.6683 79.7559 83.6026C80.3282 84.549 81.1251 84.9862 82.1533 84.9178C82.5703 84.8901 85.9475 82.9687 93.3053 78.5732C100.099 74.5147 104.192 72.1767 104.794 72.0114C105.92 71.7019 107.917 72.0563 108.957 72.7503C109.93 73.4001 110.992 75.177 111.103 76.3421C111.222 77.5866 110.588 79.5129 109.781 80.3587C109.351 80.81 105.353 83.3072 98.56 87.3669C91.2031 91.7641 87.911 93.8279 87.689 94.1819C87.1417 95.055 87.1491 95.964 87.7114 96.9164C88.2666 97.8565 89.1703 98.449 89.9522 98.3857C90.2045 98.3654 94.4033 96.0269 99.2828 93.1894C107.857 88.2032 108.192 88.0286 109.263 87.9799C111.309 87.8865 112.994 88.7458 113.971 90.3811C114.948 92.0163 114.907 93.9069 113.855 95.6649C113.305 96.5852 112.992 96.7971 104.539 101.986C99.7283 104.938 95.6796 107.528 95.5422 107.741C94.6038 109.191 96.2426 111.933 97.9605 111.788C98.2123 111.767 101.42 110.02 105.089 107.908L111.759 104.066L113.097 104.056C116.98 104.025 119.4 108.075 117.533 111.479L116.89 112.653L95.916 125.186C72.8574 138.964 73.768 138.48 69.0272 139.491C60.7916 141.247 51.7596 139.074 45.0963 133.733C41.5574 130.896 38.2035 126.302 36.4004 121.82C34.1053 116.116 33.3656 110.964 33.9372 104.667C34.154 102.282 46.1388 54.0067 46.8597 52.6158C48.1002 50.2218 51.236 49.4801 53.4983 51.0455C54.556 51.7771 55.3908 53.0884 55.8632 54.7598C56.0522 55.4285 56.563 60.782 56.9983 66.6567C57.8169 77.7069 57.9657 78.5374 59.2623 79.315C60.3517 79.9683 59.3654 80.5122 89.9759 62.3712L118.983 45.1804L120.091 45.13C122.85 45.0043 125.075 46.7584 125.447 49.3521Z'
-                            fill='black'
+                            className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
                           />
                           <path
                             fillRule='evenodd'
@@ -153,7 +197,11 @@ export default function Tutorial(props) {
                           />
                         </svg>
                       </div>
-                      <p className='mt-4 text-center text-black'>
+                      <p
+                        className={clsx(
+                          'mt-4 text-center ',
+                          navigation.theme === 'dark' ? 'text-white' : 'text-black',
+                        )}>
                         Mengatur Jarak <br />
                         Kamera
                       </p>
@@ -163,27 +211,42 @@ export default function Tutorial(props) {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className='absolute z-10 flex h-[550px] w-4/5  flex-row items-center justify-between px-8 md:h-[350px] md:w-[550px]'>
-            <div className='cursor-pointer text-black' ref={(node) => setPrevEl(node)}>
+          <div
+            className={clsx(
+              'absolute z-10 flex h-[550px] w-4/5  flex-row items-center justify-between px-8 md:h-[350px] md:w-[550px]',
+            )}>
+            <div className={clsx('cursor-pointer text-black')} ref={(node) => setPrevEl(node)}>
               <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M12 0L14.8 2.8L5.59999 12L14.8 21.2L12 24L-1.14441e-05 12L12 0Z' fill='black' />
+                <path
+                  d='M12 0L14.8 2.8L5.59999 12L14.8 21.2L12 24L-1.14441e-05 12L12 0Z'
+                  className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
+                />
               </svg>
             </div>
-            <div className='cursor-pointer text-black' ref={(node) => setNextEl(node)}>
+            <div className={clsx('cursor-pointer text-black')} ref={(node) => setNextEl(node)}>
               <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M3.00001 24L0.200012 21.2L9.40001 12L0.200012 2.8L3.00001 0L15 12L3.00001 24Z' fill='black' />
+                <path
+                  d='M3.00001 24L0.200012 21.2L9.40001 12L0.200012 2.8L3.00001 0L15 12L3.00001 24Z'
+                  className={clsx(navigation.theme === 'dark' ? 'fill-white' : 'fill-black')}
+                />
               </svg>
             </div>
             <button
               onClick={() => {
-                props.setMode('')
-                props.setFreeControl(true)
+                setIntroduction('')
+                setFreeControl(true)
               }}
-              className='group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-transparent text-black sm:h-14 sm:w-14 '>
+              className={clsx(
+                'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-14 sm:w-14 ',
+                navigation.theme === 'dark' ? 'border-white' : 'border-black',
+              )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <path
                   d='M21 21L1 1M21 1L1 21'
-                  className=' stroke-black group-hover:stroke-2'
+                  className={clsx(
+                    ' stroke-black group-hover:stroke-2',
+                    navigation.theme === 'dark' ? 'stroke-white' : 'stroke-black',
+                  )}
                   stroke-linecap='round'
                   stroke-linejoin='round'
                 />

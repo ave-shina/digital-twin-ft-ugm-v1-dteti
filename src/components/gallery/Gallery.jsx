@@ -5,13 +5,15 @@ import clsx from 'clsx'
 import 'react-image-lightbox/style.css'
 
 export default function Gallery(props) {
+  const { galleryDetail } = props
+
   const [isOpen, setIsOpen] = useState({ open: false })
   const [photoIndex, setPhotoIndex] = useState({ key: 1 })
 
   const images = []
 
-  for (let i = 0; i < props.galleryDetail.length; i++) {
-    images.push(`${props?.galleryDetail[i]?.galleryImage.data.attributes.formats.large.url}`)
+  for (let i = 0; i < galleryDetail.length; i++) {
+    images.push(`${galleryDetail[i]?.galleryImage.data.attributes.formats.large.url}`)
   }
 
   useEffect(() => {
@@ -21,12 +23,15 @@ export default function Gallery(props) {
   const galleryList = (
     <div
       className={clsx(
-        'lightbox leading-companies grid w-full  grid-cols-1 items-center space-x-3     ',
-        props.galleryDetail.length > 2 ? 'md:grid-cols-3' : 'md:grid-cols-2',
+        'lightbox leading-companies grid h-auto w-full grid-cols-2 items-center sm:space-x-3',
+        'space-y-4 sm:space-y-2',
+        galleryDetail.length > 2 ? 'md:grid-cols-3' : 'md:grid-cols-2',
       )}>
-      {props.galleryDetail?.map((item, index) => (
+      {galleryDetail?.map((item, index) => (
         <div
-          className=' relative my-2 flex h-full w-auto cursor-pointer  items-center justify-center overflow-hidden rounded-md border border-solid  border-black     '
+          className={clsx(
+            'h-42 relative my-2 flex w-auto cursor-pointer items-center justify-center overflow-hidden rounded-md border border-solid  border-black',
+          )}
           key={index}
           onClick={() => (setPhotoIndex({ key: index }), setIsOpen({ open: true }))}>
           <Image

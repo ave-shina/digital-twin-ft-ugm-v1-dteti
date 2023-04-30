@@ -4,8 +4,9 @@ import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
 
 export default function StoryBoard(props) {
+  const { setIntroduction, startVmap } = props
   return (
-    <div className='absolute z-10  h-screen w-screen'>
+    <div className='absolute z-50  h-screen w-screen'>
       <div className='relative h-screen w-screen'>
         <div className='animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black  bg-opacity-40'></div>
         <div className='absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center'>
@@ -23,7 +24,8 @@ export default function StoryBoard(props) {
           <Fade delay={1500} duration={2000}>
             <button
               onClick={() => {
-                props.setMode('tutorial')
+                setIntroduction('tutorial')
+                startVmap()
               }}
               className='mt-8 rounded border border-black bg-white px-8 py-2 text-black  hover:bg-slate-300 hover:text-black'>
               Mulai

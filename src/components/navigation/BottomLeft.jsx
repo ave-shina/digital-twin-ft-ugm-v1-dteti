@@ -2,12 +2,12 @@ import React from 'react'
 import clsx from 'clsx'
 
 export default function BottomLeft(props) {
-  const { setMode, setShowTooltip, showTooltip } = props
+  const { setIntroduction } = props
   return (
     <div className='group absolute bottom-6 left-6 z-20 flex flex-row'>
       <button
         onClick={() => {
-          setMode('tutorial')
+          setIntroduction('tutorial')
         }}
         className={clsx(' group mr-4 flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
         <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>

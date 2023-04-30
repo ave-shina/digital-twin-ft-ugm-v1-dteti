@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import Loading from '@/components/Loading'
 import { useProgress } from '@react-three/drei'
 import dynamic from 'next/dynamic'
@@ -13,39 +13,58 @@ import TopRight from '@/components/navigation/TopRight'
 
 import Layout from '@/components/content/Layout'
 
-const Scene = dynamic(() => import('@/components/canvas/Scene'), { ssr: true })
+const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
+import { useSelector, useDispatch } from 'react-redux'
+import { toggleMusic } from 'redux/navigation'
 
 export default function Page(props) {
+  const dispatch = useDispatch()
+  const navigation = useSelector((state) => state.navigation)
+
   const { progress } = useProgress()
 
   const [loading, setLoading] = useState(true)
-  const [mode, setMode] = useState('')
+  const [introduction, setIntroduction] = useState('')
+
   const [content, setContent] = useState('')
-  const [showTooltip, setShowTooltip] = useState(false)
-  const [zoom, setZoom] = useState(false)
 
   const [freeControl, setFreeControl] = useState(false)
+  const [showTooltip, setShowTooltip] = useState(false)
 
   useEffect(() => {
     if (progress === 100) {
       setLoading(false)
-      setMode('storyBoard')
+      setIntroduction('storyBoard')
     }
   }, [progress])
+
+  const myRef = useRef()
+
+  const startVmap = () => {
+    myRef.current.volume = 0.1
+    myRef.current.play()
+    myRef.current.loop = true
+  }
+
+  useEffect(() => {
+    if (!navigation.music) myRef.current.pause()
+    else myRef.current.play()
+  }, [navigation.music])
 
   return (
     <>
       {loading && <Loading></Loading>}
 
-      <div className='relative h-full w-full bg-black'>
+      <div className='relative min-h-screen w-full bg-black'>
+        <audio ref={myRef} preload='none'>
+          <source src='/audio.mp3' type='audio/mpeg' />
+        </audio>
         <Scene
           shadows
           colorManagement
           shadowMap
-          mode={mode}
+          introduction={introduction}
           setContent={setContent}
-          zoom={zoom}
-          setZoom={setZoom}
           showTooltip={showTooltip}
           freeControl={freeControl}
           className='pointer-events-none h-screen'
@@ -55,22 +74,22 @@ export default function Page(props) {
         {/*  */}
         {/*  */}
 
-        {mode === 'storyBoard' && <StoryBoard setMode={setMode} />}
-        {mode === 'tutorial' && <Tutorial setFreeControl={setFreeControl} setMode={setMode} />}
+        {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} setIntroduction={setIntroduction} />}
+        {introduction === 'tutorial' && <Tutorial setFreeControl={setFreeControl} setIntroduction={setIntroduction} />}
 
-        <Layout setZoom={setZoom} setContent={setContent} content={content}></Layout>
+        <Layout setContent={setContent} content={content}></Layout>
 
         {/*  */}
         {/*  */}
 
-        {content == '' && (
+        {navigation.content == '' && (
           <>
             {' '}
             <Logo></Logo>
             <TopRight></TopRight>
-            <BottomRight setContent={setContent}></BottomRight>
-            <Main setShowTooltip={setShowTooltip} showTooltip={showTooltip} setContent={setContent}></Main>
-            <BottomLeft showTooltip={showTooltip} setShowTooltip={setShowTooltip} setMode={setMode}></BottomLeft>
+            <BottomRight></BottomRight>
+            <Main></Main>
+            <BottomLeft setIntroduction={setIntroduction}></BottomLeft>
           </>
         )}
 

@@ -16,7 +16,7 @@ export const Landmarks = {
           y: -92.7752861238165,
           z: -9.06119427236566,
         },
-        objectName: 'dteti',
+        objectName: 'DTETI',
         uid: 'dteti',
         createdAt: '2023-04-25T05:24:10.096Z',
         updatedAt: '2023-04-26T03:55:52.245Z',

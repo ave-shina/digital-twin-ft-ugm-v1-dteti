@@ -5,7 +5,7 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
   useImperativeHandle(ref, () => localRef.current)
 
   return (
-    <div {...props} ref={localRef} className='h-screen w-screen overflow-y-auto overflow-x-hidden bg-black !p-0'>
+    <div {...props} ref={localRef} className='min-h-full   bg-black !p-0'>
       {children}
     </div>
   )

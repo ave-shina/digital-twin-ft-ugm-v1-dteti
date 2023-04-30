@@ -3,8 +3,9 @@ import { useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 
 export default function Background(props) {
+  const { theme } = props
   const myRef = useRef()
-  const backgroundURL = '/img/background/animestyled_hdr.jpg'
+  const backgroundURL = theme === 'light' ? '/img/background/bg_light.jpg' : '/img/background/bg_dark.png'
   const image = useTexture(backgroundURL)
 
   return (

@@ -1,12 +1,16 @@
 import React from 'react'
 import clsx from 'clsx'
+import { useDispatch } from 'react-redux'
+import { toggleContent, setShowTooltip } from 'redux/navigation'
 
 export default function BottomRight(props) {
-  const { setContent } = props
+  const dispatch = useDispatch()
+
   return (
     <button
       onClick={() => {
-        setContent('about')
+        dispatch(toggleContent('about'))
+        dispatch(setShowTooltip(false))
       }}
       className={clsx(
         'group absolute bottom-6 right-6 z-20 flex h-14 cursor-pointer  items-center justify-center rounded-full  ',

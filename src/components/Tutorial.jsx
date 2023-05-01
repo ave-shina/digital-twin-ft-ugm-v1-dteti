@@ -13,7 +13,7 @@ SwiperCore.use([Navigation, Pagination])
 import { useSelector } from 'react-redux'
 
 export default function Tutorial(props) {
-  const { setIntroduction, setFreeControl } = props
+  const { setIntroduction } = props
   const [prevEl, setPrevEl] = useState(null)
   const [nextEl, setNextEl] = useState(null)
 
@@ -241,7 +241,6 @@ export default function Tutorial(props) {
             <button
               onClick={() => {
                 setIntroduction('')
-                setFreeControl(true)
               }}
               className={clsx(
                 'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-14 sm:w-14 ',

@@ -2,9 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
+import { useSelector } from 'react-redux'
 
 export default function StoryBoard(props) {
-  const { setIntroduction, startVmap } = props
+  const { startVmap } = props
+
   return (
     <div className='absolute z-50  h-full w-screen'>
       <div className='relative h-full w-screen'>
@@ -24,7 +26,6 @@ export default function StoryBoard(props) {
           <Fade delay={1500} duration={2000}>
             <button
               onClick={() => {
-                setIntroduction('tutorial')
                 startVmap()
               }}
               className='mt-8 rounded border border-black bg-white px-8 py-2 text-black  hover:bg-slate-300 hover:text-black'>

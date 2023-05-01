@@ -6,6 +6,7 @@ const initialState = {
   content: '',
   showTooltip: false,
   music: true,
+  firstTutorial: false,
 }
 
 export const navigationSlice = createSlice({
@@ -39,10 +40,22 @@ export const navigationSlice = createSlice({
     setMusic: (state, { payload }) => {
       state.music = payload
     },
+    setFirstTutorial: (state, { payload }) => {
+      state.firstTutorial = payload
+      localStorage.setItem('firstTutorial', true)
+    },
   },
 })
 
-export const { toggleMusic, setMusic, toggleTheme, setTheme, toggleLocation, toggleContent, setShowTooltip } =
-  navigationSlice.actions
+export const {
+  setFirstTutorial,
+  toggleMusic,
+  setMusic,
+  toggleTheme,
+  setTheme,
+  toggleLocation,
+  toggleContent,
+  setShowTooltip,
+} = navigationSlice.actions
 
 export default navigationSlice.reducer

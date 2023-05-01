@@ -15,32 +15,28 @@ import Layout from '@/components/content/Layout'
 
 const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
 import { useSelector, useDispatch } from 'react-redux'
+import { setFirstTutorial } from 'redux/navigation'
 
 export default function Page(props) {
   const dispatch = useDispatch()
   const navigation = useSelector((state) => state.navigation)
 
-  const { progress } = useProgress()
-
-  const [loading, setLoading] = useState(true)
-  const [introduction, setIntroduction] = useState('')
+  const [introduction, setIntroduction] = useState('storyBoard')
 
   const [content, setContent] = useState('')
 
   const [freeControl, setFreeControl] = useState(false)
-
-  useEffect(() => {
-    if (progress === 100) {
-      setLoading(false)
-      setIntroduction('storyBoard')
-    }
-  }, [progress])
 
   const myRef = useRef()
 
   const [musicStart, setMusicStart] = useState(false)
   const startVmap = () => {
     setMusicStart(true)
+    {
+      navigation.firstTutorial
+        ? (setIntroduction(''), setFreeControl(true))
+        : (setIntroduction('tutorial'), dispatch(setFirstTutorial(true)), setFreeControl(true))
+    }
     if (navigation.music) {
       myRef.current.volume = 0.1
       myRef.current.play()
@@ -83,10 +79,8 @@ export default function Page(props) {
         {/*  */}
         {/*  */}
 
-        {introduction === 'storyBoard' && (
-          <StoryBoard startVmap={startVmap} setMusicStart={setMusicStart} setIntroduction={setIntroduction} />
-        )}
-        {introduction === 'tutorial' && <Tutorial setFreeControl={setFreeControl} setIntroduction={setIntroduction} />}
+        {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
+        {introduction === 'tutorial' && <Tutorial setIntroduction={setIntroduction} />}
 
         <Layout setContent={setContent} content={content}></Layout>
 

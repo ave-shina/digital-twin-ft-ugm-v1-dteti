@@ -54,7 +54,7 @@ function Map(props) {
             <div className={clsx('image-hotspot h-full w-full')}>
               <Stage width={mapImage.width} height={mapImage.width}>
                 <Layer>
-                  {image && <Image image={image} x={0} y={0} draggable scaleX={1} scaleY={1} />}
+                  {image && <Image image={image} x={0} y={0} scaleX={1} scaleY={1} />}
                   {map.map((data, index) => (
                     <Circle
                       key={index}

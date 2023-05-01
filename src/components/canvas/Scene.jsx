@@ -114,11 +114,9 @@ export default function Scene({ children, ...props }) {
   return (
     <div className={clsx('absolute h-full w-full')}>
       <Canvas
-        dpr={dpr}
         frameloop='demand'
         camera={{ fov: config.camSBAwalFov, near: 0.1, far: 500, position: config.camStartPosition }}
         {...props}>
-        <PerformanceMonitor onChange={({ factor }) => setDpr(Math.round(0.5 + 1.5 * factor, 1))}></PerformanceMonitor>
         {/*  */}
         {/*  */}
         <directionalLight intensity={0.75} />

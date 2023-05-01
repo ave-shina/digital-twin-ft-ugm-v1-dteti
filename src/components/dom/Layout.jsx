@@ -25,7 +25,7 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
   }
 
   return (
-    <div {...props} ref={localRef} className='min-h-full   bg-black !p-0'>
+    <div {...props} ref={localRef} className=' min-h-screen   bg-black !p-0'>
       {children}
     </div>
   )

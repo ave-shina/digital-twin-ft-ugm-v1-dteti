@@ -9,4 +9,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  utilities: {
+    'h-screen': {
+      height: '-webkit-fill-available',
+    },
+    'w-screen': {
+      width: '-webkit-fill-available',
+    },
+  },
 }

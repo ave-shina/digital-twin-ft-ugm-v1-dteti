@@ -15,7 +15,6 @@ import Layout from '@/components/content/Layout'
 
 const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
 import { useSelector, useDispatch } from 'react-redux'
-import ReactAudioPlayer from 'react-audio-player'
 
 export default function Page(props) {
   const dispatch = useDispatch()
@@ -61,8 +60,7 @@ export default function Page(props) {
 
   return (
     <>
-      {loading && <Loading></Loading>}
-
+      <Loading></Loading>
       <audio ref={myRef} preload='none'>
         <source
           src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'

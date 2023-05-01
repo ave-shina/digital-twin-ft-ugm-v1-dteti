@@ -1,12 +1,28 @@
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 import { useProgress } from '@react-three/drei'
+import clsx from 'clsx'
 
 export default function Loading() {
   const { progress } = useProgress()
 
+  const [load, setLoad] = useState(true)
+
+  useEffect(() => {
+    if (progress === 100) {
+      setLoad(false)
+      console.log('done')
+    } else if (progress != 100) {
+      setLoad(true)
+    }
+  }, [progress])
+
   return (
-    <div className=' absolute z-[99999999] flex !h-screen !w-screen flex-col items-center justify-center overflow-hidden bg-white'>
+    <div
+      className={clsx(
+        ' bg-white() absolute z-[99999999] !min-h-screen !w-screen flex-col items-center justify-center overflow-hidden',
+        load ? 'flex' : 'hidden',
+      )}>
       <div className='flex  flex-col items-center justify-center'>
         <div className=' relative mb-2 h-28 w-28 overflow-hidden sm:h-36 sm:w-36 '>
           <div className=' relative h-full   bg-slate-200 '>

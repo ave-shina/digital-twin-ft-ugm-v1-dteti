@@ -1538,6 +1538,11 @@
   dependencies:
     "eventemitter3" "^4.0.7"
 
+"@vercel/analytics@^1.0.0":
+  "integrity" "sha512-RQmj7pv82JwGDHrnKeRc6TtSw2U7rWNubc2IH0ernTzWTj02yr9zvIYiYJeztsBzrJtWv7m8Nz6vxxb+cdEtJw=="
+  "resolved" "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.0.tgz"
+  "version" "1.0.0"
+
 "@videojs/http-streaming@2.16.2":
   "integrity" "sha512-etPTUdCFu7gUWc+1XcbiPr+lrhOcBu3rV5OL1M+3PDW89zskScAkkcdqYzP4pFodBPye/ydamQoTDScOnElw5A=="
   "resolved" "https://registry.npmjs.org/@videojs/http-streaming/-/http-streaming-2.16.2.tgz"
@@ -4761,7 +4766,7 @@
   "resolved" "https://registry.npmjs.org/react-zoom-pan-pinch/-/react-zoom-pan-pinch-3.0.7.tgz"
   "version" "3.0.7"
 
-"react@*", "react@^0.14.0", "react@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.3.0 || ^16.0.0", "react@^16.3.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", "react@^16.x || ^17.x || ^18.x", "react@^18.0.0", "react@^18.2.0", "react@>= 16.3.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.13", "react@>=16.3.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.x", "react@>=17.0", "react@>=18.0", "react@>=18.0.0", "react@15 - 18", "react@16.x", "react@16.x || 17.x", "react@16.x || 17.x || 18.x":
+"react@*", "react@^0.14.0", "react@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.3.0 || ^16.0.0", "react@^16.3.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8||^17||^18", "react@^16.9.0 || ^17.0.0 || ^18", "react@^16.x || ^17.x || ^18.x", "react@^18.0.0", "react@^18.2.0", "react@>= 16.3.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.13", "react@>=16.3.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.x", "react@>=17.0", "react@>=18.0", "react@>=18.0.0", "react@15 - 18", "react@16.x", "react@16.x || 17.x", "react@16.x || 17.x || 18.x":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

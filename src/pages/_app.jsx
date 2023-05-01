@@ -8,11 +8,14 @@ import 'react-image-lightbox/style.css'
 import { Provider } from 'react-redux'
 import { store } from '../../redux/store'
 
+import { Analytics } from '@vercel/analytics/react'
+
 export default function App({ Component, pageProps }) {
   const ref = useRef()
 
   return (
     <>
+      <Analytics />
       <Provider store={store}>
         <Header title={pageProps.title} />
         <Layout ref={ref}>

@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import { MapInteractionCSS } from 'react-map-interaction'
 import ImageHotspots from 'react-image-hotspots'
 import { useSelector } from 'react-redux'
-import { Stage, Layer, Image, Circle } from 'react-konva'
+const { Stage, Layer, Image, Circle } = require('react-konva')
 
 function Map(props) {
   const { setCurrentScene, setOpenPanorama, mapInformation, mapImage, mapName } = props

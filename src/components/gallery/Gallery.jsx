@@ -30,7 +30,7 @@ export default function Gallery(props) {
       {galleryDetail?.map((item, index) => (
         <div
           className={clsx(
-            'h-42 relative my-2 flex w-auto cursor-pointer items-center justify-center overflow-hidden rounded-md border border-solid  border-black',
+            ' relative my-2 flex w-auto cursor-pointer items-center justify-center overflow-hidden rounded-md border border-solid  border-black',
           )}
           key={index}
           onClick={() => (setPhotoIndex({ key: index }), setIsOpen({ open: true }))}>

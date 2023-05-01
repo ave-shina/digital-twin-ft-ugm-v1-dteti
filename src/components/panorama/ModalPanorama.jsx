@@ -48,9 +48,9 @@ export default function ModalPanorama(props) {
           setOpenPanorama(false)
         }}
         className={clsx(
-          'absolute top-0  flex !h-screen !w-screen  items-center justify-center bg-black  bg-opacity-40',
+          'absolute top-0  flex !h-screen !w-screen  items-center justify-center bg-black  bg-opacity-80',
         )}></div>
-      <div className={clsx(' absolute z-50 h-[90%] w-full max-w-6xl')}>
+      <div className={clsx(' absolute z-50 h-[95%] w-full max-w-7xl')}>
         {/* <!-- Modal content --> */}
         <div
           className={clsx(
@@ -58,7 +58,13 @@ export default function ModalPanorama(props) {
             navigation.theme === 'dark' ? ' border-white  bg-gray-950' : 'border-black  bg-white ',
           )}>
           {/* <!-- Modal body --> */}
-          <div className={clsx('relative flex h-full items-center justify-center space-y-6 p-6')}>
+          <div className={clsx('relative flex h-full items-center justify-center  p-4')}>
+            <p className={clsx('absolute bottom-4', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
+              pitch: {pitch}, yaw: {yaw}, transition:{' '}
+            </p>
+            <p className={clsx('absolute top-8 text-xl', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
+              {currentScene}
+            </p>
             <button
               onClick={() => {
                 setOpenPanorama(false)
@@ -80,9 +86,6 @@ export default function ModalPanorama(props) {
               </svg>
             </button>
             <div className={clsx('flex h-full w-full flex-col items-center justify-center')}>
-              <p className={clsx(navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
-                pitch: {pitch}, yaw: {yaw}, transition:{' '}
-              </p>
               {sceneObject && (
                 <Pannellum
                   ref={panImage}

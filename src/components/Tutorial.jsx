@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Fade from 'react-reveal/Fade'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
@@ -31,12 +31,19 @@ export default function Tutorial(props) {
         <div className={clsx('absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center')}>
           <Swiper
             loop={true}
-            pagination={true}
             navigation={{ prevEl, nextEl }}
             className={clsx(
               'mySwiper z-20 flex h-[550px] w-4/5 items-center justify-center rounded-3xl border-2 border-solid border-black  p-8 md:h-[350px] md:w-[550px] ',
               navigation.theme === 'dark' ? ' bg-gray-950' : 'bg-white',
-            )}>
+            )}
+            pagination={{
+              clickable: true,
+              renderBullet: function (index, className) {
+                return `<span class="${className} ${
+                  navigation.theme === 'dark' ? 'swiper-dark' : 'swiper-light'
+                }"></span>`
+              },
+            }}>
             <SwiperSlide>
               <div className={clsx('tutorial-container flex h-full w-full flex-col items-center justify-center py-4')}>
                 <Fade top duration={1000}>

@@ -6,7 +6,7 @@ export default function Loading() {
   const { progress } = useProgress()
 
   return (
-    <div className=' relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden bg-white'>
+    <div className=' absolute z-[99999999] flex !h-screen !w-screen flex-col items-center justify-center overflow-hidden bg-white'>
       <div className='flex  flex-col items-center justify-center'>
         <div className=' relative mb-2 h-28 w-28 overflow-hidden sm:h-36 sm:w-36 '>
           <div className=' relative h-full   bg-slate-200 '>

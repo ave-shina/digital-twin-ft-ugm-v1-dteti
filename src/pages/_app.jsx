@@ -10,6 +10,7 @@ import { store } from '../../redux/store'
 
 export default function App({ Component, pageProps }) {
   const ref = useRef()
+
   return (
     <>
       <Provider store={store}>

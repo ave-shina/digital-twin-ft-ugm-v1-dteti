@@ -235,7 +235,6 @@ export default function Location(props) {
                               <SwiperSlide key={index}>
                                 <Map
                                   currentKey={index}
-                                  currentMap={currentMap}
                                   mapImage={`${item.mapImage.data.attributes.formats.large.url}`}
                                   mapName={item.name}
                                   mapInformation={item.MapInformation}

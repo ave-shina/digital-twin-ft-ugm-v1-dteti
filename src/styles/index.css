@@ -40,7 +40,7 @@
 .swiper-pagination {
   bottom: 1.5rem;
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet.swiper-light {
   background-color: white !important;
   width: 2rem !important;
   border-radius: 0 !important;
@@ -50,7 +50,22 @@
   opacity: 1 !important;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet.swiper-dark {
+  background-color: black !important;
+  width: 2rem !important;
+  border-radius: 0 !important;
+  border-style: solid !important;
+  border-color: white !important;
+  border-width: 2px !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active.swiper-dark {
+  background-color: white !important;
+  width: 2rem !important;
+  border-radius: 0 !important;
+}
+.swiper-pagination-bullet-active.swiper-light {
   background-color: black !important;
   width: 2rem !important;
   border-radius: 0 !important;

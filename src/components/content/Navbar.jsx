@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react'
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useDispatch } from 'react-redux'
@@ -21,8 +21,6 @@ export default function Navbar(props) {
     // is updated as soon as the component is mounted
     // related: https://stackoverflow.com/a/63408216
     handleScroll()
-
-    console.log(scrollY)
 
     window.addEventListener('scroll', handleScroll)
     return () => {

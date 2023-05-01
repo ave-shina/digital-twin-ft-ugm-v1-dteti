@@ -4,7 +4,7 @@ import Card from './search/Card'
 import { Landmarks } from '../data/Landamarks'
 
 export default function Search() {
-  const [focus, setFocus] = useState(false)
+  // const [focus, setFocus] = useState(false)
   const [searchValue, setSearchValue] = useState('')
 
   const locations = []
@@ -52,9 +52,9 @@ export default function Search() {
               </svg>
             </div>
             <input
-              onFocus={() => {
-                setFocus(true)
-              }}
+              // onFocus={() => {
+              //   setFocus(true)
+              // }}
               onChange={(e) => setSearchValue(e.target.value)}
               value={searchValue}
               type='search'

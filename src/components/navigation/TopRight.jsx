@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useDispatch, useSelector } from 'react-redux'

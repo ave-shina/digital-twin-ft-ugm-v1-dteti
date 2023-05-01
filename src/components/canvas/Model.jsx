@@ -54,7 +54,7 @@ export default function Model({ ...props }) {
   }, [object])
 
   useEffect(() => {
-    console.log(navigation.showTooltip)
+    // console.log(navigation.showTooltip)
     {
       navigation.showTooltip == true ? setObject(locationData.map((obj) => obj.name)) : setObject([])
     }

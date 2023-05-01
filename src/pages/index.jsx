@@ -15,7 +15,7 @@ import Layout from '@/components/content/Layout'
 
 const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
 import { useSelector, useDispatch } from 'react-redux'
-import { toggleMusic } from 'redux/navigation'
+import ReactAudioPlayer from 'react-audio-player'
 
 export default function Page(props) {
   const dispatch = useDispatch()
@@ -29,7 +29,6 @@ export default function Page(props) {
   const [content, setContent] = useState('')
 
   const [freeControl, setFreeControl] = useState(false)
-  const [showTooltip, setShowTooltip] = useState(false)
 
   useEffect(() => {
     if (progress === 100) {
@@ -40,32 +39,44 @@ export default function Page(props) {
 
   const myRef = useRef()
 
+  const [musicStart, setMusicStart] = useState(false)
   const startVmap = () => {
-    myRef.current.volume = 0.1
-    myRef.current.play()
-    myRef.current.loop = true
+    setMusicStart(true)
+    if (navigation.music) {
+      myRef.current.volume = 0.1
+      myRef.current.play()
+      myRef.current.loop = true
+    }
   }
 
   useEffect(() => {
-    if (!navigation.music) myRef.current.pause()
-    else myRef.current.play()
+    if (!navigation.music && musicStart) {
+      myRef.current.pause()
+    } else if (navigation.music && musicStart) {
+      myRef.current.play()
+      myRef.current.volume = 0.1
+      myRef.current.loop = true
+    }
   }, [navigation.music])
 
   return (
     <>
       {loading && <Loading></Loading>}
 
+      <audio ref={myRef} preload='none'>
+        <source
+          src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'
+          type='audio/mpeg'
+        />
+      </audio>
+
       <div className='relative min-h-screen w-full bg-black'>
-        <audio ref={myRef} preload='none'>
-          <source src='/audio.mp3' type='audio/mpeg' />
-        </audio>
         <Scene
           shadows
           colorManagement
           shadowMap
           introduction={introduction}
           setContent={setContent}
-          showTooltip={showTooltip}
           freeControl={freeControl}
           className='pointer-events-none h-screen'
           eventSource={props.ref}
@@ -74,7 +85,9 @@ export default function Page(props) {
         {/*  */}
         {/*  */}
 
-        {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} setIntroduction={setIntroduction} />}
+        {introduction === 'storyBoard' && (
+          <StoryBoard startVmap={startVmap} setMusicStart={setMusicStart} setIntroduction={setIntroduction} />
+        )}
         {introduction === 'tutorial' && <Tutorial setFreeControl={setFreeControl} setIntroduction={setIntroduction} />}
 
         <Layout setContent={setContent} content={content}></Layout>

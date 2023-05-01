@@ -1,6 +1,6 @@
 import { OrbitControls } from '@react-three/drei'
 import { useThree, useFrame } from '@react-three/fiber'
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import * as THREE from 'three'
 import { useSelector } from 'react-redux'
 
@@ -54,7 +54,7 @@ export default function Controls(props) {
   })
 
   // scene.fog = new THREE.Fog('#000000', 600, 1000)
-  // console.log(freeControl)
+  // console.log(navigation.location)
 
   return (
     <>

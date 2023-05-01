@@ -3,7 +3,7 @@ import { Preload } from '@react-three/drei'
 import Model from './Model'
 import Controls from './Control'
 import * as THREE from 'three'
-import { Perf } from 'r3f-perf'
+// import { Perf } from 'r3f-perf'
 import Background from '../Background'
 import clsx from 'clsx'
 
@@ -103,7 +103,6 @@ export default function Scene({ children, ...props }) {
       dispatch(toggleContent(''))
       dispatch(toggleLocation(''))
     } else if (navigation.location === '') {
-      console.log('halo')
       dispatch(toggleContent('location'))
       dispatch(toggleLocation(e))
     }

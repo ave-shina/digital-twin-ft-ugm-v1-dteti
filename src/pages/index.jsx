@@ -34,7 +34,7 @@ export default function Page(props) {
     setMusicStart(true)
     {
       navigation.firstTutorial
-        ? (setIntroduction(''), setFreeControl(true))
+        ? (setIntroduction(''), setFreeControl(true), setFreeControl(true))
         : (setIntroduction('tutorial'), dispatch(setFirstTutorial(true)), setFreeControl(true))
     }
     if (navigation.music) {

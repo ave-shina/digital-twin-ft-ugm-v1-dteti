@@ -1,11 +1,12 @@
 import { Canvas } from '@react-three/fiber'
-import { Preload } from '@react-three/drei'
+import { Preload, PerformanceMonitor } from '@react-three/drei'
 import Model from './Model'
 import Controls from './Control'
 import * as THREE from 'three'
 // import { Perf } from 'r3f-perf'
 import Background from '../Background'
 import clsx from 'clsx'
+import React, { useState } from 'react'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { toggleLocation, toggleContent } from 'redux/navigation'
@@ -107,14 +108,17 @@ export default function Scene({ children, ...props }) {
       dispatch(toggleLocation(e))
     }
   }
+
+  const [dpr, setDpr] = useState(1)
   // console.log(navigation)
   return (
     <div className={clsx('absolute h-full w-full')}>
       <Canvas
-        // dpr={1.5}
+        dpr={dpr}
         frameloop='demand'
         camera={{ fov: config.camSBAwalFov, near: 0.1, far: 500, position: config.camStartPosition }}
         {...props}>
+        <PerformanceMonitor onChange={({ factor }) => setDpr(Math.round(0.5 + 1.5 * factor, 1))}></PerformanceMonitor>
         {/*  */}
         {/*  */}
         <directionalLight intensity={0.75} />

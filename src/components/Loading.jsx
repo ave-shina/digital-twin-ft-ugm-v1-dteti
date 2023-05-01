@@ -11,7 +11,6 @@ export default function Loading() {
   useEffect(() => {
     if (progress === 100) {
       setLoad(false)
-      console.log('done')
     } else if (progress != 100) {
       setLoad(true)
     }

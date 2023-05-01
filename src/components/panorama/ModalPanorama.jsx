@@ -62,7 +62,11 @@ export default function ModalPanorama(props) {
             <p className={clsx('absolute bottom-4', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
             </p>
-            <p className={clsx('absolute top-8 text-xl', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
+            <p
+              className={clsx(
+                'absolute top-4 z-10 text-xl',
+                navigation.theme === 'dark' ? ' text-white' : ' text-black ',
+              )}>
               {currentScene}
             </p>
             <button
@@ -70,7 +74,7 @@ export default function ModalPanorama(props) {
                 setOpenPanorama(false)
               }}
               className={clsx(
-                'group  absolute right-4 top-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid bg-transparent text-black sm:h-14 sm:w-14 ',
+                'group  absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid bg-transparent text-black sm:h-14 sm:w-14 ',
                 navigation.theme === 'dark' ? ' border-white' : 'border-black',
               )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -91,7 +95,7 @@ export default function ModalPanorama(props) {
                   ref={panImage}
                   width='100%'
                   height='500px'
-                  image={sceneObject.scenePanoImg}
+                  image={sceneObject.scenePanoImg.url}
                   autoLoad
                   onMouseup={(event) => {
                     setPitch(panImage.current.getViewer().mouseEventToCoords(event)[0])

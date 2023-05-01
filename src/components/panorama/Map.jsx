@@ -3,11 +3,10 @@ import clsx from 'clsx'
 import { MapInteractionCSS } from 'react-map-interaction'
 import ImageHotspots from 'react-image-hotspots'
 import { useSelector } from 'react-redux'
+import { Stage, Layer, Image, Circle } from 'react-konva'
 
 function Map(props) {
   const { setCurrentScene, setOpenPanorama, mapInformation, mapImage, mapName } = props
-
-  //   console.log(openPanorama)
 
   const map = []
 
@@ -15,32 +14,23 @@ function Map(props) {
     map.push({
       x: mapInformation[i].mapCoordinate[0],
       y: mapInformation[i].mapCoordinate[1],
-      content: (
-        <div
-          title={mapInformation[i].name}
-          onClick={(area) => {
-            setCurrentScene(mapInformation[i].name)
-            setOpenPanorama(true)
-          }}
-          className={clsx(
-            ' !h-2 !w-2 cursor-pointer rounded-full border-none bg-blue-700 p-1 text-blue-500 hover:bg-blue-500 md:!h-4 md:!w-4',
-          )}></div>
-      ),
+      name: mapInformation[i].name,
     })
   }
   const [value, setValue] = useState({ scale: 1.2, translation: { x: 0, y: 0 } })
 
-  const [showMap, setShowMap] = useState(false)
+  const navigation = useSelector((state) => state.navigation)
+
+  const [image, setImage] = useState(null)
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setShowMap(true)
-    }, 300)
-
-    return () => clearTimeout(timeoutId)
+    const img = new window.Image()
+    img.src = mapImage.url
+    img.crossOrigin = 'anonymous'
+    img.onload = () => {
+      setImage(img)
+    }
   }, [])
-
-  const navigation = useSelector((state) => state.navigation)
 
   return (
     <div
@@ -50,58 +40,42 @@ function Map(props) {
       )}>
       <div className={clsx(' relative flex  w-full flex-col items-center justify-center')}>
         <div className={clsx('flex h-[600px] w-full items-center justify-center overflow-hidden')}>
-          {showMap ? (
-            <>
-              {' '}
-              <div
-                className={clsx(
-                  ' absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
-                )}>
-                {mapName}
-              </div>
-              <MapInteractionCSS
-                value={value}
-                onChange={(value) => {
-                  setValue(value)
-                }}>
-                <div className={clsx('image-hotspot h-full w-full')}>
-                  <ImageHotspots
-                    alt='Sample image'
-                    hideFullscreenControl={false}
-                    hideZoomControls={false}
-                    hotspots={map}
-                    src={mapImage}
-                    className='hidden'
-                  />
-                </div>
-              </MapInteractionCSS>
-            </>
-          ) : (
-            <>
-              <div
-                className={clsx(
-                  ' absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
-                )}>
-                {mapName}
-              </div>
-              <MapInteractionCSS
-                value={value}
-                onChange={(value) => {
-                  setValue(value)
-                }}>
-                <div className={clsx('image-hotspot h-full w-full')}>
-                  <ImageHotspots
-                    alt='Sample image'
-                    hideFullscreenControl={false}
-                    hideZoomControls={false}
-                    hotspots={map}
-                    src={mapImage}
-                    className='hidden'
-                  />
-                </div>
-              </MapInteractionCSS>
-            </>
-          )}
+          <div
+            className={clsx(
+              ' absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
+            )}>
+            {mapName}
+          </div>
+          <MapInteractionCSS
+            value={value}
+            onChange={(value) => {
+              setValue(value)
+            }}>
+            <div className={clsx('image-hotspot h-full w-full')}>
+              <Stage width={mapImage.width} height={mapImage.width}>
+                <Layer>
+                  {image && <Image image={image} x={0} y={0} draggable scaleX={1} scaleY={1} />}
+                  {map.map((data, index) => (
+                    <Circle
+                      key={index}
+                      x={data.x}
+                      y={data.y}
+                      radius={5}
+                      fill='red'
+                      onClick={(area) => {
+                        setCurrentScene(data.name)
+                        setOpenPanorama(true)
+                      }}
+                      onTap={(area) => {
+                        setCurrentScene(data.name)
+                        setOpenPanorama(true)
+                      }}
+                    />
+                  ))}
+                </Layer>
+              </Stage>
+            </div>
+          </MapInteractionCSS>
         </div>
       </div>
     </div>

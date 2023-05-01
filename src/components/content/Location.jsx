@@ -40,7 +40,7 @@ export default function Location(props) {
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({
       sceneName: mapInformation[i]?.name,
-      scenePanoImg: mapInformation[i].mapImage.data.attributes.formats.large?.url,
+      scenePanoImg: mapInformation[i].mapImage.data.attributes.formats.large,
       hotSpotsArr: mapInformation[i].panoramaCoordinate,
     })
   }
@@ -80,6 +80,66 @@ export default function Location(props) {
     switch (content) {
       case 'description':
         return <div dangerouslySetInnerHTML={{ __html: data.attributes.description }} />
+      case 'map':
+        return (
+          <>
+            <Swiper
+              loop={true}
+              allowTouchMove={false}
+              pagination={true}
+              navigation={{ prevEl, nextEl }}
+              className={clsx('mySwiper z-20 flex  w-full items-center justify-center rounded-md  bg-white ')}>
+              {mapDetail.map((item, index) => {
+                return (
+                  <SwiperSlide key={index}>
+                    <Map
+                      currentKey={index}
+                      mapImage={item.mapImage.data.attributes.formats.large}
+                      mapName={item.name}
+                      mapInformation={item.MapInformation}
+                      openPanorama={openPanorama}
+                      setOpenPanorama={setOpenPanorama}
+                      setCurrentScene={setCurrentScene}></Map>
+                  </SwiperSlide>
+                )
+              })}
+            </Swiper>
+
+            <div
+              className={clsx(
+                'absolute left-[12%] top-1/2 z-20 m-auto flex -translate-x-1/2 -translate-y-1/2 cursor-pointer ',
+                navigation.theme === 'dark' ? ' text-white' : ' text-black',
+              )}
+              onClick={() => {
+                setCurrentMap((currentMap + mapDetail.length - 1) % mapDetail.length)
+              }}
+              ref={(node) => {
+                setPrevEl(node)
+              }}>
+              <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path
+                  d='M12 0L14.8 2.8L5.59999 12L14.8 21.2L12 24L-1.14441e-05 12L12 0Z'
+                  className={clsx(navigation.theme === 'dark' ? '  fill-white stroke-black' : '  fill-black')}
+                />
+              </svg>
+            </div>
+            <div
+              className={clsx(
+                'absolute right-[12%]  top-1/2 z-20 m-auto flex -translate-x-1/2 -translate-y-1/2 cursor-pointer text-black',
+              )}
+              ref={(node) => setNextEl(node)}
+              onClick={() => {
+                setCurrentMap((currentMap + 1) % mapDetail.length)
+              }}>
+              <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path
+                  d='M3.00001 24L0.200012 21.2L9.40001 12L0.200012 2.8L3.00001 0L15 12L3.00001 24Z'
+                  className={clsx(navigation.theme === 'dark' ? '  fill-white stroke-black' : '  fill-black')}
+                />
+              </svg>
+            </div>
+          </>
+        )
       case 'gallery':
         return <Gallery galleryDetail={galleryDetail}></Gallery>
       case 'panorama':
@@ -213,90 +273,6 @@ export default function Location(props) {
                       )}>
                       {Content(item.id)}
                     </div>
-
-                    {item.id === 'map' && (
-                      <div
-                        className={clsx(
-                          'solid relative  flex w-full rounded-md   bg-gray-400',
-                          index === title.state && open
-                            ? 'mb-4 h-[500px] border border-solid border-black'
-                            : ' h-[0px] ',
-                        )}>
-                        <Swiper
-                          loop={true}
-                          allowTouchMove={false}
-                          pagination={true}
-                          navigation={{ prevEl, nextEl }}
-                          className={clsx(
-                            'mySwiper z-20 flex  w-full items-center justify-center rounded-md  bg-white ',
-                          )}>
-                          {mapDetail.map((item, index) => {
-                            return (
-                              <SwiperSlide key={index}>
-                                <Map
-                                  currentKey={index}
-                                  mapImage={`${item.mapImage.data.attributes.formats.large.url}`}
-                                  mapName={item.name}
-                                  mapInformation={item.MapInformation}
-                                  openPanorama={openPanorama}
-                                  setOpenPanorama={setOpenPanorama}
-                                  setCurrentScene={setCurrentScene}></Map>
-                              </SwiperSlide>
-                            )
-                          })}
-                        </Swiper>
-
-                        <div
-                          className={clsx(
-                            'absolute left-8 top-1/2 z-20 m-auto -translate-x-1/2 -translate-y-1/2 cursor-pointer ',
-                            navigation.theme === 'dark' ? ' text-white' : ' text-black',
-                            index === title.state && open ? 'flex' : 'hidden ',
-                          )}
-                          onClick={() => {
-                            setCurrentMap((currentMap + mapDetail.length - 1) % mapDetail.length)
-                          }}
-                          ref={(node) => {
-                            setPrevEl(node)
-                          }}>
-                          <svg
-                            width='15'
-                            height='24'
-                            viewBox='0 0 15 24'
-                            fill='none'
-                            xmlns='http://www.w3.org/2000/svg'>
-                            <path
-                              d='M12 0L14.8 2.8L5.59999 12L14.8 21.2L12 24L-1.14441e-05 12L12 0Z'
-                              className={clsx(
-                                navigation.theme === 'dark' ? '  fill-white stroke-black' : '  fill-black',
-                              )}
-                            />
-                          </svg>
-                        </div>
-                        <div
-                          className={clsx(
-                            'absolute right-8 top-1/2 z-20 m-auto -translate-x-1/2 -translate-y-1/2 cursor-pointer text-black',
-                            index === title.state && open ? 'flex' : 'hidden ',
-                          )}
-                          ref={(node) => setNextEl(node)}
-                          onClick={() => {
-                            setCurrentMap((currentMap + 1) % mapDetail.length)
-                          }}>
-                          <svg
-                            width='15'
-                            height='24'
-                            viewBox='0 0 15 24'
-                            fill='none'
-                            xmlns='http://www.w3.org/2000/svg'>
-                            <path
-                              d='M3.00001 24L0.200012 21.2L9.40001 12L0.200012 2.8L3.00001 0L15 12L3.00001 24Z'
-                              className={clsx(
-                                navigation.theme === 'dark' ? '  fill-white stroke-black' : '  fill-black',
-                              )}
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    )}
                   </div>
                 )}
               </>

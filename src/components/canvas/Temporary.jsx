@@ -25,7 +25,7 @@ export default function Model({ ...props }) {
     { name: 'TUGU TEKNIK', position: [61.33, 7.82, 22.06] },
     { name: 'SGLC', position: [-36.13, 5.12, 25.22] },
     { name: 'PERPUSTAKAAN', position: [-18.1, 9.93, 41.7] },
-    { name: 'MASJID', position: [-58.2, 8.58, -33.63] },
+    { name: 'MASJID FT', position: [-58.2, 8.58, -33.63] },
     { name: 'ERIC', position: [108.55, 9.99, 10.4] },
   ]
 
@@ -3691,13 +3691,13 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTGL'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('MASJID'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('MASJID FT'), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.MUSTEK_BAKE.geometry}
           material={materials.MUSTEK_BAKE}
           position={[-58.2, 8.58, -33.63]}
           scale={0.49}
-          onClick={(e) => (toggleZoom('MASJID'), e.stopPropagation())}
+          onClick={(e) => (toggleZoom('MASJID FT'), e.stopPropagation())}
         />
         <mesh
           onPointerOver={(e) => (handleHover('PERPUSTAKAAN'), e.stopPropagation())}

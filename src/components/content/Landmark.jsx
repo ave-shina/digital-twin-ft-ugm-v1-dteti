@@ -177,6 +177,7 @@ export default function Landmark(props) {
     <>
       {sceneInformation.length > 0 && (
         <ModalPanorama
+          title={title}
           sceneInformation={sceneInformation}
           openPanorama={openPanorama}
           setOpenPanorama={setOpenPanorama}

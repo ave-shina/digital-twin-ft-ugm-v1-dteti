@@ -23,11 +23,11 @@ export default function Faq() {
     <div className={clsx('min-h-[calc(100vh-96px)] w-full px-[10%]')}>
       <h1
         className={clsx(
-          ' pb-8  font-medium leading-none text-black',
-          'text-6xl sm:text-8xl',
+          ' ml-[-4px] pb-8  font-medium leading-none text-black',
+          'text-6xl sm:text-6xl',
           navigation.theme === 'dark' ? ' text-white' : ' text-black',
         )}>
-        Find Location.
+        Frequently Asked Questions
       </h1>
       <div className={clsx('flex w-full flex-col items-center justify-center')}></div>
       {faqData.data.attributes.FaqDetail.map((item, index) => {

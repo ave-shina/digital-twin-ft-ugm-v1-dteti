@@ -10,7 +10,7 @@ import clsx from 'clsx'
 import { useSelector } from 'react-redux'
 
 export default function ModalPanorama(props) {
-  const { currentScene, setCurrentScene, setOpenPanorama, openPanorama, sceneInformation } = props
+  const { currentScene, setCurrentScene, setOpenPanorama, openPanorama, sceneInformation, title } = props
   const [yaw, setYaw] = useState(0)
   const [pitch, setPitch] = useState(0)
   const panImage = useRef(null)
@@ -24,12 +24,12 @@ export default function ModalPanorama(props) {
     hotSpotDiv.appendChild(image)
   }
 
-  const [sceneObject, setSceneObject] = useState(0)
+  const [sceneObject, setSceneObject] = useState(false)
   useEffect(() => {
     // console.log(currentScene)
     setSceneObject(sceneInformation.find((item) => item.sceneName === currentScene))
     // console.log(sceneObject)
-  }, [currentScene])
+  }, [currentScene, title])
 
   const navigation = useSelector((state) => state.navigation)
 
@@ -44,8 +44,8 @@ export default function ModalPanorama(props) {
       tabindex='-1'
       aria-hidden='true'
       className={clsx(
-        'fixed top-0 z-[99999999]  !h-full !w-screen  items-center justify-center',
-        openPanorama ? 'flex' : ' hidden',
+        'fixed top-0   !h-full !w-screen  items-center justify-center ',
+        openPanorama ? 'z-[99999999] !w-screen ' : 'z-[-99999999] opacity-0',
       )}>
       <div
         onClick={() => {
@@ -54,7 +54,10 @@ export default function ModalPanorama(props) {
         className={clsx(
           'absolute top-0  flex !h-full !w-screen  items-center justify-center bg-black  bg-opacity-80',
         )}></div>
-      <div className={clsx(' absolute z-50 h-[90%] w-full max-w-[85%]')}>
+      <div
+        className={clsx(
+          ' absolute left-1/2 top-1/2 z-50 h-[90%] w-full max-w-[85%] -translate-x-1/2 -translate-y-1/2',
+        )}>
         {/* <!-- Modal content --> */}
         <div
           className={clsx(
@@ -100,8 +103,11 @@ export default function ModalPanorama(props) {
                   ref={panImage}
                   width='100%'
                   height='100%'
-                  image={sceneObject.scenePanoImg.url}
+                  pitch={10}
+                  yaw={180}
+                  image={sceneObject && sceneObject?.scenePanoImg.url}
                   autoLoad
+                  showZoomCtrl={false}
                   onMouseup={(event) => {
                     setPitch(panImage.current.getViewer().mouseEventToCoords(event)[0])
                     setYaw(panImage.current.getViewer().mouseEventToCoords(event)[1])

@@ -1,13 +1,35 @@
 import React, { useState, useEffect, useRef } from 'react'
 import clsx from 'clsx'
 import { MapInteractionCSS } from 'react-map-interaction'
-import { useSelector } from 'react-redux'
 const { Stage, Layer, Image, Circle } = require('react-konva')
+import { useSelector, useDispatch } from 'react-redux'
+import { toggleLocation, toggleContent } from 'redux/navigation'
+
+import { useRouter } from 'next/router'
 
 function Map(props) {
+  const router = useRouter()
   const { setCurrentScene, setOpenPanorama, mapInformation, mapImage, mapName, open, currentIndex } = props
 
   const map = []
+
+  const mapTour = [
+    { name: 'DTETI', position: [300, 480, 10], isRoute: false },
+    { name: 'DTAP', position: [340, 160, 10], isRoute: false },
+    { name: 'DTSL', position: [560, 200, 10], isRoute: false },
+    { name: 'DTMI', position: [240, 470, 10], isRoute: false },
+    { name: 'DTK', position: [270, 350, 10], isRoute: false },
+    { name: 'DTGD', position: [470, 150, 10], isRoute: false },
+    { name: 'DTGL', position: [560, 470, 10], isRoute: false },
+    { name: 'DTNTF', position: [510, 520, 10], isRoute: false },
+    { name: 'TUGU TEKNIK', position: [645, 460, 10], isRoute: false },
+    { name: 'SGLC', position: [410, 370, 10], isRoute: false },
+    { name: 'PERPUSTAKAAN', position: [440, 460, 10], isRoute: false },
+    { name: 'MASJID FT', position: [400, 270, 10], isRoute: false },
+    { name: 'ERIC', position: [730, 420, 10], isRoute: false },
+  ]
+
+  const navigation = useSelector((state) => state.navigation)
 
   for (let i = 0; i < mapInformation.length; i++) {
     map.push({
@@ -15,10 +37,9 @@ function Map(props) {
       y: mapInformation[i].mapCoordinate[1],
       name: mapInformation[i].name,
       isCrooked: mapInformation[i].isCrooked,
+      isRoute: true,
     })
   }
-
-  const navigation = useSelector((state) => state.navigation)
 
   const [image, setImage] = useState(null)
 
@@ -56,6 +77,27 @@ function Map(props) {
     }
   }, [open, currentIndex])
 
+  const dispatch = useDispatch()
+
+  function handleClick(isRoute, name) {
+    if (isRoute) {
+      setCurrentScene(name)
+      setOpenPanorama(true)
+    } else {
+      dispatch(toggleContent(''))
+      dispatch(toggleContent('landmark'))
+      dispatch(toggleLocation(name))
+      window.scrollTo(0, 0)
+      router.push(
+        {
+          pathname: '/',
+          query: { content: 'landmark', location: name },
+        },
+        `/landmark?location=${name}`,
+        { shallow: true },
+      )
+    }
+  }
   return (
     <div
       className={clsx(
@@ -66,7 +108,7 @@ function Map(props) {
         <div ref={mapContainer} className={clsx('flex h-[600px] w-full items-center justify-center overflow-hidden')}>
           <div
             className={clsx(
-              ' absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
+              'absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
             )}>
             {mapName}
           </div>
@@ -79,23 +121,41 @@ function Map(props) {
               <Stage width={mapImage.width} height={mapImage.width}>
                 <Layer>
                   {image && <Image image={image} x={0} y={0} scaleX={1} scaleY={1} />}
+                  {router.query.content == 'tour' &&
+                    mapTour.map((data, index) => (
+                      <Circle
+                        key={index}
+                        x={data.position[0]}
+                        y={data.position[1]}
+                        radius={9}
+                        fill={'red'}
+                        cursor='pointer'
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                        onClick={(area) => {
+                          handleClick(data.isRoute, data.name)
+                        }}
+                        onTap={(area) => {
+                          handleClick(data.isRoute, data.name)
+                        }}
+                      />
+                    ))}
+
                   {map.map((data, index) => (
                     <Circle
                       key={index}
                       x={data.x}
                       y={data.y}
                       radius={5}
-                      fill={data.isCrooked == false || data.isCrooked == null ? 'blue' : 'red'}
+                      fill={'blue'}
                       cursor='pointer'
                       onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave}
                       onClick={(area) => {
-                        setCurrentScene(data.name)
-                        setOpenPanorama(true)
+                        handleClick(data.isRoute, data.name)
                       }}
                       onTap={(area) => {
-                        setCurrentScene(data.name)
-                        setOpenPanorama(true)
+                        handleClick(data.isRoute, data.name)
                       }}
                     />
                   ))}

@@ -46,7 +46,10 @@ export const Landmarks = {
                       height: 156,
                       size: 58.34,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308663/thumbnail_DTETI_1_min_ee4040e65e.png',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_1_min_ee4040e65e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_1_min_ee4040e65e',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTETI_1-min.png',
@@ -58,7 +61,10 @@ export const Landmarks = {
                       height: 355,
                       size: 242.58,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308664/small_DTETI_1_min_ee4040e65e.png',
-                      provider_metadata: { public_id: 'small_DTETI_1_min_ee4040e65e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTETI_1_min_ee4040e65e',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTETI_1-min.png',
@@ -70,7 +76,10 @@ export const Landmarks = {
                       height: 532,
                       size: 507.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308665/medium_DTETI_1_min_ee4040e65e.png',
-                      provider_metadata: { public_id: 'medium_DTETI_1_min_ee4040e65e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTETI_1_min_ee4040e65e',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTETI_1-min.png',
@@ -82,7 +91,10 @@ export const Landmarks = {
                       height: 710,
                       size: 864.77,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308665/large_DTETI_1_min_ee4040e65e.png',
-                      provider_metadata: { public_id: 'large_DTETI_1_min_ee4040e65e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTETI_1_min_ee4040e65e',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_1_min_ee4040e65e',
@@ -92,7 +104,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308664/DTETI_1_min_ee4040e65e.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_1_min_ee4040e65e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_1_min_ee4040e65e',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-05T17:44:25.917Z',
                   updatedAt: '2023-05-05T17:44:25.917Z',
                 },
@@ -104,8 +119,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.647096935863552, yaw: 74.6685996764734, transition: 'dteti_lantai_1_2' },
-                  { pitch: -4.447777346435591, yaw: -97.52022299900422, transition: 'dteti_lantai_1_5' },
+                  {
+                    pitch: -3.647096935863552,
+                    yaw: 74.6685996764734,
+                    transition: 'dteti_lantai_1_2',
+                  },
+                  {
+                    pitch: -4.447777346435591,
+                    yaw: -97.52022299900422,
+                    transition: 'dteti_lantai_1_5',
+                  },
                 ],
                 mapCoordinate: [360, 365, 10],
                 isCrooked: null,
@@ -144,7 +167,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_2_d24c016f04.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_2_d24c016f04', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_2_d24c016f04',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_DTETI LANTAI 1 (2).jpg',
@@ -171,7 +197,10 @@ export const Landmarks = {
                           height: 500,
                           size: 53.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_2_d24c016f04.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_2_d24c016f04', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_2_d24c016f04',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'DTETI_LANTAI_1_2_d24c016f04',
@@ -181,7 +210,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/DTETI_LANTAI_1_2_d24c016f04.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_2_d24c016f04', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_2_d24c016f04',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:34.515Z',
                       updatedAt: '2023-05-05T17:46:34.515Z',
                     },
@@ -193,9 +225,21 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.8198110104070166, yaw: 163.73571795510654, transition: 'dteti_lantai_1_3' },
-                  { pitch: -1.819796952605677, yaw: -15.268050087005497, transition: 'dteti_lantai_1_4' },
-                  { pitch: -4.445931444715103, yaw: -104.93232933799487, transition: 'dteti_lantai_1_1' },
+                  {
+                    pitch: -2.8198110104070166,
+                    yaw: 163.73571795510654,
+                    transition: 'dteti_lantai_1_3',
+                  },
+                  {
+                    pitch: -1.819796952605677,
+                    yaw: -15.268050087005497,
+                    transition: 'dteti_lantai_1_4',
+                  },
+                  {
+                    pitch: -4.445931444715103,
+                    yaw: -104.93232933799487,
+                    transition: 'dteti_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [360, 505, 10],
                 isCrooked: null,
@@ -234,7 +278,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_6_f965112843.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_6_f965112843', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_6_f965112843',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_DTETI LANTAI 1 (6).jpg',
@@ -246,7 +293,10 @@ export const Landmarks = {
                           height: 500,
                           size: 60.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_6_f965112843.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_6_f965112843', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_6_f965112843',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_DTETI LANTAI 1 (6).jpg',
@@ -271,7 +321,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308794/DTETI_LANTAI_1_6_f965112843.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_6_f965112843', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_6_f965112843',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:34.837Z',
                       updatedAt: '2023-05-05T17:46:34.837Z',
                     },
@@ -283,7 +336,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.3059764931223947, yaw: 4.196167821011153, transition: 'dteti_lantai_1_2' },
+                  {
+                    pitch: -2.3059764931223947,
+                    yaw: 4.196167821011153,
+                    transition: 'dteti_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [120, 505, 10],
                 isCrooked: false,
@@ -322,7 +379,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_5_7f2eac3211.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_5_7f2eac3211', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_5_7f2eac3211',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_DTETI LANTAI 1 (5).jpg',
@@ -349,7 +409,10 @@ export const Landmarks = {
                           height: 500,
                           size: 48.46,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_5_7f2eac3211.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_5_7f2eac3211', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_5_7f2eac3211',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'DTETI_LANTAI_1_5_7f2eac3211',
@@ -359,7 +422,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308794/DTETI_LANTAI_1_5_7f2eac3211.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_5_7f2eac3211', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_5_7f2eac3211',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:34.721Z',
                       updatedAt: '2023-05-05T17:46:34.721Z',
                     },
@@ -371,7 +437,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.242309052146104, yaw: -153.50680748390062, transition: 'dteti_lantai_1_2' },
+                  {
+                    pitch: -2.242309052146104,
+                    yaw: -153.50680748390062,
+                    transition: 'dteti_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [600, 505, 10],
                 isCrooked: null,
@@ -425,7 +495,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_1_671b7704cb.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_1_671b7704cb', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_1_671b7704cb',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_DTETI LANTAI 1 (1).jpg',
@@ -437,7 +510,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_1_671b7704cb.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_1_671b7704cb', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_1_671b7704cb',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'DTETI_LANTAI_1_1_671b7704cb',
@@ -447,7 +523,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/DTETI_LANTAI_1_1_671b7704cb.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_1_671b7704cb', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_1_671b7704cb',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:34.386Z',
                       updatedAt: '2023-05-05T17:46:34.386Z',
                     },
@@ -459,8 +538,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -4.88524299479674, yaw: 103.78884757389082, transition: 'dteti_lantai_1_1' },
-                  { pitch: -8.065284403824155, yaw: 1.3018802252342607, transition: 'dteti_lantai_1_6' },
+                  {
+                    pitch: -4.88524299479674,
+                    yaw: 103.78884757389082,
+                    transition: 'dteti_lantai_1_1',
+                  },
+                  {
+                    pitch: -8.065284403824155,
+                    yaw: 1.3018802252342607,
+                    transition: 'dteti_lantai_1_6',
+                  },
                 ],
                 mapCoordinate: [360, 215, 10],
                 isCrooked: null,
@@ -514,7 +601,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_3_e2172c7055.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_3_e2172c7055', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_3_e2172c7055',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_DTETI LANTAI 1 (3).jpg',
@@ -526,7 +616,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_3_e2172c7055.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_3_e2172c7055', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_3_e2172c7055',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'DTETI_LANTAI_1_3_e2172c7055',
@@ -536,7 +629,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308794/DTETI_LANTAI_1_3_e2172c7055.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_3_e2172c7055', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_3_e2172c7055',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:35.069Z',
                       updatedAt: '2023-05-05T18:24:46.293Z',
                     },
@@ -548,7 +644,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_1_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 0.28052219552854046, yaw: 163.70576834299214, transition: 'dteti_lantai_1_5' },
+                  {
+                    pitch: 0.28052219552854046,
+                    yaw: 163.70576834299214,
+                    transition: 'dteti_lantai_1_5',
+                  },
                 ],
                 mapCoordinate: [660, 215, 10],
                 isCrooked: null,
@@ -587,7 +687,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/small_DTETI_LANTAI_1_4_1d6c5d6781.jpg',
-                          provider_metadata: { public_id: 'small_DTETI_LANTAI_1_4_1d6c5d6781', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_DTETI_LANTAI_1_4_1d6c5d6781',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_DTETI LANTAI 1 (4).jpg',
@@ -614,7 +717,10 @@ export const Landmarks = {
                           height: 500,
                           size: 51.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308793/large_DTETI_LANTAI_1_4_1d6c5d6781.jpg',
-                          provider_metadata: { public_id: 'large_DTETI_LANTAI_1_4_1d6c5d6781', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_DTETI_LANTAI_1_4_1d6c5d6781',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'DTETI_LANTAI_1_4_1d6c5d6781',
@@ -624,7 +730,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308794/DTETI_LANTAI_1_4_1d6c5d6781.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'DTETI_LANTAI_1_4_1d6c5d6781', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'DTETI_LANTAI_1_4_1d6c5d6781',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-05T17:46:34.915Z',
                       updatedAt: '2023-05-05T17:46:34.915Z',
                     },
@@ -658,7 +767,10 @@ export const Landmarks = {
                       height: 156,
                       size: 63.14,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308664/thumbnail_DTETI_2_min_ca79fa6a59.png',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_2_min_ca79fa6a59', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_2_min_ca79fa6a59',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTETI_2-min.png',
@@ -670,7 +782,10 @@ export const Landmarks = {
                       height: 355,
                       size: 272.37,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308666/small_DTETI_2_min_ca79fa6a59.png',
-                      provider_metadata: { public_id: 'small_DTETI_2_min_ca79fa6a59', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTETI_2_min_ca79fa6a59',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTETI_2-min.png',
@@ -682,7 +797,10 @@ export const Landmarks = {
                       height: 532,
                       size: 575.78,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308666/medium_DTETI_2_min_ca79fa6a59.png',
-                      provider_metadata: { public_id: 'medium_DTETI_2_min_ca79fa6a59', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTETI_2_min_ca79fa6a59',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTETI_2-min.png',
@@ -694,7 +812,10 @@ export const Landmarks = {
                       height: 710,
                       size: 987.23,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308666/large_DTETI_2_min_ca79fa6a59.png',
-                      provider_metadata: { public_id: 'large_DTETI_2_min_ca79fa6a59', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTETI_2_min_ca79fa6a59',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_2_min_ca79fa6a59',
@@ -704,7 +825,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308665/DTETI_2_min_ca79fa6a59.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_2_min_ca79fa6a59', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_2_min_ca79fa6a59',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-05T17:44:27.352Z',
                   updatedAt: '2023-05-05T17:44:27.352Z',
                 },
@@ -716,8 +840,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.100952605150375, yaw: 90.91174659582796, transition: 'dteti_lantai_2_2' },
-                  { pitch: -11.214415860861678, yaw: -128.82603418374768, transition: 'dteti_lantai_2_5' },
+                  {
+                    pitch: -5.100952605150375,
+                    yaw: 90.91174659582796,
+                    transition: 'dteti_lantai_2_2',
+                  },
+                  {
+                    pitch: -11.214415860861678,
+                    yaw: -128.82603418374768,
+                    transition: 'dteti_lantai_2_5',
+                  },
                 ],
                 mapCoordinate: [435, 325, 10],
                 isCrooked: null,
@@ -741,7 +873,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333240/thumbnail_R0010651_a2440789bd.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010651_a2440789bd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010651_a2440789bd',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010651_a2440789bd',
@@ -751,7 +886,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/R0010651_a2440789bd.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010651_a2440789bd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010651_a2440789bd',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:02.510Z',
                       updatedAt: '2023-05-06T00:34:02.510Z',
                     },
@@ -763,9 +901,21 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 1.6004861548912623, yaw: -18.947971052709725, transition: 'dteti_lantai_2_3' },
-                  { pitch: -12.515343108686672, yaw: 158.77913411059495, transition: 'dteti_lantai_2_4' },
-                  { pitch: 1.1476814408669374, yaw: 72.1450476166388, transition: 'dteti_lantai_2_1' },
+                  {
+                    pitch: 1.6004861548912623,
+                    yaw: -18.947971052709725,
+                    transition: 'dteti_lantai_2_3',
+                  },
+                  {
+                    pitch: -12.515343108686672,
+                    yaw: 158.77913411059495,
+                    transition: 'dteti_lantai_2_4',
+                  },
+                  {
+                    pitch: 1.1476814408669374,
+                    yaw: 72.1450476166388,
+                    transition: 'dteti_lantai_2_1',
+                  },
                 ],
                 mapCoordinate: [435, 505, 10],
                 isCrooked: null,
@@ -789,7 +939,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/thumbnail_R0010654_fa25e565e8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010654_fa25e565e8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010654_fa25e565e8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010654_fa25e565e8',
@@ -799,7 +952,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333242/R0010654_fa25e565e8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010654_fa25e565e8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010654_fa25e565e8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:03.194Z',
                       updatedAt: '2023-05-06T00:34:03.194Z',
                     },
@@ -811,7 +967,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.12996950699220083, yaw: -11.815258255312553, transition: 'dteti_lantai_2_2' },
+                  {
+                    pitch: -0.12996950699220083,
+                    yaw: -11.815258255312553,
+                    transition: 'dteti_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [160, 505, 10],
                 isCrooked: null,
@@ -835,7 +995,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/thumbnail_R0010655_641bf5187d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010655_641bf5187d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010655_641bf5187d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010655_641bf5187d',
@@ -845,7 +1008,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333242/R0010655_641bf5187d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010655_641bf5187d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010655_641bf5187d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:02.782Z',
                       updatedAt: '2023-05-06T00:34:02.782Z',
                     },
@@ -857,7 +1023,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.278969796516663, yaw: 161.1363830865177, transition: 'dteti_lantai_2_2' },
+                  {
+                    pitch: -7.278969796516663,
+                    yaw: 161.1363830865177,
+                    transition: 'dteti_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [650, 505, 10],
                 isCrooked: null,
@@ -881,7 +1051,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/thumbnail_R0010656_000ed6d298.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010656_000ed6d298', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010656_000ed6d298',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010656_000ed6d298',
@@ -891,7 +1064,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333242/R0010656_000ed6d298.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010656_000ed6d298', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010656_000ed6d298',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:02.829Z',
                       updatedAt: '2023-05-06T00:34:02.829Z',
                     },
@@ -903,8 +1079,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.8598851948751727, yaw: 90.33031239310758, transition: 'dteti_lantai_2_1' },
-                  { pitch: -2.028917750505553, yaw: -11.924703471710417, transition: 'dteti_lantai_2_6' },
+                  {
+                    pitch: -2.8598851948751727,
+                    yaw: 90.33031239310758,
+                    transition: 'dteti_lantai_2_1',
+                  },
+                  {
+                    pitch: -2.028917750505553,
+                    yaw: -11.924703471710417,
+                    transition: 'dteti_lantai_2_6',
+                  },
                 ],
                 mapCoordinate: [435, 200, 10],
                 isCrooked: null,
@@ -928,7 +1112,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/thumbnail_R0010652_0b4278b3d7.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010652_0b4278b3d7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010652_0b4278b3d7',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010652_0b4278b3d7',
@@ -938,7 +1125,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333242/R0010652_0b4278b3d7.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010652_0b4278b3d7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010652_0b4278b3d7',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:02.944Z',
                       updatedAt: '2023-05-06T00:34:02.944Z',
                     },
@@ -950,7 +1140,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_2_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.28052219552854, yaw: 163.70576834299214, transition: 'dteti_lantai_2_5' },
+                  {
+                    pitch: -6.28052219552854,
+                    yaw: 163.70576834299214,
+                    transition: 'dteti_lantai_2_5',
+                  },
                 ],
                 mapCoordinate: [815, 200, 10],
                 isCrooked: null,
@@ -974,7 +1168,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333241/thumbnail_R0010653_fb47d1a72d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010653_fb47d1a72d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010653_fb47d1a72d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010653_fb47d1a72d',
@@ -984,7 +1181,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683333242/R0010653_fb47d1a72d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010653_fb47d1a72d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010653_fb47d1a72d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:34:02.732Z',
                       updatedAt: '2023-05-06T00:34:02.732Z',
                     },
@@ -1018,7 +1218,10 @@ export const Landmarks = {
                       height: 156,
                       size: 45.94,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308663/thumbnail_DTETI_3_min_403a3da04b.png',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_3_min_403a3da04b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_3_min_403a3da04b',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTETI_3-min.png',
@@ -1030,7 +1233,10 @@ export const Landmarks = {
                       height: 355,
                       size: 192.75,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308665/small_DTETI_3_min_403a3da04b.png',
-                      provider_metadata: { public_id: 'small_DTETI_3_min_403a3da04b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTETI_3_min_403a3da04b',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTETI_3-min.png',
@@ -1042,7 +1248,10 @@ export const Landmarks = {
                       height: 710,
                       size: 691.62,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308666/large_DTETI_3_min_403a3da04b.png',
-                      provider_metadata: { public_id: 'large_DTETI_3_min_403a3da04b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTETI_3_min_403a3da04b',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTETI_3-min.png',
@@ -1054,7 +1263,10 @@ export const Landmarks = {
                       height: 532,
                       size: 402.04,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308666/medium_DTETI_3_min_403a3da04b.png',
-                      provider_metadata: { public_id: 'medium_DTETI_3_min_403a3da04b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTETI_3_min_403a3da04b',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_3_min_403a3da04b',
@@ -1064,7 +1276,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683308664/DTETI_3_min_403a3da04b.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_3_min_403a3da04b', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_3_min_403a3da04b',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-05T17:44:26.605Z',
                   updatedAt: '2023-05-05T17:44:26.605Z',
                 },
@@ -1076,8 +1291,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.308595407707239, yaw: 78.61526052662889, transition: 'dteti_lantai_3_2' },
-                  { pitch: -8.806332009019322, yaw: -94.09256119442301, transition: 'dteti_lantai_3_5' },
+                  {
+                    pitch: -2.308595407707239,
+                    yaw: 78.61526052662889,
+                    transition: 'dteti_lantai_3_2',
+                  },
+                  {
+                    pitch: -8.806332009019322,
+                    yaw: -94.09256119442301,
+                    transition: 'dteti_lantai_3_5',
+                  },
                 ],
                 mapCoordinate: [485, 345, 10],
                 isCrooked: null,
@@ -1101,7 +1324,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.16,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010657_94702400b9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010657_94702400b9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010657_94702400b9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010657_94702400b9',
@@ -1111,7 +1337,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334554/R0010657_94702400b9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010657_94702400b9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010657_94702400b9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:55.450Z',
                       updatedAt: '2023-05-06T00:55:55.450Z',
                     },
@@ -1123,9 +1352,21 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 7.48813289479076, yaw: -8.052221371283682, transition: 'dteti_lantai_3_3' },
-                  { pitch: -16.73692429013821, yaw: 174.02146496289063, transition: 'dteti_lantai_3_4' },
-                  { pitch: -7.81081168087221, yaw: 82.23209234469726, transition: 'dteti_lantai_3_1' },
+                  {
+                    pitch: 7.48813289479076,
+                    yaw: -8.052221371283682,
+                    transition: 'dteti_lantai_3_3',
+                  },
+                  {
+                    pitch: -16.73692429013821,
+                    yaw: 174.02146496289063,
+                    transition: 'dteti_lantai_3_4',
+                  },
+                  {
+                    pitch: -7.81081168087221,
+                    yaw: 82.23209234469726,
+                    transition: 'dteti_lantai_3_1',
+                  },
                 ],
                 mapCoordinate: [485, 505, 10],
                 isCrooked: null,
@@ -1149,7 +1390,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010660_830c1e90f9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010660_830c1e90f9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010660_830c1e90f9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010660_830c1e90f9',
@@ -1159,7 +1403,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334554/R0010660_830c1e90f9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010660_830c1e90f9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010660_830c1e90f9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:55.225Z',
                       updatedAt: '2023-05-06T00:55:55.225Z',
                     },
@@ -1171,7 +1418,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.3059764931223947, yaw: 4.196167821011153, transition: 'dteti_lantai_3_2' },
+                  {
+                    pitch: -2.3059764931223947,
+                    yaw: 4.196167821011153,
+                    transition: 'dteti_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [200, 505, 10],
                 isCrooked: null,
@@ -1195,7 +1446,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.75,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010661_3347dd7ac8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010661_3347dd7ac8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010661_3347dd7ac8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010661_3347dd7ac8',
@@ -1205,7 +1459,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334554/R0010661_3347dd7ac8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010661_3347dd7ac8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010661_3347dd7ac8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:55.238Z',
                       updatedAt: '2023-05-06T00:55:55.238Z',
                     },
@@ -1217,7 +1474,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -16.438240941726065, yaw: 173.78227376340425, transition: 'dteti_lantai_3_2' },
+                  {
+                    pitch: -16.438240941726065,
+                    yaw: 173.78227376340425,
+                    transition: 'dteti_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [720, 505, 10],
                 isCrooked: null,
@@ -1241,7 +1502,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010662_c1a4ca44f8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010662_c1a4ca44f8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010662_c1a4ca44f8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010662_c1a4ca44f8',
@@ -1251,7 +1515,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334554/R0010662_c1a4ca44f8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010662_c1a4ca44f8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010662_c1a4ca44f8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:55.517Z',
                       updatedAt: '2023-05-06T00:55:55.517Z',
                     },
@@ -1263,8 +1530,16 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 8.94737492330795, yaw: 95.50193384480595, transition: 'dteti_lantai_3_1' },
-                  { pitch: 2.4487124002036675, yaw: 0.4161017225891359, transition: 'dteti_lantai_3_6' },
+                  {
+                    pitch: 8.94737492330795,
+                    yaw: 95.50193384480595,
+                    transition: 'dteti_lantai_3_1',
+                  },
+                  {
+                    pitch: 2.4487124002036675,
+                    yaw: 0.4161017225891359,
+                    transition: 'dteti_lantai_3_6',
+                  },
                 ],
                 mapCoordinate: [495, 200, 10],
                 isCrooked: null,
@@ -1288,7 +1563,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010658_6feb9bdf8d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010658_6feb9bdf8d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010658_6feb9bdf8d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010658_6feb9bdf8d',
@@ -1298,7 +1576,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334555/R0010658_6feb9bdf8d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010658_6feb9bdf8d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010658_6feb9bdf8d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:55.685Z',
                       updatedAt: '2023-05-06T00:55:55.685Z',
                     },
@@ -1310,7 +1591,11 @@ export const Landmarks = {
                 name: 'dteti_lantai_3_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.457420585600117, yaw: 177.81065776341066, transition: 'dteti_lantai_3_5' },
+                  {
+                    pitch: -11.457420585600117,
+                    yaw: 177.81065776341066,
+                    transition: 'dteti_lantai_3_5',
+                  },
                 ],
                 mapCoordinate: [825, 200, 10],
                 isCrooked: null,
@@ -1334,7 +1619,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334553/thumbnail_R0010659_ec2b1e2334.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010659_ec2b1e2334', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010659_ec2b1e2334',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010659_ec2b1e2334',
@@ -1344,7 +1632,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683334554/R0010659_ec2b1e2334.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010659_ec2b1e2334', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010659_ec2b1e2334',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T00:55:54.671Z',
                       updatedAt: '2023-05-06T00:55:54.671Z',
                     },
@@ -1381,7 +1672,10 @@ export const Landmarks = {
                       height: 110,
                       size: 7.16,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_1_3d6d62b748.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_1_3d6d62b748', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_1_3d6d62b748',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_1_3d6d62b748',
@@ -1391,7 +1685,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337350/DTETI_GALLERY_1_3d6d62b748.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_1_3d6d62b748', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_1_3d6d62b748',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.501Z',
                   updatedAt: '2023-05-06T01:42:30.501Z',
                 },
@@ -1424,7 +1721,10 @@ export const Landmarks = {
                       height: 126,
                       size: 8.65,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_3_85f3324883.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_3_85f3324883', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_3_85f3324883',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_3_85f3324883',
@@ -1434,7 +1734,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337350/DTETI_GALLERY_3_85f3324883.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_3_85f3324883', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_3_85f3324883',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.416Z',
                   updatedAt: '2023-05-06T01:42:30.416Z',
                 },
@@ -1467,7 +1770,10 @@ export const Landmarks = {
                       height: 107,
                       size: 62.04,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_1_f8e2bad499.png',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_1_f8e2bad499', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_1_f8e2bad499',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_1_f8e2bad499',
@@ -1477,7 +1783,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337350/DTETI_GALLERY_1_f8e2bad499.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_1_f8e2bad499', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_1_f8e2bad499',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.924Z',
                   updatedAt: '2023-05-06T01:45:16.774Z',
                 },
@@ -1510,7 +1819,10 @@ export const Landmarks = {
                       height: 113,
                       size: 7.31,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_4_05d7dafc66.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_4_05d7dafc66', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_4_05d7dafc66',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_4_05d7dafc66',
@@ -1520,7 +1832,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/DTETI_GALLERY_4_05d7dafc66.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_4_05d7dafc66', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_4_05d7dafc66',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.205Z',
                   updatedAt: '2023-05-06T01:42:30.205Z',
                 },
@@ -1553,7 +1868,10 @@ export const Landmarks = {
                       height: 138,
                       size: 8.07,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_5_b90a51f73e.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_5_b90a51f73e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_5_b90a51f73e',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_5_b90a51f73e',
@@ -1563,7 +1881,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337350/DTETI_GALLERY_5_b90a51f73e.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_5_b90a51f73e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_5_b90a51f73e',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.305Z',
                   updatedAt: '2023-05-06T01:42:30.305Z',
                 },
@@ -1596,7 +1917,10 @@ export const Landmarks = {
                       height: 156,
                       size: 8.15,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337349/thumbnail_DTETI_GALLERY_2_f07e3e44ee.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTETI_GALLERY_2_f07e3e44ee', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTETI_GALLERY_2_f07e3e44ee',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTETI_GALLERY_2_f07e3e44ee',
@@ -1606,7 +1930,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683337350/DTETI_GALLERY_2_f07e3e44ee.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTETI_GALLERY_2_f07e3e44ee', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTETI_GALLERY_2_f07e3e44ee',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T01:42:30.469Z',
                   updatedAt: '2023-05-06T01:42:30.469Z',
                 },
@@ -1635,7 +1962,10 @@ export const Landmarks = {
                   height: 115,
                   size: 64.46,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253713/thumbnail_DTETI_6107524549.png',
-                  provider_metadata: { public_id: 'thumbnail_DTETI_6107524549', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTETI_6107524549',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTETI.png',
@@ -1647,7 +1977,10 @@ export const Landmarks = {
                   height: 351,
                   size: 480.8,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253714/medium_DTETI_6107524549.png',
-                  provider_metadata: { public_id: 'medium_DTETI_6107524549', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTETI_6107524549',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTETI.png',
@@ -1659,7 +1992,10 @@ export const Landmarks = {
                   height: 234,
                   size: 229.61,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253714/small_DTETI_6107524549.png',
-                  provider_metadata: { public_id: 'small_DTETI_6107524549', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTETI_6107524549',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTETI.png',
@@ -1671,7 +2007,10 @@ export const Landmarks = {
                   height: 468,
                   size: 821.84,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253715/large_DTETI_6107524549.png',
-                  provider_metadata: { public_id: 'large_DTETI_6107524549', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTETI_6107524549',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTETI_6107524549',
@@ -1681,7 +2020,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253713/DTETI_6107524549.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTETI_6107524549', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTETI_6107524549',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-03T09:50:55.445Z',
               updatedAt: '2023-05-05T02:28:35.880Z',
             },
@@ -1735,7 +2077,10 @@ export const Landmarks = {
                       height: 156,
                       size: 13.8,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367772/thumbnail_DTMI_1_min_f33936ccaa.png',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_1_min_f33936ccaa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_1_min_f33936ccaa',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI_1-min.png',
@@ -1747,7 +2092,10 @@ export const Landmarks = {
                       height: 355,
                       size: 44.5,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/small_DTMI_1_min_f33936ccaa.png',
-                      provider_metadata: { public_id: 'small_DTMI_1_min_f33936ccaa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_1_min_f33936ccaa',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTMI_1-min.png',
@@ -1759,7 +2107,10 @@ export const Landmarks = {
                       height: 710,
                       size: 132.72,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/large_DTMI_1_min_f33936ccaa.png',
-                      provider_metadata: { public_id: 'large_DTMI_1_min_f33936ccaa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTMI_1_min_f33936ccaa',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI_1-min.png',
@@ -1771,7 +2122,10 @@ export const Landmarks = {
                       height: 532,
                       size: 81.96,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/medium_DTMI_1_min_f33936ccaa.png',
-                      provider_metadata: { public_id: 'medium_DTMI_1_min_f33936ccaa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_1_min_f33936ccaa',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_1_min_f33936ccaa',
@@ -1781,7 +2135,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367773/DTMI_1_min_f33936ccaa.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_1_min_f33936ccaa', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_1_min_f33936ccaa',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:09:34.595Z',
                   updatedAt: '2023-05-06T10:09:34.595Z',
                 },
@@ -1793,8 +2150,16 @@ export const Landmarks = {
                 name: 'dtmi_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.831637813074743, yaw: 76.59612898978155, transition: 'dtmi_lantai_1_2' },
-                  { pitch: -1.9631745289943203, yaw: 34.59651904783266, transition: 'dtmi_lantai_1_3' },
+                  {
+                    pitch: -2.831637813074743,
+                    yaw: 76.59612898978155,
+                    transition: 'dtmi_lantai_1_2',
+                  },
+                  {
+                    pitch: -1.9631745289943203,
+                    yaw: 34.59651904783266,
+                    transition: 'dtmi_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [625, 450, 10],
                 isCrooked: null,
@@ -1818,7 +2183,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.43,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367807/thumbnail_R0010664_5de621fed3.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010664_5de621fed3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010664_5de621fed3',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010664.jpg',
@@ -1830,7 +2198,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.2,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/small_R0010664_5de621fed3.jpg',
-                          provider_metadata: { public_id: 'small_R0010664_5de621fed3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010664_5de621fed3',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010664.jpg',
@@ -1842,7 +2213,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/medium_R0010664_5de621fed3.jpg',
-                          provider_metadata: { public_id: 'medium_R0010664_5de621fed3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010664_5de621fed3',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010664.jpg',
@@ -1854,7 +2228,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/large_R0010664_5de621fed3.jpg',
-                          provider_metadata: { public_id: 'large_R0010664_5de621fed3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010664_5de621fed3',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010664_5de621fed3',
@@ -1864,7 +2241,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/R0010664_5de621fed3.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010664_5de621fed3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010664_5de621fed3',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:10:09.146Z',
                       updatedAt: '2023-05-06T10:10:09.146Z',
                     },
@@ -1876,7 +2256,11 @@ export const Landmarks = {
                 name: 'dtmi_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: 123.98624510159758, transition: 'dtmi_lantai_1_1' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: 123.98624510159758,
+                    transition: 'dtmi_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [625, 600, 10],
                 isCrooked: null,
@@ -1900,7 +2284,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.55,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/thumbnail_R0010665_c30f6ae9e0.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010665_c30f6ae9e0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010665_c30f6ae9e0',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010665.jpg',
@@ -1912,7 +2299,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/small_R0010665_c30f6ae9e0.jpg',
-                          provider_metadata: { public_id: 'small_R0010665_c30f6ae9e0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010665_c30f6ae9e0',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010665.jpg',
@@ -1924,7 +2314,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/medium_R0010665_c30f6ae9e0.jpg',
-                          provider_metadata: { public_id: 'medium_R0010665_c30f6ae9e0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010665_c30f6ae9e0',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010665.jpg',
@@ -1936,7 +2329,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/large_R0010665_c30f6ae9e0.jpg',
-                          provider_metadata: { public_id: 'large_R0010665_c30f6ae9e0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010665_c30f6ae9e0',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010665_c30f6ae9e0',
@@ -1946,7 +2342,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367809/R0010665_c30f6ae9e0.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010665_c30f6ae9e0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010665_c30f6ae9e0',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:10:09.832Z',
                       updatedAt: '2023-05-06T10:10:09.832Z',
                     },
@@ -1958,7 +2357,11 @@ export const Landmarks = {
                 name: 'dtmi_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.001292532031037, yaw: -167.11330759728256, transition: 'dtmi_lantai_1_1' },
+                  {
+                    pitch: -10.001292532031037,
+                    yaw: -167.11330759728256,
+                    transition: 'dtmi_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [825, 480, 10],
                 isCrooked: null,
@@ -1982,7 +2385,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/thumbnail_R0010668_30d0121896.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010668_30d0121896', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010668_30d0121896',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010668.jpg',
@@ -1994,7 +2400,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.26,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/small_R0010668_30d0121896.jpg',
-                          provider_metadata: { public_id: 'small_R0010668_30d0121896', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010668_30d0121896',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010668.jpg',
@@ -2006,7 +2415,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/medium_R0010668_30d0121896.jpg',
-                          provider_metadata: { public_id: 'medium_R0010668_30d0121896', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010668_30d0121896',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010668.jpg',
@@ -2018,7 +2430,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367808/large_R0010668_30d0121896.jpg',
-                          provider_metadata: { public_id: 'large_R0010668_30d0121896', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010668_30d0121896',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010668_30d0121896',
@@ -2028,7 +2443,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367809/R0010668_30d0121896.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010668_30d0121896', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010668_30d0121896',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:10:09.681Z',
                       updatedAt: '2023-05-06T10:10:09.681Z',
                     },
@@ -2062,7 +2480,10 @@ export const Landmarks = {
                       height: 156,
                       size: 17,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367772/thumbnail_DTMI_2_min_4ba30d327e.png',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_2_min_4ba30d327e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_2_min_4ba30d327e',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI_2-min.png',
@@ -2074,7 +2495,10 @@ export const Landmarks = {
                       height: 355,
                       size: 55.89,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/small_DTMI_2_min_4ba30d327e.png',
-                      provider_metadata: { public_id: 'small_DTMI_2_min_4ba30d327e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_2_min_4ba30d327e',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI_2-min.png',
@@ -2086,7 +2510,10 @@ export const Landmarks = {
                       height: 532,
                       size: 102.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/medium_DTMI_2_min_4ba30d327e.png',
-                      provider_metadata: { public_id: 'medium_DTMI_2_min_4ba30d327e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_2_min_4ba30d327e',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTMI_2-min.png',
@@ -2098,7 +2525,10 @@ export const Landmarks = {
                       height: 710,
                       size: 161.82,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367774/large_DTMI_2_min_4ba30d327e.png',
-                      provider_metadata: { public_id: 'large_DTMI_2_min_4ba30d327e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTMI_2_min_4ba30d327e',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_2_min_4ba30d327e',
@@ -2108,7 +2538,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683367773/DTMI_2_min_4ba30d327e.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_2_min_4ba30d327e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_2_min_4ba30d327e',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:09:35.282Z',
                   updatedAt: '2023-05-06T10:09:35.282Z',
                 },
@@ -2120,7 +2553,11 @@ export const Landmarks = {
                 name: 'dtmi_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 0.7564374777700041, yaw: 38.174674667028874, transition: 'dtmi_lantai_2_2' },
+                  {
+                    pitch: 0.7564374777700041,
+                    yaw: 38.174674667028874,
+                    transition: 'dtmi_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [605, 380, 10],
                 isCrooked: null,
@@ -2144,7 +2581,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368042/thumbnail_R0010669_66abf082e4.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010669_66abf082e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010669_66abf082e4',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010669.jpg',
@@ -2156,7 +2596,10 @@ export const Landmarks = {
                           height: 250,
                           size: 14.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/small_R0010669_66abf082e4.jpg',
-                          provider_metadata: { public_id: 'small_R0010669_66abf082e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010669_66abf082e4',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010669.jpg',
@@ -2168,7 +2611,10 @@ export const Landmarks = {
                           height: 375,
                           size: 28.22,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/medium_R0010669_66abf082e4.jpg',
-                          provider_metadata: { public_id: 'medium_R0010669_66abf082e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010669_66abf082e4',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010669.jpg',
@@ -2180,7 +2626,10 @@ export const Landmarks = {
                           height: 500,
                           size: 44.59,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/large_R0010669_66abf082e4.jpg',
-                          provider_metadata: { public_id: 'large_R0010669_66abf082e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010669_66abf082e4',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010669_66abf082e4',
@@ -2190,7 +2639,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/R0010669_66abf082e4.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010669_66abf082e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010669_66abf082e4',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:14:04.168Z',
                       updatedAt: '2023-05-06T10:14:04.168Z',
                     },
@@ -2202,8 +2654,16 @@ export const Landmarks = {
                 name: 'dtmi_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.3610470513587134, yaw: -43.9487015150188, transition: 'dtmi_lantai_2_1' },
-                  { pitch: -4.679614473749665, yaw: 54.42953509733361, transition: 'dtmi_lantai_2_3' },
+                  {
+                    pitch: -3.3610470513587134,
+                    yaw: -43.9487015150188,
+                    transition: 'dtmi_lantai_2_1',
+                  },
+                  {
+                    pitch: -4.679614473749665,
+                    yaw: 54.42953509733361,
+                    transition: 'dtmi_lantai_2_3',
+                  },
                 ],
                 mapCoordinate: [675, 550, 10],
                 isCrooked: null,
@@ -2227,7 +2687,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/thumbnail_R0010670_1108a94f2f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010670_1108a94f2f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010670_1108a94f2f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010670.jpg',
@@ -2239,7 +2702,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.03,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/small_R0010670_1108a94f2f.jpg',
-                          provider_metadata: { public_id: 'small_R0010670_1108a94f2f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010670_1108a94f2f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010670.jpg',
@@ -2251,7 +2717,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/medium_R0010670_1108a94f2f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010670_1108a94f2f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010670_1108a94f2f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010670.jpg',
@@ -2263,7 +2732,10 @@ export const Landmarks = {
                           height: 500,
                           size: 47.4,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/large_R0010670_1108a94f2f.jpg',
-                          provider_metadata: { public_id: 'large_R0010670_1108a94f2f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010670_1108a94f2f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010670_1108a94f2f',
@@ -2273,7 +2745,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368044/R0010670_1108a94f2f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010670_1108a94f2f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010670_1108a94f2f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:14:04.640Z',
                       updatedAt: '2023-05-06T10:14:04.640Z',
                     },
@@ -2285,7 +2760,11 @@ export const Landmarks = {
                 name: 'dtmi_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.566754336547065, yaw: -70.87621167910227, transition: 'dtmi_lantai_2_2' },
+                  {
+                    pitch: -9.566754336547065,
+                    yaw: -70.87621167910227,
+                    transition: 'dtmi_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [875, 545, 10],
                 isCrooked: null,
@@ -2309,7 +2788,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.75,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/thumbnail_R0010671_ae9132dc6b.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010671_ae9132dc6b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010671_ae9132dc6b',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010671.jpg',
@@ -2321,7 +2803,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/small_R0010671_ae9132dc6b.jpg',
-                          provider_metadata: { public_id: 'small_R0010671_ae9132dc6b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010671_ae9132dc6b',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010671.jpg',
@@ -2333,7 +2818,10 @@ export const Landmarks = {
                           height: 500,
                           size: 39.55,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/large_R0010671_ae9132dc6b.jpg',
-                          provider_metadata: { public_id: 'large_R0010671_ae9132dc6b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010671_ae9132dc6b',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010671.jpg',
@@ -2345,7 +2833,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368043/medium_R0010671_ae9132dc6b.jpg',
-                          provider_metadata: { public_id: 'medium_R0010671_ae9132dc6b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010671_ae9132dc6b',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010671_ae9132dc6b',
@@ -2355,7 +2846,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683368044/R0010671_ae9132dc6b.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010671_ae9132dc6b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010671_ae9132dc6b',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T10:14:04.608Z',
                       updatedAt: '2023-05-06T10:14:04.608Z',
                     },
@@ -2392,7 +2886,10 @@ export const Landmarks = {
                       height: 96,
                       size: 6.27,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_1_e9635129a0.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_1_e9635129a0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_1_e9635129a0',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI GALLERY (1).jpg',
@@ -2404,7 +2901,10 @@ export const Landmarks = {
                       height: 295,
                       size: 36.64,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/medium_DTMI_GALLERY_1_e9635129a0.jpg',
-                      provider_metadata: { public_id: 'medium_DTMI_GALLERY_1_e9635129a0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_GALLERY_1_e9635129a0',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (1).jpg',
@@ -2416,7 +2916,10 @@ export const Landmarks = {
                       height: 197,
                       size: 20.39,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/small_DTMI_GALLERY_1_e9635129a0.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_1_e9635129a0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_1_e9635129a0',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_1_e9635129a0',
@@ -2426,7 +2929,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/DTMI_GALLERY_1_e9635129a0.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_1_e9635129a0', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_1_e9635129a0',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:55:58.829Z',
                   updatedAt: '2023-05-06T10:55:58.829Z',
                 },
@@ -2459,7 +2965,10 @@ export const Landmarks = {
                       height: 156,
                       size: 13.52,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_2_d59a3a69eb.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_2_d59a3a69eb', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_2_d59a3a69eb',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (2).jpg',
@@ -2471,7 +2980,10 @@ export const Landmarks = {
                       height: 325,
                       size: 46.47,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/small_DTMI_GALLERY_2_d59a3a69eb.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_2_d59a3a69eb', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_2_d59a3a69eb',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_2_d59a3a69eb',
@@ -2481,7 +2993,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/DTMI_GALLERY_2_d59a3a69eb.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_2_d59a3a69eb', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_2_d59a3a69eb',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:55:59.394Z',
                   updatedAt: '2023-05-06T10:55:59.394Z',
                 },
@@ -2514,7 +3029,10 @@ export const Landmarks = {
                       height: 111,
                       size: 7.19,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_3_42c8bfb90c.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_3_42c8bfb90c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_3_42c8bfb90c',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (3).jpg',
@@ -2526,7 +3044,10 @@ export const Landmarks = {
                       height: 225,
                       size: 22.94,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/small_DTMI_GALLERY_3_42c8bfb90c.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_3_42c8bfb90c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_3_42c8bfb90c',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTMI GALLERY (3).jpg',
@@ -2538,7 +3059,10 @@ export const Landmarks = {
                       height: 451,
                       size: 68.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/large_DTMI_GALLERY_3_42c8bfb90c.jpg',
-                      provider_metadata: { public_id: 'large_DTMI_GALLERY_3_42c8bfb90c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTMI_GALLERY_3_42c8bfb90c',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI GALLERY (3).jpg',
@@ -2550,7 +3074,10 @@ export const Landmarks = {
                       height: 338,
                       size: 43.25,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/medium_DTMI_GALLERY_3_42c8bfb90c.jpg',
-                      provider_metadata: { public_id: 'medium_DTMI_GALLERY_3_42c8bfb90c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_GALLERY_3_42c8bfb90c',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_3_42c8bfb90c',
@@ -2560,7 +3087,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/DTMI_GALLERY_3_42c8bfb90c.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_3_42c8bfb90c', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_3_42c8bfb90c',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:55:59.615Z',
                   updatedAt: '2023-05-06T10:55:59.615Z',
                 },
@@ -2593,7 +3123,10 @@ export const Landmarks = {
                       height: 156,
                       size: 7.49,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_4_4fd840e9b7.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_4_4fd840e9b7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_4_4fd840e9b7',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (4).jpg',
@@ -2605,7 +3138,10 @@ export const Landmarks = {
                       height: 375,
                       size: 29.08,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/small_DTMI_GALLERY_4_4fd840e9b7.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_4_4fd840e9b7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_4_4fd840e9b7',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI GALLERY (4).jpg',
@@ -2617,7 +3153,10 @@ export const Landmarks = {
                       height: 563,
                       size: 54.38,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/medium_DTMI_GALLERY_4_4fd840e9b7.jpg',
-                      provider_metadata: { public_id: 'medium_DTMI_GALLERY_4_4fd840e9b7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_GALLERY_4_4fd840e9b7',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_4_4fd840e9b7',
@@ -2627,7 +3166,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/DTMI_GALLERY_4_4fd840e9b7.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_4_4fd840e9b7', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_4_4fd840e9b7',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:55:59.621Z',
                   updatedAt: '2023-05-06T10:55:59.621Z',
                 },
@@ -2660,7 +3202,10 @@ export const Landmarks = {
                       height: 156,
                       size: 7.84,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_5_9d2fcc278b.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_5_9d2fcc278b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_5_9d2fcc278b',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (5).jpg',
@@ -2672,7 +3217,10 @@ export const Landmarks = {
                       height: 375,
                       size: 29.75,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/small_DTMI_GALLERY_5_9d2fcc278b.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_5_9d2fcc278b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_5_9d2fcc278b',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI GALLERY (5).jpg',
@@ -2684,7 +3232,10 @@ export const Landmarks = {
                       height: 563,
                       size: 55.36,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/medium_DTMI_GALLERY_5_9d2fcc278b.jpg',
-                      provider_metadata: { public_id: 'medium_DTMI_GALLERY_5_9d2fcc278b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_GALLERY_5_9d2fcc278b',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_5_9d2fcc278b',
@@ -2694,7 +3245,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/DTMI_GALLERY_5_9d2fcc278b.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_5_9d2fcc278b', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_5_9d2fcc278b',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:55:59.425Z',
                   updatedAt: '2023-05-06T10:55:59.425Z',
                 },
@@ -2727,7 +3281,10 @@ export const Landmarks = {
                       height: 136,
                       size: 9.95,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370558/thumbnail_DTMI_GALLERY_6_39c69b5b6d.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTMI_GALLERY_6_39c69b5b6d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTMI_GALLERY_6_39c69b5b6d',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTMI GALLERY (6).jpg',
@@ -2739,7 +3296,10 @@ export const Landmarks = {
                       height: 277,
                       size: 33.15,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/small_DTMI_GALLERY_6_39c69b5b6d.jpg',
-                      provider_metadata: { public_id: 'small_DTMI_GALLERY_6_39c69b5b6d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTMI_GALLERY_6_39c69b5b6d',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTMI GALLERY (6).jpg',
@@ -2751,7 +3311,10 @@ export const Landmarks = {
                       height: 415,
                       size: 65.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/medium_DTMI_GALLERY_6_39c69b5b6d.jpg',
-                      provider_metadata: { public_id: 'medium_DTMI_GALLERY_6_39c69b5b6d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTMI_GALLERY_6_39c69b5b6d',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTMI GALLERY (6).jpg',
@@ -2763,7 +3326,10 @@ export const Landmarks = {
                       height: 554,
                       size: 107.08,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/large_DTMI_GALLERY_6_39c69b5b6d.jpg',
-                      provider_metadata: { public_id: 'large_DTMI_GALLERY_6_39c69b5b6d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTMI_GALLERY_6_39c69b5b6d',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTMI_GALLERY_6_39c69b5b6d',
@@ -2773,7 +3339,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683370559/DTMI_GALLERY_6_39c69b5b6d.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTMI_GALLERY_6_39c69b5b6d', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTMI_GALLERY_6_39c69b5b6d',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T10:56:00.141Z',
                   updatedAt: '2023-05-06T10:56:00.141Z',
                 },
@@ -2802,7 +3371,10 @@ export const Landmarks = {
                   height: 115,
                   size: 62.25,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253610/thumbnail_DTMI_820d41eade.png',
-                  provider_metadata: { public_id: 'thumbnail_DTMI_820d41eade', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTMI_820d41eade',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTMI.png',
@@ -2814,7 +3386,10 @@ export const Landmarks = {
                   height: 234,
                   size: 214.82,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253611/small_DTMI_820d41eade.png',
-                  provider_metadata: { public_id: 'small_DTMI_820d41eade', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTMI_820d41eade',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTMI.png',
@@ -2826,7 +3401,10 @@ export const Landmarks = {
                   height: 351,
                   size: 441.76,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253612/medium_DTMI_820d41eade.png',
-                  provider_metadata: { public_id: 'medium_DTMI_820d41eade', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTMI_820d41eade',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTMI.png',
@@ -2838,7 +3416,10 @@ export const Landmarks = {
                   height: 468,
                   size: 749.71,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253612/large_DTMI_820d41eade.png',
-                  provider_metadata: { public_id: 'large_DTMI_820d41eade', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTMI_820d41eade',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTMI_820d41eade',
@@ -2848,7 +3429,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253611/DTMI_820d41eade.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTMI_820d41eade', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTMI_820d41eade',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:20:36.082Z',
               updatedAt: '2023-05-05T02:26:53.546Z',
             },
@@ -2902,7 +3486,10 @@ export const Landmarks = {
                       height: 156,
                       size: 28.72,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388673/thumbnail_DTK_S_1_min_2c6d2405a9.png',
-                      provider_metadata: { public_id: 'thumbnail_DTK_S_1_min_2c6d2405a9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTK_S_1_min_2c6d2405a9',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTK_S_1-min.png',
@@ -2914,7 +3501,10 @@ export const Landmarks = {
                       height: 355,
                       size: 126.2,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/small_DTK_S_1_min_2c6d2405a9.png',
-                      provider_metadata: { public_id: 'small_DTK_S_1_min_2c6d2405a9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTK_S_1_min_2c6d2405a9',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTK_S_1-min.png',
@@ -2926,7 +3516,10 @@ export const Landmarks = {
                       height: 710,
                       size: 453.49,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/large_DTK_S_1_min_2c6d2405a9.png',
-                      provider_metadata: { public_id: 'large_DTK_S_1_min_2c6d2405a9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTK_S_1_min_2c6d2405a9',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTK_S_1-min.png',
@@ -2938,7 +3531,10 @@ export const Landmarks = {
                       height: 532,
                       size: 263.68,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/medium_DTK_S_1_min_2c6d2405a9.png',
-                      provider_metadata: { public_id: 'medium_DTK_S_1_min_2c6d2405a9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTK_S_1_min_2c6d2405a9',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTK_S_1_min_2c6d2405a9',
@@ -2948,7 +3544,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388674/DTK_S_1_min_2c6d2405a9.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTK_S_1_min_2c6d2405a9', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTK_S_1_min_2c6d2405a9',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T15:57:56.102Z',
                   updatedAt: '2023-05-06T15:57:56.102Z',
                 },
@@ -2960,8 +3559,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.441869225533372, yaw: -156.27459260848437, transition: 'dtk_lantai_1_selatan_2' },
-                  { pitch: -2.664038675650656, yaw: -30.237284007318216, transition: 'dtk_lantai_1_selatan_7' },
+                  {
+                    pitch: -10.441869225533372,
+                    yaw: -156.27459260848437,
+                    transition: 'dtk_lantai_1_selatan_2',
+                  },
+                  {
+                    pitch: -2.664038675650656,
+                    yaw: -30.237284007318216,
+                    transition: 'dtk_lantai_1_selatan_7',
+                  },
                 ],
                 mapCoordinate: [460, 340, 10],
                 isCrooked: null,
@@ -2985,7 +3592,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/thumbnail_R0010679_44c47581bd.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010679_44c47581bd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010679_44c47581bd',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010679.jpg',
@@ -2997,7 +3607,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.44,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/medium_R0010679_44c47581bd.jpg',
-                          provider_metadata: { public_id: 'medium_R0010679_44c47581bd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010679_44c47581bd',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010679.jpg',
@@ -3009,7 +3622,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/small_R0010679_44c47581bd.jpg',
-                          provider_metadata: { public_id: 'small_R0010679_44c47581bd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010679_44c47581bd',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010679.jpg',
@@ -3021,7 +3637,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/large_R0010679_44c47581bd.jpg',
-                          provider_metadata: { public_id: 'large_R0010679_44c47581bd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010679_44c47581bd',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010679_44c47581bd',
@@ -3031,7 +3650,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/R0010679_44c47581bd.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010679_44c47581bd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010679_44c47581bd',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:18.767Z',
                       updatedAt: '2023-05-06T15:59:18.767Z',
                     },
@@ -3043,9 +3665,21 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.774501248435424, yaw: 116.01918285268397, transition: 'dtk_lantai_1_selatan_1' },
-                  { pitch: -3.144445083651698, yaw: -160.63836880386992, transition: 'dtk_lantai_1_selatan_3' },
-                  { pitch: -8.544445083651699, yaw: 17.854944925474154, transition: 'dtk_lantai_1_selatan_4' },
+                  {
+                    pitch: -9.774501248435424,
+                    yaw: 116.01918285268397,
+                    transition: 'dtk_lantai_1_selatan_1',
+                  },
+                  {
+                    pitch: -3.144445083651698,
+                    yaw: -160.63836880386992,
+                    transition: 'dtk_lantai_1_selatan_3',
+                  },
+                  {
+                    pitch: -8.544445083651699,
+                    yaw: 17.854944925474154,
+                    transition: 'dtk_lantai_1_selatan_4',
+                  },
                 ],
                 mapCoordinate: [320, 340, 10],
                 isCrooked: null,
@@ -3069,7 +3703,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/thumbnail_R0010680_db67988ff7.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010680_db67988ff7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010680_db67988ff7',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010680.jpg',
@@ -3081,7 +3718,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/medium_R0010680_db67988ff7.jpg',
-                          provider_metadata: { public_id: 'medium_R0010680_db67988ff7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010680_db67988ff7',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010680.jpg',
@@ -3093,7 +3733,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/small_R0010680_db67988ff7.jpg',
-                          provider_metadata: { public_id: 'small_R0010680_db67988ff7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010680_db67988ff7',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010680.jpg',
@@ -3105,7 +3748,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/large_R0010680_db67988ff7.jpg',
-                          provider_metadata: { public_id: 'large_R0010680_db67988ff7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010680_db67988ff7',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010680_db67988ff7',
@@ -3115,7 +3761,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/R0010680_db67988ff7.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010680_db67988ff7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010680_db67988ff7',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:19.493Z',
                       updatedAt: '2023-05-06T15:59:19.493Z',
                     },
@@ -3127,7 +3776,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 6.0281767068009575, yaw: -130.61364818671305, transition: 'dtk_lantai_1_selatan_2' },
+                  {
+                    pitch: 6.0281767068009575,
+                    yaw: -130.61364818671305,
+                    transition: 'dtk_lantai_1_selatan_2',
+                  },
                 ],
                 mapCoordinate: [320, 550, 10],
                 isCrooked: null,
@@ -3151,7 +3804,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/thumbnail_R0010681_54758c9cd8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010681_54758c9cd8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010681_54758c9cd8',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010681.jpg',
@@ -3163,7 +3819,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/medium_R0010681_54758c9cd8.jpg',
-                          provider_metadata: { public_id: 'medium_R0010681_54758c9cd8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010681_54758c9cd8',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010681.jpg',
@@ -3175,7 +3834,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/small_R0010681_54758c9cd8.jpg',
-                          provider_metadata: { public_id: 'small_R0010681_54758c9cd8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010681_54758c9cd8',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010681.jpg',
@@ -3187,7 +3849,10 @@ export const Landmarks = {
                           height: 500,
                           size: 52.84,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/large_R0010681_54758c9cd8.jpg',
-                          provider_metadata: { public_id: 'large_R0010681_54758c9cd8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010681_54758c9cd8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010681_54758c9cd8',
@@ -3197,7 +3862,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/R0010681_54758c9cd8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010681_54758c9cd8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010681_54758c9cd8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:19.307Z',
                       updatedAt: '2023-05-06T15:59:19.307Z',
                     },
@@ -3209,8 +3877,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.2628873414066195, yaw: -26.398610790410164, transition: 'dtk_lantai_1_selatan_2' },
-                  { pitch: -8.24064081311396, yaw: -62.893064195120544, transition: 'dtk_lantai_1_selatan_5' },
+                  {
+                    pitch: -6.2628873414066195,
+                    yaw: -26.398610790410164,
+                    transition: 'dtk_lantai_1_selatan_2',
+                  },
+                  {
+                    pitch: -8.24064081311396,
+                    yaw: -62.893064195120544,
+                    transition: 'dtk_lantai_1_selatan_5',
+                  },
                 ],
                 mapCoordinate: [220, 155, 10],
                 isCrooked: null,
@@ -3234,7 +3910,10 @@ export const Landmarks = {
                           height: 123,
                           size: 11.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/thumbnail_R0010682_952c7f755f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010682_952c7f755f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010682_952c7f755f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010682.jpg',
@@ -3246,7 +3925,10 @@ export const Landmarks = {
                           height: 250,
                           size: 38.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/small_R0010682_952c7f755f.jpg',
-                          provider_metadata: { public_id: 'small_R0010682_952c7f755f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010682_952c7f755f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010682.jpg',
@@ -3258,7 +3940,10 @@ export const Landmarks = {
                           height: 375,
                           size: 79.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/medium_R0010682_952c7f755f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010682_952c7f755f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010682_952c7f755f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010682.jpg',
@@ -3270,7 +3955,10 @@ export const Landmarks = {
                           height: 500,
                           size: 129.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/large_R0010682_952c7f755f.jpg',
-                          provider_metadata: { public_id: 'large_R0010682_952c7f755f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010682_952c7f755f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010682_952c7f755f',
@@ -3280,7 +3968,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388760/R0010682_952c7f755f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010682_952c7f755f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010682_952c7f755f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:20.258Z',
                       updatedAt: '2023-05-06T15:59:20.258Z',
                     },
@@ -3292,8 +3983,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.610286826162708, yaw: -157.112267093548, transition: 'dtk_lantai_1_selatan_4' },
-                  { pitch: 1.793132335906628, yaw: 27.367697238352, transition: 'dtk_lantai_1_selatan_6' },
+                  {
+                    pitch: -11.610286826162708,
+                    yaw: -157.112267093548,
+                    transition: 'dtk_lantai_1_selatan_4',
+                  },
+                  {
+                    pitch: 1.793132335906628,
+                    yaw: 27.367697238352,
+                    transition: 'dtk_lantai_1_selatan_6',
+                  },
                 ],
                 mapCoordinate: [520, 155, 10],
                 isCrooked: null,
@@ -3317,7 +4016,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.97,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/thumbnail_R0010683_322e48e5fa.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010683_322e48e5fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010683_322e48e5fa',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010683.jpg',
@@ -3329,7 +4031,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.4,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/small_R0010683_322e48e5fa.jpg',
-                          provider_metadata: { public_id: 'small_R0010683_322e48e5fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010683_322e48e5fa',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010683.jpg',
@@ -3341,7 +4046,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.43,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/medium_R0010683_322e48e5fa.jpg',
-                          provider_metadata: { public_id: 'medium_R0010683_322e48e5fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010683_322e48e5fa',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010683.jpg',
@@ -3353,7 +4061,10 @@ export const Landmarks = {
                           height: 500,
                           size: 65.28,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/large_R0010683_322e48e5fa.jpg',
-                          provider_metadata: { public_id: 'large_R0010683_322e48e5fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010683_322e48e5fa',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010683_322e48e5fa',
@@ -3363,7 +4074,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388760/R0010683_322e48e5fa.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010683_322e48e5fa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010683_322e48e5fa',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:20.765Z',
                       updatedAt: '2023-05-06T15:59:20.765Z',
                     },
@@ -3375,8 +4089,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.469378698087156, yaw: -51.05614307742579, transition: 'dtk_lantai_1_selatan_7' },
-                  { pitch: -5.052373850024394, yaw: 37.53445713769048, transition: 'dtk_lantai_1_selatan_5' },
+                  {
+                    pitch: -6.469378698087156,
+                    yaw: -51.05614307742579,
+                    transition: 'dtk_lantai_1_selatan_7',
+                  },
+                  {
+                    pitch: -5.052373850024394,
+                    yaw: 37.53445713769048,
+                    transition: 'dtk_lantai_1_selatan_5',
+                  },
                 ],
                 mapCoordinate: [820, 155, 10],
                 isCrooked: null,
@@ -3400,7 +4122,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388758/thumbnail_R0010684_dc62d480c0.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010684_dc62d480c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010684_dc62d480c0',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010684.jpg',
@@ -3412,7 +4137,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.72,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/small_R0010684_dc62d480c0.jpg',
-                          provider_metadata: { public_id: 'small_R0010684_dc62d480c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010684_dc62d480c0',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010684.jpg',
@@ -3424,7 +4152,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/medium_R0010684_dc62d480c0.jpg',
-                          provider_metadata: { public_id: 'medium_R0010684_dc62d480c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010684_dc62d480c0',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010684.jpg',
@@ -3436,7 +4167,10 @@ export const Landmarks = {
                           height: 500,
                           size: 59.38,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/large_R0010684_dc62d480c0.jpg',
-                          provider_metadata: { public_id: 'large_R0010684_dc62d480c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010684_dc62d480c0',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010684_dc62d480c0',
@@ -3446,7 +4180,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388759/R0010684_dc62d480c0.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010684_dc62d480c0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010684_dc62d480c0',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:19.433Z',
                       updatedAt: '2023-05-06T15:59:19.433Z',
                     },
@@ -3458,8 +4195,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_1_selatan_7',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.525649099133496, yaw: 125.5078632418481, transition: 'dtk_lantai_1_selatan_6' },
-                  { pitch: 2.2412154050054767, yaw: 10.929489378165469, transition: 'dtk_lantai_1_selatan_1' },
+                  {
+                    pitch: -10.525649099133496,
+                    yaw: 125.5078632418481,
+                    transition: 'dtk_lantai_1_selatan_6',
+                  },
+                  {
+                    pitch: 2.2412154050054767,
+                    yaw: 10.929489378165469,
+                    transition: 'dtk_lantai_1_selatan_1',
+                  },
                 ],
                 mapCoordinate: [820, 300, 10],
                 isCrooked: null,
@@ -3483,7 +4228,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.19,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388760/thumbnail_R0010685_f0c480ada2.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010685_f0c480ada2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010685_f0c480ada2',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010685.jpg',
@@ -3495,7 +4243,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.36,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388761/medium_R0010685_f0c480ada2.jpg',
-                          provider_metadata: { public_id: 'medium_R0010685_f0c480ada2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010685_f0c480ada2',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010685.jpg',
@@ -3507,7 +4258,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388761/small_R0010685_f0c480ada2.jpg',
-                          provider_metadata: { public_id: 'small_R0010685_f0c480ada2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010685_f0c480ada2',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010685.jpg',
@@ -3519,7 +4273,10 @@ export const Landmarks = {
                           height: 500,
                           size: 52.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388761/large_R0010685_f0c480ada2.jpg',
-                          provider_metadata: { public_id: 'large_R0010685_f0c480ada2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010685_f0c480ada2',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010685_f0c480ada2',
@@ -3529,7 +4286,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388762/R0010685_f0c480ada2.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010685_f0c480ada2', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010685_f0c480ada2',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T15:59:21.762Z',
                       updatedAt: '2023-05-06T15:59:21.762Z',
                     },
@@ -3563,7 +4323,10 @@ export const Landmarks = {
                       height: 156,
                       size: 31.62,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388673/thumbnail_DTK_S_2_min_f86a4879d6.png',
-                      provider_metadata: { public_id: 'thumbnail_DTK_S_2_min_f86a4879d6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTK_S_2_min_f86a4879d6',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTK_S_2-min.png',
@@ -3575,7 +4338,10 @@ export const Landmarks = {
                       height: 532,
                       size: 295.92,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/medium_DTK_S_2_min_f86a4879d6.png',
-                      provider_metadata: { public_id: 'medium_DTK_S_2_min_f86a4879d6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTK_S_2_min_f86a4879d6',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTK_S_2-min.png',
@@ -3587,7 +4353,10 @@ export const Landmarks = {
                       height: 355,
                       size: 139.77,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/small_DTK_S_2_min_f86a4879d6.png',
-                      provider_metadata: { public_id: 'small_DTK_S_2_min_f86a4879d6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTK_S_2_min_f86a4879d6',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTK_S_2-min.png',
@@ -3599,7 +4368,10 @@ export const Landmarks = {
                       height: 710,
                       size: 510.5,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/large_DTK_S_2_min_f86a4879d6.png',
-                      provider_metadata: { public_id: 'large_DTK_S_2_min_f86a4879d6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTK_S_2_min_f86a4879d6',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTK_S_2_min_f86a4879d6',
@@ -3609,7 +4381,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/DTK_S_2_min_f86a4879d6.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTK_S_2_min_f86a4879d6', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTK_S_2_min_f86a4879d6',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T15:57:56.741Z',
                   updatedAt: '2023-05-06T15:57:56.741Z',
                 },
@@ -3621,7 +4396,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_selatan_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.4482533736514234, yaw: 1.3865788803670216, transition: 'dtk_lantai_2_selatan_2' },
+                  {
+                    pitch: -0.4482533736514234,
+                    yaw: 1.3865788803670216,
+                    transition: 'dtk_lantai_2_selatan_2',
+                  },
                 ],
                 mapCoordinate: [850, 320, 10],
                 isCrooked: null,
@@ -3645,7 +4424,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389468/thumbnail_R0010686_9c6566cf80.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010686_9c6566cf80', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010686_9c6566cf80',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010686.jpg',
@@ -3657,7 +4439,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/small_R0010686_9c6566cf80.jpg',
-                          provider_metadata: { public_id: 'small_R0010686_9c6566cf80', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010686_9c6566cf80',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010686.jpg',
@@ -3669,7 +4454,10 @@ export const Landmarks = {
                           height: 375,
                           size: 32.44,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/medium_R0010686_9c6566cf80.jpg',
-                          provider_metadata: { public_id: 'medium_R0010686_9c6566cf80', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010686_9c6566cf80',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010686.jpg',
@@ -3681,7 +4469,10 @@ export const Landmarks = {
                           height: 500,
                           size: 50.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/large_R0010686_9c6566cf80.jpg',
-                          provider_metadata: { public_id: 'large_R0010686_9c6566cf80', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010686_9c6566cf80',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010686_9c6566cf80',
@@ -3691,7 +4482,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/R0010686_9c6566cf80.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010686_9c6566cf80', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010686_9c6566cf80',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:11:09.370Z',
                       updatedAt: '2023-05-06T16:11:09.370Z',
                     },
@@ -3703,8 +4497,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_selatan_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -14.93394659027918, yaw: 175.45691110411698, transition: 'dtk_lantai_2_selatan_1' },
-                  { pitch: -2.8860049813196684, yaw: -35.3621991297946, transition: 'dtk_lantai_2_selatan_3' },
+                  {
+                    pitch: -14.93394659027918,
+                    yaw: 175.45691110411698,
+                    transition: 'dtk_lantai_2_selatan_1',
+                  },
+                  {
+                    pitch: -2.8860049813196684,
+                    yaw: -35.3621991297946,
+                    transition: 'dtk_lantai_2_selatan_3',
+                  },
                 ],
                 mapCoordinate: [430, 320, 10],
                 isCrooked: null,
@@ -3728,7 +4530,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.06,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389468/thumbnail_R0010687_b51087a010.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010687_b51087a010', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010687_b51087a010',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010687.jpg',
@@ -3740,7 +4545,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/medium_R0010687_b51087a010.jpg',
-                          provider_metadata: { public_id: 'medium_R0010687_b51087a010', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010687_b51087a010',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010687.jpg',
@@ -3752,7 +4560,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/small_R0010687_b51087a010.jpg',
-                          provider_metadata: { public_id: 'small_R0010687_b51087a010', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010687_b51087a010',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010687.jpg',
@@ -3764,7 +4575,10 @@ export const Landmarks = {
                           height: 500,
                           size: 55.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/large_R0010687_b51087a010.jpg',
-                          provider_metadata: { public_id: 'large_R0010687_b51087a010', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010687_b51087a010',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010687_b51087a010',
@@ -3774,7 +4588,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389470/R0010687_b51087a010.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010687_b51087a010', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010687_b51087a010',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:11:09.777Z',
                       updatedAt: '2023-05-06T16:11:09.777Z',
                     },
@@ -3786,9 +4603,21 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_selatan_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.544445083651699, yaw: 145.2408070327469, transition: 'dtk_lantai_2_selatan_2' },
-                  { pitch: -10.006954768202538, yaw: 34.2839057505046, transition: 'dtk_lantai_2_selatan_4' },
-                  { pitch: -6.544445083651698, yaw: -18.74275912698844, transition: 'dtk_lantai_2_selatan_5' },
+                  {
+                    pitch: -8.544445083651699,
+                    yaw: 145.2408070327469,
+                    transition: 'dtk_lantai_2_selatan_2',
+                  },
+                  {
+                    pitch: -10.006954768202538,
+                    yaw: 34.2839057505046,
+                    transition: 'dtk_lantai_2_selatan_4',
+                  },
+                  {
+                    pitch: -6.544445083651698,
+                    yaw: -18.74275912698844,
+                    transition: 'dtk_lantai_2_selatan_5',
+                  },
                 ],
                 mapCoordinate: [330, 370, 10],
                 isCrooked: null,
@@ -3812,7 +4641,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389468/thumbnail_R0010690_06194e2538.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010690_06194e2538', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010690_06194e2538',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010690.jpg',
@@ -3824,7 +4656,10 @@ export const Landmarks = {
                           height: 375,
                           size: 31.6,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/medium_R0010690_06194e2538.jpg',
-                          provider_metadata: { public_id: 'medium_R0010690_06194e2538', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010690_06194e2538',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010690.jpg',
@@ -3836,7 +4671,10 @@ export const Landmarks = {
                           height: 500,
                           size: 50.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/large_R0010690_06194e2538.jpg',
-                          provider_metadata: { public_id: 'large_R0010690_06194e2538', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010690_06194e2538',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010690.jpg',
@@ -3848,7 +4686,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389470/small_R0010690_06194e2538.jpg',
-                          provider_metadata: { public_id: 'small_R0010690_06194e2538', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010690_06194e2538',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010690_06194e2538',
@@ -3858,7 +4699,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389470/R0010690_06194e2538.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010690_06194e2538', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010690_06194e2538',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:11:12.101Z',
                       updatedAt: '2023-05-06T16:11:12.101Z',
                     },
@@ -3870,7 +4714,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_selatan_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.544445083651698, yaw: 26.930710643034953, transition: 'dtk_lantai_2_selatan_3' },
+                  {
+                    pitch: -1.544445083651698,
+                    yaw: 26.930710643034953,
+                    transition: 'dtk_lantai_2_selatan_3',
+                  },
                 ],
                 mapCoordinate: [290, 240, 10],
                 isCrooked: null,
@@ -3894,7 +4742,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.16,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389468/thumbnail_R0010689_55429d4173.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010689_55429d4173', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010689_55429d4173',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010689.jpg',
@@ -3906,7 +4757,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/small_R0010689_55429d4173.jpg',
-                          provider_metadata: { public_id: 'small_R0010689_55429d4173', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010689_55429d4173',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010689.jpg',
@@ -3918,7 +4772,10 @@ export const Landmarks = {
                           height: 500,
                           size: 54.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/large_R0010689_55429d4173.jpg',
-                          provider_metadata: { public_id: 'large_R0010689_55429d4173', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010689_55429d4173',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010689.jpg',
@@ -3930,7 +4787,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.35,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/medium_R0010689_55429d4173.jpg',
-                          provider_metadata: { public_id: 'medium_R0010689_55429d4173', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010689_55429d4173',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010689_55429d4173',
@@ -3940,7 +4800,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389470/R0010689_55429d4173.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010689_55429d4173', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010689_55429d4173',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:11:10.002Z',
                       updatedAt: '2023-05-06T16:11:10.002Z',
                     },
@@ -3952,7 +4815,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_selatan_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.0963933510570603, yaw: -7.251659885062523, transition: 'dtk_lantai_2_selatan_3' },
+                  {
+                    pitch: -2.0963933510570603,
+                    yaw: -7.251659885062523,
+                    transition: 'dtk_lantai_2_selatan_3',
+                  },
                 ],
                 mapCoordinate: [290, 540, 10],
                 isCrooked: null,
@@ -3976,7 +4843,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389468/thumbnail_R0010688_6ce405274a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010688_6ce405274a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010688_6ce405274a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010688.jpg',
@@ -3988,7 +4858,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/small_R0010688_6ce405274a.jpg',
-                          provider_metadata: { public_id: 'small_R0010688_6ce405274a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010688_6ce405274a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010688.jpg',
@@ -4000,7 +4873,10 @@ export const Landmarks = {
                           height: 375,
                           size: 32.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/medium_R0010688_6ce405274a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010688_6ce405274a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010688_6ce405274a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010688.jpg',
@@ -4012,7 +4888,10 @@ export const Landmarks = {
                           height: 500,
                           size: 52.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389469/large_R0010688_6ce405274a.jpg',
-                          provider_metadata: { public_id: 'large_R0010688_6ce405274a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010688_6ce405274a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010688_6ce405274a',
@@ -4022,7 +4901,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683389470/R0010688_6ce405274a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010688_6ce405274a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010688_6ce405274a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:11:09.868Z',
                       updatedAt: '2023-05-06T16:11:09.868Z',
                     },
@@ -4056,7 +4938,10 @@ export const Landmarks = {
                       height: 156,
                       size: 29.18,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/thumbnail_DTK_U_1_min_620b7c3e3d.png',
-                      provider_metadata: { public_id: 'thumbnail_DTK_U_1_min_620b7c3e3d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTK_U_1_min_620b7c3e3d',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTK_U_1-min.png',
@@ -4068,7 +4953,10 @@ export const Landmarks = {
                       height: 355,
                       size: 123.3,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388677/small_DTK_U_1_min_620b7c3e3d.png',
-                      provider_metadata: { public_id: 'small_DTK_U_1_min_620b7c3e3d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTK_U_1_min_620b7c3e3d',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTK_U_1-min.png',
@@ -4080,7 +4968,10 @@ export const Landmarks = {
                       height: 532,
                       size: 255.48,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388677/medium_DTK_U_1_min_620b7c3e3d.png',
-                      provider_metadata: { public_id: 'medium_DTK_U_1_min_620b7c3e3d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTK_U_1_min_620b7c3e3d',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTK_U_1-min.png',
@@ -4092,7 +4983,10 @@ export const Landmarks = {
                       height: 710,
                       size: 440.12,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388677/large_DTK_U_1_min_620b7c3e3d.png',
-                      provider_metadata: { public_id: 'large_DTK_U_1_min_620b7c3e3d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTK_U_1_min_620b7c3e3d',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTK_U_1_min_620b7c3e3d',
@@ -4102,7 +4996,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/DTK_U_1_min_620b7c3e3d.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTK_U_1_min_620b7c3e3d', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTK_U_1_min_620b7c3e3d',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T15:57:57.432Z',
                   updatedAt: '2023-05-06T15:57:57.432Z',
                 },
@@ -4135,7 +5032,10 @@ export const Landmarks = {
                       height: 156,
                       size: 31.64,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/thumbnail_DTK_U_2_min_4c3317c9cd.png',
-                      provider_metadata: { public_id: 'thumbnail_DTK_U_2_min_4c3317c9cd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTK_U_2_min_4c3317c9cd',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTK_U_2-min.png',
@@ -4147,7 +5047,10 @@ export const Landmarks = {
                       height: 532,
                       size: 285.71,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388678/medium_DTK_U_2_min_4c3317c9cd.png',
-                      provider_metadata: { public_id: 'medium_DTK_U_2_min_4c3317c9cd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTK_U_2_min_4c3317c9cd',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTK_U_2-min.png',
@@ -4159,7 +5062,10 @@ export const Landmarks = {
                       height: 710,
                       size: 489.57,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388678/large_DTK_U_2_min_4c3317c9cd.png',
-                      provider_metadata: { public_id: 'large_DTK_U_2_min_4c3317c9cd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTK_U_2_min_4c3317c9cd',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTK_U_2-min.png',
@@ -4171,7 +5077,10 @@ export const Landmarks = {
                       height: 355,
                       size: 136.22,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388678/small_DTK_U_2_min_4c3317c9cd.png',
-                      provider_metadata: { public_id: 'small_DTK_U_2_min_4c3317c9cd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTK_U_2_min_4c3317c9cd',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTK_U_2_min_4c3317c9cd',
@@ -4181,7 +5090,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388677/DTK_U_2_min_4c3317c9cd.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTK_U_2_min_4c3317c9cd', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTK_U_2_min_4c3317c9cd',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T15:57:59.159Z',
                   updatedAt: '2023-05-06T15:57:59.159Z',
                 },
@@ -4193,7 +5105,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -12.455981599982687, yaw: -164.55234470418645, transition: 'dtk_lantai_2_utara_2' },
+                  {
+                    pitch: -12.455981599982687,
+                    yaw: -164.55234470418645,
+                    transition: 'dtk_lantai_2_utara_2',
+                  },
                 ],
                 mapCoordinate: [590, 670, 10],
                 isCrooked: null,
@@ -4217,7 +5133,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390008/thumbnail_R0010691_da2b340072.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010691_da2b340072', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010691_da2b340072',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010691.jpg',
@@ -4229,7 +5148,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010691_da2b340072.jpg',
-                          provider_metadata: { public_id: 'small_R0010691_da2b340072', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010691_da2b340072',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010691.jpg',
@@ -4241,7 +5163,10 @@ export const Landmarks = {
                           height: 375,
                           size: 41.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010691_da2b340072.jpg',
-                          provider_metadata: { public_id: 'medium_R0010691_da2b340072', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010691_da2b340072',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010691.jpg',
@@ -4253,7 +5178,10 @@ export const Landmarks = {
                           height: 500,
                           size: 66.63,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010691_da2b340072.jpg',
-                          provider_metadata: { public_id: 'large_R0010691_da2b340072', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010691_da2b340072',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010691_da2b340072',
@@ -4263,7 +5191,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390010/R0010691_da2b340072.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010691_da2b340072', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010691_da2b340072',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:10.013Z',
                       updatedAt: '2023-05-06T16:20:10.013Z',
                     },
@@ -4275,8 +5206,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -12.665406606611981, yaw: 159.6690352133158, transition: 'dtk_lantai_2_utara_1' },
-                  { pitch: -6.384129861333965, yaw: -12.617842547320006, transition: 'dtk_lantai_2_utara_3' },
+                  {
+                    pitch: -12.665406606611981,
+                    yaw: 159.6690352133158,
+                    transition: 'dtk_lantai_2_utara_1',
+                  },
+                  {
+                    pitch: -6.384129861333965,
+                    yaw: -12.617842547320006,
+                    transition: 'dtk_lantai_2_utara_3',
+                  },
                 ],
                 mapCoordinate: [590, 550, 10],
                 isCrooked: null,
@@ -4300,7 +5239,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390008/thumbnail_R0010692_1d132b80f5.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010692_1d132b80f5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010692_1d132b80f5',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010692.jpg',
@@ -4312,7 +5254,10 @@ export const Landmarks = {
                           height: 250,
                           size: 22.67,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010692_1d132b80f5.jpg',
-                          provider_metadata: { public_id: 'small_R0010692_1d132b80f5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010692_1d132b80f5',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010692.jpg',
@@ -4324,7 +5269,10 @@ export const Landmarks = {
                           height: 375,
                           size: 43.59,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010692_1d132b80f5.jpg',
-                          provider_metadata: { public_id: 'medium_R0010692_1d132b80f5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010692_1d132b80f5',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010692.jpg',
@@ -4336,7 +5284,10 @@ export const Landmarks = {
                           height: 500,
                           size: 68.42,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010692_1d132b80f5.jpg',
-                          provider_metadata: { public_id: 'large_R0010692_1d132b80f5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010692_1d132b80f5',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010692_1d132b80f5',
@@ -4346,7 +5297,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390016/R0010692_1d132b80f5.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010692_1d132b80f5', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010692_1d132b80f5',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:16.010Z',
                       updatedAt: '2023-05-06T16:20:16.010Z',
                     },
@@ -4358,10 +5312,26 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.044755144822687, yaw: -83.04648903817204, transition: 'dtk_lantai_2_utara_2' },
-                  { pitch: -6.1812911362788805, yaw: 87.12708005701273, transition: 'dtk_lantai_2_utara_4' },
-                  { pitch: 5.911448873892467, yaw: -14.54918278473013, transition: 'dtk_lantai_2_utara_5' },
-                  { pitch: 8.120359850708024, yaw: 10.549951048162209, transition: 'dtk_lantai_2_utara_6' },
+                  {
+                    pitch: -10.044755144822687,
+                    yaw: -83.04648903817204,
+                    transition: 'dtk_lantai_2_utara_2',
+                  },
+                  {
+                    pitch: -6.1812911362788805,
+                    yaw: 87.12708005701273,
+                    transition: 'dtk_lantai_2_utara_4',
+                  },
+                  {
+                    pitch: 5.911448873892467,
+                    yaw: -14.54918278473013,
+                    transition: 'dtk_lantai_2_utara_5',
+                  },
+                  {
+                    pitch: 8.120359850708024,
+                    yaw: 10.549951048162209,
+                    transition: 'dtk_lantai_2_utara_6',
+                  },
                 ],
                 mapCoordinate: [590, 390, 10],
                 isCrooked: null,
@@ -4385,7 +5355,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390008/thumbnail_R0010693_6a81c3487d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010693_6a81c3487d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010693_6a81c3487d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010693.jpg',
@@ -4397,7 +5370,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010693_6a81c3487d.jpg',
-                          provider_metadata: { public_id: 'small_R0010693_6a81c3487d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010693_6a81c3487d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010693.jpg',
@@ -4409,7 +5385,10 @@ export const Landmarks = {
                           height: 375,
                           size: 40.9,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010693_6a81c3487d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010693_6a81c3487d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010693_6a81c3487d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010693.jpg',
@@ -4421,7 +5400,10 @@ export const Landmarks = {
                           height: 500,
                           size: 65.28,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010693_6a81c3487d.jpg',
-                          provider_metadata: { public_id: 'large_R0010693_6a81c3487d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010693_6a81c3487d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010693_6a81c3487d',
@@ -4431,7 +5413,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390010/R0010693_6a81c3487d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010693_6a81c3487d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010693_6a81c3487d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:09.990Z',
                       updatedAt: '2023-05-06T16:20:09.990Z',
                     },
@@ -4443,7 +5428,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -16.98685509657584, yaw: -36.75975913227998, transition: 'dtk_lantai_2_utara_3' },
+                  {
+                    pitch: -16.98685509657584,
+                    yaw: -36.75975913227998,
+                    transition: 'dtk_lantai_2_utara_3',
+                  },
                 ],
                 mapCoordinate: [590, 260, 10],
                 isCrooked: null,
@@ -4467,7 +5456,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/thumbnail_R0010694_593df48033.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010694_593df48033', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010694_593df48033',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010694.jpg',
@@ -4479,7 +5471,10 @@ export const Landmarks = {
                           height: 250,
                           size: 23.19,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010694_593df48033.jpg',
-                          provider_metadata: { public_id: 'small_R0010694_593df48033', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010694_593df48033',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010694.jpg',
@@ -4491,7 +5486,10 @@ export const Landmarks = {
                           height: 500,
                           size: 71.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010694_593df48033.jpg',
-                          provider_metadata: { public_id: 'large_R0010694_593df48033', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010694_593df48033',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010694.jpg',
@@ -4503,7 +5501,10 @@ export const Landmarks = {
                           height: 375,
                           size: 45.09,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010694_593df48033.jpg',
-                          provider_metadata: { public_id: 'medium_R0010694_593df48033', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010694_593df48033',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010694_593df48033',
@@ -4513,7 +5514,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390010/R0010694_593df48033.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010694_593df48033', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010694_593df48033',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:09.939Z',
                       updatedAt: '2023-05-06T16:20:09.939Z',
                     },
@@ -4525,8 +5529,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: 159.47394201396077, transition: 'dtk_lantai_2_utara_3' },
-                  { pitch: -5.544445083651698, yaw: 99.22243145974471, transition: 'dtk_lantai_2_utara_6' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: 159.47394201396077,
+                    transition: 'dtk_lantai_2_utara_3',
+                  },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: 99.22243145974471,
+                    transition: 'dtk_lantai_2_utara_6',
+                  },
                 ],
                 mapCoordinate: [360, 450, 10],
                 isCrooked: null,
@@ -4550,7 +5562,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390008/thumbnail_R0010695_ad6c230168.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010695_ad6c230168', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010695_ad6c230168',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010695.jpg',
@@ -4562,7 +5577,10 @@ export const Landmarks = {
                           height: 250,
                           size: 14.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010695_ad6c230168.jpg',
-                          provider_metadata: { public_id: 'small_R0010695_ad6c230168', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010695_ad6c230168',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010695.jpg',
@@ -4574,7 +5592,10 @@ export const Landmarks = {
                           height: 375,
                           size: 27.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010695_ad6c230168.jpg',
-                          provider_metadata: { public_id: 'medium_R0010695_ad6c230168', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010695_ad6c230168',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010695.jpg',
@@ -4586,7 +5607,10 @@ export const Landmarks = {
                           height: 500,
                           size: 45.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010695_ad6c230168.jpg',
-                          provider_metadata: { public_id: 'large_R0010695_ad6c230168', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010695_ad6c230168',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010695_ad6c230168',
@@ -4596,7 +5620,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/R0010695_ad6c230168.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010695_ad6c230168', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010695_ad6c230168',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:09.673Z',
                       updatedAt: '2023-05-06T16:20:09.673Z',
                     },
@@ -4608,8 +5635,16 @@ export const Landmarks = {
                 name: 'dtk_lantai_2_utara_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -12.359453139047655, yaw: -89.49959757821833, transition: 'dtk_lantai_2_utara_3' },
-                  { pitch: -15.099219638010672, yaw: -61.7680413053182, transition: 'dtk_lantai_2_utara_5' },
+                  {
+                    pitch: -12.359453139047655,
+                    yaw: -89.49959757821833,
+                    transition: 'dtk_lantai_2_utara_3',
+                  },
+                  {
+                    pitch: -15.099219638010672,
+                    yaw: -61.7680413053182,
+                    transition: 'dtk_lantai_2_utara_5',
+                  },
                 ],
                 mapCoordinate: [360, 300, 10],
                 isCrooked: null,
@@ -4633,7 +5668,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390008/thumbnail_R0010794_d970320048.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010794_d970320048', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010794_d970320048',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010794.jpg',
@@ -4645,7 +5683,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/medium_R0010794_d970320048.jpg',
-                          provider_metadata: { public_id: 'medium_R0010794_d970320048', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010794_d970320048',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010794.jpg',
@@ -4657,7 +5698,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/small_R0010794_d970320048.jpg',
-                          provider_metadata: { public_id: 'small_R0010794_d970320048', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010794_d970320048',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010794.jpg',
@@ -4669,7 +5713,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390009/large_R0010794_d970320048.jpg',
-                          provider_metadata: { public_id: 'large_R0010794_d970320048', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010794_d970320048',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010794_d970320048',
@@ -4679,7 +5726,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390010/R0010794_d970320048.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010794_d970320048', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010794_d970320048',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:20:09.876Z',
                       updatedAt: '2023-05-06T16:20:09.876Z',
                     },
@@ -4713,7 +5763,10 @@ export const Landmarks = {
                       height: 156,
                       size: 17.37,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388673/thumbnail_DTK_U_3_min_ecd80d1d72.png',
-                      provider_metadata: { public_id: 'thumbnail_DTK_U_3_min_ecd80d1d72', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTK_U_3_min_ecd80d1d72',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTK_U_3-min.png',
@@ -4725,7 +5778,10 @@ export const Landmarks = {
                       height: 355,
                       size: 74.4,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/small_DTK_U_3_min_ecd80d1d72.png',
-                      provider_metadata: { public_id: 'small_DTK_U_3_min_ecd80d1d72', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTK_U_3_min_ecd80d1d72',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTK_U_3-min.png',
@@ -4737,7 +5793,10 @@ export const Landmarks = {
                       height: 532,
                       size: 154.37,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388675/medium_DTK_U_3_min_ecd80d1d72.png',
-                      provider_metadata: { public_id: 'medium_DTK_U_3_min_ecd80d1d72', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTK_U_3_min_ecd80d1d72',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTK_U_3-min.png',
@@ -4749,7 +5808,10 @@ export const Landmarks = {
                       height: 710,
                       size: 265.55,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388676/large_DTK_U_3_min_ecd80d1d72.png',
-                      provider_metadata: { public_id: 'large_DTK_U_3_min_ecd80d1d72', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTK_U_3_min_ecd80d1d72',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTK_U_3_min_ecd80d1d72',
@@ -4759,7 +5821,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683388674/DTK_U_3_min_ecd80d1d72.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTK_U_3_min_ecd80d1d72', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTK_U_3_min_ecd80d1d72',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T15:57:55.776Z',
                   updatedAt: '2023-05-06T15:57:55.776Z',
                 },
@@ -4771,7 +5836,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_3_utara_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.491124675409502, yaw: -50.13576153398223, transition: 'dtk_lantai_3_utara_2' },
+                  {
+                    pitch: -11.491124675409502,
+                    yaw: -50.13576153398223,
+                    transition: 'dtk_lantai_3_utara_2',
+                  },
                 ],
                 mapCoordinate: [370, 300, 10],
                 isCrooked: null,
@@ -4795,7 +5864,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390575/thumbnail_R0010795_65d486effc.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010795_65d486effc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010795_65d486effc',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010795.jpg',
@@ -4807,7 +5879,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390575/medium_R0010795_65d486effc.jpg',
-                          provider_metadata: { public_id: 'medium_R0010795_65d486effc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010795_65d486effc',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010795.jpg',
@@ -4819,7 +5894,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390575/small_R0010795_65d486effc.jpg',
-                          provider_metadata: { public_id: 'small_R0010795_65d486effc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010795_65d486effc',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010795.jpg',
@@ -4831,7 +5909,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/large_R0010795_65d486effc.jpg',
-                          provider_metadata: { public_id: 'large_R0010795_65d486effc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010795_65d486effc',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010795_65d486effc',
@@ -4841,7 +5922,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/R0010795_65d486effc.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010795_65d486effc', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010795_65d486effc',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:29:36.538Z',
                       updatedAt: '2023-05-06T16:29:36.538Z',
                     },
@@ -4853,7 +5937,11 @@ export const Landmarks = {
                 name: 'dtk_lantai_3_utara_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.859890285385593, yaw: 89.50924929416746, transition: 'dtk_lantai_3_utara_1' },
+                  {
+                    pitch: -5.859890285385593,
+                    yaw: 89.50924929416746,
+                    transition: 'dtk_lantai_3_utara_1',
+                  },
                 ],
                 mapCoordinate: [370, 450, 10],
                 isCrooked: null,
@@ -4877,7 +5965,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390575/thumbnail_R0010796_1137b2c31e.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010796_1137b2c31e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010796_1137b2c31e',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010796.jpg',
@@ -4889,7 +5980,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.57,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/small_R0010796_1137b2c31e.jpg',
-                          provider_metadata: { public_id: 'small_R0010796_1137b2c31e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010796_1137b2c31e',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010796.jpg',
@@ -4901,7 +5995,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/medium_R0010796_1137b2c31e.jpg',
-                          provider_metadata: { public_id: 'medium_R0010796_1137b2c31e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010796_1137b2c31e',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010796.jpg',
@@ -4913,7 +6010,10 @@ export const Landmarks = {
                           height: 500,
                           size: 45.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/large_R0010796_1137b2c31e.jpg',
-                          provider_metadata: { public_id: 'large_R0010796_1137b2c31e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010796_1137b2c31e',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010796_1137b2c31e',
@@ -4923,7 +6023,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683390576/R0010796_1137b2c31e.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010796_1137b2c31e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010796_1137b2c31e',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T16:29:36.760Z',
                       updatedAt: '2023-05-06T16:29:36.760Z',
                     },
@@ -4960,7 +6063,10 @@ export const Landmarks = {
                       height: 156,
                       size: 89.91,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391832/thumbnail_GALLERY_DTK_1_1b8eca2756.png',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTK_1_1b8eca2756', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTK_1_1b8eca2756',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTK_1_1b8eca2756',
@@ -4970,7 +6076,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391832/GALLERY_DTK_1_1b8eca2756.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTK_1_1b8eca2756', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTK_1_1b8eca2756',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T16:50:31.869Z',
                   updatedAt: '2023-05-06T16:50:31.869Z',
                 },
@@ -5003,7 +6112,10 @@ export const Landmarks = {
                       height: 156,
                       size: 10.88,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391831/thumbnail_GALLERY_DTK_2_60f3154fd4.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTK_2_60f3154fd4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTK_2_60f3154fd4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTK (2).jpg',
@@ -5015,7 +6127,10 @@ export const Landmarks = {
                       height: 336,
                       size: 37.79,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391831/small_GALLERY_DTK_2_60f3154fd4.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTK_2_60f3154fd4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTK_2_60f3154fd4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTK_2_60f3154fd4',
@@ -5025,7 +6140,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391832/GALLERY_DTK_2_60f3154fd4.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTK_2_60f3154fd4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTK_2_60f3154fd4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T16:50:31.706Z',
                   updatedAt: '2023-05-06T16:50:31.706Z',
                 },
@@ -5058,7 +6176,10 @@ export const Landmarks = {
                       height: 156,
                       size: 51.49,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391832/thumbnail_GALLERY_DTK_2_a98ab912cb.png',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTK_2_a98ab912cb', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTK_2_a98ab912cb',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTK_2_a98ab912cb',
@@ -5068,7 +6189,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683391832/GALLERY_DTK_2_a98ab912cb.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTK_2_a98ab912cb', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTK_2_a98ab912cb',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T16:50:32.102Z',
                   updatedAt: '2023-05-06T16:50:32.102Z',
                 },
@@ -5097,7 +6221,10 @@ export const Landmarks = {
                   height: 115,
                   size: 62.27,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253804/thumbnail_DTK_min_3b4df5725a.png',
-                  provider_metadata: { public_id: 'thumbnail_DTK_min_3b4df5725a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTK_min_3b4df5725a',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTK-min.png',
@@ -5109,7 +6236,10 @@ export const Landmarks = {
                   height: 235,
                   size: 213.05,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTK_min_3b4df5725a.png',
-                  provider_metadata: { public_id: 'small_DTK_min_3b4df5725a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTK_min_3b4df5725a',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTK-min.png',
@@ -5121,7 +6251,10 @@ export const Landmarks = {
                   height: 352,
                   size: 437.51,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/medium_DTK_min_3b4df5725a.png',
-                  provider_metadata: { public_id: 'medium_DTK_min_3b4df5725a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTK_min_3b4df5725a',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTK-min.png',
@@ -5133,7 +6266,10 @@ export const Landmarks = {
                   height: 470,
                   size: 747.88,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/large_DTK_min_3b4df5725a.png',
-                  provider_metadata: { public_id: 'large_DTK_min_3b4df5725a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTK_min_3b4df5725a',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTK_min_3b4df5725a',
@@ -5143,7 +6279,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/DTK_min_3b4df5725a.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTK_min_3b4df5725a', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTK_min_3b4df5725a',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:07.581Z',
               updatedAt: '2023-05-05T02:30:07.581Z',
             },
@@ -5166,7 +6305,7 @@ export const Landmarks = {
         objectName: 'DTNTF',
         uid: 'dtntf',
         createdAt: '2023-05-02T14:58:32.604Z',
-        updatedAt: '2023-05-08T02:23:28.022Z',
+        updatedAt: '2023-05-08T14:49:20.080Z',
         publishedAt: '2023-05-02T14:58:39.977Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -5179,73 +6318,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 84,
+                id: 339,
                 attributes: {
-                  name: 'DTNTF_1-min.png',
+                  name: 'DTNTF_1-min (1).png',
                   alternativeText: null,
                   caption: null,
-                  width: 4949,
-                  height: 2703,
+                  width: 4952,
+                  height: 2913,
                   formats: {
                     thumbnail: {
-                      name: 'thumbnail_DTNTF_1-min.png',
-                      hash: 'thumbnail_DTNTF_1_min_d421142fe8',
+                      name: 'thumbnail_DTNTF_1-min (1).png',
+                      hash: 'thumbnail_DTNTF_1_min_1_8b71fed2e7',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 245,
-                      height: 134,
-                      size: 13.98,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361831/thumbnail_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 144,
+                      size: 18.55,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556956/thumbnail_DTNTF_1_min_1_8b71fed2e7.png',
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_1_min_1_8b71fed2e7',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
-                      name: 'small_DTNTF_1-min.png',
-                      hash: 'small_DTNTF_1_min_d421142fe8',
+                      name: 'small_DTNTF_1-min (1).png',
+                      hash: 'small_DTNTF_1_min_1_8b71fed2e7',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 500,
-                      height: 273,
-                      size: 42.63,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/small_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'small_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 294,
+                      size: 62.72,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556957/small_DTNTF_1_min_1_8b71fed2e7.png',
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_1_min_1_8b71fed2e7',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
-                      name: 'medium_DTNTF_1-min.png',
-                      hash: 'medium_DTNTF_1_min_d421142fe8',
+                      name: 'medium_DTNTF_1-min (1).png',
+                      hash: 'medium_DTNTF_1_min_1_8b71fed2e7',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 750,
-                      height: 410,
-                      size: 80.38,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/medium_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'medium_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 441,
+                      size: 115.11,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556957/medium_DTNTF_1_min_1_8b71fed2e7.png',
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_1_min_1_8b71fed2e7',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
-                      name: 'large_DTNTF_1-min.png',
-                      hash: 'large_DTNTF_1_min_d421142fe8',
+                      name: 'large_DTNTF_1-min (1).png',
+                      hash: 'large_DTNTF_1_min_1_8b71fed2e7',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 1000,
-                      height: 546,
-                      size: 115.97,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/large_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'large_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 588,
+                      size: 175.43,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556957/large_DTNTF_1_min_1_8b71fed2e7.png',
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_1_min_1_8b71fed2e7',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'DTNTF_1_min_d421142fe8',
+                  hash: 'DTNTF_1_min_1_8b71fed2e7',
                   ext: '.png',
                   mime: 'image/png',
-                  size: 375.48,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/DTNTF_1_min_d421142fe8.png',
+                  size: 412.91,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556956/DTNTF_1_min_1_8b71fed2e7.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_1_min_d421142fe8', resource_type: 'image' },
-                  createdAt: '2023-05-06T08:30:33.782Z',
-                  updatedAt: '2023-05-06T08:30:33.782Z',
+                  provider_metadata: {
+                    public_id: 'DTNTF_1_min_1_8b71fed2e7',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T14:42:37.981Z',
+                  updatedAt: '2023-05-08T14:42:37.981Z',
                 },
               },
             },
@@ -5255,9 +6409,13 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.544445083651698, yaw: 92.26699715790363, transition: 'dtntf_lantai_1_2' },
+                  {
+                    pitch: -0.544445083651698,
+                    yaw: 92.26699715790363,
+                    transition: 'dtntf_lantai_1_2',
+                  },
                 ],
-                mapCoordinate: [305, 140, 10],
+                mapCoordinate: [275, 150, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5279,7 +6437,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.84,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010715_73700ec0d1.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010715_73700ec0d1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010715_73700ec0d1',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010715.jpg',
@@ -5291,7 +6452,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/small_R0010715_73700ec0d1.jpg',
-                          provider_metadata: { public_id: 'small_R0010715_73700ec0d1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010715_73700ec0d1',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010715.jpg',
@@ -5303,7 +6467,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/medium_R0010715_73700ec0d1.jpg',
-                          provider_metadata: { public_id: 'medium_R0010715_73700ec0d1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010715_73700ec0d1',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010715.jpg',
@@ -5315,7 +6482,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010715_73700ec0d1.jpg',
-                          provider_metadata: { public_id: 'large_R0010715_73700ec0d1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010715_73700ec0d1',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010715_73700ec0d1',
@@ -5325,7 +6495,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360050/R0010715_73700ec0d1.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010715_73700ec0d1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010715_73700ec0d1',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.562Z',
                       updatedAt: '2023-05-06T08:00:50.562Z',
                     },
@@ -5337,10 +6510,18 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 2.420117524186673, yaw: -7.066677330191565, transition: 'dtntf_lantai_1_1' },
-                  { pitch: -9.908594274455313, yaw: 175.02473138362845, transition: 'dtntf_lantai_1_2' },
+                  {
+                    pitch: 2.420117524186673,
+                    yaw: -7.066677330191565,
+                    transition: 'dtntf_lantai_1_1',
+                  },
+                  {
+                    pitch: -9.908594274455313,
+                    yaw: 175.02473138362845,
+                    transition: 'dtntf_lantai_1_2',
+                  },
                 ],
-                mapCoordinate: [495, 140, 10],
+                mapCoordinate: [495, 150, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5362,7 +6543,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010716_9a18b6da79.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010716_9a18b6da79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010716_9a18b6da79',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010716.jpg',
@@ -5374,7 +6558,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/medium_R0010716_9a18b6da79.jpg',
-                          provider_metadata: { public_id: 'medium_R0010716_9a18b6da79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010716_9a18b6da79',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010716.jpg',
@@ -5386,7 +6573,10 @@ export const Landmarks = {
                           height: 500,
                           size: 59.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010716_9a18b6da79.jpg',
-                          provider_metadata: { public_id: 'large_R0010716_9a18b6da79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010716_9a18b6da79',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010716.jpg',
@@ -5398,7 +6588,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/small_R0010716_9a18b6da79.jpg',
-                          provider_metadata: { public_id: 'small_R0010716_9a18b6da79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010716_9a18b6da79',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010716_9a18b6da79',
@@ -5408,7 +6601,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360050/R0010716_9a18b6da79.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010716_9a18b6da79', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010716_9a18b6da79',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.713Z',
                       updatedAt: '2023-05-06T08:00:50.713Z',
                     },
@@ -5420,10 +6616,18 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 1.360599010484892, yaw: -24.905954128195624, transition: 'dtntf_lantai_1_3' },
-                  { pitch: -13.917581824047023, yaw: 177.67899513808567, transition: 'dtntf_lantai_1_4' },
+                  {
+                    pitch: 1.360599010484892,
+                    yaw: -24.905954128195624,
+                    transition: 'dtntf_lantai_1_3',
+                  },
+                  {
+                    pitch: -13.917581824047023,
+                    yaw: 177.67899513808567,
+                    transition: 'dtntf_lantai_1_4',
+                  },
                 ],
-                mapCoordinate: [710, 140, 10],
+                mapCoordinate: [710, 150, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5445,7 +6649,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010717_dc3e214adf.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010717_dc3e214adf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010717_dc3e214adf',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010717.jpg',
@@ -5457,7 +6664,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.35,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/small_R0010717_dc3e214adf.jpg',
-                          provider_metadata: { public_id: 'small_R0010717_dc3e214adf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010717_dc3e214adf',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010717.jpg',
@@ -5469,7 +6679,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.4,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/medium_R0010717_dc3e214adf.jpg',
-                          provider_metadata: { public_id: 'medium_R0010717_dc3e214adf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010717_dc3e214adf',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010717.jpg',
@@ -5481,7 +6694,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010717_dc3e214adf.jpg',
-                          provider_metadata: { public_id: 'large_R0010717_dc3e214adf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010717_dc3e214adf',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010717_dc3e214adf',
@@ -5491,7 +6707,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/R0010717_dc3e214adf.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010717_dc3e214adf', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010717_dc3e214adf',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.286Z',
                       updatedAt: '2023-05-06T08:00:50.286Z',
                     },
@@ -5503,10 +6722,18 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.916323211979119, yaw: -0.4099081874695898, transition: 'dtntf_lantai_1_3' },
-                  { pitch: -8.380591310307363, yaw: -174.03073072578576, transition: 'dtntf_lantai_1_5' },
+                  {
+                    pitch: -6.916323211979119,
+                    yaw: -0.4099081874695898,
+                    transition: 'dtntf_lantai_1_3',
+                  },
+                  {
+                    pitch: -8.380591310307363,
+                    yaw: -174.03073072578576,
+                    transition: 'dtntf_lantai_1_5',
+                  },
                 ],
-                mapCoordinate: [755, 240, 10],
+                mapCoordinate: [765, 260, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5528,7 +6755,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.35,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010718_385be9bce5.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010718_385be9bce5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010718_385be9bce5',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010718.jpg',
@@ -5540,7 +6770,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.03,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/medium_R0010718_385be9bce5.jpg',
-                          provider_metadata: { public_id: 'medium_R0010718_385be9bce5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010718_385be9bce5',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010718.jpg',
@@ -5552,7 +6785,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/small_R0010718_385be9bce5.jpg',
-                          provider_metadata: { public_id: 'small_R0010718_385be9bce5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010718_385be9bce5',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010718.jpg',
@@ -5564,7 +6800,10 @@ export const Landmarks = {
                           height: 500,
                           size: 45.97,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010718_385be9bce5.jpg',
-                          provider_metadata: { public_id: 'large_R0010718_385be9bce5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010718_385be9bce5',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010718_385be9bce5',
@@ -5574,7 +6813,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/R0010718_385be9bce5.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010718_385be9bce5', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010718_385be9bce5',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.212Z',
                       updatedAt: '2023-05-06T08:00:50.212Z',
                     },
@@ -5586,10 +6828,18 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.8336750721462112, yaw: 91.05525873237616, transition: 'dtntf_lantai_1_4' },
-                  { pitch: -21.356330195601217, yaw: -162.22554890830122, transition: 'dtntf_lantai_1_6' },
+                  {
+                    pitch: -1.8336750721462112,
+                    yaw: 91.05525873237616,
+                    transition: 'dtntf_lantai_1_4',
+                  },
+                  {
+                    pitch: -21.356330195601217,
+                    yaw: -162.22554890830122,
+                    transition: 'dtntf_lantai_1_6',
+                  },
                 ],
-                mapCoordinate: [755, 350, 10],
+                mapCoordinate: [765, 390, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5611,7 +6861,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010719_4bc2248d6c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010719_4bc2248d6c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010719_4bc2248d6c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010719.jpg',
@@ -5623,7 +6876,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/medium_R0010719_4bc2248d6c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010719_4bc2248d6c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010719_4bc2248d6c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010719.jpg',
@@ -5635,7 +6891,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/small_R0010719_4bc2248d6c.jpg',
-                          provider_metadata: { public_id: 'small_R0010719_4bc2248d6c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010719_4bc2248d6c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010719.jpg',
@@ -5647,7 +6906,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010719_4bc2248d6c.jpg',
-                          provider_metadata: { public_id: 'large_R0010719_4bc2248d6c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010719_4bc2248d6c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010719_4bc2248d6c',
@@ -5657,7 +6919,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360050/R0010719_4bc2248d6c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010719_4bc2248d6c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010719_4bc2248d6c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.487Z',
                       updatedAt: '2023-05-06T08:00:50.487Z',
                     },
@@ -5669,9 +6934,13 @@ export const Landmarks = {
                 name: 'dtntf_lantai_1_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.345277927798636, yaw: 50.14226800127581, transition: 'dtntf_lantai_1_5' },
+                  {
+                    pitch: -6.345277927798636,
+                    yaw: 50.14226800127581,
+                    transition: 'dtntf_lantai_1_5',
+                  },
                 ],
-                mapCoordinate: [825, 370, 10],
+                mapCoordinate: [825, 390, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5693,7 +6962,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360048/thumbnail_R0010720_a0d03f324e.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010720_a0d03f324e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010720_a0d03f324e',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010720.jpg',
@@ -5705,7 +6977,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.14,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/small_R0010720_a0d03f324e.jpg',
-                          provider_metadata: { public_id: 'small_R0010720_a0d03f324e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010720_a0d03f324e',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010720.jpg',
@@ -5717,7 +6992,10 @@ export const Landmarks = {
                           height: 375,
                           size: 42.06,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/medium_R0010720_a0d03f324e.jpg',
-                          provider_metadata: { public_id: 'medium_R0010720_a0d03f324e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010720_a0d03f324e',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010720.jpg',
@@ -5729,7 +7007,10 @@ export const Landmarks = {
                           height: 500,
                           size: 68.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360049/large_R0010720_a0d03f324e.jpg',
-                          provider_metadata: { public_id: 'large_R0010720_a0d03f324e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010720_a0d03f324e',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010720_a0d03f324e',
@@ -5739,7 +7020,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683360050/R0010720_a0d03f324e.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010720_a0d03f324e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010720_a0d03f324e',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:00:50.613Z',
                       updatedAt: '2023-05-06T08:00:50.613Z',
                     },
@@ -5755,73 +7039,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 83,
+                id: 334,
                 attributes: {
                   name: 'DTNTF_2-min.png',
                   alternativeText: null,
                   caption: null,
-                  width: 4949,
-                  height: 2703,
+                  width: 4952,
+                  height: 2913,
                   formats: {
                     thumbnail: {
                       name: 'thumbnail_DTNTF_2-min.png',
-                      hash: 'thumbnail_DTNTF_2_min_927165a899',
+                      hash: 'thumbnail_DTNTF_2_min_9340625838',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 245,
-                      height: 134,
-                      size: 14.3,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/thumbnail_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 144,
+                      size: 15.88,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556443/thumbnail_DTNTF_2_min_9340625838.png',
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_2_min_9340625838',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTNTF_2-min.png',
-                      hash: 'small_DTNTF_2_min_927165a899',
+                      hash: 'small_DTNTF_2_min_9340625838',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 500,
-                      height: 273,
-                      size: 37.75,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/small_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'small_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 294,
+                      size: 42.82,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556444/small_DTNTF_2_min_9340625838.png',
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_2_min_9340625838',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTNTF_2-min.png',
-                      hash: 'medium_DTNTF_2_min_927165a899',
+                      hash: 'medium_DTNTF_2_min_9340625838',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 750,
-                      height: 410,
-                      size: 66.15,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/medium_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'medium_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 441,
+                      size: 73.39,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556444/medium_DTNTF_2_min_9340625838.png',
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_2_min_9340625838',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTNTF_2-min.png',
-                      hash: 'large_DTNTF_2_min_927165a899',
+                      hash: 'large_DTNTF_2_min_9340625838',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 1000,
-                      height: 546,
-                      size: 96.99,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/large_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'large_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 588,
+                      size: 108.17,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556444/large_DTNTF_2_min_9340625838.png',
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_2_min_9340625838',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'DTNTF_2_min_927165a899',
+                  hash: 'DTNTF_2_min_9340625838',
                   ext: '.png',
                   mime: 'image/png',
-                  size: 263.43,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/DTNTF_2_min_927165a899.png',
+                  size: 266.55,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683556444/DTNTF_2_min_9340625838.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_2_min_927165a899', resource_type: 'image' },
-                  createdAt: '2023-05-06T08:30:33.437Z',
-                  updatedAt: '2023-05-06T08:30:33.437Z',
+                  provider_metadata: {
+                    public_id: 'DTNTF_2_min_9340625838',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T14:34:05.562Z',
+                  updatedAt: '2023-05-08T14:34:05.562Z',
                 },
               },
             },
@@ -5831,9 +7130,13 @@ export const Landmarks = {
                 name: 'dtntf_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: -123.98624510159758, transition: 'dtntf_lantai_2_2' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: -123.98624510159758,
+                    transition: 'dtntf_lantai_2_2',
+                  },
                 ],
-                mapCoordinate: [305, 235, 10],
+                mapCoordinate: [305, 280, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5855,7 +7158,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/thumbnail_R0010725_a6d7fbec33.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010725_a6d7fbec33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010725_a6d7fbec33',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010725.jpg',
@@ -5867,7 +7173,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.8,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/medium_R0010725_a6d7fbec33.jpg',
-                          provider_metadata: { public_id: 'medium_R0010725_a6d7fbec33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010725_a6d7fbec33',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010725.jpg',
@@ -5879,7 +7188,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/small_R0010725_a6d7fbec33.jpg',
-                          provider_metadata: { public_id: 'small_R0010725_a6d7fbec33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010725_a6d7fbec33',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010725.jpg',
@@ -5891,7 +7203,10 @@ export const Landmarks = {
                           height: 500,
                           size: 55.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/large_R0010725_a6d7fbec33.jpg',
-                          provider_metadata: { public_id: 'large_R0010725_a6d7fbec33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010725_a6d7fbec33',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010725_a6d7fbec33',
@@ -5901,7 +7216,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363397/R0010725_a6d7fbec33.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010725_a6d7fbec33', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010725_a6d7fbec33',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:56:37.865Z',
                       updatedAt: '2023-05-06T08:56:37.865Z',
                     },
@@ -5913,10 +7231,18 @@ export const Landmarks = {
                 name: 'dtntf_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 4.597213891895337, yaw: -0.9387859060807182, transition: 'dtntf_lantai_2_3' },
-                  { pitch: -8.021587989526735, yaw: 178.54086187070774, transition: 'dtntf_lantai_2_1' },
+                  {
+                    pitch: 4.597213891895337,
+                    yaw: -0.9387859060807182,
+                    transition: 'dtntf_lantai_2_3',
+                  },
+                  {
+                    pitch: -8.021587989526735,
+                    yaw: 178.54086187070774,
+                    transition: 'dtntf_lantai_2_1',
+                  },
                 ],
-                mapCoordinate: [495, 235, 10],
+                mapCoordinate: [495, 280, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -5938,7 +7264,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.75,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/thumbnail_R0010724_ae5112f961.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010724_ae5112f961', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010724_ae5112f961',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010724.jpg',
@@ -5950,7 +7279,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/medium_R0010724_ae5112f961.jpg',
-                          provider_metadata: { public_id: 'medium_R0010724_ae5112f961', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010724_ae5112f961',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010724.jpg',
@@ -5962,7 +7294,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/small_R0010724_ae5112f961.jpg',
-                          provider_metadata: { public_id: 'small_R0010724_ae5112f961', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010724_ae5112f961',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010724.jpg',
@@ -5974,7 +7309,10 @@ export const Landmarks = {
                           height: 500,
                           size: 48.8,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/large_R0010724_ae5112f961.jpg',
-                          provider_metadata: { public_id: 'large_R0010724_ae5112f961', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010724_ae5112f961',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010724_ae5112f961',
@@ -5984,7 +7322,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363396/R0010724_ae5112f961.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010724_ae5112f961', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010724_ae5112f961',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:56:37.150Z',
                       updatedAt: '2023-05-06T08:56:37.150Z',
                     },
@@ -5996,9 +7337,13 @@ export const Landmarks = {
                 name: 'dtntf_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.3946928058108639, yaw: -119.10730909983336, transition: 'dtntf_lantai_2_2' },
+                  {
+                    pitch: -0.3946928058108639,
+                    yaw: -119.10730909983336,
+                    transition: 'dtntf_lantai_2_2',
+                  },
                 ],
-                mapCoordinate: [710, 235, 10],
+                mapCoordinate: [710, 280, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -6020,7 +7365,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/thumbnail_R0010723_5c292920b9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010723_5c292920b9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010723_5c292920b9',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010723.jpg',
@@ -6032,7 +7380,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/medium_R0010723_5c292920b9.jpg',
-                          provider_metadata: { public_id: 'medium_R0010723_5c292920b9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010723_5c292920b9',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010723.jpg',
@@ -6044,7 +7395,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/small_R0010723_5c292920b9.jpg',
-                          provider_metadata: { public_id: 'small_R0010723_5c292920b9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010723_5c292920b9',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010723.jpg',
@@ -6056,7 +7410,10 @@ export const Landmarks = {
                           height: 500,
                           size: 54.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363395/large_R0010723_5c292920b9.jpg',
-                          provider_metadata: { public_id: 'large_R0010723_5c292920b9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010723_5c292920b9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010723_5c292920b9',
@@ -6066,7 +7423,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683363397/R0010723_5c292920b9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010723_5c292920b9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010723_5c292920b9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T08:56:37.495Z',
                       updatedAt: '2023-05-06T08:56:37.495Z',
                     },
@@ -6103,7 +7463,10 @@ export const Landmarks = {
                       height: 156,
                       size: 8.28,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/thumbnail_DTNTF_GALLERY_1_f734ed6bf4.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_GALLERY_1_f734ed6bf4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_GALLERY_1_f734ed6bf4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTNTF GALLERY (1).jpg',
@@ -6115,7 +7478,10 @@ export const Landmarks = {
                       height: 375,
                       size: 35.11,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/small_DTNTF_GALLERY_1_f734ed6bf4.jpg',
-                      provider_metadata: { public_id: 'small_DTNTF_GALLERY_1_f734ed6bf4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_GALLERY_1_f734ed6bf4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTNTF GALLERY (1).jpg',
@@ -6127,7 +7493,10 @@ export const Landmarks = {
                       height: 750,
                       size: 113.92,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/large_DTNTF_GALLERY_1_f734ed6bf4.jpg',
-                      provider_metadata: { public_id: 'large_DTNTF_GALLERY_1_f734ed6bf4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_GALLERY_1_f734ed6bf4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTNTF GALLERY (1).jpg',
@@ -6139,7 +7508,10 @@ export const Landmarks = {
                       height: 563,
                       size: 69.88,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/medium_DTNTF_GALLERY_1_f734ed6bf4.jpg',
-                      provider_metadata: { public_id: 'medium_DTNTF_GALLERY_1_f734ed6bf4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_GALLERY_1_f734ed6bf4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTNTF_GALLERY_1_f734ed6bf4',
@@ -6149,7 +7521,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/DTNTF_GALLERY_1_f734ed6bf4.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_GALLERY_1_f734ed6bf4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTNTF_GALLERY_1_f734ed6bf4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:08:44.971Z',
                   updatedAt: '2023-05-06T09:08:44.971Z',
                 },
@@ -6182,7 +7557,10 @@ export const Landmarks = {
                       height: 156,
                       size: 9.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/thumbnail_DTNTF_GALLERY_2_1a2ab93f96.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_GALLERY_2_1a2ab93f96', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_GALLERY_2_1a2ab93f96',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTNTF GALLERY (2).jpg',
@@ -6194,7 +7572,10 @@ export const Landmarks = {
                       height: 375,
                       size: 41.05,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/small_DTNTF_GALLERY_2_1a2ab93f96.jpg',
-                      provider_metadata: { public_id: 'small_DTNTF_GALLERY_2_1a2ab93f96', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_GALLERY_2_1a2ab93f96',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTNTF GALLERY (2).jpg',
@@ -6206,7 +7587,10 @@ export const Landmarks = {
                       height: 563,
                       size: 83.81,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/medium_DTNTF_GALLERY_2_1a2ab93f96.jpg',
-                      provider_metadata: { public_id: 'medium_DTNTF_GALLERY_2_1a2ab93f96', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_GALLERY_2_1a2ab93f96',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTNTF GALLERY (2).jpg',
@@ -6218,7 +7602,10 @@ export const Landmarks = {
                       height: 750,
                       size: 138.69,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/large_DTNTF_GALLERY_2_1a2ab93f96.jpg',
-                      provider_metadata: { public_id: 'large_DTNTF_GALLERY_2_1a2ab93f96', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_GALLERY_2_1a2ab93f96',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTNTF_GALLERY_2_1a2ab93f96',
@@ -6228,7 +7615,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364125/DTNTF_GALLERY_2_1a2ab93f96.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_GALLERY_2_1a2ab93f96', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTNTF_GALLERY_2_1a2ab93f96',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:08:45.342Z',
                   updatedAt: '2023-05-06T09:08:45.342Z',
                 },
@@ -6261,7 +7651,10 @@ export const Landmarks = {
                       height: 156,
                       size: 8.39,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/thumbnail_DTNTF_GALLERY_3_f6d675b943.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_GALLERY_3_f6d675b943', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_GALLERY_3_f6d675b943',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTNTF_GALLERY_3_f6d675b943',
@@ -6271,7 +7664,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/DTNTF_GALLERY_3_f6d675b943.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_GALLERY_3_f6d675b943', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTNTF_GALLERY_3_f6d675b943',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:08:44.033Z',
                   updatedAt: '2023-05-06T09:08:44.033Z',
                 },
@@ -6304,7 +7700,10 @@ export const Landmarks = {
                       height: 138,
                       size: 7.67,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/thumbnail_DTNTF_GALLERY_4_90ed5d5059.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_GALLERY_4_90ed5d5059', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_GALLERY_4_90ed5d5059',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTNTF GALLERY (4).jpg',
@@ -6316,7 +7715,10 @@ export const Landmarks = {
                       height: 281,
                       size: 22.96,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/small_DTNTF_GALLERY_4_90ed5d5059.jpg',
-                      provider_metadata: { public_id: 'small_DTNTF_GALLERY_4_90ed5d5059', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_GALLERY_4_90ed5d5059',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTNTF GALLERY (4).jpg',
@@ -6328,7 +7730,10 @@ export const Landmarks = {
                       height: 563,
                       size: 70.26,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/large_DTNTF_GALLERY_4_90ed5d5059.jpg',
-                      provider_metadata: { public_id: 'large_DTNTF_GALLERY_4_90ed5d5059', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_GALLERY_4_90ed5d5059',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTNTF GALLERY (4).jpg',
@@ -6340,7 +7745,10 @@ export const Landmarks = {
                       height: 422,
                       size: 43.92,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/medium_DTNTF_GALLERY_4_90ed5d5059.jpg',
-                      provider_metadata: { public_id: 'medium_DTNTF_GALLERY_4_90ed5d5059', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_GALLERY_4_90ed5d5059',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTNTF_GALLERY_4_90ed5d5059',
@@ -6350,7 +7758,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/DTNTF_GALLERY_4_90ed5d5059.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_GALLERY_4_90ed5d5059', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTNTF_GALLERY_4_90ed5d5059',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:08:44.991Z',
                   updatedAt: '2023-05-06T09:08:44.991Z',
                 },
@@ -6383,7 +7794,10 @@ export const Landmarks = {
                       height: 138,
                       size: 7.47,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/thumbnail_DTNTF_GALLERY_6_e36897426f.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_GALLERY_6_e36897426f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTNTF_GALLERY_6_e36897426f',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTNTF GALLERY (6).jpg',
@@ -6395,7 +7809,10 @@ export const Landmarks = {
                       height: 422,
                       size: 41.95,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/medium_DTNTF_GALLERY_6_e36897426f.jpg',
-                      provider_metadata: { public_id: 'medium_DTNTF_GALLERY_6_e36897426f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTNTF_GALLERY_6_e36897426f',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTNTF GALLERY (6).jpg',
@@ -6407,7 +7824,10 @@ export const Landmarks = {
                       height: 563,
                       size: 67.44,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/large_DTNTF_GALLERY_6_e36897426f.jpg',
-                      provider_metadata: { public_id: 'large_DTNTF_GALLERY_6_e36897426f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTNTF_GALLERY_6_e36897426f',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTNTF GALLERY (6).jpg',
@@ -6419,7 +7839,10 @@ export const Landmarks = {
                       height: 281,
                       size: 22.02,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364123/small_DTNTF_GALLERY_6_e36897426f.jpg',
-                      provider_metadata: { public_id: 'small_DTNTF_GALLERY_6_e36897426f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTNTF_GALLERY_6_e36897426f',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTNTF_GALLERY_6_e36897426f',
@@ -6429,7 +7852,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364124/DTNTF_GALLERY_6_e36897426f.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_GALLERY_6_e36897426f', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTNTF_GALLERY_6_e36897426f',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:08:45.081Z',
                   updatedAt: '2023-05-06T09:08:45.081Z',
                 },
@@ -6458,7 +7884,10 @@ export const Landmarks = {
                   height: 114,
                   size: 63.55,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253804/thumbnail_DTNTF_min_01f1774756.png',
-                  provider_metadata: { public_id: 'thumbnail_DTNTF_min_01f1774756', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTNTF_min_01f1774756',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTNTF-min.png',
@@ -6470,7 +7899,10 @@ export const Landmarks = {
                   height: 234,
                   size: 226.59,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTNTF_min_01f1774756.png',
-                  provider_metadata: { public_id: 'small_DTNTF_min_01f1774756', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTNTF_min_01f1774756',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTNTF-min.png',
@@ -6482,7 +7914,10 @@ export const Landmarks = {
                   height: 350,
                   size: 469.16,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/medium_DTNTF_min_01f1774756.png',
-                  provider_metadata: { public_id: 'medium_DTNTF_min_01f1774756', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTNTF_min_01f1774756',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTNTF-min.png',
@@ -6494,7 +7929,10 @@ export const Landmarks = {
                   height: 467,
                   size: 804.12,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/large_DTNTF_min_01f1774756.png',
-                  provider_metadata: { public_id: 'large_DTNTF_min_01f1774756', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTNTF_min_01f1774756',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTNTF_min_01f1774756',
@@ -6504,7 +7942,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/DTNTF_min_01f1774756.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTNTF_min_01f1774756', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTNTF_min_01f1774756',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:08.426Z',
               updatedAt: '2023-05-05T02:30:08.426Z',
             },
@@ -6527,7 +7968,7 @@ export const Landmarks = {
         objectName: 'DTGL',
         uid: 'dtgl',
         createdAt: '2023-05-02T15:06:00.843Z',
-        updatedAt: '2023-05-08T02:27:00.369Z',
+        updatedAt: '2023-05-08T14:02:18.605Z',
         publishedAt: '2023-05-02T15:06:05.612Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -6540,73 +7981,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 84,
+                id: 332,
                 attributes: {
-                  name: 'DTNTF_1-min.png',
+                  name: 'DTGL_LANTAI_1-min.png',
                   alternativeText: null,
                   caption: null,
-                  width: 4949,
-                  height: 2703,
+                  width: 4952,
+                  height: 3517,
                   formats: {
                     thumbnail: {
-                      name: 'thumbnail_DTNTF_1-min.png',
-                      hash: 'thumbnail_DTNTF_1_min_d421142fe8',
+                      name: 'thumbnail_DTGL_LANTAI_1-min.png',
+                      hash: 'thumbnail_DTGL_LANTAI_1_min_fec0b596db',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
-                      width: 245,
-                      height: 134,
-                      size: 13.98,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361831/thumbnail_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      width: 220,
+                      height: 156,
+                      size: 17.82,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553515/thumbnail_DTGL_LANTAI_1_min_fec0b596db.png',
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTGL_LANTAI_1_min_fec0b596db',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
-                      name: 'small_DTNTF_1-min.png',
-                      hash: 'small_DTNTF_1_min_d421142fe8',
+                      name: 'small_DTGL_LANTAI_1-min.png',
+                      hash: 'small_DTGL_LANTAI_1_min_fec0b596db',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 500,
-                      height: 273,
-                      size: 42.63,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/small_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'small_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 355,
+                      size: 54.87,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/small_DTGL_LANTAI_1_min_fec0b596db.png',
+                      provider_metadata: {
+                        public_id: 'small_DTGL_LANTAI_1_min_fec0b596db',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
-                      name: 'medium_DTNTF_1-min.png',
-                      hash: 'medium_DTNTF_1_min_d421142fe8',
+                      name: 'medium_DTGL_LANTAI_1-min.png',
+                      hash: 'medium_DTGL_LANTAI_1_min_fec0b596db',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 750,
-                      height: 410,
-                      size: 80.38,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/medium_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'medium_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 533,
+                      size: 100.26,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/medium_DTGL_LANTAI_1_min_fec0b596db.png',
+                      provider_metadata: {
+                        public_id: 'medium_DTGL_LANTAI_1_min_fec0b596db',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
-                      name: 'large_DTNTF_1-min.png',
-                      hash: 'large_DTNTF_1_min_d421142fe8',
+                      name: 'large_DTGL_LANTAI_1-min.png',
+                      hash: 'large_DTGL_LANTAI_1_min_fec0b596db',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 1000,
-                      height: 546,
-                      size: 115.97,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/large_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'large_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 710,
+                      size: 151.62,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/large_DTGL_LANTAI_1_min_fec0b596db.png',
+                      provider_metadata: {
+                        public_id: 'large_DTGL_LANTAI_1_min_fec0b596db',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'DTNTF_1_min_d421142fe8',
+                  hash: 'DTGL_LANTAI_1_min_fec0b596db',
                   ext: '.png',
                   mime: 'image/png',
-                  size: 375.48,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/DTNTF_1_min_d421142fe8.png',
+                  size: 447.24,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553517/DTGL_LANTAI_1_min_fec0b596db.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_1_min_d421142fe8', resource_type: 'image' },
-                  createdAt: '2023-05-06T08:30:33.782Z',
-                  updatedAt: '2023-05-06T08:30:33.782Z',
+                  provider_metadata: {
+                    public_id: 'DTGL_LANTAI_1_min_fec0b596db',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T13:45:18.421Z',
+                  updatedAt: '2023-05-08T13:45:18.421Z',
                 },
               },
             },
@@ -6616,9 +8072,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.0582588241110096, yaw: -162.92687723041217, transition: 'dtgl_lantai_1_2' },
+                  {
+                    pitch: -2.0582588241110096,
+                    yaw: -162.92687723041217,
+                    transition: 'dtgl_lantai_1_2',
+                  },
                 ],
-                mapCoordinate: [10, 10, 10],
+                mapCoordinate: [480, 390, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -6640,7 +8100,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364831/thumbnail_R0010727_87165ce060.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010727_87165ce060', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010727_87165ce060',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010727.jpg',
@@ -6652,7 +8115,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.93,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/medium_R0010727_87165ce060.jpg',
-                          provider_metadata: { public_id: 'medium_R0010727_87165ce060', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010727_87165ce060',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010727.jpg',
@@ -6664,7 +8130,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/small_R0010727_87165ce060.jpg',
-                          provider_metadata: { public_id: 'small_R0010727_87165ce060', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010727_87165ce060',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010727.jpg',
@@ -6676,7 +8145,10 @@ export const Landmarks = {
                           height: 500,
                           size: 59.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/large_R0010727_87165ce060.jpg',
-                          provider_metadata: { public_id: 'large_R0010727_87165ce060', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010727_87165ce060',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010727_87165ce060',
@@ -6686,7 +8158,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/R0010727_87165ce060.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010727_87165ce060', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010727_87165ce060',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:20:33.179Z',
                       updatedAt: '2023-05-06T09:20:33.179Z',
                     },
@@ -6698,11 +8173,23 @@ export const Landmarks = {
                 name: 'dtgl_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.7862512856770625, yaw: 5.766843346093869, transition: 'dtgl_lantai_1_1' },
-                  { pitch: -6.542095863409827, yaw: -88.4967623330934, transition: 'dtgl_lantai_1_3' },
-                  { pitch: -3.555754242871699, yaw: 94.8649111463033, transition: 'dtgl_lantai_1_4' },
+                  {
+                    pitch: -5.7862512856770625,
+                    yaw: 5.766843346093869,
+                    transition: 'dtgl_lantai_1_1',
+                  },
+                  {
+                    pitch: -6.542095863409827,
+                    yaw: -88.4967623330934,
+                    transition: 'dtgl_lantai_1_3',
+                  },
+                  {
+                    pitch: -3.555754242871699,
+                    yaw: 94.8649111463033,
+                    transition: 'dtgl_lantai_1_4',
+                  },
                 ],
-                mapCoordinate: [10, 30, 10],
+                mapCoordinate: [480, 270, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -6724,7 +8211,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.28,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/thumbnail_R0010728_6e648d4132.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010728_6e648d4132', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010728_6e648d4132',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010728.jpg',
@@ -6736,7 +8226,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/small_R0010728_6e648d4132.jpg',
-                          provider_metadata: { public_id: 'small_R0010728_6e648d4132', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010728_6e648d4132',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010728.jpg',
@@ -6748,7 +8241,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/medium_R0010728_6e648d4132.jpg',
-                          provider_metadata: { public_id: 'medium_R0010728_6e648d4132', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010728_6e648d4132',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010728.jpg',
@@ -6760,7 +8256,10 @@ export const Landmarks = {
                           height: 500,
                           size: 53.99,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/large_R0010728_6e648d4132.jpg',
-                          provider_metadata: { public_id: 'large_R0010728_6e648d4132', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010728_6e648d4132',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010728_6e648d4132',
@@ -6770,7 +8269,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364833/R0010728_6e648d4132.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010728_6e648d4132', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010728_6e648d4132',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:20:33.611Z',
                       updatedAt: '2023-05-06T09:20:33.611Z',
                     },
@@ -6782,9 +8284,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.6591403797451405, yaw: 0.04927742411307445, transition: 'dtgl_lantai_1_2' },
+                  {
+                    pitch: -0.6591403797451405,
+                    yaw: 0.04927742411307445,
+                    transition: 'dtgl_lantai_1_2',
+                  },
                 ],
-                mapCoordinate: [10, 50, 10],
+                mapCoordinate: [260, 270, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -6806,7 +8312,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.09,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/thumbnail_R0010729_c8a704f5a6.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010729_c8a704f5a6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010729_c8a704f5a6',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010729.jpg',
@@ -6818,7 +8327,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/medium_R0010729_c8a704f5a6.jpg',
-                          provider_metadata: { public_id: 'medium_R0010729_c8a704f5a6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010729_c8a704f5a6',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010729.jpg',
@@ -6830,7 +8342,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/small_R0010729_c8a704f5a6.jpg',
-                          provider_metadata: { public_id: 'small_R0010729_c8a704f5a6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010729_c8a704f5a6',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010729.jpg',
@@ -6842,7 +8357,10 @@ export const Landmarks = {
                           height: 500,
                           size: 52.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/large_R0010729_c8a704f5a6.jpg',
-                          provider_metadata: { public_id: 'large_R0010729_c8a704f5a6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010729_c8a704f5a6',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010729_c8a704f5a6',
@@ -6852,7 +8370,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364833/R0010729_c8a704f5a6.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010729_c8a704f5a6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010729_c8a704f5a6',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:20:33.782Z',
                       updatedAt: '2023-05-06T09:20:33.782Z',
                     },
@@ -6864,9 +8385,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.747979995904773, yaw: 0.9828876490694438, transition: 'dtgl_lantai_1_2' },
+                  {
+                    pitch: -8.747979995904773,
+                    yaw: 0.9828876490694438,
+                    transition: 'dtgl_lantai_1_2',
+                  },
                 ],
-                mapCoordinate: [10, 70, 10],
+                mapCoordinate: [660, 270, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -6888,7 +8413,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/thumbnail_R0010730_3c1e34bfa7.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010730_3c1e34bfa7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010730_3c1e34bfa7',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010730.jpg',
@@ -6900,7 +8428,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.06,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/medium_R0010730_3c1e34bfa7.jpg',
-                          provider_metadata: { public_id: 'medium_R0010730_3c1e34bfa7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010730_3c1e34bfa7',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010730.jpg',
@@ -6912,7 +8443,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.24,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/small_R0010730_3c1e34bfa7.jpg',
-                          provider_metadata: { public_id: 'small_R0010730_3c1e34bfa7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010730_3c1e34bfa7',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010730.jpg',
@@ -6924,7 +8458,10 @@ export const Landmarks = {
                           height: 500,
                           size: 52.97,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364832/large_R0010730_3c1e34bfa7.jpg',
-                          provider_metadata: { public_id: 'large_R0010730_3c1e34bfa7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010730_3c1e34bfa7',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010730_3c1e34bfa7',
@@ -6934,7 +8471,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364833/R0010730_3c1e34bfa7.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010730_3c1e34bfa7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010730_3c1e34bfa7',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:20:33.506Z',
                       updatedAt: '2023-05-06T09:20:33.506Z',
                     },
@@ -6950,73 +8490,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 83,
+                id: 331,
                 attributes: {
-                  name: 'DTNTF_2-min.png',
+                  name: 'DTGL_LANTAI_2-min.png',
                   alternativeText: null,
                   caption: null,
-                  width: 4949,
-                  height: 2703,
+                  width: 4952,
+                  height: 3517,
                   formats: {
                     thumbnail: {
-                      name: 'thumbnail_DTNTF_2-min.png',
-                      hash: 'thumbnail_DTNTF_2_min_927165a899',
+                      name: 'thumbnail_DTGL_LANTAI_2-min.png',
+                      hash: 'thumbnail_DTGL_LANTAI_2_min_e89053fa68',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
-                      width: 245,
-                      height: 134,
-                      size: 14.3,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/thumbnail_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      width: 220,
+                      height: 156,
+                      size: 16.91,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553515/thumbnail_DTGL_LANTAI_2_min_e89053fa68.png',
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTGL_LANTAI_2_min_e89053fa68',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
-                      name: 'small_DTNTF_2-min.png',
-                      hash: 'small_DTNTF_2_min_927165a899',
+                      name: 'small_DTGL_LANTAI_2-min.png',
+                      hash: 'small_DTGL_LANTAI_2_min_e89053fa68',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 500,
-                      height: 273,
-                      size: 37.75,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/small_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'small_DTNTF_2_min_927165a899', resource_type: 'image' },
-                    },
-                    medium: {
-                      name: 'medium_DTNTF_2-min.png',
-                      hash: 'medium_DTNTF_2_min_927165a899',
-                      ext: '.png',
-                      mime: 'image/png',
-                      path: null,
-                      width: 750,
-                      height: 410,
-                      size: 66.15,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/medium_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'medium_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 355,
+                      size: 52.6,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/small_DTGL_LANTAI_2_min_e89053fa68.png',
+                      provider_metadata: {
+                        public_id: 'small_DTGL_LANTAI_2_min_e89053fa68',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
-                      name: 'large_DTNTF_2-min.png',
-                      hash: 'large_DTNTF_2_min_927165a899',
+                      name: 'large_DTGL_LANTAI_2-min.png',
+                      hash: 'large_DTGL_LANTAI_2_min_e89053fa68',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 1000,
-                      height: 546,
-                      size: 96.99,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/large_DTNTF_2_min_927165a899.png',
-                      provider_metadata: { public_id: 'large_DTNTF_2_min_927165a899', resource_type: 'image' },
+                      height: 710,
+                      size: 143.87,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/large_DTGL_LANTAI_2_min_e89053fa68.png',
+                      provider_metadata: {
+                        public_id: 'large_DTGL_LANTAI_2_min_e89053fa68',
+                        resource_type: 'image',
+                      },
+                    },
+                    medium: {
+                      name: 'medium_DTGL_LANTAI_2-min.png',
+                      hash: 'medium_DTGL_LANTAI_2_min_e89053fa68',
+                      ext: '.png',
+                      mime: 'image/png',
+                      path: null,
+                      width: 750,
+                      height: 533,
+                      size: 93.35,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/medium_DTGL_LANTAI_2_min_e89053fa68.png',
+                      provider_metadata: {
+                        public_id: 'medium_DTGL_LANTAI_2_min_e89053fa68',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'DTNTF_2_min_927165a899',
+                  hash: 'DTGL_LANTAI_2_min_e89053fa68',
                   ext: '.png',
                   mime: 'image/png',
-                  size: 263.43,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/DTNTF_2_min_927165a899.png',
+                  size: 377.05,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553517/DTGL_LANTAI_2_min_e89053fa68.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_2_min_927165a899', resource_type: 'image' },
-                  createdAt: '2023-05-06T08:30:33.437Z',
-                  updatedAt: '2023-05-06T08:30:33.437Z',
+                  provider_metadata: {
+                    public_id: 'DTGL_LANTAI_2_min_e89053fa68',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T13:45:18.313Z',
+                  updatedAt: '2023-05-08T13:45:18.313Z',
                 },
               },
             },
@@ -7026,9 +8581,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -14.077938981269721, yaw: -92.57593142814876, transition: 'dtgl_lantai_2_2' },
+                  {
+                    pitch: -14.077938981269721,
+                    yaw: -92.57593142814876,
+                    transition: 'dtgl_lantai_2_2',
+                  },
                 ],
-                mapCoordinate: [10, 10, 10],
+                mapCoordinate: [480, 390, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7050,7 +8609,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365163/thumbnail_R0010731_3a36af7c37.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010731_3a36af7c37', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010731_3a36af7c37',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010731.jpg',
@@ -7062,7 +8624,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/small_R0010731_3a36af7c37.jpg',
-                          provider_metadata: { public_id: 'small_R0010731_3a36af7c37', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010731_3a36af7c37',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010731.jpg',
@@ -7074,7 +8639,10 @@ export const Landmarks = {
                           height: 375,
                           size: 37.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/medium_R0010731_3a36af7c37.jpg',
-                          provider_metadata: { public_id: 'medium_R0010731_3a36af7c37', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010731_3a36af7c37',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010731.jpg',
@@ -7086,7 +8654,10 @@ export const Landmarks = {
                           height: 500,
                           size: 60.35,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/large_R0010731_3a36af7c37.jpg',
-                          provider_metadata: { public_id: 'large_R0010731_3a36af7c37', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010731_3a36af7c37',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010731_3a36af7c37',
@@ -7096,7 +8667,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365165/R0010731_3a36af7c37.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010731_3a36af7c37', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010731_3a36af7c37',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:26:05.496Z',
                       updatedAt: '2023-05-06T09:26:05.496Z',
                     },
@@ -7108,9 +8682,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.4689462276635936, yaw: -43.441961098268735, transition: 'dtgl_lantai_2_1' },
+                  {
+                    pitch: -3.4689462276635936,
+                    yaw: -43.441961098268735,
+                    transition: 'dtgl_lantai_2_1',
+                  },
                 ],
-                mapCoordinate: [10, 30, 10],
+                mapCoordinate: [480, 230, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7132,7 +8710,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/thumbnail_R0010732_3f6c7d7bed.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010732_3f6c7d7bed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010732_3f6c7d7bed',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010732.jpg',
@@ -7144,7 +8725,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/medium_R0010732_3f6c7d7bed.jpg',
-                          provider_metadata: { public_id: 'medium_R0010732_3f6c7d7bed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010732_3f6c7d7bed',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010732.jpg',
@@ -7156,7 +8740,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/small_R0010732_3f6c7d7bed.jpg',
-                          provider_metadata: { public_id: 'small_R0010732_3f6c7d7bed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010732_3f6c7d7bed',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010732.jpg',
@@ -7168,7 +8755,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365164/large_R0010732_3f6c7d7bed.jpg',
-                          provider_metadata: { public_id: 'large_R0010732_3f6c7d7bed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010732_3f6c7d7bed',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010732_3f6c7d7bed',
@@ -7178,7 +8768,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365165/R0010732_3f6c7d7bed.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010732_3f6c7d7bed', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010732_3f6c7d7bed',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:26:06.488Z',
                       updatedAt: '2023-05-06T09:26:06.488Z',
                     },
@@ -7194,73 +8787,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 84,
+                id: 333,
                 attributes: {
-                  name: 'DTNTF_1-min.png',
+                  name: 'DTGL_LANTAI_3-min.png',
                   alternativeText: null,
                   caption: null,
-                  width: 4949,
-                  height: 2703,
+                  width: 4952,
+                  height: 3517,
                   formats: {
                     thumbnail: {
-                      name: 'thumbnail_DTNTF_1-min.png',
-                      hash: 'thumbnail_DTNTF_1_min_d421142fe8',
+                      name: 'thumbnail_DTGL_LANTAI_3-min.png',
+                      hash: 'thumbnail_DTGL_LANTAI_3_min_56d35e97d5',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
-                      width: 245,
-                      height: 134,
-                      size: 13.98,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361831/thumbnail_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'thumbnail_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      width: 220,
+                      height: 156,
+                      size: 17.13,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553515/thumbnail_DTGL_LANTAI_3_min_56d35e97d5.png',
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTGL_LANTAI_3_min_56d35e97d5',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
-                      name: 'small_DTNTF_1-min.png',
-                      hash: 'small_DTNTF_1_min_d421142fe8',
+                      name: 'small_DTGL_LANTAI_3-min.png',
+                      hash: 'small_DTGL_LANTAI_3_min_56d35e97d5',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 500,
-                      height: 273,
-                      size: 42.63,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/small_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'small_DTNTF_1_min_d421142fe8', resource_type: 'image' },
-                    },
-                    medium: {
-                      name: 'medium_DTNTF_1-min.png',
-                      hash: 'medium_DTNTF_1_min_d421142fe8',
-                      ext: '.png',
-                      mime: 'image/png',
-                      path: null,
-                      width: 750,
-                      height: 410,
-                      size: 80.38,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/medium_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'medium_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 355,
+                      size: 53.39,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/small_DTGL_LANTAI_3_min_56d35e97d5.png',
+                      provider_metadata: {
+                        public_id: 'small_DTGL_LANTAI_3_min_56d35e97d5',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
-                      name: 'large_DTNTF_1-min.png',
-                      hash: 'large_DTNTF_1_min_d421142fe8',
+                      name: 'large_DTGL_LANTAI_3-min.png',
+                      hash: 'large_DTGL_LANTAI_3_min_56d35e97d5',
                       ext: '.png',
                       mime: 'image/png',
                       path: null,
                       width: 1000,
-                      height: 546,
-                      size: 115.97,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361833/large_DTNTF_1_min_d421142fe8.png',
-                      provider_metadata: { public_id: 'large_DTNTF_1_min_d421142fe8', resource_type: 'image' },
+                      height: 710,
+                      size: 145.66,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/large_DTGL_LANTAI_3_min_56d35e97d5.png',
+                      provider_metadata: {
+                        public_id: 'large_DTGL_LANTAI_3_min_56d35e97d5',
+                        resource_type: 'image',
+                      },
+                    },
+                    medium: {
+                      name: 'medium_DTGL_LANTAI_3-min.png',
+                      hash: 'medium_DTGL_LANTAI_3_min_56d35e97d5',
+                      ext: '.png',
+                      mime: 'image/png',
+                      path: null,
+                      width: 750,
+                      height: 533,
+                      size: 96.26,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553518/medium_DTGL_LANTAI_3_min_56d35e97d5.png',
+                      provider_metadata: {
+                        public_id: 'medium_DTGL_LANTAI_3_min_56d35e97d5',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'DTNTF_1_min_d421142fe8',
+                  hash: 'DTGL_LANTAI_3_min_56d35e97d5',
                   ext: '.png',
                   mime: 'image/png',
-                  size: 375.48,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683361832/DTNTF_1_min_d421142fe8.png',
+                  size: 399.03,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683553517/DTGL_LANTAI_3_min_56d35e97d5.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTNTF_1_min_d421142fe8', resource_type: 'image' },
-                  createdAt: '2023-05-06T08:30:33.782Z',
-                  updatedAt: '2023-05-06T08:30:33.782Z',
+                  provider_metadata: {
+                    public_id: 'DTGL_LANTAI_3_min_56d35e97d5',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T13:45:19.438Z',
+                  updatedAt: '2023-05-08T13:45:19.438Z',
                 },
               },
             },
@@ -7270,9 +8878,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.963758683140706, yaw: -98.8288608864832, transition: 'dtgl_lantai_3_2' },
+                  {
+                    pitch: -7.963758683140706,
+                    yaw: -98.8288608864832,
+                    transition: 'dtgl_lantai_3_2',
+                  },
                 ],
-                mapCoordinate: [10, 10, 10],
+                mapCoordinate: [480, 390, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7294,7 +8906,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.61,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365359/thumbnail_R0010733_26b896667c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010733_26b896667c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010733_26b896667c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010733.jpg',
@@ -7306,7 +8921,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/small_R0010733_26b896667c.jpg',
-                          provider_metadata: { public_id: 'small_R0010733_26b896667c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010733_26b896667c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010733.jpg',
@@ -7318,7 +8936,10 @@ export const Landmarks = {
                           height: 375,
                           size: 31.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/medium_R0010733_26b896667c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010733_26b896667c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010733_26b896667c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010733.jpg',
@@ -7330,7 +8951,10 @@ export const Landmarks = {
                           height: 500,
                           size: 50.68,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/large_R0010733_26b896667c.jpg',
-                          provider_metadata: { public_id: 'large_R0010733_26b896667c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010733_26b896667c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010733_26b896667c',
@@ -7340,7 +8964,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/R0010733_26b896667c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010733_26b896667c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010733_26b896667c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:29:21.430Z',
                       updatedAt: '2023-05-06T09:29:21.430Z',
                     },
@@ -7352,11 +8979,23 @@ export const Landmarks = {
                 name: 'dtgl_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.7414852814427153, yaw: -75.45507103555597, transition: 'dtgl_lantai_3_1' },
-                  { pitch: -4.725992896988439, yaw: -163.0725392744875, transition: 'dtgl_lantai_3_3' },
-                  { pitch: -5.257943524667634, yaw: 16.838244444212673, transition: 'dtgl_lantai_3_4' },
+                  {
+                    pitch: -3.7414852814427153,
+                    yaw: -75.45507103555597,
+                    transition: 'dtgl_lantai_3_1',
+                  },
+                  {
+                    pitch: -4.725992896988439,
+                    yaw: -163.0725392744875,
+                    transition: 'dtgl_lantai_3_3',
+                  },
+                  {
+                    pitch: -5.257943524667634,
+                    yaw: 16.838244444212673,
+                    transition: 'dtgl_lantai_3_4',
+                  },
                 ],
-                mapCoordinate: [10, 30, 10],
+                mapCoordinate: [480, 240, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7378,7 +9017,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/thumbnail_R0010734_b6219a9c44.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010734_b6219a9c44', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010734_b6219a9c44',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010734.jpg',
@@ -7390,7 +9032,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/small_R0010734_b6219a9c44.jpg',
-                          provider_metadata: { public_id: 'small_R0010734_b6219a9c44', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010734_b6219a9c44',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010734.jpg',
@@ -7402,7 +9047,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/medium_R0010734_b6219a9c44.jpg',
-                          provider_metadata: { public_id: 'medium_R0010734_b6219a9c44', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010734_b6219a9c44',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010734.jpg',
@@ -7414,7 +9062,10 @@ export const Landmarks = {
                           height: 500,
                           size: 54.22,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/large_R0010734_b6219a9c44.jpg',
-                          provider_metadata: { public_id: 'large_R0010734_b6219a9c44', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010734_b6219a9c44',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010734_b6219a9c44',
@@ -7424,7 +9075,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365361/R0010734_b6219a9c44.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010734_b6219a9c44', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010734_b6219a9c44',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:29:21.843Z',
                       updatedAt: '2023-05-06T09:29:21.843Z',
                     },
@@ -7436,9 +9090,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_3_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: -103.98624510159758, transition: 'dtgl_lantai_3_2' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: -103.98624510159758,
+                    transition: 'dtgl_lantai_3_2',
+                  },
                 ],
-                mapCoordinate: [10, 50, 10],
+                mapCoordinate: [260, 240, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7460,7 +9118,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.9,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/thumbnail_R0010735_feec36da11.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010735_feec36da11', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010735_feec36da11',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010735.jpg',
@@ -7472,7 +9133,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.22,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/medium_R0010735_feec36da11.jpg',
-                          provider_metadata: { public_id: 'medium_R0010735_feec36da11', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010735_feec36da11',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010735.jpg',
@@ -7484,7 +9148,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/small_R0010735_feec36da11.jpg',
-                          provider_metadata: { public_id: 'small_R0010735_feec36da11', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010735_feec36da11',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010735.jpg',
@@ -7496,7 +9163,10 @@ export const Landmarks = {
                           height: 500,
                           size: 53.5,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/large_R0010735_feec36da11.jpg',
-                          provider_metadata: { public_id: 'large_R0010735_feec36da11', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010735_feec36da11',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010735_feec36da11',
@@ -7506,7 +9176,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365361/R0010735_feec36da11.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010735_feec36da11', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010735_feec36da11',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:29:22.192Z',
                       updatedAt: '2023-05-06T09:29:22.192Z',
                     },
@@ -7518,9 +9191,13 @@ export const Landmarks = {
                 name: 'dtgl_lantai_3_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: -103.98624510159758, transition: 'dtgl_lantai_3_2' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: -103.98624510159758,
+                    transition: 'dtgl_lantai_3_2',
+                  },
                 ],
-                mapCoordinate: [10, 70, 10],
+                mapCoordinate: [660, 240, 10],
                 isCrooked: null,
                 mapImage: {
                   data: {
@@ -7542,7 +9219,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/thumbnail_R0010736_4da449c33a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010736_4da449c33a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010736_4da449c33a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010736.jpg',
@@ -7554,7 +9234,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/small_R0010736_4da449c33a.jpg',
-                          provider_metadata: { public_id: 'small_R0010736_4da449c33a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010736_4da449c33a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010736.jpg',
@@ -7566,7 +9249,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/medium_R0010736_4da449c33a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010736_4da449c33a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010736_4da449c33a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010736.jpg',
@@ -7578,7 +9264,10 @@ export const Landmarks = {
                           height: 500,
                           size: 46.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365360/large_R0010736_4da449c33a.jpg',
-                          provider_metadata: { public_id: 'large_R0010736_4da449c33a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010736_4da449c33a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010736_4da449c33a',
@@ -7588,7 +9277,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683365361/R0010736_4da449c33a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010736_4da449c33a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010736_4da449c33a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T09:29:22.043Z',
                       updatedAt: '2023-05-06T09:29:22.043Z',
                     },
@@ -7625,7 +9317,10 @@ export const Landmarks = {
                       height: 156,
                       size: 11.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_1_e9c8dea364.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_1_e9c8dea364', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_1_e9c8dea364',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (1).jpg',
@@ -7637,7 +9332,10 @@ export const Landmarks = {
                       height: 333,
                       size: 37.42,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/small_GALLERY_DTGL_1_e9c8dea364.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_1_e9c8dea364', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_1_e9c8dea364',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTGL (1).jpg',
@@ -7649,7 +9347,10 @@ export const Landmarks = {
                       height: 500,
                       size: 70.64,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/medium_GALLERY_DTGL_1_e9c8dea364.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTGL_1_e9c8dea364', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTGL_1_e9c8dea364',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTGL (1).jpg',
@@ -7661,7 +9362,10 @@ export const Landmarks = {
                       height: 667,
                       size: 108.66,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/large_GALLERY_DTGL_1_e9c8dea364.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTGL_1_e9c8dea364', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTGL_1_e9c8dea364',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_1_e9c8dea364',
@@ -7671,7 +9375,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366351/GALLERY_DTGL_1_e9c8dea364.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_1_e9c8dea364', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_1_e9c8dea364',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:51.797Z',
                   updatedAt: '2023-05-06T09:45:51.797Z',
                 },
@@ -7704,7 +9411,10 @@ export const Landmarks = {
                       height: 156,
                       size: 11.25,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_2_b07f575d1d.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_2_b07f575d1d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_2_b07f575d1d',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (2).jpg',
@@ -7716,7 +9426,10 @@ export const Landmarks = {
                       height: 333,
                       size: 43.57,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/small_GALLERY_DTGL_2_b07f575d1d.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_2_b07f575d1d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_2_b07f575d1d',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTGL (2).jpg',
@@ -7728,7 +9441,10 @@ export const Landmarks = {
                       height: 500,
                       size: 89.1,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/medium_GALLERY_DTGL_2_b07f575d1d.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTGL_2_b07f575d1d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTGL_2_b07f575d1d',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTGL (2).jpg',
@@ -7740,7 +9456,10 @@ export const Landmarks = {
                       height: 667,
                       size: 142.24,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/large_GALLERY_DTGL_2_b07f575d1d.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTGL_2_b07f575d1d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTGL_2_b07f575d1d',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_2_b07f575d1d',
@@ -7750,7 +9469,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366351/GALLERY_DTGL_2_b07f575d1d.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_2_b07f575d1d', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_2_b07f575d1d',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:52.631Z',
                   updatedAt: '2023-05-06T09:45:52.631Z',
                 },
@@ -7783,7 +9505,10 @@ export const Landmarks = {
                       height: 156,
                       size: 9.12,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_3_2ca53496c1.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_3_2ca53496c1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_3_2ca53496c1',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (3).jpg',
@@ -7795,7 +9520,10 @@ export const Landmarks = {
                       height: 333,
                       size: 30.8,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/small_GALLERY_DTGL_3_2ca53496c1.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_3_2ca53496c1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_3_2ca53496c1',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTGL (3).jpg',
@@ -7807,7 +9535,10 @@ export const Landmarks = {
                       height: 500,
                       size: 58.36,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/medium_GALLERY_DTGL_3_2ca53496c1.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTGL_3_2ca53496c1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTGL_3_2ca53496c1',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTGL (3).jpg',
@@ -7819,7 +9550,10 @@ export const Landmarks = {
                       height: 667,
                       size: 91.45,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/large_GALLERY_DTGL_3_2ca53496c1.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTGL_3_2ca53496c1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTGL_3_2ca53496c1',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_3_2ca53496c1',
@@ -7829,7 +9563,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366351/GALLERY_DTGL_3_2ca53496c1.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_3_2ca53496c1', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_3_2ca53496c1',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:52.526Z',
                   updatedAt: '2023-05-06T09:45:52.526Z',
                 },
@@ -7862,7 +9599,10 @@ export const Landmarks = {
                       height: 156,
                       size: 9.6,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_4_99297f13c3.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_4_99297f13c3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_4_99297f13c3',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (4).jpg',
@@ -7874,7 +9614,10 @@ export const Landmarks = {
                       height: 375,
                       size: 40.17,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/small_GALLERY_DTGL_4_99297f13c3.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_4_99297f13c3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_4_99297f13c3',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTGL (4).jpg',
@@ -7886,7 +9629,10 @@ export const Landmarks = {
                       height: 562,
                       size: 81.39,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/medium_GALLERY_DTGL_4_99297f13c3.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTGL_4_99297f13c3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTGL_4_99297f13c3',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTGL (4).jpg',
@@ -7898,7 +9644,10 @@ export const Landmarks = {
                       height: 749,
                       size: 132.25,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/large_GALLERY_DTGL_4_99297f13c3.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTGL_4_99297f13c3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTGL_4_99297f13c3',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_4_99297f13c3',
@@ -7908,7 +9657,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366350/GALLERY_DTGL_4_99297f13c3.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_4_99297f13c3', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_4_99297f13c3',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:51.351Z',
                   updatedAt: '2023-05-06T09:45:51.351Z',
                 },
@@ -7941,7 +9693,10 @@ export const Landmarks = {
                       height: 156,
                       size: 6.73,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_5_5c4db7e7f9.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_5_5c4db7e7f9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_5_5c4db7e7f9',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (5).jpg',
@@ -7953,7 +9708,10 @@ export const Landmarks = {
                       height: 500,
                       size: 53.9,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/small_GALLERY_DTGL_5_5c4db7e7f9.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_5_5c4db7e7f9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_5_5c4db7e7f9',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_5_5c4db7e7f9',
@@ -7963,7 +9721,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/GALLERY_DTGL_5_5c4db7e7f9.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_5_5c4db7e7f9', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_5_5c4db7e7f9',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:50.259Z',
                   updatedAt: '2023-05-06T09:45:50.259Z',
                 },
@@ -7996,7 +9757,10 @@ export const Landmarks = {
                       height: 156,
                       size: 9.1,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/thumbnail_GALLERY_DTGL_6_bdcc254e06.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTGL_6_bdcc254e06', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTGL_6_bdcc254e06',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTGL (6).jpg',
@@ -8008,7 +9772,10 @@ export const Landmarks = {
                       height: 375,
                       size: 35.05,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/small_GALLERY_DTGL_6_bdcc254e06.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTGL_6_bdcc254e06', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTGL_6_bdcc254e06',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTGL_6_bdcc254e06',
@@ -8018,7 +9785,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683366349/GALLERY_DTGL_6_bdcc254e06.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTGL_6_bdcc254e06', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTGL_6_bdcc254e06',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:45:51.389Z',
                   updatedAt: '2023-05-06T09:45:51.389Z',
                 },
@@ -8047,7 +9817,10 @@ export const Landmarks = {
                   height: 114,
                   size: 62.96,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253804/thumbnail_DTGL_min_22e7f09a56.png',
-                  provider_metadata: { public_id: 'thumbnail_DTGL_min_22e7f09a56', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTGL_min_22e7f09a56',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTGL-min.png',
@@ -8059,7 +9832,10 @@ export const Landmarks = {
                   height: 467,
                   size: 797,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/large_DTGL_min_22e7f09a56.png',
-                  provider_metadata: { public_id: 'large_DTGL_min_22e7f09a56', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTGL_min_22e7f09a56',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTGL-min.png',
@@ -8071,7 +9847,10 @@ export const Landmarks = {
                   height: 233,
                   size: 226.83,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTGL_min_22e7f09a56.png',
-                  provider_metadata: { public_id: 'small_DTGL_min_22e7f09a56', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTGL_min_22e7f09a56',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTGL-min.png',
@@ -8083,7 +9862,10 @@ export const Landmarks = {
                   height: 350,
                   size: 471.3,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/medium_DTGL_min_22e7f09a56.png',
-                  provider_metadata: { public_id: 'medium_DTGL_min_22e7f09a56', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTGL_min_22e7f09a56',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTGL_min_22e7f09a56',
@@ -8093,7 +9875,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/DTGL_min_22e7f09a56.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTGL_min_22e7f09a56', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTGL_min_22e7f09a56',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:08.428Z',
               updatedAt: '2023-05-05T02:30:08.428Z',
             },
@@ -8147,7 +9932,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428146/thumbnail_DTAP_1_min_4f8aa7b0ef.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_4f8aa7b0ef', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_4f8aa7b0ef',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -8159,7 +9947,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428147/small_DTAP_1_min_4f8aa7b0ef.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_4f8aa7b0ef', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_4f8aa7b0ef',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -8171,7 +9962,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428147/medium_DTAP_1_min_4f8aa7b0ef.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_4f8aa7b0ef', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_4f8aa7b0ef',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -8183,7 +9977,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428163/large_DTAP_1_min_4f8aa7b0ef.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_4f8aa7b0ef', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_4f8aa7b0ef',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_4f8aa7b0ef',
@@ -8193,7 +9990,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428146/DTAP_1_min_4f8aa7b0ef.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_4f8aa7b0ef', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_4f8aa7b0ef',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T02:56:04.466Z',
                   updatedAt: '2023-05-07T02:56:04.466Z',
                 },
@@ -8205,7 +10005,11 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.223503495834253, yaw: -146.91077526407395, transition: 'dtap_lantai_1_2' },
+                  {
+                    pitch: -9.223503495834253,
+                    yaw: -146.91077526407395,
+                    transition: 'dtap_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [800, 505, 10],
                 isCrooked: null,
@@ -8229,7 +10033,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428490/thumbnail_R0010800_578c0cd77d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010800_578c0cd77d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010800_578c0cd77d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010800.jpg',
@@ -8241,7 +10048,10 @@ export const Landmarks = {
                           height: 250,
                           size: 22.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428490/small_R0010800_578c0cd77d.jpg',
-                          provider_metadata: { public_id: 'small_R0010800_578c0cd77d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010800_578c0cd77d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010800.jpg',
@@ -8253,7 +10063,10 @@ export const Landmarks = {
                           height: 500,
                           size: 68.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/large_R0010800_578c0cd77d.jpg',
-                          provider_metadata: { public_id: 'large_R0010800_578c0cd77d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010800_578c0cd77d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010800.jpg',
@@ -8265,7 +10078,10 @@ export const Landmarks = {
                           height: 375,
                           size: 43.32,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/medium_R0010800_578c0cd77d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010800_578c0cd77d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010800_578c0cd77d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010800_578c0cd77d',
@@ -8275,7 +10091,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/R0010800_578c0cd77d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010800_578c0cd77d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010800_578c0cd77d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:32.233Z',
                       updatedAt: '2023-05-07T03:01:32.233Z',
                     },
@@ -8287,9 +10106,21 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.4482533736514234, yaw: 13.012447407730699, transition: 'dtap_lantai_1_1' },
-                  { pitch: -2.7212592978766206, yaw: -57.20785095877288, transition: 'dtap_lantai_1_9' },
-                  { pitch: -5.3581577884528455, yaw: 142.21737275067784, transition: 'dtap_lantai_1_3' },
+                  {
+                    pitch: -1.4482533736514234,
+                    yaw: 13.012447407730699,
+                    transition: 'dtap_lantai_1_1',
+                  },
+                  {
+                    pitch: -2.7212592978766206,
+                    yaw: -57.20785095877288,
+                    transition: 'dtap_lantai_1_9',
+                  },
+                  {
+                    pitch: -5.3581577884528455,
+                    yaw: 142.21737275067784,
+                    transition: 'dtap_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [700, 505, 10],
                 isCrooked: null,
@@ -8313,7 +10144,10 @@ export const Landmarks = {
                           height: 123,
                           size: 10.57,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/thumbnail_R0010802_eee3a83d7e.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010802_eee3a83d7e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010802_eee3a83d7e',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010802.jpg',
@@ -8325,7 +10159,10 @@ export const Landmarks = {
                           height: 250,
                           size: 40.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/small_R0010802_eee3a83d7e.jpg',
-                          provider_metadata: { public_id: 'small_R0010802_eee3a83d7e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010802_eee3a83d7e',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010802.jpg',
@@ -8337,7 +10174,10 @@ export const Landmarks = {
                           height: 375,
                           size: 89.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/medium_R0010802_eee3a83d7e.jpg',
-                          provider_metadata: { public_id: 'medium_R0010802_eee3a83d7e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010802_eee3a83d7e',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010802.jpg',
@@ -8349,7 +10189,10 @@ export const Landmarks = {
                           height: 500,
                           size: 153.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/large_R0010802_eee3a83d7e.jpg',
-                          provider_metadata: { public_id: 'large_R0010802_eee3a83d7e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010802_eee3a83d7e',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010802_eee3a83d7e',
@@ -8359,7 +10202,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/R0010802_eee3a83d7e.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010802_eee3a83d7e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010802_eee3a83d7e',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:33.395Z',
                       updatedAt: '2023-05-07T03:01:33.395Z',
                     },
@@ -8371,8 +10217,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.5285881281163833, yaw: 178.12639850448335, transition: 'dtap_lantai_1_4' },
-                  { pitch: -4.536576843178017, yaw: -23.749673258011867, transition: 'dtap_lantai_1_2' },
+                  {
+                    pitch: -3.5285881281163833,
+                    yaw: 178.12639850448335,
+                    transition: 'dtap_lantai_1_4',
+                  },
+                  {
+                    pitch: -4.536576843178017,
+                    yaw: -23.749673258011867,
+                    transition: 'dtap_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [550, 680, 10],
                 isCrooked: null,
@@ -8396,7 +10250,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/thumbnail_R0010803_ebf30bb6ef.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010803_ebf30bb6ef', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010803_ebf30bb6ef',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010803.jpg',
@@ -8408,7 +10265,10 @@ export const Landmarks = {
                           height: 250,
                           size: 26.6,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/small_R0010803_ebf30bb6ef.jpg',
-                          provider_metadata: { public_id: 'small_R0010803_ebf30bb6ef', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010803_ebf30bb6ef',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010803.jpg',
@@ -8420,7 +10280,10 @@ export const Landmarks = {
                           height: 375,
                           size: 57.43,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/medium_R0010803_ebf30bb6ef.jpg',
-                          provider_metadata: { public_id: 'medium_R0010803_ebf30bb6ef', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010803_ebf30bb6ef',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010803.jpg',
@@ -8432,7 +10295,10 @@ export const Landmarks = {
                           height: 500,
                           size: 98.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/large_R0010803_ebf30bb6ef.jpg',
-                          provider_metadata: { public_id: 'large_R0010803_ebf30bb6ef', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010803_ebf30bb6ef',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010803_ebf30bb6ef',
@@ -8442,7 +10308,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/R0010803_ebf30bb6ef.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010803_ebf30bb6ef', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010803_ebf30bb6ef',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:32.976Z',
                       updatedAt: '2023-05-07T03:01:32.976Z',
                     },
@@ -8454,9 +10323,21 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.953445094313022, yaw: 179.66485721172293, transition: 'dtap_lantai_1_5' },
-                  { pitch: 1.4482533736514234, yaw: 37.619650638698495, transition: 'dtap_lantai_1_3' },
-                  { pitch: -7.569510515516856, yaw: -91.59576326123998, transition: 'dtap_lantai_1_6' },
+                  {
+                    pitch: -5.953445094313022,
+                    yaw: 179.66485721172293,
+                    transition: 'dtap_lantai_1_5',
+                  },
+                  {
+                    pitch: 1.4482533736514234,
+                    yaw: 37.619650638698495,
+                    transition: 'dtap_lantai_1_3',
+                  },
+                  {
+                    pitch: -7.569510515516856,
+                    yaw: -91.59576326123998,
+                    transition: 'dtap_lantai_1_6',
+                  },
                 ],
                 mapCoordinate: [290, 700, 10],
                 isCrooked: null,
@@ -8480,7 +10361,10 @@ export const Landmarks = {
                           height: 123,
                           size: 9.43,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/thumbnail_R0010804_867698f570.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010804_867698f570', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010804_867698f570',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010804.jpg',
@@ -8492,7 +10376,10 @@ export const Landmarks = {
                           height: 250,
                           size: 33.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/small_R0010804_867698f570.jpg',
-                          provider_metadata: { public_id: 'small_R0010804_867698f570', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010804_867698f570',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010804.jpg',
@@ -8504,7 +10391,10 @@ export const Landmarks = {
                           height: 375,
                           size: 72.56,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/medium_R0010804_867698f570.jpg',
-                          provider_metadata: { public_id: 'medium_R0010804_867698f570', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010804_867698f570',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010804.jpg',
@@ -8516,7 +10406,10 @@ export const Landmarks = {
                           height: 500,
                           size: 122.32,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/large_R0010804_867698f570.jpg',
-                          provider_metadata: { public_id: 'large_R0010804_867698f570', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010804_867698f570',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010804_867698f570',
@@ -8526,7 +10419,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/R0010804_867698f570.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010804_867698f570', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010804_867698f570',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:33.245Z',
                       updatedAt: '2023-05-07T03:01:33.245Z',
                     },
@@ -8538,8 +10434,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.7401037968379045, yaw: 8.344362248444504, transition: 'dtap_lantai_1_6' },
-                  { pitch: -4.448253373651424, yaw: 42.07565882833439, transition: 'dtap_lantai_1_4' },
+                  {
+                    pitch: -7.7401037968379045,
+                    yaw: 8.344362248444504,
+                    transition: 'dtap_lantai_1_6',
+                  },
+                  {
+                    pitch: -4.448253373651424,
+                    yaw: 42.07565882833439,
+                    transition: 'dtap_lantai_1_4',
+                  },
                 ],
                 mapCoordinate: [280, 780, 10],
                 isCrooked: null,
@@ -8563,7 +10467,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.19,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428490/thumbnail_R0010805_5bc3ffa1e4.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010805_5bc3ffa1e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010805_5bc3ffa1e4',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010805.jpg',
@@ -8575,7 +10482,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/small_R0010805_5bc3ffa1e4.jpg',
-                          provider_metadata: { public_id: 'small_R0010805_5bc3ffa1e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010805_5bc3ffa1e4',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010805.jpg',
@@ -8587,7 +10497,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/medium_R0010805_5bc3ffa1e4.jpg',
-                          provider_metadata: { public_id: 'medium_R0010805_5bc3ffa1e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010805_5bc3ffa1e4',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010805.jpg',
@@ -8599,7 +10512,10 @@ export const Landmarks = {
                           height: 500,
                           size: 58.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/large_R0010805_5bc3ffa1e4.jpg',
-                          provider_metadata: { public_id: 'large_R0010805_5bc3ffa1e4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010805_5bc3ffa1e4',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010805_5bc3ffa1e4',
@@ -8609,7 +10525,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/R0010805_5bc3ffa1e4.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010805_5bc3ffa1e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010805_5bc3ffa1e4',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:32.973Z',
                       updatedAt: '2023-05-07T03:01:32.973Z',
                     },
@@ -8621,8 +10540,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.448253373651424, yaw: -104.55878813336984, transition: 'dtap_lantai_1_7' },
-                  { pitch: -8.796603488329687, yaw: 31.51070581658612, transition: 'dtap_lantai_1_4' },
+                  {
+                    pitch: -1.448253373651424,
+                    yaw: -104.55878813336984,
+                    transition: 'dtap_lantai_1_7',
+                  },
+                  {
+                    pitch: -8.796603488329687,
+                    yaw: 31.51070581658612,
+                    transition: 'dtap_lantai_1_4',
+                  },
                 ],
                 mapCoordinate: [250, 540, 10],
                 isCrooked: null,
@@ -8646,7 +10573,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/thumbnail_R0010821_adcbb18da9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010821_adcbb18da9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010821_adcbb18da9',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010821.jpg',
@@ -8658,7 +10588,10 @@ export const Landmarks = {
                           height: 250,
                           size: 24.03,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/small_R0010821_adcbb18da9.jpg',
-                          provider_metadata: { public_id: 'small_R0010821_adcbb18da9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010821_adcbb18da9',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010821.jpg',
@@ -8670,7 +10603,10 @@ export const Landmarks = {
                           height: 375,
                           size: 46.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/medium_R0010821_adcbb18da9.jpg',
-                          provider_metadata: { public_id: 'medium_R0010821_adcbb18da9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010821_adcbb18da9',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010821.jpg',
@@ -8682,7 +10618,10 @@ export const Landmarks = {
                           height: 500,
                           size: 74.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/large_R0010821_adcbb18da9.jpg',
-                          provider_metadata: { public_id: 'large_R0010821_adcbb18da9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010821_adcbb18da9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010821_adcbb18da9',
@@ -8692,7 +10631,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/R0010821_adcbb18da9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010821_adcbb18da9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010821_adcbb18da9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:36.440Z',
                       updatedAt: '2023-05-07T03:01:36.440Z',
                     },
@@ -8704,8 +10646,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_7',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.7004091360354234, yaw: -178.04488463290855, transition: 'dtap_lantai_1_8' },
-                  { pitch: -9.5377715561139, yaw: -27.5377715561139, transition: 'dtap_lantai_1_6' },
+                  {
+                    pitch: -2.7004091360354234,
+                    yaw: -178.04488463290855,
+                    transition: 'dtap_lantai_1_8',
+                  },
+                  {
+                    pitch: -9.5377715561139,
+                    yaw: -27.5377715561139,
+                    transition: 'dtap_lantai_1_6',
+                  },
                 ],
                 mapCoordinate: [290, 340, 10],
                 isCrooked: null,
@@ -8729,7 +10679,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.24,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/thumbnail_R0010820_300043e744.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010820_300043e744', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010820_300043e744',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010820.jpg',
@@ -8741,7 +10694,10 @@ export const Landmarks = {
                           height: 250,
                           size: 23.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/small_R0010820_300043e744.jpg',
-                          provider_metadata: { public_id: 'small_R0010820_300043e744', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010820_300043e744',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010820.jpg',
@@ -8753,7 +10709,10 @@ export const Landmarks = {
                           height: 500,
                           size: 77.72,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/large_R0010820_300043e744.jpg',
-                          provider_metadata: { public_id: 'large_R0010820_300043e744', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010820_300043e744',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010820.jpg',
@@ -8765,7 +10724,10 @@ export const Landmarks = {
                           height: 375,
                           size: 47.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/medium_R0010820_300043e744.jpg',
-                          provider_metadata: { public_id: 'medium_R0010820_300043e744', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010820_300043e744',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010820_300043e744',
@@ -8775,7 +10737,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/R0010820_300043e744.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010820_300043e744', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010820_300043e744',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:36.536Z',
                       updatedAt: '2023-05-07T03:01:36.536Z',
                     },
@@ -8787,8 +10752,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_8',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.448253373651424, yaw: -9.040074536478512, transition: 'dtap_lantai_1_7' },
-                  { pitch: -0.9972531887402455, yaw: 172.79202453655205, transition: 'dtap_lantai_1_9' },
+                  {
+                    pitch: -11.448253373651424,
+                    yaw: -9.040074536478512,
+                    transition: 'dtap_lantai_1_7',
+                  },
+                  {
+                    pitch: -0.9972531887402455,
+                    yaw: 172.79202453655205,
+                    transition: 'dtap_lantai_1_9',
+                  },
                 ],
                 mapCoordinate: [500, 340, 10],
                 isCrooked: null,
@@ -8812,7 +10785,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428493/thumbnail_R0010819_85f1390ef8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010819_85f1390ef8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010819_85f1390ef8',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010819.jpg',
@@ -8824,7 +10800,10 @@ export const Landmarks = {
                           height: 250,
                           size: 23.29,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/small_R0010819_85f1390ef8.jpg',
-                          provider_metadata: { public_id: 'small_R0010819_85f1390ef8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010819_85f1390ef8',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010819.jpg',
@@ -8836,7 +10815,10 @@ export const Landmarks = {
                           height: 375,
                           size: 46.93,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/medium_R0010819_85f1390ef8.jpg',
-                          provider_metadata: { public_id: 'medium_R0010819_85f1390ef8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010819_85f1390ef8',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010819.jpg',
@@ -8848,7 +10830,10 @@ export const Landmarks = {
                           height: 500,
                           size: 76.19,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428494/large_R0010819_85f1390ef8.jpg',
-                          provider_metadata: { public_id: 'large_R0010819_85f1390ef8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010819_85f1390ef8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010819_85f1390ef8',
@@ -8858,7 +10843,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428495/R0010819_85f1390ef8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010819_85f1390ef8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010819_85f1390ef8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:35.598Z',
                       updatedAt: '2023-05-07T03:01:35.598Z',
                     },
@@ -8870,8 +10858,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_1_9',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -12.158121774154207, yaw: 81.60535477904972, transition: 'dtap_lantai_1_8' },
-                  { pitch: -18.448253373651422, yaw: 23.30490688557264, transition: 'dtap_lantai_1_2' },
+                  {
+                    pitch: -12.158121774154207,
+                    yaw: 81.60535477904972,
+                    transition: 'dtap_lantai_1_8',
+                  },
+                  {
+                    pitch: -18.448253373651422,
+                    yaw: 23.30490688557264,
+                    transition: 'dtap_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [700, 340, 10],
                 isCrooked: null,
@@ -8895,7 +10891,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428490/thumbnail_R0010818_3b5f23e1dd.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010818_3b5f23e1dd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010818_3b5f23e1dd',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010818.jpg',
@@ -8907,7 +10906,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/small_R0010818_3b5f23e1dd.jpg',
-                          provider_metadata: { public_id: 'small_R0010818_3b5f23e1dd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010818_3b5f23e1dd',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010818.jpg',
@@ -8919,7 +10921,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/medium_R0010818_3b5f23e1dd.jpg',
-                          provider_metadata: { public_id: 'medium_R0010818_3b5f23e1dd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010818_3b5f23e1dd',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010818.jpg',
@@ -8931,7 +10936,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428491/large_R0010818_3b5f23e1dd.jpg',
-                          provider_metadata: { public_id: 'large_R0010818_3b5f23e1dd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010818_3b5f23e1dd',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010818_3b5f23e1dd',
@@ -8941,7 +10949,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428492/R0010818_3b5f23e1dd.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010818_3b5f23e1dd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010818_3b5f23e1dd',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:01:32.931Z',
                       updatedAt: '2023-05-07T03:01:32.931Z',
                     },
@@ -8975,7 +10986,10 @@ export const Landmarks = {
                       height: 156,
                       size: 12.66,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428096/thumbnail_DTAP_2_min_a345966654.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_2_min_a345966654', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_2_min_a345966654',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_2-min.png',
@@ -8987,7 +11001,10 @@ export const Landmarks = {
                       height: 500,
                       size: 59.38,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/small_DTAP_2_min_a345966654.png',
-                      provider_metadata: { public_id: 'small_DTAP_2_min_a345966654', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_2_min_a345966654',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_2-min.png',
@@ -8999,7 +11016,10 @@ export const Landmarks = {
                       height: 750,
                       size: 101.66,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/medium_DTAP_2_min_a345966654.png',
-                      provider_metadata: { public_id: 'medium_DTAP_2_min_a345966654', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_2_min_a345966654',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_2-min.png',
@@ -9011,7 +11031,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 148.49,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/large_DTAP_2_min_a345966654.png',
-                      provider_metadata: { public_id: 'large_DTAP_2_min_a345966654', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_2_min_a345966654',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_2_min_a345966654',
@@ -9021,7 +11044,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428096/DTAP_2_min_a345966654.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_2_min_a345966654', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_2_min_a345966654',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T02:54:58.824Z',
                   updatedAt: '2023-05-07T02:54:58.824Z',
                 },
@@ -9033,7 +11059,11 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.170269230401736, yaw: -108.84688125770319, transition: 'dtap_lantai_2_2' },
+                  {
+                    pitch: -10.170269230401736,
+                    yaw: -108.84688125770319,
+                    transition: 'dtap_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [270, 750, 10],
                 isCrooked: null,
@@ -9057,7 +11087,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.38,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683442036/thumbnail_R0010806_2bbc07ae99.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010806_2bbc07ae99', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010806_2bbc07ae99',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010806.jpg',
@@ -9069,7 +11102,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683442036/medium_R0010806_2bbc07ae99.jpg',
-                          provider_metadata: { public_id: 'medium_R0010806_2bbc07ae99', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010806_2bbc07ae99',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010806.jpg',
@@ -9081,7 +11117,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.14,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683442036/small_R0010806_2bbc07ae99.jpg',
-                          provider_metadata: { public_id: 'small_R0010806_2bbc07ae99', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010806_2bbc07ae99',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010806.jpg',
@@ -9093,7 +11132,10 @@ export const Landmarks = {
                           height: 500,
                           size: 58.53,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683442036/large_R0010806_2bbc07ae99.jpg',
-                          provider_metadata: { public_id: 'large_R0010806_2bbc07ae99', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010806_2bbc07ae99',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010806_2bbc07ae99',
@@ -9103,7 +11145,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683442037/R0010806_2bbc07ae99.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010806_2bbc07ae99', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010806_2bbc07ae99',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T06:47:18.054Z',
                       updatedAt: '2023-05-07T06:47:18.054Z',
                     },
@@ -9115,8 +11160,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.170269230401736, yaw: 3.3314897332812343, transition: 'dtap_lantai_2_1' },
-                  { pitch: 0.1397169890328475, yaw: -173.93990495695442, transition: 'dtap_lantai_2_3' },
+                  {
+                    pitch: -8.170269230401736,
+                    yaw: 3.3314897332812343,
+                    transition: 'dtap_lantai_2_1',
+                  },
+                  {
+                    pitch: 0.1397169890328475,
+                    yaw: -173.93990495695442,
+                    transition: 'dtap_lantai_2_3',
+                  },
                 ],
                 mapCoordinate: [240, 600, 10],
                 isCrooked: null,
@@ -9140,7 +11193,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010808_6d6d7f6c1c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010808_6d6d7f6c1c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010808_6d6d7f6c1c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010808.jpg',
@@ -9152,7 +11208,10 @@ export const Landmarks = {
                           height: 250,
                           size: 22.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/small_R0010808_6d6d7f6c1c.jpg',
-                          provider_metadata: { public_id: 'small_R0010808_6d6d7f6c1c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010808_6d6d7f6c1c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010808.jpg',
@@ -9164,7 +11223,10 @@ export const Landmarks = {
                           height: 375,
                           size: 45.93,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010808_6d6d7f6c1c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010808_6d6d7f6c1c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010808_6d6d7f6c1c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010808.jpg',
@@ -9176,7 +11238,10 @@ export const Landmarks = {
                           height: 500,
                           size: 75.82,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010808_6d6d7f6c1c.jpg',
-                          provider_metadata: { public_id: 'large_R0010808_6d6d7f6c1c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010808_6d6d7f6c1c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010808_6d6d7f6c1c',
@@ -9186,7 +11251,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/R0010808_6d6d7f6c1c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010808_6d6d7f6c1c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010808_6d6d7f6c1c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:30.165Z',
                       updatedAt: '2023-05-07T03:12:30.165Z',
                     },
@@ -9198,8 +11266,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.230092219163046, yaw: 48.734621928813766, transition: 'dtap_lantai_2_2' },
-                  { pitch: -4.632856914108934, yaw: -94.0042915354003, transition: 'dtap_lantai_2_4' },
+                  {
+                    pitch: -11.230092219163046,
+                    yaw: 48.734621928813766,
+                    transition: 'dtap_lantai_2_2',
+                  },
+                  {
+                    pitch: -4.632856914108934,
+                    yaw: -94.0042915354003,
+                    transition: 'dtap_lantai_2_4',
+                  },
                 ],
                 mapCoordinate: [240, 370, 10],
                 isCrooked: null,
@@ -9223,7 +11299,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.29,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010809_f3c6dbd393.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010809_f3c6dbd393', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010809_f3c6dbd393',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010809.jpg',
@@ -9235,7 +11314,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/small_R0010809_f3c6dbd393.jpg',
-                          provider_metadata: { public_id: 'small_R0010809_f3c6dbd393', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010809_f3c6dbd393',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010809.jpg',
@@ -9247,7 +11329,10 @@ export const Landmarks = {
                           height: 375,
                           size: 40.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010809_f3c6dbd393.jpg',
-                          provider_metadata: { public_id: 'medium_R0010809_f3c6dbd393', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010809_f3c6dbd393',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010809.jpg',
@@ -9259,7 +11344,10 @@ export const Landmarks = {
                           height: 500,
                           size: 66.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010809_f3c6dbd393.jpg',
-                          provider_metadata: { public_id: 'large_R0010809_f3c6dbd393', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010809_f3c6dbd393',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010809_f3c6dbd393',
@@ -9269,7 +11357,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/R0010809_f3c6dbd393.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010809_f3c6dbd393', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010809_f3c6dbd393',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:30.439Z',
                       updatedAt: '2023-05-07T03:12:30.439Z',
                     },
@@ -9281,8 +11372,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.4482533736514234, yaw: -38.5092322510326, transition: 'dtap_lantai_2_3' },
-                  { pitch: -0.4482533736514234, yaw: 170.81898671703127, transition: 'dtap_lantai_2_5' },
+                  {
+                    pitch: -0.4482533736514234,
+                    yaw: -38.5092322510326,
+                    transition: 'dtap_lantai_2_3',
+                  },
+                  {
+                    pitch: -0.4482533736514234,
+                    yaw: 170.81898671703127,
+                    transition: 'dtap_lantai_2_5',
+                  },
                 ],
                 mapCoordinate: [300, 290, 10],
                 isCrooked: null,
@@ -9306,7 +11405,10 @@ export const Landmarks = {
                           height: 123,
                           size: 8.5,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010810_760a837b3f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010810_760a837b3f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010810_760a837b3f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010810.jpg',
@@ -9318,7 +11420,10 @@ export const Landmarks = {
                           height: 250,
                           size: 26.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/small_R0010810_760a837b3f.jpg',
-                          provider_metadata: { public_id: 'small_R0010810_760a837b3f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010810_760a837b3f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010810.jpg',
@@ -9330,7 +11435,10 @@ export const Landmarks = {
                           height: 375,
                           size: 53.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010810_760a837b3f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010810_760a837b3f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010810_760a837b3f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010810.jpg',
@@ -9342,7 +11450,10 @@ export const Landmarks = {
                           height: 500,
                           size: 88.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010810_760a837b3f.jpg',
-                          provider_metadata: { public_id: 'large_R0010810_760a837b3f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010810_760a837b3f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010810_760a837b3f',
@@ -9352,7 +11463,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429150/R0010810_760a837b3f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010810_760a837b3f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010810_760a837b3f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:31.098Z',
                       updatedAt: '2023-05-07T03:12:31.098Z',
                     },
@@ -9364,8 +11478,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.9584331197858305, yaw: -2.0560142691724863, transition: 'dtap_lantai_2_4' },
-                  { pitch: -5.732700765928543, yaw: 172.97369058656355, transition: 'dtap_lantai_2_6' },
+                  {
+                    pitch: -6.9584331197858305,
+                    yaw: -2.0560142691724863,
+                    transition: 'dtap_lantai_2_4',
+                  },
+                  {
+                    pitch: -5.732700765928543,
+                    yaw: 172.97369058656355,
+                    transition: 'dtap_lantai_2_6',
+                  },
                 ],
                 mapCoordinate: [500, 290, 10],
                 isCrooked: null,
@@ -9389,7 +11511,10 @@ export const Landmarks = {
                           height: 123,
                           size: 8.22,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010811_1bf22ea0d2.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010811_1bf22ea0d2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010811_1bf22ea0d2',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010811.jpg',
@@ -9401,7 +11526,10 @@ export const Landmarks = {
                           height: 250,
                           size: 26.61,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/small_R0010811_1bf22ea0d2.jpg',
-                          provider_metadata: { public_id: 'small_R0010811_1bf22ea0d2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010811_1bf22ea0d2',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010811.jpg',
@@ -9413,7 +11541,10 @@ export const Landmarks = {
                           height: 375,
                           size: 53.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010811_1bf22ea0d2.jpg',
-                          provider_metadata: { public_id: 'medium_R0010811_1bf22ea0d2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010811_1bf22ea0d2',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010811.jpg',
@@ -9425,7 +11556,10 @@ export const Landmarks = {
                           height: 500,
                           size: 88.63,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010811_1bf22ea0d2.jpg',
-                          provider_metadata: { public_id: 'large_R0010811_1bf22ea0d2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010811_1bf22ea0d2',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010811_1bf22ea0d2',
@@ -9435,7 +11569,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429150/R0010811_1bf22ea0d2.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010811_1bf22ea0d2', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010811_1bf22ea0d2',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:31.064Z',
                       updatedAt: '2023-05-07T03:12:31.064Z',
                     },
@@ -9447,8 +11584,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.154280916718551, yaw: -13.377135098160979, transition: 'dtap_lantai_2_5' },
-                  { pitch: -9.826645811556103, yaw: 111.61215226691165, transition: 'dtap_lantai_2_7' },
+                  {
+                    pitch: -2.154280916718551,
+                    yaw: -13.377135098160979,
+                    transition: 'dtap_lantai_2_5',
+                  },
+                  {
+                    pitch: -9.826645811556103,
+                    yaw: 111.61215226691165,
+                    transition: 'dtap_lantai_2_7',
+                  },
                 ],
                 mapCoordinate: [710, 290, 10],
                 isCrooked: null,
@@ -9472,7 +11617,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.92,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010812_b0d848c7b3.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010812_b0d848c7b3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010812_b0d848c7b3',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010812.jpg',
@@ -9484,7 +11632,10 @@ export const Landmarks = {
                           height: 250,
                           size: 24.55,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/small_R0010812_b0d848c7b3.jpg',
-                          provider_metadata: { public_id: 'small_R0010812_b0d848c7b3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010812_b0d848c7b3',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010812.jpg',
@@ -9496,7 +11647,10 @@ export const Landmarks = {
                           height: 500,
                           size: 76.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010812_b0d848c7b3.jpg',
-                          provider_metadata: { public_id: 'large_R0010812_b0d848c7b3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010812_b0d848c7b3',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010812.jpg',
@@ -9508,7 +11662,10 @@ export const Landmarks = {
                           height: 375,
                           size: 47.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010812_b0d848c7b3.jpg',
-                          provider_metadata: { public_id: 'medium_R0010812_b0d848c7b3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010812_b0d848c7b3',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010812_b0d848c7b3',
@@ -9518,7 +11675,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/R0010812_b0d848c7b3.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010812_b0d848c7b3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010812_b0d848c7b3',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:30.186Z',
                       updatedAt: '2023-05-07T03:12:30.186Z',
                     },
@@ -9530,7 +11690,11 @@ export const Landmarks = {
                 name: 'dtap_lantai_2_7',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.9191550404653972, yaw: 33.4911177750852, transition: 'dtap_lantai_2_6' },
+                  {
+                    pitch: -1.9191550404653972,
+                    yaw: 33.4911177750852,
+                    transition: 'dtap_lantai_2_6',
+                  },
                 ],
                 mapCoordinate: [790, 260, 10],
                 isCrooked: null,
@@ -9554,7 +11718,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.82,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/thumbnail_R0010813_331c6a8ac5.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010813_331c6a8ac5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010813_331c6a8ac5',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010813.jpg',
@@ -9566,7 +11733,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.5,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429148/small_R0010813_331c6a8ac5.jpg',
-                          provider_metadata: { public_id: 'small_R0010813_331c6a8ac5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010813_331c6a8ac5',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010813.jpg',
@@ -9578,7 +11748,10 @@ export const Landmarks = {
                           height: 500,
                           size: 69.38,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/large_R0010813_331c6a8ac5.jpg',
-                          provider_metadata: { public_id: 'large_R0010813_331c6a8ac5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010813_331c6a8ac5',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010813.jpg',
@@ -9590,7 +11763,10 @@ export const Landmarks = {
                           height: 375,
                           size: 42.74,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/medium_R0010813_331c6a8ac5.jpg',
-                          provider_metadata: { public_id: 'medium_R0010813_331c6a8ac5', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010813_331c6a8ac5',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010813_331c6a8ac5',
@@ -9600,7 +11776,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429149/R0010813_331c6a8ac5.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010813_331c6a8ac5', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010813_331c6a8ac5',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:12:30.416Z',
                       updatedAt: '2023-05-07T03:12:30.416Z',
                     },
@@ -9634,7 +11813,10 @@ export const Landmarks = {
                       height: 156,
                       size: 10.84,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428097/thumbnail_DTAP_3_min_5062170381.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_3_min_5062170381', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_3_min_5062170381',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_3-min.png',
@@ -9646,7 +11828,10 @@ export const Landmarks = {
                       height: 500,
                       size: 53.24,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/small_DTAP_3_min_5062170381.png',
-                      provider_metadata: { public_id: 'small_DTAP_3_min_5062170381', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_3_min_5062170381',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_3-min.png',
@@ -9658,7 +11843,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 135.03,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/large_DTAP_3_min_5062170381.png',
-                      provider_metadata: { public_id: 'large_DTAP_3_min_5062170381', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_3_min_5062170381',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_3-min.png',
@@ -9670,7 +11858,10 @@ export const Landmarks = {
                       height: 750,
                       size: 93.11,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428098/medium_DTAP_3_min_5062170381.png',
-                      provider_metadata: { public_id: 'medium_DTAP_3_min_5062170381', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_3_min_5062170381',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_3_min_5062170381',
@@ -9680,7 +11871,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683428097/DTAP_3_min_5062170381.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_3_min_5062170381', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_3_min_5062170381',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T02:54:59.323Z',
                   updatedAt: '2023-05-07T02:54:59.323Z',
                 },
@@ -9692,7 +11886,11 @@ export const Landmarks = {
                 name: 'dtap_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.394823370603177, yaw: -54.85008178379498, transition: 'dtap_lantai_3_2' },
+                  {
+                    pitch: -10.394823370603177,
+                    yaw: -54.85008178379498,
+                    transition: 'dtap_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [700, 405, 10],
                 isCrooked: null,
@@ -9716,7 +11914,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.82,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429775/thumbnail_R0010814_d070345ffd.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010814_d070345ffd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010814_d070345ffd',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010814.jpg',
@@ -9728,7 +11929,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/small_R0010814_d070345ffd.jpg',
-                          provider_metadata: { public_id: 'small_R0010814_d070345ffd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010814_d070345ffd',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010814.jpg',
@@ -9740,7 +11944,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/medium_R0010814_d070345ffd.jpg',
-                          provider_metadata: { public_id: 'medium_R0010814_d070345ffd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010814_d070345ffd',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010814.jpg',
@@ -9752,7 +11959,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/large_R0010814_d070345ffd.jpg',
-                          provider_metadata: { public_id: 'large_R0010814_d070345ffd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010814_d070345ffd',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010814_d070345ffd',
@@ -9762,7 +11972,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/R0010814_d070345ffd.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010814_d070345ffd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010814_d070345ffd',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:22:57.416Z',
                       updatedAt: '2023-05-07T03:22:57.416Z',
                     },
@@ -9774,8 +11987,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.192747570240209, yaw: -23.696121907384818, transition: 'dtap_lantai_3_1' },
-                  { pitch: -8.165075519343437, yaw: 155.931605410117, transition: 'dtap_lantai_3_3' },
+                  {
+                    pitch: -2.192747570240209,
+                    yaw: -23.696121907384818,
+                    transition: 'dtap_lantai_3_1',
+                  },
+                  {
+                    pitch: -8.165075519343437,
+                    yaw: 155.931605410117,
+                    transition: 'dtap_lantai_3_3',
+                  },
                 ],
                 mapCoordinate: [460, 405, 10],
                 isCrooked: null,
@@ -9799,7 +12020,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.29,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/thumbnail_R0010815_cd7edf2fff.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010815_cd7edf2fff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010815_cd7edf2fff',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010815.jpg',
@@ -9811,7 +12035,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.61,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/small_R0010815_cd7edf2fff.jpg',
-                          provider_metadata: { public_id: 'small_R0010815_cd7edf2fff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010815_cd7edf2fff',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010815.jpg',
@@ -9823,7 +12050,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/medium_R0010815_cd7edf2fff.jpg',
-                          provider_metadata: { public_id: 'medium_R0010815_cd7edf2fff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010815_cd7edf2fff',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010815.jpg',
@@ -9835,7 +12065,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/large_R0010815_cd7edf2fff.jpg',
-                          provider_metadata: { public_id: 'large_R0010815_cd7edf2fff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010815_cd7edf2fff',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010815_cd7edf2fff',
@@ -9845,7 +12078,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429777/R0010815_cd7edf2fff.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010815_cd7edf2fff', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010815_cd7edf2fff',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:22:58.162Z',
                       updatedAt: '2023-05-07T03:22:58.162Z',
                     },
@@ -9857,8 +12093,16 @@ export const Landmarks = {
                 name: 'dtap_lantai_3_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 0.058266366444572594, yaw: -16.953416453791768, transition: 'dtap_lantai_3_2' },
-                  { pitch: -14.902657955073913, yaw: -155.95345615323748, transition: 'dtap_lantai_3_4' },
+                  {
+                    pitch: 0.058266366444572594,
+                    yaw: -16.953416453791768,
+                    transition: 'dtap_lantai_3_2',
+                  },
+                  {
+                    pitch: -14.902657955073913,
+                    yaw: -155.95345615323748,
+                    transition: 'dtap_lantai_3_4',
+                  },
                 ],
                 mapCoordinate: [330, 405, 10],
                 isCrooked: null,
@@ -9882,7 +12126,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/thumbnail_R0010816_bab6dfa2b8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010816_bab6dfa2b8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010816_bab6dfa2b8',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010816.jpg',
@@ -9894,7 +12141,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/small_R0010816_bab6dfa2b8.jpg',
-                          provider_metadata: { public_id: 'small_R0010816_bab6dfa2b8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010816_bab6dfa2b8',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010816.jpg',
@@ -9906,7 +12156,10 @@ export const Landmarks = {
                           height: 500,
                           size: 68.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/large_R0010816_bab6dfa2b8.jpg',
-                          provider_metadata: { public_id: 'large_R0010816_bab6dfa2b8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010816_bab6dfa2b8',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010816.jpg',
@@ -9918,7 +12171,10 @@ export const Landmarks = {
                           height: 375,
                           size: 42.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/medium_R0010816_bab6dfa2b8.jpg',
-                          provider_metadata: { public_id: 'medium_R0010816_bab6dfa2b8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010816_bab6dfa2b8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010816_bab6dfa2b8',
@@ -9928,7 +12184,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429777/R0010816_bab6dfa2b8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010816_bab6dfa2b8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010816_bab6dfa2b8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:22:58.117Z',
                       updatedAt: '2023-05-07T03:22:58.117Z',
                     },
@@ -9940,7 +12199,11 @@ export const Landmarks = {
                 name: 'dtap_lantai_3_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.4482533736514234, yaw: 1.3865788803670216, transition: 'dtap_lantai_3_3' },
+                  {
+                    pitch: -0.4482533736514234,
+                    yaw: 1.3865788803670216,
+                    transition: 'dtap_lantai_3_3',
+                  },
                 ],
                 mapCoordinate: [230, 315, 10],
                 isCrooked: null,
@@ -9964,7 +12227,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.46,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/thumbnail_R0010817_52ed72ac47.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010817_52ed72ac47', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010817_52ed72ac47',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010817.jpg',
@@ -9976,7 +12242,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.29,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/medium_R0010817_52ed72ac47.jpg',
-                          provider_metadata: { public_id: 'medium_R0010817_52ed72ac47', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010817_52ed72ac47',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010817.jpg',
@@ -9988,7 +12257,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/small_R0010817_52ed72ac47.jpg',
-                          provider_metadata: { public_id: 'small_R0010817_52ed72ac47', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010817_52ed72ac47',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010817.jpg',
@@ -10000,7 +12272,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.74,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429776/large_R0010817_52ed72ac47.jpg',
-                          provider_metadata: { public_id: 'large_R0010817_52ed72ac47', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010817_52ed72ac47',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010817_52ed72ac47',
@@ -10010,7 +12285,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683429777/R0010817_52ed72ac47.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010817_52ed72ac47', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010817_52ed72ac47',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:22:58.390Z',
                       updatedAt: '2023-05-07T03:22:58.390Z',
                     },
@@ -10047,7 +12325,10 @@ export const Landmarks = {
                       height: 118,
                       size: 8.98,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430285/thumbnail_DTAP_GALLERY_1_cfd21fdc86.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_1_cfd21fdc86', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_1_cfd21fdc86',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (1).jpg',
@@ -10059,7 +12340,10 @@ export const Landmarks = {
                       height: 241,
                       size: 29.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/small_DTAP_GALLERY_1_cfd21fdc86.jpg',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_1_cfd21fdc86', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_1_cfd21fdc86',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (1).jpg',
@@ -10071,7 +12355,10 @@ export const Landmarks = {
                       height: 362,
                       size: 56.41,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/medium_DTAP_GALLERY_1_cfd21fdc86.jpg',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_1_cfd21fdc86', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_1_cfd21fdc86',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP GALLERY (1).jpg',
@@ -10083,7 +12370,10 @@ export const Landmarks = {
                       height: 482,
                       size: 89.6,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/large_DTAP_GALLERY_1_cfd21fdc86.jpg',
-                      provider_metadata: { public_id: 'large_DTAP_GALLERY_1_cfd21fdc86', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_GALLERY_1_cfd21fdc86',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_1_cfd21fdc86',
@@ -10093,7 +12383,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/DTAP_GALLERY_1_cfd21fdc86.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_1_cfd21fdc86', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_1_cfd21fdc86',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:27.305Z',
                   updatedAt: '2023-05-07T03:31:27.305Z',
                 },
@@ -10126,7 +12419,10 @@ export const Landmarks = {
                       height: 156,
                       size: 85.85,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/thumbnail_DTAP_GALLERY_1_045f3b3c71.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_1_045f3b3c71', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_1_045f3b3c71',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (1).png',
@@ -10138,7 +12434,10 @@ export const Landmarks = {
                       height: 372,
                       size: 431.53,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430288/small_DTAP_GALLERY_1_045f3b3c71.png',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_1_045f3b3c71', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_1_045f3b3c71',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (1).png',
@@ -10150,7 +12449,10 @@ export const Landmarks = {
                       height: 558,
                       size: 910.91,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430288/medium_DTAP_GALLERY_1_045f3b3c71.png',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_1_045f3b3c71', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_1_045f3b3c71',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_1_045f3b3c71',
@@ -10160,7 +12462,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/DTAP_GALLERY_1_045f3b3c71.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_1_045f3b3c71', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_1_045f3b3c71',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:29.145Z',
                   updatedAt: '2023-05-07T03:31:29.145Z',
                 },
@@ -10193,7 +12498,10 @@ export const Landmarks = {
                       height: 118,
                       size: 8.55,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/thumbnail_DTAP_GALLERY_2_44436a63b0.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_2_44436a63b0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_2_44436a63b0',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (2).jpg',
@@ -10205,7 +12513,10 @@ export const Landmarks = {
                       height: 241,
                       size: 27.07,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/small_DTAP_GALLERY_2_44436a63b0.jpg',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_2_44436a63b0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_2_44436a63b0',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP GALLERY (2).jpg',
@@ -10217,7 +12528,10 @@ export const Landmarks = {
                       height: 482,
                       size: 77.79,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/large_DTAP_GALLERY_2_44436a63b0.jpg',
-                      provider_metadata: { public_id: 'large_DTAP_GALLERY_2_44436a63b0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_GALLERY_2_44436a63b0',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (2).jpg',
@@ -10229,7 +12543,10 @@ export const Landmarks = {
                       height: 362,
                       size: 50.98,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/medium_DTAP_GALLERY_2_44436a63b0.jpg',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_2_44436a63b0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_2_44436a63b0',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_2_44436a63b0',
@@ -10239,7 +12556,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/DTAP_GALLERY_2_44436a63b0.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_2_44436a63b0', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_2_44436a63b0',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:27.792Z',
                   updatedAt: '2023-05-07T03:31:27.792Z',
                 },
@@ -10272,7 +12592,10 @@ export const Landmarks = {
                       height: 118,
                       size: 8.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/thumbnail_DTAP_GALLERY_3_751335b234.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_3_751335b234', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_3_751335b234',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (3).jpg',
@@ -10284,7 +12607,10 @@ export const Landmarks = {
                       height: 241,
                       size: 26.67,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/small_DTAP_GALLERY_3_751335b234.jpg',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_3_751335b234', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_3_751335b234',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (3).jpg',
@@ -10296,7 +12622,10 @@ export const Landmarks = {
                       height: 362,
                       size: 50.35,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/medium_DTAP_GALLERY_3_751335b234.jpg',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_3_751335b234', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_3_751335b234',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP GALLERY (3).jpg',
@@ -10308,7 +12637,10 @@ export const Landmarks = {
                       height: 482,
                       size: 77.14,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/large_DTAP_GALLERY_3_751335b234.jpg',
-                      provider_metadata: { public_id: 'large_DTAP_GALLERY_3_751335b234', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_GALLERY_3_751335b234',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_3_751335b234',
@@ -10318,7 +12650,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/DTAP_GALLERY_3_751335b234.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_3_751335b234', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_3_751335b234',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:27.710Z',
                   updatedAt: '2023-05-07T03:31:27.710Z',
                 },
@@ -10351,7 +12686,10 @@ export const Landmarks = {
                       height: 118,
                       size: 9.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/thumbnail_DTAP_GALLERY_4_1cd19b8917.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_4_1cd19b8917', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_4_1cd19b8917',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (4).jpg',
@@ -10363,7 +12701,10 @@ export const Landmarks = {
                       height: 241,
                       size: 29.82,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/small_DTAP_GALLERY_4_1cd19b8917.jpg',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_4_1cd19b8917', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_4_1cd19b8917',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (4).jpg',
@@ -10375,7 +12716,10 @@ export const Landmarks = {
                       height: 362,
                       size: 59.4,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/medium_DTAP_GALLERY_4_1cd19b8917.jpg',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_4_1cd19b8917', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_4_1cd19b8917',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP GALLERY (4).jpg',
@@ -10387,7 +12731,10 @@ export const Landmarks = {
                       height: 482,
                       size: 96.31,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/large_DTAP_GALLERY_4_1cd19b8917.jpg',
-                      provider_metadata: { public_id: 'large_DTAP_GALLERY_4_1cd19b8917', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_GALLERY_4_1cd19b8917',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_4_1cd19b8917',
@@ -10397,7 +12744,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/DTAP_GALLERY_4_1cd19b8917.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_4_1cd19b8917', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_4_1cd19b8917',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:27.732Z',
                   updatedAt: '2023-05-07T03:31:27.732Z',
                 },
@@ -10430,7 +12780,10 @@ export const Landmarks = {
                       height: 118,
                       size: 11.35,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430286/thumbnail_DTAP_GALLERY_5_fab18ea87f.jpg',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_GALLERY_5_fab18ea87f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_GALLERY_5_fab18ea87f',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP GALLERY (5).jpg',
@@ -10442,7 +12795,10 @@ export const Landmarks = {
                       height: 241,
                       size: 41.63,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/small_DTAP_GALLERY_5_fab18ea87f.jpg',
-                      provider_metadata: { public_id: 'small_DTAP_GALLERY_5_fab18ea87f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_GALLERY_5_fab18ea87f',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP GALLERY (5).jpg',
@@ -10454,7 +12810,10 @@ export const Landmarks = {
                       height: 362,
                       size: 85.37,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/medium_DTAP_GALLERY_5_fab18ea87f.jpg',
-                      provider_metadata: { public_id: 'medium_DTAP_GALLERY_5_fab18ea87f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_GALLERY_5_fab18ea87f',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP GALLERY (5).jpg',
@@ -10466,7 +12825,10 @@ export const Landmarks = {
                       height: 482,
                       size: 138.68,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/large_DTAP_GALLERY_5_fab18ea87f.jpg',
-                      provider_metadata: { public_id: 'large_DTAP_GALLERY_5_fab18ea87f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_GALLERY_5_fab18ea87f',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_GALLERY_5_fab18ea87f',
@@ -10476,7 +12838,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683430287/DTAP_GALLERY_5_fab18ea87f.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_GALLERY_5_fab18ea87f', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_GALLERY_5_fab18ea87f',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:31:28.212Z',
                   updatedAt: '2023-05-07T03:31:28.212Z',
                 },
@@ -10505,7 +12870,10 @@ export const Landmarks = {
                   height: 114,
                   size: 69.1,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253804/thumbnail_DTAP_min_5a4ebe6fdd.png',
-                  provider_metadata: { public_id: 'thumbnail_DTAP_min_5a4ebe6fdd', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTAP_min_5a4ebe6fdd',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTAP-min.png',
@@ -10517,7 +12885,10 @@ export const Landmarks = {
                   height: 233,
                   size: 251.83,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTAP_min_5a4ebe6fdd.png',
-                  provider_metadata: { public_id: 'small_DTAP_min_5a4ebe6fdd', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTAP_min_5a4ebe6fdd',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTAP-min.png',
@@ -10529,7 +12900,10 @@ export const Landmarks = {
                   height: 350,
                   size: 528.43,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/medium_DTAP_min_5a4ebe6fdd.png',
-                  provider_metadata: { public_id: 'medium_DTAP_min_5a4ebe6fdd', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTAP_min_5a4ebe6fdd',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTAP-min.png',
@@ -10541,7 +12915,10 @@ export const Landmarks = {
                   height: 466,
                   size: 899.84,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/large_DTAP_min_5a4ebe6fdd.png',
-                  provider_metadata: { public_id: 'large_DTAP_min_5a4ebe6fdd', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTAP_min_5a4ebe6fdd',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTAP_min_5a4ebe6fdd',
@@ -10551,7 +12928,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/DTAP_min_5a4ebe6fdd.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTAP_min_5a4ebe6fdd', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTAP_min_5a4ebe6fdd',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:08.578Z',
               updatedAt: '2023-05-05T02:30:52.206Z',
             },
@@ -10574,7 +12954,7 @@ export const Landmarks = {
         objectName: 'DTGD',
         uid: 'dtgd',
         createdAt: '2023-05-02T15:26:54.101Z',
-        updatedAt: '2023-05-08T02:51:29.609Z',
+        updatedAt: '2023-05-08T15:09:08.187Z',
         publishedAt: '2023-05-02T15:29:55.371Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -10587,73 +12967,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 187,
+                id: 341,
                 attributes: {
                   name: 'LANTAI_1_DTG.jpg',
                   alternativeText: null,
                   caption: null,
-                  width: 1536,
-                  height: 1086,
+                  width: 4800,
+                  height: 3394,
                   formats: {
                     thumbnail: {
                       name: 'thumbnail_LANTAI_1_DTG.jpg',
-                      hash: 'thumbnail_LANTAI_1_DTG_90ddda9ee8',
+                      hash: 'thumbnail_LANTAI_1_DTG_2471565695',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 221,
                       height: 156,
-                      size: 7.53,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      size: 7.63,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/thumbnail_LANTAI_1_DTG_2471565695.jpg',
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_1_DTG_2471565695',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_1_DTG.jpg',
-                      hash: 'small_LANTAI_1_DTG_90ddda9ee8',
+                      hash: 'small_LANTAI_1_DTG_2471565695',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 500,
-                      height: 354,
-                      size: 27.62,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      height: 353,
+                      size: 27.7,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/small_LANTAI_1_DTG_2471565695.jpg',
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_1_DTG_2471565695',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_1_DTG.jpg',
-                      hash: 'large_LANTAI_1_DTG_90ddda9ee8',
+                      hash: 'large_LANTAI_1_DTG_2471565695',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 1000,
                       height: 707,
-                      size: 78.79,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      size: 81.36,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/large_LANTAI_1_DTG_2471565695.jpg',
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_1_DTG_2471565695',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_1_DTG.jpg',
-                      hash: 'medium_LANTAI_1_DTG_90ddda9ee8',
+                      hash: 'medium_LANTAI_1_DTG_2471565695',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 750,
                       height: 530,
-                      size: 51.43,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      size: 52.44,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/medium_LANTAI_1_DTG_2471565695.jpg',
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_1_DTG_2471565695',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'LANTAI_1_DTG_90ddda9ee8',
+                  hash: 'LANTAI_1_DTG_2471565695',
                   ext: '.jpg',
                   mime: 'image/jpeg',
-                  size: 167.54,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_1_DTG_90ddda9ee8.jpg',
+                  size: 850.84,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558524/LANTAI_1_DTG_2471565695.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
-                  createdAt: '2023-05-07T03:45:46.180Z',
-                  updatedAt: '2023-05-07T03:45:46.180Z',
+                  provider_metadata: {
+                    public_id: 'LANTAI_1_DTG_2471565695',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T15:08:44.455Z',
+                  updatedAt: '2023-05-08T15:08:44.455Z',
                 },
               },
             },
@@ -10663,8 +13058,16 @@ export const Landmarks = {
                 name: 'dtgd_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.448253373651424, yaw: 1.891374218588857, transition: 'dtgd_lantai_1_2' },
-                  { pitch: 0.1510199149827672, yaw: 179.84866110555345, transition: 'dtgd_lantai_1_3' },
+                  {
+                    pitch: -10.448253373651424,
+                    yaw: 1.891374218588857,
+                    transition: 'dtgd_lantai_1_2',
+                  },
+                  {
+                    pitch: 0.1510199149827672,
+                    yaw: 179.84866110555345,
+                    transition: 'dtgd_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [475, 510, 10],
                 isCrooked: null,
@@ -10688,7 +13091,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.79,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431718/thumbnail_R0010827_f016c60f33.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010827_f016c60f33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010827_f016c60f33',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010827.jpg',
@@ -10700,7 +13106,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/medium_R0010827_f016c60f33.jpg',
-                          provider_metadata: { public_id: 'medium_R0010827_f016c60f33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010827_f016c60f33',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010827.jpg',
@@ -10712,7 +13121,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/small_R0010827_f016c60f33.jpg',
-                          provider_metadata: { public_id: 'small_R0010827_f016c60f33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010827_f016c60f33',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010827.jpg',
@@ -10724,7 +13136,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.29,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/large_R0010827_f016c60f33.jpg',
-                          provider_metadata: { public_id: 'large_R0010827_f016c60f33', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010827_f016c60f33',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010827_f016c60f33',
@@ -10734,7 +13149,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/R0010827_f016c60f33.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010827_f016c60f33', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010827_f016c60f33',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:55:20.294Z',
                       updatedAt: '2023-05-07T03:55:20.294Z',
                     },
@@ -10746,7 +13164,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 6.8418092689518595, yaw: 174.95935160219528, transition: 'dtgd_lantai_1_1' },
+                  {
+                    pitch: 6.8418092689518595,
+                    yaw: 174.95935160219528,
+                    transition: 'dtgd_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [595, 507, 10],
                 isCrooked: null,
@@ -10770,7 +13192,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/thumbnail_R0010828_cc3e6feb24.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010828_cc3e6feb24', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010828_cc3e6feb24',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010828.jpg',
@@ -10782,7 +13207,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/small_R0010828_cc3e6feb24.jpg',
-                          provider_metadata: { public_id: 'small_R0010828_cc3e6feb24', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010828_cc3e6feb24',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010828.jpg',
@@ -10794,7 +13222,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/medium_R0010828_cc3e6feb24.jpg',
-                          provider_metadata: { public_id: 'medium_R0010828_cc3e6feb24', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010828_cc3e6feb24',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010828.jpg',
@@ -10806,7 +13237,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/large_R0010828_cc3e6feb24.jpg',
-                          provider_metadata: { public_id: 'large_R0010828_cc3e6feb24', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010828_cc3e6feb24',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010828_cc3e6feb24',
@@ -10816,7 +13250,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431720/R0010828_cc3e6feb24.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010828_cc3e6feb24', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010828_cc3e6feb24',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:55:21.110Z',
                       updatedAt: '2023-05-07T03:55:21.110Z',
                     },
@@ -10828,7 +13265,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 5.418109643773607, yaw: -177.3103073540195, transition: 'dtgd_lantai_1_1' },
+                  {
+                    pitch: 5.418109643773607,
+                    yaw: -177.3103073540195,
+                    transition: 'dtgd_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [345, 507, 10],
                 isCrooked: null,
@@ -10852,7 +13293,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/thumbnail_R0010829_83a274017f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010829_83a274017f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010829_83a274017f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010829.jpg',
@@ -10864,7 +13308,10 @@ export const Landmarks = {
                           height: 250,
                           size: 22.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/small_R0010829_83a274017f.jpg',
-                          provider_metadata: { public_id: 'small_R0010829_83a274017f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010829_83a274017f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010829.jpg',
@@ -10876,7 +13323,10 @@ export const Landmarks = {
                           height: 375,
                           size: 42.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/medium_R0010829_83a274017f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010829_83a274017f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010829_83a274017f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010829.jpg',
@@ -10888,7 +13338,10 @@ export const Landmarks = {
                           height: 500,
                           size: 67.38,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431719/large_R0010829_83a274017f.jpg',
-                          provider_metadata: { public_id: 'large_R0010829_83a274017f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010829_83a274017f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010829_83a274017f',
@@ -10898,7 +13351,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431720/R0010829_83a274017f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010829_83a274017f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010829_83a274017f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:55:20.994Z',
                       updatedAt: '2023-05-07T03:55:20.994Z',
                     },
@@ -10914,73 +13370,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 186,
+                id: 342,
                 attributes: {
                   name: 'LANTAI_2_DTG.jpg',
                   alternativeText: null,
                   caption: null,
-                  width: 1536,
-                  height: 1086,
+                  width: 4800,
+                  height: 3394,
                   formats: {
                     thumbnail: {
                       name: 'thumbnail_LANTAI_2_DTG.jpg',
-                      hash: 'thumbnail_LANTAI_2_DTG_b0cc8e055f',
+                      hash: 'thumbnail_LANTAI_2_DTG_2921303bf8',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 221,
                       height: 156,
-                      size: 7.04,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
-                    },
-                    small: {
-                      name: 'small_LANTAI_2_DTG.jpg',
-                      hash: 'small_LANTAI_2_DTG_b0cc8e055f',
-                      ext: '.jpg',
-                      mime: 'image/jpeg',
-                      path: null,
-                      width: 500,
-                      height: 354,
-                      size: 27.27,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
-                    },
-                    large: {
-                      name: 'large_LANTAI_2_DTG.jpg',
-                      hash: 'large_LANTAI_2_DTG_b0cc8e055f',
-                      ext: '.jpg',
-                      mime: 'image/jpeg',
-                      path: null,
-                      width: 1000,
-                      height: 707,
-                      size: 81.47,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      size: 7.07,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/thumbnail_LANTAI_2_DTG_2921303bf8.jpg',
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_2_DTG_2921303bf8',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_2_DTG.jpg',
-                      hash: 'medium_LANTAI_2_DTG_b0cc8e055f',
+                      hash: 'medium_LANTAI_2_DTG_2921303bf8',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 750,
                       height: 530,
-                      size: 52.18,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      size: 52.83,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/medium_LANTAI_2_DTG_2921303bf8.jpg',
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_2_DTG_2921303bf8',
+                        resource_type: 'image',
+                      },
+                    },
+                    small: {
+                      name: 'small_LANTAI_2_DTG.jpg',
+                      hash: 'small_LANTAI_2_DTG_2921303bf8',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 500,
+                      height: 353,
+                      size: 27.43,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/small_LANTAI_2_DTG_2921303bf8.jpg',
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_2_DTG_2921303bf8',
+                        resource_type: 'image',
+                      },
+                    },
+                    large: {
+                      name: 'large_LANTAI_2_DTG.jpg',
+                      hash: 'large_LANTAI_2_DTG_2921303bf8',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 1000,
+                      height: 707,
+                      size: 84.57,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/large_LANTAI_2_DTG_2921303bf8.jpg',
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_2_DTG_2921303bf8',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'LANTAI_2_DTG_b0cc8e055f',
+                  hash: 'LANTAI_2_DTG_2921303bf8',
                   ext: '.jpg',
                   mime: 'image/jpeg',
-                  size: 184.3,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_2_DTG_b0cc8e055f.jpg',
+                  size: 917.65,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558524/LANTAI_2_DTG_2921303bf8.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
-                  createdAt: '2023-05-07T03:45:46.158Z',
-                  updatedAt: '2023-05-07T03:45:46.158Z',
+                  provider_metadata: {
+                    public_id: 'LANTAI_2_DTG_2921303bf8',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T15:08:44.651Z',
+                  updatedAt: '2023-05-08T15:08:44.651Z',
                 },
               },
             },
@@ -10990,8 +13461,16 @@ export const Landmarks = {
                 name: 'dtgd_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.704035420403693, yaw: 172.53201911710727, transition: 'dtgd_lantai_2_2' },
-                  { pitch: -2.9079936911830933, yaw: 6.6209026146983305, transition: 'dtgd_lantai_2_5' },
+                  {
+                    pitch: -10.704035420403693,
+                    yaw: 172.53201911710727,
+                    transition: 'dtgd_lantai_2_2',
+                  },
+                  {
+                    pitch: -2.9079936911830933,
+                    yaw: 6.6209026146983305,
+                    transition: 'dtgd_lantai_2_5',
+                  },
                 ],
                 mapCoordinate: [400, 517, 10],
                 isCrooked: null,
@@ -11015,7 +13494,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.97,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431774/thumbnail_R0010830_6d820ad829.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010830_6d820ad829', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010830_6d820ad829',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010830.jpg',
@@ -11027,7 +13509,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/medium_R0010830_6d820ad829.jpg',
-                          provider_metadata: { public_id: 'medium_R0010830_6d820ad829', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010830_6d820ad829',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010830.jpg',
@@ -11039,7 +13524,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/small_R0010830_6d820ad829.jpg',
-                          provider_metadata: { public_id: 'small_R0010830_6d820ad829', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010830_6d820ad829',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010830.jpg',
@@ -11051,7 +13539,10 @@ export const Landmarks = {
                           height: 500,
                           size: 59.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/large_R0010830_6d820ad829.jpg',
-                          provider_metadata: { public_id: 'large_R0010830_6d820ad829', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010830_6d820ad829',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010830_6d820ad829',
@@ -11061,7 +13552,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/R0010830_6d820ad829.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010830_6d820ad829', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010830_6d820ad829',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:56:16.101Z',
                       updatedAt: '2023-05-07T03:56:16.101Z',
                     },
@@ -11073,8 +13567,16 @@ export const Landmarks = {
                 name: 'dtgd_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.7190956360508154, yaw: -22.104277860927276, transition: 'dtgd_lantai_2_1' },
-                  { pitch: -6.736575446721622, yaw: 129.57305177184907, transition: 'dtgd_lantai_2_3' },
+                  {
+                    pitch: -2.7190956360508154,
+                    yaw: -22.104277860927276,
+                    transition: 'dtgd_lantai_2_1',
+                  },
+                  {
+                    pitch: -6.736575446721622,
+                    yaw: 129.57305177184907,
+                    transition: 'dtgd_lantai_2_3',
+                  },
                 ],
                 mapCoordinate: [590, 517, 10],
                 isCrooked: null,
@@ -11098,7 +13600,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.42,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/thumbnail_R0010831_8d6eb16f31.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010831_8d6eb16f31', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010831_8d6eb16f31',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010831.jpg',
@@ -11110,7 +13615,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/medium_R0010831_8d6eb16f31.jpg',
-                          provider_metadata: { public_id: 'medium_R0010831_8d6eb16f31', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010831_8d6eb16f31',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010831.jpg',
@@ -11122,7 +13630,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/small_R0010831_8d6eb16f31.jpg',
-                          provider_metadata: { public_id: 'small_R0010831_8d6eb16f31', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010831_8d6eb16f31',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010831.jpg',
@@ -11134,7 +13645,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.85,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431776/large_R0010831_8d6eb16f31.jpg',
-                          provider_metadata: { public_id: 'large_R0010831_8d6eb16f31', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010831_8d6eb16f31',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010831_8d6eb16f31',
@@ -11144,7 +13658,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431784/R0010831_8d6eb16f31.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010831_8d6eb16f31', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010831_8d6eb16f31',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:56:25.072Z',
                       updatedAt: '2023-05-07T03:56:25.072Z',
                     },
@@ -11156,8 +13673,16 @@ export const Landmarks = {
                 name: 'dtgd_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.448253373651424, yaw: -103.38657888036703, transition: 'dtgd_lantai_2_1' },
-                  { pitch: -5.448253373651424, yaw: 13.386578880367022, transition: 'dtgd_lantai_2_4' },
+                  {
+                    pitch: -10.448253373651424,
+                    yaw: -103.38657888036703,
+                    transition: 'dtgd_lantai_2_1',
+                  },
+                  {
+                    pitch: -5.448253373651424,
+                    yaw: 13.386578880367022,
+                    transition: 'dtgd_lantai_2_4',
+                  },
                 ],
                 mapCoordinate: [660, 480, 10],
                 isCrooked: null,
@@ -11181,7 +13706,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.42,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/thumbnail_R0010832_968bf1edc9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010832_968bf1edc9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010832_968bf1edc9',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010832.jpg',
@@ -11193,7 +13721,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/small_R0010832_968bf1edc9.jpg',
-                          provider_metadata: { public_id: 'small_R0010832_968bf1edc9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010832_968bf1edc9',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010832.jpg',
@@ -11205,7 +13736,10 @@ export const Landmarks = {
                           height: 375,
                           size: 37.92,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/medium_R0010832_968bf1edc9.jpg',
-                          provider_metadata: { public_id: 'medium_R0010832_968bf1edc9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010832_968bf1edc9',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010832.jpg',
@@ -11217,7 +13751,10 @@ export const Landmarks = {
                           height: 500,
                           size: 60.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/large_R0010832_968bf1edc9.jpg',
-                          provider_metadata: { public_id: 'large_R0010832_968bf1edc9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010832_968bf1edc9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010832_968bf1edc9',
@@ -11227,7 +13764,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431784/R0010832_968bf1edc9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010832_968bf1edc9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010832_968bf1edc9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:56:24.953Z',
                       updatedAt: '2023-05-07T03:56:24.953Z',
                     },
@@ -11239,7 +13779,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_2_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.372238464989747, yaw: 61.76668920361358, transition: 'dtgd_lantai_2_3' },
+                  {
+                    pitch: -8.372238464989747,
+                    yaw: 61.76668920361358,
+                    transition: 'dtgd_lantai_2_3',
+                  },
                 ],
                 mapCoordinate: [655, 400, 10],
                 isCrooked: null,
@@ -11263,7 +13807,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/thumbnail_R0010833_4bad4f55e1.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010833_4bad4f55e1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010833_4bad4f55e1',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010833.jpg',
@@ -11275,7 +13822,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.92,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/small_R0010833_4bad4f55e1.jpg',
-                          provider_metadata: { public_id: 'small_R0010833_4bad4f55e1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010833_4bad4f55e1',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010833.jpg',
@@ -11287,7 +13837,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/medium_R0010833_4bad4f55e1.jpg',
-                          provider_metadata: { public_id: 'medium_R0010833_4bad4f55e1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010833_4bad4f55e1',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010833.jpg',
@@ -11299,7 +13852,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.28,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431776/large_R0010833_4bad4f55e1.jpg',
-                          provider_metadata: { public_id: 'large_R0010833_4bad4f55e1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010833_4bad4f55e1',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010833_4bad4f55e1',
@@ -11309,7 +13865,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431784/R0010833_4bad4f55e1.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010833_4bad4f55e1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010833_4bad4f55e1',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:56:24.865Z',
                       updatedAt: '2023-05-07T03:56:24.865Z',
                     },
@@ -11321,7 +13880,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_2_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -13.477429123555554, yaw: 38.3529532203474, transition: 'dtgd_lantai_2_4' },
+                  {
+                    pitch: -13.477429123555554,
+                    yaw: 38.3529532203474,
+                    transition: 'dtgd_lantai_2_4',
+                  },
                 ],
                 mapCoordinate: [300, 517, 10],
                 isCrooked: null,
@@ -11345,7 +13908,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.63,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/thumbnail_R0010834_3b8e2ca20c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010834_3b8e2ca20c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010834_3b8e2ca20c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010834.jpg',
@@ -11357,7 +13923,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/small_R0010834_3b8e2ca20c.jpg',
-                          provider_metadata: { public_id: 'small_R0010834_3b8e2ca20c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010834_3b8e2ca20c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010834.jpg',
@@ -11369,7 +13938,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.32,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/medium_R0010834_3b8e2ca20c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010834_3b8e2ca20c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010834_3b8e2ca20c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010834.jpg',
@@ -11381,7 +13953,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431775/large_R0010834_3b8e2ca20c.jpg',
-                          provider_metadata: { public_id: 'large_R0010834_3b8e2ca20c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010834_3b8e2ca20c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010834_3b8e2ca20c',
@@ -11391,7 +13966,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431792/R0010834_3b8e2ca20c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010834_3b8e2ca20c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010834_3b8e2ca20c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:56:33.153Z',
                       updatedAt: '2023-05-07T03:56:33.153Z',
                     },
@@ -11407,73 +13985,88 @@ export const Landmarks = {
             description: '',
             mapImage: {
               data: {
-                id: 188,
+                id: 340,
                 attributes: {
                   name: 'LANTAI_3_DTG.jpg',
                   alternativeText: null,
                   caption: null,
-                  width: 1536,
-                  height: 1086,
+                  width: 4800,
+                  height: 3394,
                   formats: {
                     thumbnail: {
                       name: 'thumbnail_LANTAI_3_DTG.jpg',
-                      hash: 'thumbnail_LANTAI_3_DTG_14ca98428a',
+                      hash: 'thumbnail_LANTAI_3_DTG_e7ff786d77',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 221,
                       height: 156,
-                      size: 6.28,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      size: 6.35,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/thumbnail_LANTAI_3_DTG_e7ff786d77.jpg',
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_3_DTG_e7ff786d77',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_3_DTG.jpg',
-                      hash: 'small_LANTAI_3_DTG_14ca98428a',
+                      hash: 'small_LANTAI_3_DTG_e7ff786d77',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 500,
-                      height: 354,
-                      size: 22.16,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      height: 353,
+                      size: 22.46,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558522/small_LANTAI_3_DTG_e7ff786d77.jpg',
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_3_DTG_e7ff786d77',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_3_DTG.jpg',
-                      hash: 'medium_LANTAI_3_DTG_14ca98428a',
+                      hash: 'medium_LANTAI_3_DTG_e7ff786d77',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 750,
                       height: 530,
-                      size: 41.16,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      size: 42.11,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/medium_LANTAI_3_DTG_e7ff786d77.jpg',
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_3_DTG_e7ff786d77',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_3_DTG.jpg',
-                      hash: 'large_LANTAI_3_DTG_14ca98428a',
+                      hash: 'large_LANTAI_3_DTG_e7ff786d77',
                       ext: '.jpg',
                       mime: 'image/jpeg',
                       path: null,
                       width: 1000,
                       height: 707,
-                      size: 63.99,
-                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      size: 66.08,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/large_LANTAI_3_DTG_e7ff786d77.jpg',
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_3_DTG_e7ff786d77',
+                        resource_type: 'image',
+                      },
                     },
                   },
-                  hash: 'LANTAI_3_DTG_14ca98428a',
+                  hash: 'LANTAI_3_DTG_e7ff786d77',
                   ext: '.jpg',
                   mime: 'image/jpeg',
-                  size: 139.22,
-                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_3_DTG_14ca98428a.jpg',
+                  size: 720.68,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683558523/LANTAI_3_DTG_e7ff786d77.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
-                  createdAt: '2023-05-07T03:45:46.202Z',
-                  updatedAt: '2023-05-07T03:45:46.202Z',
+                  provider_metadata: {
+                    public_id: 'LANTAI_3_DTG_e7ff786d77',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T15:08:44.267Z',
+                  updatedAt: '2023-05-08T15:08:44.267Z',
                 },
               },
             },
@@ -11483,7 +14076,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -4.958205395427307, yaw: -166.7092765648115, transition: 'dtgd_lantai_3_2' },
+                  {
+                    pitch: -4.958205395427307,
+                    yaw: -166.7092765648115,
+                    transition: 'dtgd_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [400, 540, 10],
                 isCrooked: null,
@@ -11507,7 +14104,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/thumbnail_R0010835_a60ab86edf.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010835_a60ab86edf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010835_a60ab86edf',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010835.jpg',
@@ -11519,7 +14119,10 @@ export const Landmarks = {
                           height: 250,
                           size: 19.22,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/small_R0010835_a60ab86edf.jpg',
-                          provider_metadata: { public_id: 'small_R0010835_a60ab86edf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010835_a60ab86edf',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010835.jpg',
@@ -11531,7 +14134,10 @@ export const Landmarks = {
                           height: 375,
                           size: 36.57,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/medium_R0010835_a60ab86edf.jpg',
-                          provider_metadata: { public_id: 'medium_R0010835_a60ab86edf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010835_a60ab86edf',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010835.jpg',
@@ -11543,7 +14149,10 @@ export const Landmarks = {
                           height: 500,
                           size: 58.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/large_R0010835_a60ab86edf.jpg',
-                          provider_metadata: { public_id: 'large_R0010835_a60ab86edf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010835_a60ab86edf',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010835_a60ab86edf',
@@ -11553,7 +14162,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431879/R0010835_a60ab86edf.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010835_a60ab86edf', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010835_a60ab86edf',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:58:00.401Z',
                       updatedAt: '2023-05-07T03:58:00.401Z',
                     },
@@ -11565,7 +14177,11 @@ export const Landmarks = {
                 name: 'dtgd_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.569347057684356, yaw: 18.54023254151307, transition: 'dtgd_lantai_3_1' },
+                  {
+                    pitch: -8.569347057684356,
+                    yaw: 18.54023254151307,
+                    transition: 'dtgd_lantai_3_1',
+                  },
                 ],
                 mapCoordinate: [250, 535, 10],
                 isCrooked: null,
@@ -11589,7 +14205,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/thumbnail_R0010836_119c7108fa.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010836_119c7108fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010836_119c7108fa',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010836.jpg',
@@ -11601,7 +14220,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.16,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/small_R0010836_119c7108fa.jpg',
-                          provider_metadata: { public_id: 'small_R0010836_119c7108fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010836_119c7108fa',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010836.jpg',
@@ -11613,7 +14235,10 @@ export const Landmarks = {
                           height: 375,
                           size: 31.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431878/medium_R0010836_119c7108fa.jpg',
-                          provider_metadata: { public_id: 'medium_R0010836_119c7108fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010836_119c7108fa',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010836.jpg',
@@ -11625,7 +14250,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.57,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431879/large_R0010836_119c7108fa.jpg',
-                          provider_metadata: { public_id: 'large_R0010836_119c7108fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010836_119c7108fa',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010836_119c7108fa',
@@ -11635,7 +14263,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431879/R0010836_119c7108fa.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010836_119c7108fa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010836_119c7108fa',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T03:58:00.216Z',
                       updatedAt: '2023-05-07T03:58:00.216Z',
                     },
@@ -11667,7 +14298,10 @@ export const Landmarks = {
                   height: 115,
                   size: 66.98,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/thumbnail_DTGD_min_4269862385.png',
-                  provider_metadata: { public_id: 'thumbnail_DTGD_min_4269862385', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTGD_min_4269862385',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTGD-min.png',
@@ -11679,7 +14313,10 @@ export const Landmarks = {
                   height: 235,
                   size: 242.51,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTGD_min_4269862385.png',
-                  provider_metadata: { public_id: 'small_DTGD_min_4269862385', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTGD_min_4269862385',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTGD-min.png',
@@ -11691,7 +14328,10 @@ export const Landmarks = {
                   height: 352,
                   size: 503.26,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/medium_DTGD_min_4269862385.png',
-                  provider_metadata: { public_id: 'medium_DTGD_min_4269862385', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTGD_min_4269862385',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTGD-min.png',
@@ -11703,7 +14343,10 @@ export const Landmarks = {
                   height: 470,
                   size: 858.51,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/large_DTGD_min_4269862385.png',
-                  provider_metadata: { public_id: 'large_DTGD_min_4269862385', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTGD_min_4269862385',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTGD_min_4269862385',
@@ -11713,7 +14356,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/DTGD_min_4269862385.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTGD_min_4269862385', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTGD_min_4269862385',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:08.580Z',
               updatedAt: '2023-05-05T02:30:08.580Z',
             },
@@ -11767,7 +14413,10 @@ export const Landmarks = {
                       height: 156,
                       size: 6.28,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_3_DTG_14ca98428a',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_3_DTG.jpg',
@@ -11779,7 +14428,10 @@ export const Landmarks = {
                       height: 354,
                       size: 22.16,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_3_DTG_14ca98428a',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_3_DTG.jpg',
@@ -11791,7 +14443,10 @@ export const Landmarks = {
                       height: 530,
                       size: 41.16,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_3_DTG_14ca98428a',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_3_DTG.jpg',
@@ -11803,7 +14458,10 @@ export const Landmarks = {
                       height: 707,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_3_DTG_14ca98428a.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_3_DTG_14ca98428a',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_3_DTG_14ca98428a',
@@ -11813,7 +14471,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_3_DTG_14ca98428a.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_3_DTG_14ca98428a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_3_DTG_14ca98428a',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:45:46.202Z',
                   updatedAt: '2023-05-07T03:45:46.202Z',
                 },
@@ -11825,7 +14486,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 0.7375958050615277, yaw: -163.05239515146184, transition: 'dtsl_lantai_1_2' },
+                  {
+                    pitch: 0.7375958050615277,
+                    yaw: -163.05239515146184,
+                    transition: 'dtsl_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -11849,7 +14514,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/thumbnail_R0010860_6bdbdf522d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010860_6bdbdf522d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010860_6bdbdf522d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010860.jpg',
@@ -11861,7 +14529,10 @@ export const Landmarks = {
                           height: 250,
                           size: 25.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/small_R0010860_6bdbdf522d.jpg',
-                          provider_metadata: { public_id: 'small_R0010860_6bdbdf522d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010860_6bdbdf522d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010860.jpg',
@@ -11873,7 +14544,10 @@ export const Landmarks = {
                           height: 375,
                           size: 52.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/medium_R0010860_6bdbdf522d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010860_6bdbdf522d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010860_6bdbdf522d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010860.jpg',
@@ -11885,7 +14559,10 @@ export const Landmarks = {
                           height: 500,
                           size: 87.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/large_R0010860_6bdbdf522d.jpg',
-                          provider_metadata: { public_id: 'large_R0010860_6bdbdf522d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010860_6bdbdf522d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010860_6bdbdf522d',
@@ -11895,7 +14572,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/R0010860_6bdbdf522d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010860_6bdbdf522d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010860_6bdbdf522d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:12:36.009Z',
                       updatedAt: '2023-05-07T04:12:36.009Z',
                     },
@@ -11907,8 +14587,16 @@ export const Landmarks = {
                 name: 'dtsl_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 1.2811086928833904, yaw: 68.30073997819377, transition: 'dtsl_lantai_1_3' },
-                  { pitch: -2.021727826477696, yaw: 34.47817400033448, transition: 'dtsl_lantai_1_1' },
+                  {
+                    pitch: 1.2811086928833904,
+                    yaw: 68.30073997819377,
+                    transition: 'dtsl_lantai_1_3',
+                  },
+                  {
+                    pitch: -2.021727826477696,
+                    yaw: 34.47817400033448,
+                    transition: 'dtsl_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -11932,7 +14620,10 @@ export const Landmarks = {
                           height: 123,
                           size: 8.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/thumbnail_R0010861_03e39fc7ff.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010861_03e39fc7ff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010861_03e39fc7ff',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010861.jpg',
@@ -11944,7 +14635,10 @@ export const Landmarks = {
                           height: 250,
                           size: 29.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/small_R0010861_03e39fc7ff.jpg',
-                          provider_metadata: { public_id: 'small_R0010861_03e39fc7ff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010861_03e39fc7ff',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010861.jpg',
@@ -11956,7 +14650,10 @@ export const Landmarks = {
                           height: 375,
                           size: 63.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/medium_R0010861_03e39fc7ff.jpg',
-                          provider_metadata: { public_id: 'medium_R0010861_03e39fc7ff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010861_03e39fc7ff',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010861.jpg',
@@ -11968,7 +14665,10 @@ export const Landmarks = {
                           height: 500,
                           size: 106.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/large_R0010861_03e39fc7ff.jpg',
-                          provider_metadata: { public_id: 'large_R0010861_03e39fc7ff', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010861_03e39fc7ff',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010861_03e39fc7ff',
@@ -11978,7 +14678,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432756/R0010861_03e39fc7ff.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010861_03e39fc7ff', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010861_03e39fc7ff',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:12:36.774Z',
                       updatedAt: '2023-05-07T04:12:36.774Z',
                     },
@@ -11990,8 +14693,16 @@ export const Landmarks = {
                 name: 'dtsl_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.7775051395545995, yaw: 39.597337799701386, transition: 'dtsl_lantai_1_2' },
-                  { pitch: 0.865764191907524, yaw: 136.05646578086427, transition: 'dtsl_lantai_1_4' },
+                  {
+                    pitch: -7.7775051395545995,
+                    yaw: 39.597337799701386,
+                    transition: 'dtsl_lantai_1_2',
+                  },
+                  {
+                    pitch: 0.865764191907524,
+                    yaw: 136.05646578086427,
+                    transition: 'dtsl_lantai_1_4',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -12015,7 +14726,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/thumbnail_R0010862_433968a9ec.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010862_433968a9ec', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010862_433968a9ec',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010862.jpg',
@@ -12027,7 +14741,10 @@ export const Landmarks = {
                           height: 375,
                           size: 40.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/medium_R0010862_433968a9ec.jpg',
-                          provider_metadata: { public_id: 'medium_R0010862_433968a9ec', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010862_433968a9ec',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010862.jpg',
@@ -12039,7 +14756,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/small_R0010862_433968a9ec.jpg',
-                          provider_metadata: { public_id: 'small_R0010862_433968a9ec', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010862_433968a9ec',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010862.jpg',
@@ -12051,7 +14771,10 @@ export const Landmarks = {
                           height: 500,
                           size: 63.56,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/large_R0010862_433968a9ec.jpg',
-                          provider_metadata: { public_id: 'large_R0010862_433968a9ec', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010862_433968a9ec',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010862_433968a9ec',
@@ -12061,7 +14784,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/R0010862_433968a9ec.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010862_433968a9ec', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010862_433968a9ec',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:12:36.216Z',
                       updatedAt: '2023-05-07T04:12:36.216Z',
                     },
@@ -12073,7 +14799,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.4482533736514234, yaw: 27.5227502480847, transition: 'dtsl_lantai_1_3' },
+                  {
+                    pitch: -0.4482533736514234,
+                    yaw: 27.5227502480847,
+                    transition: 'dtsl_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -12097,7 +14827,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/thumbnail_R0010863_4eb91e4ce0.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010863_4eb91e4ce0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010863_4eb91e4ce0',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010863.jpg',
@@ -12109,7 +14842,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.84,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/small_R0010863_4eb91e4ce0.jpg',
-                          provider_metadata: { public_id: 'small_R0010863_4eb91e4ce0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010863_4eb91e4ce0',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010863.jpg',
@@ -12121,7 +14857,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/medium_R0010863_4eb91e4ce0.jpg',
-                          provider_metadata: { public_id: 'medium_R0010863_4eb91e4ce0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010863_4eb91e4ce0',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010863.jpg',
@@ -12133,7 +14872,10 @@ export const Landmarks = {
                           height: 500,
                           size: 55.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432754/large_R0010863_4eb91e4ce0.jpg',
-                          provider_metadata: { public_id: 'large_R0010863_4eb91e4ce0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010863_4eb91e4ce0',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010863_4eb91e4ce0',
@@ -12143,7 +14885,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683432755/R0010863_4eb91e4ce0.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010863_4eb91e4ce0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010863_4eb91e4ce0',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:12:36.043Z',
                       updatedAt: '2023-05-07T04:12:36.043Z',
                     },
@@ -12177,7 +14922,10 @@ export const Landmarks = {
                       height: 156,
                       size: 7.04,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_2_DTG_b0cc8e055f',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_2_DTG.jpg',
@@ -12189,7 +14937,10 @@ export const Landmarks = {
                       height: 354,
                       size: 27.27,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_2_DTG_b0cc8e055f',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_2_DTG.jpg',
@@ -12201,7 +14952,10 @@ export const Landmarks = {
                       height: 707,
                       size: 81.47,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_2_DTG_b0cc8e055f',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_2_DTG.jpg',
@@ -12213,7 +14967,10 @@ export const Landmarks = {
                       height: 530,
                       size: 52.18,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_2_DTG_b0cc8e055f.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_2_DTG_b0cc8e055f',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_2_DTG_b0cc8e055f',
@@ -12223,7 +14980,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_2_DTG_b0cc8e055f.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_2_DTG_b0cc8e055f', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_2_DTG_b0cc8e055f',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:45:46.158Z',
                   updatedAt: '2023-05-07T03:45:46.158Z',
                 },
@@ -12235,7 +14995,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.596677627087502, yaw: 160.56456419756347, transition: 'dtsl_lantai_2_2' },
+                  {
+                    pitch: -10.596677627087502,
+                    yaw: 160.56456419756347,
+                    transition: 'dtsl_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -12259,7 +15023,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010865_19aa8be54f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010865_19aa8be54f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010865_19aa8be54f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010865.jpg',
@@ -12271,7 +15038,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.53,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/medium_R0010865_19aa8be54f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010865_19aa8be54f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010865_19aa8be54f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010865.jpg',
@@ -12283,7 +15053,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/small_R0010865_19aa8be54f.jpg',
-                          provider_metadata: { public_id: 'small_R0010865_19aa8be54f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010865_19aa8be54f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010865.jpg',
@@ -12295,7 +15068,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/large_R0010865_19aa8be54f.jpg',
-                          provider_metadata: { public_id: 'large_R0010865_19aa8be54f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010865_19aa8be54f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010865_19aa8be54f',
@@ -12305,7 +15081,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/R0010865_19aa8be54f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010865_19aa8be54f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010865_19aa8be54f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:18:59.700Z',
                       updatedAt: '2023-05-07T04:18:59.700Z',
                     },
@@ -12317,9 +15096,21 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -17.63559787123105, yaw: 34.05504175135581, transition: 'dtsl_lantai_2_1' },
-                  { pitch: 1.212169079438734, yaw: 119.04021195428311, transition: 'dtsl_lantai_2_3' },
-                  { pitch: -8.247003362222346, yaw: -61.182292518970975, transition: 'dtsl_lantai_2_8' },
+                  {
+                    pitch: -17.63559787123105,
+                    yaw: 34.05504175135581,
+                    transition: 'dtsl_lantai_2_1',
+                  },
+                  {
+                    pitch: 1.212169079438734,
+                    yaw: 119.04021195428311,
+                    transition: 'dtsl_lantai_2_3',
+                  },
+                  {
+                    pitch: -8.247003362222346,
+                    yaw: -61.182292518970975,
+                    transition: 'dtsl_lantai_2_8',
+                  },
                 ],
                 mapCoordinate: [10, 20, 10],
                 isCrooked: null,
@@ -12343,7 +15134,10 @@ export const Landmarks = {
                           height: 123,
                           size: 8.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010866_a495ed636f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010866_a495ed636f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010866_a495ed636f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010866.jpg',
@@ -12355,7 +15149,10 @@ export const Landmarks = {
                           height: 250,
                           size: 25.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/small_R0010866_a495ed636f.jpg',
-                          provider_metadata: { public_id: 'small_R0010866_a495ed636f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010866_a495ed636f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010866.jpg',
@@ -12367,7 +15164,10 @@ export const Landmarks = {
                           height: 375,
                           size: 50.9,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/medium_R0010866_a495ed636f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010866_a495ed636f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010866_a495ed636f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010866.jpg',
@@ -12379,7 +15179,10 @@ export const Landmarks = {
                           height: 500,
                           size: 82.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/large_R0010866_a495ed636f.jpg',
-                          provider_metadata: { public_id: 'large_R0010866_a495ed636f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010866_a495ed636f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010866_a495ed636f',
@@ -12389,7 +15192,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433140/R0010866_a495ed636f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010866_a495ed636f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010866_a495ed636f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:00.567Z',
                       updatedAt: '2023-05-07T04:19:00.567Z',
                     },
@@ -12401,8 +15207,16 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.252756780716674, yaw: 24.234286253121255, transition: 'dtsl_lantai_2_2' },
-                  { pitch: -7.252756780716674, yaw: -161.23428625312127, transition: 'dtsl_lantai_2_4' },
+                  {
+                    pitch: -7.252756780716674,
+                    yaw: 24.234286253121255,
+                    transition: 'dtsl_lantai_2_2',
+                  },
+                  {
+                    pitch: -7.252756780716674,
+                    yaw: -161.23428625312127,
+                    transition: 'dtsl_lantai_2_4',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -12426,7 +15240,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010867_b948d7e794.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010867_b948d7e794', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010867_b948d7e794',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010867.jpg',
@@ -12438,7 +15255,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/small_R0010867_b948d7e794.jpg',
-                          provider_metadata: { public_id: 'small_R0010867_b948d7e794', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010867_b948d7e794',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010867.jpg',
@@ -12450,7 +15270,10 @@ export const Landmarks = {
                           height: 500,
                           size: 70.71,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/large_R0010867_b948d7e794.jpg',
-                          provider_metadata: { public_id: 'large_R0010867_b948d7e794', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010867_b948d7e794',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010867.jpg',
@@ -12462,7 +15285,10 @@ export const Landmarks = {
                           height: 375,
                           size: 43.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/medium_R0010867_b948d7e794.jpg',
-                          provider_metadata: { public_id: 'medium_R0010867_b948d7e794', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010867_b948d7e794',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010867_b948d7e794',
@@ -12472,7 +15298,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433140/R0010867_b948d7e794.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010867_b948d7e794', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010867_b948d7e794',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:00.637Z',
                       updatedAt: '2023-05-07T04:19:00.637Z',
                     },
@@ -12484,9 +15313,21 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -4.3379572011523715, yaw: 7.472336586644749, transition: 'dtsl_lantai_2_3' },
-                  { pitch: -7.5713136017605756, yaw: 71.93201445034731, transition: 'dtsl_lantai_2_5' },
-                  { pitch: -14.571313601760576, yaw: -105.64056004718694, transition: 'dtsl_lantai_2_6' },
+                  {
+                    pitch: -4.3379572011523715,
+                    yaw: 7.472336586644749,
+                    transition: 'dtsl_lantai_2_3',
+                  },
+                  {
+                    pitch: -7.5713136017605756,
+                    yaw: 71.93201445034731,
+                    transition: 'dtsl_lantai_2_5',
+                  },
+                  {
+                    pitch: -14.571313601760576,
+                    yaw: -105.64056004718694,
+                    transition: 'dtsl_lantai_2_6',
+                  },
                 ],
                 mapCoordinate: [10, 40, 10],
                 isCrooked: null,
@@ -12510,7 +15351,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.03,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010868_ccda7c12a9.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010868_ccda7c12a9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010868_ccda7c12a9',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010868.jpg',
@@ -12522,7 +15366,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.4,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/small_R0010868_ccda7c12a9.jpg',
-                          provider_metadata: { public_id: 'small_R0010868_ccda7c12a9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010868_ccda7c12a9',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010868.jpg',
@@ -12534,7 +15381,10 @@ export const Landmarks = {
                           height: 375,
                           size: 41.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/medium_R0010868_ccda7c12a9.jpg',
-                          provider_metadata: { public_id: 'medium_R0010868_ccda7c12a9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010868_ccda7c12a9',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010868.jpg',
@@ -12546,7 +15396,10 @@ export const Landmarks = {
                           height: 500,
                           size: 66.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/large_R0010868_ccda7c12a9.jpg',
-                          provider_metadata: { public_id: 'large_R0010868_ccda7c12a9', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010868_ccda7c12a9',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010868_ccda7c12a9',
@@ -12556,7 +15409,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/R0010868_ccda7c12a9.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010868_ccda7c12a9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010868_ccda7c12a9',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:00.413Z',
                       updatedAt: '2023-05-07T04:19:00.413Z',
                     },
@@ -12568,7 +15424,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.348369876828156, yaw: 89.00095511174315, transition: 'dtsl_lantai_2_4' },
+                  {
+                    pitch: -6.348369876828156,
+                    yaw: 89.00095511174315,
+                    transition: 'dtsl_lantai_2_4',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -12592,7 +15452,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010869_b98ffd4de3.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010869_b98ffd4de3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010869_b98ffd4de3',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010869.jpg',
@@ -12604,7 +15467,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.47,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/small_R0010869_b98ffd4de3.jpg',
-                          provider_metadata: { public_id: 'small_R0010869_b98ffd4de3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010869_b98ffd4de3',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010869.jpg',
@@ -12616,7 +15482,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/medium_R0010869_b98ffd4de3.jpg',
-                          provider_metadata: { public_id: 'medium_R0010869_b98ffd4de3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010869_b98ffd4de3',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010869.jpg',
@@ -12628,7 +15497,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/large_R0010869_b98ffd4de3.jpg',
-                          provider_metadata: { public_id: 'large_R0010869_b98ffd4de3', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010869_b98ffd4de3',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010869_b98ffd4de3',
@@ -12638,7 +15510,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/R0010869_b98ffd4de3.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010869_b98ffd4de3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010869_b98ffd4de3',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:18:59.740Z',
                       updatedAt: '2023-05-07T04:18:59.740Z',
                     },
@@ -12650,8 +15525,16 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_6',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -19.51308943699338, yaw: 107.61224252463354, transition: 'dtsl_lantai_2_4' },
-                  { pitch: -6.412659367507539, yaw: -164.38292718258472, transition: 'dtsl_lantai_2_7' },
+                  {
+                    pitch: -19.51308943699338,
+                    yaw: 107.61224252463354,
+                    transition: 'dtsl_lantai_2_4',
+                  },
+                  {
+                    pitch: -6.412659367507539,
+                    yaw: -164.38292718258472,
+                    transition: 'dtsl_lantai_2_7',
+                  },
                 ],
                 mapCoordinate: [10, 60, 10],
                 isCrooked: null,
@@ -12675,7 +15558,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433141/thumbnail_R0010870_7c871ab1c4.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010870_7c871ab1c4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010870_7c871ab1c4',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010870.jpg',
@@ -12687,7 +15573,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/small_R0010870_7c871ab1c4.jpg',
-                          provider_metadata: { public_id: 'small_R0010870_7c871ab1c4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010870_7c871ab1c4',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010870.jpg',
@@ -12699,7 +15588,10 @@ export const Landmarks = {
                           height: 375,
                           size: 41.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/medium_R0010870_7c871ab1c4.jpg',
-                          provider_metadata: { public_id: 'medium_R0010870_7c871ab1c4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010870_7c871ab1c4',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010870.jpg',
@@ -12711,7 +15603,10 @@ export const Landmarks = {
                           height: 500,
                           size: 66.93,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/large_R0010870_7c871ab1c4.jpg',
-                          provider_metadata: { public_id: 'large_R0010870_7c871ab1c4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010870_7c871ab1c4',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010870_7c871ab1c4',
@@ -12721,7 +15616,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/R0010870_7c871ab1c4.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010870_7c871ab1c4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010870_7c871ab1c4',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:03.463Z',
                       updatedAt: '2023-05-07T04:19:03.463Z',
                     },
@@ -12733,7 +15631,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_7',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -13.930157147255546, yaw: 55.687601966451794, transition: 'dtsl_lantai_2_6' },
+                  {
+                    pitch: -13.930157147255546,
+                    yaw: 55.687601966451794,
+                    transition: 'dtsl_lantai_2_6',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -12757,7 +15659,10 @@ export const Landmarks = {
                           height: 123,
                           size: 7.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433138/thumbnail_R0010871_0322bbe35b.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010871_0322bbe35b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010871_0322bbe35b',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010871.jpg',
@@ -12769,7 +15674,10 @@ export const Landmarks = {
                           height: 250,
                           size: 21.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/small_R0010871_0322bbe35b.jpg',
-                          provider_metadata: { public_id: 'small_R0010871_0322bbe35b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010871_0322bbe35b',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010871.jpg',
@@ -12781,7 +15689,10 @@ export const Landmarks = {
                           height: 375,
                           size: 42.55,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/medium_R0010871_0322bbe35b.jpg',
-                          provider_metadata: { public_id: 'medium_R0010871_0322bbe35b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010871_0322bbe35b',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010871.jpg',
@@ -12793,7 +15704,10 @@ export const Landmarks = {
                           height: 500,
                           size: 67.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433139/large_R0010871_0322bbe35b.jpg',
-                          provider_metadata: { public_id: 'large_R0010871_0322bbe35b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010871_0322bbe35b',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010871_0322bbe35b',
@@ -12803,7 +15717,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433140/R0010871_0322bbe35b.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010871_0322bbe35b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010871_0322bbe35b',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:00.821Z',
                       updatedAt: '2023-05-07T04:19:00.821Z',
                     },
@@ -12815,8 +15732,16 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_8',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -4.634850800902543, yaw: 17.62679928426156, transition: 'dtsl_lantai_2_2' },
-                  { pitch: -15.539759842630282, yaw: -80.35796476267626, transition: 'dtsl_lantai_2_9' },
+                  {
+                    pitch: -4.634850800902543,
+                    yaw: 17.62679928426156,
+                    transition: 'dtsl_lantai_2_2',
+                  },
+                  {
+                    pitch: -15.539759842630282,
+                    yaw: -80.35796476267626,
+                    transition: 'dtsl_lantai_2_9',
+                  },
                 ],
                 mapCoordinate: [10, 80, 10],
                 isCrooked: null,
@@ -12840,7 +15765,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433141/thumbnail_R0010872_e9559f4b84.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010872_e9559f4b84', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010872_e9559f4b84',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010872.jpg',
@@ -12852,7 +15780,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/small_R0010872_e9559f4b84.jpg',
-                          provider_metadata: { public_id: 'small_R0010872_e9559f4b84', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010872_e9559f4b84',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010872.jpg',
@@ -12864,7 +15795,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/medium_R0010872_e9559f4b84.jpg',
-                          provider_metadata: { public_id: 'medium_R0010872_e9559f4b84', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010872_e9559f4b84',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010872.jpg',
@@ -12876,7 +15810,10 @@ export const Landmarks = {
                           height: 500,
                           size: 62.71,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/large_R0010872_e9559f4b84.jpg',
-                          provider_metadata: { public_id: 'large_R0010872_e9559f4b84', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010872_e9559f4b84',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010872_e9559f4b84',
@@ -12886,7 +15823,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/R0010872_e9559f4b84.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010872_e9559f4b84', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010872_e9559f4b84',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:03.297Z',
                       updatedAt: '2023-05-07T04:19:03.297Z',
                     },
@@ -12898,7 +15838,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_2_9',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.4482533736514234, yaw: 34.73906263913064, transition: 'dtsl_lantai_2_8' },
+                  {
+                    pitch: -3.4482533736514234,
+                    yaw: 34.73906263913064,
+                    transition: 'dtsl_lantai_2_8',
+                  },
                 ],
                 mapCoordinate: [10, 90, 10],
                 isCrooked: null,
@@ -12922,7 +15866,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.24,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/thumbnail_R0010873_8449888956.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010873_8449888956', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010873_8449888956',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010873.jpg',
@@ -12934,7 +15881,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.11,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/medium_R0010873_8449888956.jpg',
-                          provider_metadata: { public_id: 'medium_R0010873_8449888956', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010873_8449888956',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010873.jpg',
@@ -12946,7 +15896,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433142/small_R0010873_8449888956.jpg',
-                          provider_metadata: { public_id: 'small_R0010873_8449888956', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010873_8449888956',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010873.jpg',
@@ -12958,7 +15911,10 @@ export const Landmarks = {
                           height: 500,
                           size: 51.74,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433143/large_R0010873_8449888956.jpg',
-                          provider_metadata: { public_id: 'large_R0010873_8449888956', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010873_8449888956',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010873_8449888956',
@@ -12968,7 +15924,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433143/R0010873_8449888956.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010873_8449888956', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010873_8449888956',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:19:03.937Z',
                       updatedAt: '2023-05-07T04:19:03.937Z',
                     },
@@ -13002,7 +15961,10 @@ export const Landmarks = {
                       height: 156,
                       size: 7.53,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/thumbnail_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_1_DTG_90ddda9ee8',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_1_DTG.jpg',
@@ -13014,7 +15976,10 @@ export const Landmarks = {
                       height: 354,
                       size: 27.62,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/small_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'small_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_1_DTG_90ddda9ee8',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_1_DTG.jpg',
@@ -13026,7 +15991,10 @@ export const Landmarks = {
                       height: 707,
                       size: 78.79,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/large_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'large_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_1_DTG_90ddda9ee8',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_1_DTG.jpg',
@@ -13038,7 +16006,10 @@ export const Landmarks = {
                       height: 530,
                       size: 51.43,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/medium_LANTAI_1_DTG_90ddda9ee8.jpg',
-                      provider_metadata: { public_id: 'medium_LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_1_DTG_90ddda9ee8',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_1_DTG_90ddda9ee8',
@@ -13048,7 +16019,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683431145/LANTAI_1_DTG_90ddda9ee8.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_1_DTG_90ddda9ee8', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_1_DTG_90ddda9ee8',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T03:45:46.180Z',
                   updatedAt: '2023-05-07T03:45:46.180Z',
                 },
@@ -13060,7 +16034,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.49783035655871, yaw: 152.15649048328936, transition: 'dtsl_lantai_3_2' },
+                  {
+                    pitch: -5.49783035655871,
+                    yaw: 152.15649048328936,
+                    transition: 'dtsl_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -13084,7 +16062,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433460/thumbnail_R0010875_55b6ea96ed.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010875_55b6ea96ed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010875_55b6ea96ed',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010875.jpg',
@@ -13096,7 +16077,10 @@ export const Landmarks = {
                           height: 375,
                           size: 33.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433460/medium_R0010875_55b6ea96ed.jpg',
-                          provider_metadata: { public_id: 'medium_R0010875_55b6ea96ed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010875_55b6ea96ed',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010875.jpg',
@@ -13108,7 +16092,10 @@ export const Landmarks = {
                           height: 250,
                           size: 17.38,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433460/small_R0010875_55b6ea96ed.jpg',
-                          provider_metadata: { public_id: 'small_R0010875_55b6ea96ed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010875_55b6ea96ed',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010875.jpg',
@@ -13120,7 +16107,10 @@ export const Landmarks = {
                           height: 500,
                           size: 53.09,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/large_R0010875_55b6ea96ed.jpg',
-                          provider_metadata: { public_id: 'large_R0010875_55b6ea96ed', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010875_55b6ea96ed',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010875_55b6ea96ed',
@@ -13130,7 +16120,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/R0010875_55b6ea96ed.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010875_55b6ea96ed', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010875_55b6ea96ed',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:24:21.978Z',
                       updatedAt: '2023-05-07T04:24:21.978Z',
                     },
@@ -13142,7 +16135,11 @@ export const Landmarks = {
                 name: 'dtsl_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -13.953333425531511, yaw: -74.25035370055527, transition: 'dtsl_lantai_3_1' },
+                  {
+                    pitch: -13.953333425531511,
+                    yaw: -74.25035370055527,
+                    transition: 'dtsl_lantai_3_1',
+                  },
                 ],
                 mapCoordinate: [10, 20, 10],
                 isCrooked: null,
@@ -13166,7 +16163,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.84,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433460/thumbnail_R0010876_5cf6ec8295.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010876_5cf6ec8295', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010876_5cf6ec8295',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010876.jpg',
@@ -13178,7 +16178,10 @@ export const Landmarks = {
                           height: 250,
                           size: 14.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/small_R0010876_5cf6ec8295.jpg',
-                          provider_metadata: { public_id: 'small_R0010876_5cf6ec8295', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010876_5cf6ec8295',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010876.jpg',
@@ -13190,7 +16193,10 @@ export const Landmarks = {
                           height: 375,
                           size: 28.9,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/medium_R0010876_5cf6ec8295.jpg',
-                          provider_metadata: { public_id: 'medium_R0010876_5cf6ec8295', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010876_5cf6ec8295',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010876.jpg',
@@ -13202,7 +16208,10 @@ export const Landmarks = {
                           height: 500,
                           size: 46.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/large_R0010876_5cf6ec8295.jpg',
-                          provider_metadata: { public_id: 'large_R0010876_5cf6ec8295', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010876_5cf6ec8295',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010876_5cf6ec8295',
@@ -13212,7 +16221,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683433461/R0010876_5cf6ec8295.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010876_5cf6ec8295', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010876_5cf6ec8295',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T04:24:22.173Z',
                       updatedAt: '2023-05-07T04:24:22.173Z',
                     },
@@ -13249,7 +16261,10 @@ export const Landmarks = {
                       height: 152,
                       size: 10.55,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_1_ab9868a1e9.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_1_ab9868a1e9', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_1_ab9868a1e9',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_1_ab9868a1e9',
@@ -13259,7 +16274,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/GALLERY_DTSL_1_ab9868a1e9.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_1_ab9868a1e9', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_1_ab9868a1e9',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:51.378Z',
                   updatedAt: '2023-05-07T12:52:51.378Z',
                 },
@@ -13292,7 +16310,10 @@ export const Landmarks = {
                       height: 110,
                       size: 7.87,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_1_09b0f34916.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_1_09b0f34916', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_1_09b0f34916',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTSL (1).jpg',
@@ -13304,7 +16325,10 @@ export const Landmarks = {
                       height: 225,
                       size: 24.44,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/small_GALLERY_DTSL_1_09b0f34916.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTSL_1_09b0f34916', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTSL_1_09b0f34916',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTSL (1).jpg',
@@ -13316,7 +16340,10 @@ export const Landmarks = {
                       height: 450,
                       size: 75.25,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/large_GALLERY_DTSL_1_09b0f34916.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTSL_1_09b0f34916', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTSL_1_09b0f34916',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTSL (1).jpg',
@@ -13328,7 +16355,10 @@ export const Landmarks = {
                       height: 337,
                       size: 47.44,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/medium_GALLERY_DTSL_1_09b0f34916.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTSL_1_09b0f34916', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTSL_1_09b0f34916',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_1_09b0f34916',
@@ -13338,7 +16368,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463972/GALLERY_DTSL_1_09b0f34916.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_1_09b0f34916', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_1_09b0f34916',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:52.751Z',
                   updatedAt: '2023-05-07T12:52:52.751Z',
                 },
@@ -13371,7 +16404,10 @@ export const Landmarks = {
                       height: 156,
                       size: 8.97,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_2_f9585b7d8f.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_2_f9585b7d8f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_2_f9585b7d8f',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTSL (2).jpeg',
@@ -13383,7 +16419,10 @@ export const Landmarks = {
                       height: 375,
                       size: 37,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/small_GALLERY_DTSL_2_f9585b7d8f.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTSL_2_f9585b7d8f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTSL_2_f9585b7d8f',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTSL (2).jpeg',
@@ -13395,7 +16434,10 @@ export const Landmarks = {
                       height: 563,
                       size: 69.48,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/medium_GALLERY_DTSL_2_f9585b7d8f.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTSL_2_f9585b7d8f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTSL_2_f9585b7d8f',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_2_f9585b7d8f',
@@ -13405,7 +16447,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/GALLERY_DTSL_2_f9585b7d8f.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_2_f9585b7d8f', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_2_f9585b7d8f',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:52.158Z',
                   updatedAt: '2023-05-07T12:52:52.158Z',
                 },
@@ -13438,7 +16483,10 @@ export const Landmarks = {
                       height: 110,
                       size: 7.33,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_2_9e41ff8222.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_2_9e41ff8222', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_2_9e41ff8222',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTSL (2).jpg',
@@ -13450,7 +16498,10 @@ export const Landmarks = {
                       height: 225,
                       size: 22.53,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/small_GALLERY_DTSL_2_9e41ff8222.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTSL_2_9e41ff8222', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTSL_2_9e41ff8222',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTSL (2).jpg',
@@ -13462,7 +16513,10 @@ export const Landmarks = {
                       height: 450,
                       size: 67.78,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/large_GALLERY_DTSL_2_9e41ff8222.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTSL_2_9e41ff8222', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTSL_2_9e41ff8222',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTSL (2).jpg',
@@ -13474,7 +16528,10 @@ export const Landmarks = {
                       height: 337,
                       size: 43.04,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/medium_GALLERY_DTSL_2_9e41ff8222.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTSL_2_9e41ff8222', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTSL_2_9e41ff8222',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_2_9e41ff8222',
@@ -13484,7 +16541,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463972/GALLERY_DTSL_2_9e41ff8222.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_2_9e41ff8222', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_2_9e41ff8222',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:52.696Z',
                   updatedAt: '2023-05-07T12:52:52.696Z',
                 },
@@ -13517,7 +16577,10 @@ export const Landmarks = {
                       height: 156,
                       size: 12.71,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_3_d7f44b2a67.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_3_d7f44b2a67', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_3_d7f44b2a67',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTSL (3).jpg',
@@ -13529,7 +16592,10 @@ export const Landmarks = {
                       height: 333,
                       size: 49.06,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/small_GALLERY_DTSL_3_d7f44b2a67.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTSL_3_d7f44b2a67', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTSL_3_d7f44b2a67',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTSL (3).jpg',
@@ -13541,7 +16607,10 @@ export const Landmarks = {
                       height: 500,
                       size: 99.41,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/medium_GALLERY_DTSL_3_d7f44b2a67.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTSL_3_d7f44b2a67', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTSL_3_d7f44b2a67',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTSL (3).jpg',
@@ -13553,7 +16622,10 @@ export const Landmarks = {
                       height: 667,
                       size: 159.1,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/large_GALLERY_DTSL_3_d7f44b2a67.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTSL_3_d7f44b2a67', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTSL_3_d7f44b2a67',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_3_d7f44b2a67',
@@ -13563,7 +16635,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463972/GALLERY_DTSL_3_d7f44b2a67.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_3_d7f44b2a67', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_3_d7f44b2a67',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:52.539Z',
                   updatedAt: '2023-05-07T12:52:52.539Z',
                 },
@@ -13596,7 +16671,10 @@ export const Landmarks = {
                       height: 156,
                       size: 11,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/thumbnail_GALLERY_DTSL_4_28d1bc051d.jpg',
-                      provider_metadata: { public_id: 'thumbnail_GALLERY_DTSL_4_28d1bc051d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_GALLERY_DTSL_4_28d1bc051d',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_GALLERY DTSL (4).jpg',
@@ -13608,7 +16686,10 @@ export const Landmarks = {
                       height: 333,
                       size: 37.49,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/small_GALLERY_DTSL_4_28d1bc051d.jpg',
-                      provider_metadata: { public_id: 'small_GALLERY_DTSL_4_28d1bc051d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_GALLERY_DTSL_4_28d1bc051d',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_GALLERY DTSL (4).jpg',
@@ -13620,7 +16701,10 @@ export const Landmarks = {
                       height: 500,
                       size: 67.32,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463970/medium_GALLERY_DTSL_4_28d1bc051d.jpg',
-                      provider_metadata: { public_id: 'medium_GALLERY_DTSL_4_28d1bc051d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_GALLERY_DTSL_4_28d1bc051d',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_GALLERY DTSL (4).jpg',
@@ -13632,7 +16716,10 @@ export const Landmarks = {
                       height: 667,
                       size: 99.48,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/large_GALLERY_DTSL_4_28d1bc051d.jpg',
-                      provider_metadata: { public_id: 'large_GALLERY_DTSL_4_28d1bc051d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_GALLERY_DTSL_4_28d1bc051d',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'GALLERY_DTSL_4_28d1bc051d',
@@ -13642,7 +16729,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683463971/GALLERY_DTSL_4_28d1bc051d.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'GALLERY_DTSL_4_28d1bc051d', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'GALLERY_DTSL_4_28d1bc051d',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T12:52:51.530Z',
                   updatedAt: '2023-05-07T12:52:51.530Z',
                 },
@@ -13671,7 +16761,10 @@ export const Landmarks = {
                   height: 115,
                   size: 65.54,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253805/thumbnail_DTSL_min_9ac5207e76.png',
-                  provider_metadata: { public_id: 'thumbnail_DTSL_min_9ac5207e76', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_DTSL_min_9ac5207e76',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_DTSL-min.png',
@@ -13683,7 +16776,10 @@ export const Landmarks = {
                   height: 234,
                   size: 239.62,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/small_DTSL_min_9ac5207e76.png',
-                  provider_metadata: { public_id: 'small_DTSL_min_9ac5207e76', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_DTSL_min_9ac5207e76',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_DTSL-min.png',
@@ -13695,7 +16791,10 @@ export const Landmarks = {
                   height: 351,
                   size: 505.21,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/medium_DTSL_min_9ac5207e76.png',
-                  provider_metadata: { public_id: 'medium_DTSL_min_9ac5207e76', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_DTSL_min_9ac5207e76',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_DTSL-min.png',
@@ -13707,7 +16806,10 @@ export const Landmarks = {
                   height: 468,
                   size: 864.91,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253807/large_DTSL_min_9ac5207e76.png',
-                  provider_metadata: { public_id: 'large_DTSL_min_9ac5207e76', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_DTSL_min_9ac5207e76',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'DTSL_min_9ac5207e76',
@@ -13717,7 +16819,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253806/DTSL_min_9ac5207e76.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'DTSL_min_9ac5207e76', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'DTSL_min_9ac5207e76',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:08.430Z',
               updatedAt: '2023-05-05T02:30:08.430Z',
             },
@@ -13771,7 +16876,10 @@ export const Landmarks = {
                       height: 156,
                       size: 67.04,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355600/thumbnail_LANTAI_1_min_8bd88eb6be.png',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_1_min_8bd88eb6be', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_1_min_8bd88eb6be',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_1-min.png',
@@ -13783,7 +16891,10 @@ export const Landmarks = {
                       height: 393,
                       size: 351.14,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355602/small_LANTAI_1_min_8bd88eb6be.png',
-                      provider_metadata: { public_id: 'small_LANTAI_1_min_8bd88eb6be', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_1_min_8bd88eb6be',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_1-min.png',
@@ -13795,7 +16906,10 @@ export const Landmarks = {
                       height: 589,
                       size: 728.26,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/medium_LANTAI_1_min_8bd88eb6be.png',
-                      provider_metadata: { public_id: 'medium_LANTAI_1_min_8bd88eb6be', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_1_min_8bd88eb6be',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_1-min.png',
@@ -13807,7 +16921,10 @@ export const Landmarks = {
                       height: 785,
                       size: 1232.92,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/large_LANTAI_1_min_8bd88eb6be.png',
-                      provider_metadata: { public_id: 'large_LANTAI_1_min_8bd88eb6be', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_1_min_8bd88eb6be',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_1_min_8bd88eb6be',
@@ -13817,7 +16934,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355602/LANTAI_1_min_8bd88eb6be.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_1_min_8bd88eb6be', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_1_min_8bd88eb6be',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T06:46:43.844Z',
                   updatedAt: '2023-05-06T06:46:43.844Z',
                 },
@@ -13829,8 +16949,16 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.544445083651698, yaw: -123.98624510159758, transition: 'perpustakaan_lantai_1_2' },
-                  { pitch: -22.887511186201674, yaw: 79.11302248730237, transition: 'perpustakaan_lantai_1_3' },
+                  {
+                    pitch: -5.544445083651698,
+                    yaw: -123.98624510159758,
+                    transition: 'perpustakaan_lantai_1_2',
+                  },
+                  {
+                    pitch: -22.887511186201674,
+                    yaw: 79.11302248730237,
+                    transition: 'perpustakaan_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [475, 240, 10],
                 isCrooked: null,
@@ -13854,7 +16982,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348096/thumbnail_R0010703_d0590f53f4.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010703_d0590f53f4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010703_d0590f53f4',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010703_d0590f53f4',
@@ -13864,7 +16995,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348097/R0010703_d0590f53f4.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010703_d0590f53f4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010703_d0590f53f4',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T04:41:38.317Z',
                       updatedAt: '2023-05-06T04:41:38.317Z',
                     },
@@ -13876,7 +17010,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -21.242875571330814, yaw: -54.79161679422896, transition: 'perpustakaan_lantai_1_1' },
+                  {
+                    pitch: -21.242875571330814,
+                    yaw: -54.79161679422896,
+                    transition: 'perpustakaan_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [360, 465, 10],
                 isCrooked: null,
@@ -13900,7 +17038,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348096/thumbnail_R0010705_6ee388f6b2.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010705_6ee388f6b2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010705_6ee388f6b2',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010705_6ee388f6b2',
@@ -13910,7 +17051,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348098/R0010705_6ee388f6b2.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010705_6ee388f6b2', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010705_6ee388f6b2',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T04:41:38.516Z',
                       updatedAt: '2023-05-06T04:41:38.516Z',
                     },
@@ -13922,7 +17066,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -35.04894112428714, yaw: -16.862436281750764, transition: 'perpustakaan_lantai_1_1' },
+                  {
+                    pitch: -35.04894112428714,
+                    yaw: -16.862436281750764,
+                    transition: 'perpustakaan_lantai_1_1',
+                  },
                 ],
                 mapCoordinate: [625, 240, 10],
                 isCrooked: null,
@@ -13946,7 +17094,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348096/thumbnail_R0010704_95f3a849d7.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010704_95f3a849d7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010704_95f3a849d7',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010704_95f3a849d7',
@@ -13956,7 +17107,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683348098/R0010704_95f3a849d7.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010704_95f3a849d7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010704_95f3a849d7',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T04:41:38.491Z',
                       updatedAt: '2023-05-06T04:41:38.491Z',
                     },
@@ -13990,7 +17144,10 @@ export const Landmarks = {
                       height: 156,
                       size: 66.18,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355601/thumbnail_LANTAI_2_min_b9ca85cb93.png',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_2_min_b9ca85cb93', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_2_min_b9ca85cb93',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_2-min.png',
@@ -14002,7 +17159,10 @@ export const Landmarks = {
                       height: 393,
                       size: 366.47,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/small_LANTAI_2_min_b9ca85cb93.png',
-                      provider_metadata: { public_id: 'small_LANTAI_2_min_b9ca85cb93', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_2_min_b9ca85cb93',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_2-min.png',
@@ -14014,7 +17174,10 @@ export const Landmarks = {
                       height: 589,
                       size: 787.52,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/medium_LANTAI_2_min_b9ca85cb93.png',
-                      provider_metadata: { public_id: 'medium_LANTAI_2_min_b9ca85cb93', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_2_min_b9ca85cb93',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_2-min.png',
@@ -14026,7 +17189,10 @@ export const Landmarks = {
                       height: 785,
                       size: 1358.27,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/large_LANTAI_2_min_b9ca85cb93.png',
-                      provider_metadata: { public_id: 'large_LANTAI_2_min_b9ca85cb93', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_2_min_b9ca85cb93',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_2_min_b9ca85cb93',
@@ -14036,7 +17202,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355602/LANTAI_2_min_b9ca85cb93.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_2_min_b9ca85cb93', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_2_min_b9ca85cb93',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T06:46:44.390Z',
                   updatedAt: '2023-05-06T06:46:44.390Z',
                 },
@@ -14048,8 +17217,16 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.51201880081893, yaw: -120.45429369484299, transition: 'perpustakaan_lantai_2_2' },
-                  { pitch: -1.387511186201674, yaw: 112.03541690024466, transition: 'perpustakaan_lantai_2_3' },
+                  {
+                    pitch: -11.51201880081893,
+                    yaw: -120.45429369484299,
+                    transition: 'perpustakaan_lantai_2_2',
+                  },
+                  {
+                    pitch: -1.387511186201674,
+                    yaw: 112.03541690024466,
+                    transition: 'perpustakaan_lantai_2_3',
+                  },
                 ],
                 mapCoordinate: [475, 520, 10],
                 isCrooked: null,
@@ -14073,7 +17250,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358788/thumbnail_R0010706_33d19680cd.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010706_33d19680cd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010706_33d19680cd',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010706.jpg',
@@ -14085,7 +17265,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.75,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/small_R0010706_33d19680cd.jpg',
-                          provider_metadata: { public_id: 'small_R0010706_33d19680cd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010706_33d19680cd',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010706.jpg',
@@ -14097,7 +17280,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/medium_R0010706_33d19680cd.jpg',
-                          provider_metadata: { public_id: 'medium_R0010706_33d19680cd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010706_33d19680cd',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010706.jpg',
@@ -14109,7 +17295,10 @@ export const Landmarks = {
                           height: 500,
                           size: 48.04,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/large_R0010706_33d19680cd.jpg',
-                          provider_metadata: { public_id: 'large_R0010706_33d19680cd', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010706_33d19680cd',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010706_33d19680cd',
@@ -14119,7 +17308,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/R0010706_33d19680cd.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010706_33d19680cd', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010706_33d19680cd',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:39:50.060Z',
                       updatedAt: '2023-05-06T07:39:50.060Z',
                     },
@@ -14131,7 +17323,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.003670101313165, yaw: 55.49348453531542, transition: 'perpustakaan_lantai_2_1' },
+                  {
+                    pitch: -10.003670101313165,
+                    yaw: 55.49348453531542,
+                    transition: 'perpustakaan_lantai_2_1',
+                  },
                 ],
                 mapCoordinate: [685, 420, 10],
                 isCrooked: null,
@@ -14155,7 +17351,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.42,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/small_R0010707_4f30575980.jpg',
-                          provider_metadata: { public_id: 'small_R0010707_4f30575980', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010707_4f30575980',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010707.jpg',
@@ -14167,7 +17366,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/medium_R0010707_4f30575980.jpg',
-                          provider_metadata: { public_id: 'medium_R0010707_4f30575980', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010707_4f30575980',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010707.jpg',
@@ -14179,7 +17381,10 @@ export const Landmarks = {
                           height: 500,
                           size: 56.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/large_R0010707_4f30575980.jpg',
-                          provider_metadata: { public_id: 'large_R0010707_4f30575980', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010707_4f30575980',
+                            resource_type: 'image',
+                          },
                         },
                         thumbnail: {
                           name: 'thumbnail_R0010707.jpg',
@@ -14191,7 +17396,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358788/thumbnail_R0010707_4f30575980.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010707_4f30575980', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010707_4f30575980',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010707_4f30575980',
@@ -14201,7 +17409,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358790/R0010707_4f30575980.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010707_4f30575980', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010707_4f30575980',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:39:50.513Z',
                       updatedAt: '2023-05-06T07:39:50.513Z',
                     },
@@ -14213,7 +17424,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_2_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.4178161250318135, yaw: -50.790360415598755, transition: 'perpustakaan_lantai_2_1' },
+                  {
+                    pitch: -2.4178161250318135,
+                    yaw: -50.790360415598755,
+                    transition: 'perpustakaan_lantai_2_1',
+                  },
                 ],
                 mapCoordinate: [250, 425, 10],
                 isCrooked: null,
@@ -14237,7 +17452,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.05,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358788/thumbnail_R0010708_d76bc2493e.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010708_d76bc2493e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010708_d76bc2493e',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010708.jpg',
@@ -14249,7 +17467,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/small_R0010708_d76bc2493e.jpg',
-                          provider_metadata: { public_id: 'small_R0010708_d76bc2493e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010708_d76bc2493e',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010708.jpg',
@@ -14261,7 +17482,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/medium_R0010708_d76bc2493e.jpg',
-                          provider_metadata: { public_id: 'medium_R0010708_d76bc2493e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010708_d76bc2493e',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010708.jpg',
@@ -14273,7 +17497,10 @@ export const Landmarks = {
                           height: 500,
                           size: 54.55,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358789/large_R0010708_d76bc2493e.jpg',
-                          provider_metadata: { public_id: 'large_R0010708_d76bc2493e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010708_d76bc2493e',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010708_d76bc2493e',
@@ -14283,7 +17510,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683358790/R0010708_d76bc2493e.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010708_d76bc2493e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010708_d76bc2493e',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:39:50.492Z',
                       updatedAt: '2023-05-06T07:39:50.492Z',
                     },
@@ -14317,7 +17547,10 @@ export const Landmarks = {
                       height: 156,
                       size: 66.64,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355602/thumbnail_LANTAI_3_min_a998e3453a.png',
-                      provider_metadata: { public_id: 'thumbnail_LANTAI_3_min_a998e3453a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_LANTAI_3_min_a998e3453a',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_LANTAI_3-min.png',
@@ -14329,7 +17562,10 @@ export const Landmarks = {
                       height: 393,
                       size: 373.09,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355604/small_LANTAI_3_min_a998e3453a.png',
-                      provider_metadata: { public_id: 'small_LANTAI_3_min_a998e3453a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_LANTAI_3_min_a998e3453a',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_LANTAI_3-min.png',
@@ -14341,7 +17577,10 @@ export const Landmarks = {
                       height: 589,
                       size: 807.09,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355604/medium_LANTAI_3_min_a998e3453a.png',
-                      provider_metadata: { public_id: 'medium_LANTAI_3_min_a998e3453a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_LANTAI_3_min_a998e3453a',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_LANTAI_3-min.png',
@@ -14353,7 +17592,10 @@ export const Landmarks = {
                       height: 785,
                       size: 1399.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355604/large_LANTAI_3_min_a998e3453a.png',
-                      provider_metadata: { public_id: 'large_LANTAI_3_min_a998e3453a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_LANTAI_3_min_a998e3453a',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'LANTAI_3_min_a998e3453a',
@@ -14363,7 +17605,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683355603/LANTAI_3_min_a998e3453a.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'LANTAI_3_min_a998e3453a', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'LANTAI_3_min_a998e3453a',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T06:46:45.163Z',
                   updatedAt: '2023-05-06T06:46:45.163Z',
                 },
@@ -14375,8 +17620,16 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.51201880081893, yaw: -120.45429369484299, transition: 'perpustakaan_lantai_3_2' },
-                  { pitch: -1.387511186201674, yaw: 112.03541690024466, transition: 'perpustakaan_lantai_3_3' },
+                  {
+                    pitch: -11.51201880081893,
+                    yaw: -120.45429369484299,
+                    transition: 'perpustakaan_lantai_3_2',
+                  },
+                  {
+                    pitch: -1.387511186201674,
+                    yaw: 112.03541690024466,
+                    transition: 'perpustakaan_lantai_3_3',
+                  },
                 ],
                 mapCoordinate: [475, 520, 10],
                 isCrooked: null,
@@ -14400,7 +17653,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/thumbnail_R0010709_df744229c8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010709_df744229c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010709_df744229c8',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010709.jpg',
@@ -14412,7 +17668,10 @@ export const Landmarks = {
                           height: 375,
                           size: 34.53,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/medium_R0010709_df744229c8.jpg',
-                          provider_metadata: { public_id: 'medium_R0010709_df744229c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010709_df744229c8',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010709.jpg',
@@ -14424,7 +17683,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.3,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/small_R0010709_df744229c8.jpg',
-                          provider_metadata: { public_id: 'small_R0010709_df744229c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010709_df744229c8',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010709.jpg',
@@ -14436,7 +17698,10 @@ export const Landmarks = {
                           height: 500,
                           size: 54.48,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/large_R0010709_df744229c8.jpg',
-                          provider_metadata: { public_id: 'large_R0010709_df744229c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010709_df744229c8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010709_df744229c8',
@@ -14446,7 +17711,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359527/R0010709_df744229c8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010709_df744229c8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010709_df744229c8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:52:07.762Z',
                       updatedAt: '2023-05-06T07:52:07.762Z',
                     },
@@ -14458,7 +17726,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.003670101313165, yaw: 55.49348453531542, transition: 'perpustakaan_lantai_3_1' },
+                  {
+                    pitch: -10.003670101313165,
+                    yaw: 55.49348453531542,
+                    transition: 'perpustakaan_lantai_3_1',
+                  },
                 ],
                 mapCoordinate: [705, 400, 10],
                 isCrooked: null,
@@ -14482,7 +17754,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.32,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/thumbnail_R0010710_6ba3e17a5a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010710_6ba3e17a5a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010710_6ba3e17a5a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010710.jpg',
@@ -14494,7 +17769,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/small_R0010710_6ba3e17a5a.jpg',
-                          provider_metadata: { public_id: 'small_R0010710_6ba3e17a5a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010710_6ba3e17a5a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010710.jpg',
@@ -14506,7 +17784,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.42,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/medium_R0010710_6ba3e17a5a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010710_6ba3e17a5a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010710_6ba3e17a5a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010710.jpg',
@@ -14518,7 +17799,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.86,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359527/large_R0010710_6ba3e17a5a.jpg',
-                          provider_metadata: { public_id: 'large_R0010710_6ba3e17a5a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010710_6ba3e17a5a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010710_6ba3e17a5a',
@@ -14528,7 +17812,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359528/R0010710_6ba3e17a5a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010710_6ba3e17a5a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010710_6ba3e17a5a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:52:08.665Z',
                       updatedAt: '2023-05-06T07:52:08.665Z',
                     },
@@ -14540,7 +17827,11 @@ export const Landmarks = {
                 name: 'perpustakaan_lantai_3_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -11.417816125031813, yaw: 116.79036041559876, transition: 'perpustakaan_lantai_3_1' },
+                  {
+                    pitch: -11.417816125031813,
+                    yaw: 116.79036041559876,
+                    transition: 'perpustakaan_lantai_3_1',
+                  },
                 ],
                 mapCoordinate: [270, 425, 10],
                 isCrooked: null,
@@ -14564,7 +17855,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.36,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/thumbnail_R0010711_47509e976d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010711_47509e976d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010711_47509e976d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010711.jpg',
@@ -14576,7 +17870,10 @@ export const Landmarks = {
                           height: 250,
                           size: 16.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/small_R0010711_47509e976d.jpg',
-                          provider_metadata: { public_id: 'small_R0010711_47509e976d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010711_47509e976d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010711.jpg',
@@ -14588,7 +17885,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.8,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359526/medium_R0010711_47509e976d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010711_47509e976d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010711_47509e976d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010711.jpg',
@@ -14600,7 +17900,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.14,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359527/large_R0010711_47509e976d.jpg',
-                          provider_metadata: { public_id: 'large_R0010711_47509e976d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010711_47509e976d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010711_47509e976d',
@@ -14610,7 +17913,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683359527/R0010711_47509e976d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010711_47509e976d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010711_47509e976d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-06T07:52:07.985Z',
                       updatedAt: '2023-05-06T07:52:07.985Z',
                     },
@@ -14690,7 +17996,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364516/PERPUSTAKAAN_GALLERY_1_7e61179b91.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'PERPUSTAKAAN_GALLERY_1_7e61179b91', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'PERPUSTAKAAN_GALLERY_1_7e61179b91',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:15:17.987Z',
                   updatedAt: '2023-05-06T09:15:17.987Z',
                 },
@@ -14781,7 +18090,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364517/PERPUSTAKAAN_GALLERY_1_152176d225.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'PERPUSTAKAAN_GALLERY_1_152176d225', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'PERPUSTAKAAN_GALLERY_1_152176d225',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:15:17.951Z',
                   updatedAt: '2023-05-06T09:15:17.951Z',
                 },
@@ -14872,7 +18184,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364516/PERPUSTAKAAN_GALLERY_2_1dec182815.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'PERPUSTAKAAN_GALLERY_2_1dec182815', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'PERPUSTAKAAN_GALLERY_2_1dec182815',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:15:17.336Z',
                   updatedAt: '2023-05-06T09:15:17.336Z',
                 },
@@ -14963,7 +18278,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364517/PERPUSTAKAAN_GALLERY_3_8555d41573.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'PERPUSTAKAAN_GALLERY_3_8555d41573', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'PERPUSTAKAAN_GALLERY_3_8555d41573',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:15:17.525Z',
                   updatedAt: '2023-05-06T09:15:17.525Z',
                 },
@@ -15054,7 +18372,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683364517/PERPUSTAKAAN_GALLERY_4_420db4674b.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'PERPUSTAKAAN_GALLERY_4_420db4674b', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'PERPUSTAKAAN_GALLERY_4_420db4674b',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-06T09:15:18.278Z',
                   updatedAt: '2023-05-06T09:15:18.278Z',
                 },
@@ -15083,7 +18404,10 @@ export const Landmarks = {
                   height: 115,
                   size: 66.88,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/thumbnail_PERPUSTAKAAN_min_1faf718556.png',
-                  provider_metadata: { public_id: 'thumbnail_PERPUSTAKAAN_min_1faf718556', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_PERPUSTAKAAN_min_1faf718556',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_PERPUSTAKAAN-min.png',
@@ -15095,7 +18419,10 @@ export const Landmarks = {
                   height: 235,
                   size: 235.72,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/small_PERPUSTAKAAN_min_1faf718556.png',
-                  provider_metadata: { public_id: 'small_PERPUSTAKAAN_min_1faf718556', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_PERPUSTAKAAN_min_1faf718556',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_PERPUSTAKAAN-min.png',
@@ -15107,7 +18434,10 @@ export const Landmarks = {
                   height: 352,
                   size: 486.52,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/medium_PERPUSTAKAAN_min_1faf718556.png',
-                  provider_metadata: { public_id: 'medium_PERPUSTAKAAN_min_1faf718556', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_PERPUSTAKAAN_min_1faf718556',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_PERPUSTAKAAN-min.png',
@@ -15119,7 +18449,10 @@ export const Landmarks = {
                   height: 470,
                   size: 819.27,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/large_PERPUSTAKAAN_min_1faf718556.png',
-                  provider_metadata: { public_id: 'large_PERPUSTAKAAN_min_1faf718556', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_PERPUSTAKAAN_min_1faf718556',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'PERPUSTAKAAN_min_1faf718556',
@@ -15129,7 +18462,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/PERPUSTAKAAN_min_1faf718556.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'PERPUSTAKAAN_min_1faf718556', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'PERPUSTAKAAN_min_1faf718556',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:12.620Z',
               updatedAt: '2023-05-05T02:30:12.620Z',
             },
@@ -15141,7 +18477,7 @@ export const Landmarks = {
       id: 13,
       attributes: {
         name: 'TUGU TEKNIK',
-        isDescription: false,
+        isDescription: true,
         description:
           '<p>Tugu Teknik yang berada di area masuk Fakultas Teknik dibangun pada perayaan 50 tahun Pendidikan Tinggi Teknik, 17 Februari 1996. Desain Tugu Teknik merupakan karya Mahasiswa Jurusan Arsitektur UGM bernama Gatot Suprihadi yang mengalahkan 21 peserta lain dari kalangan arsitek, seniman dan profesional.</p><p>&nbsp;</p><p>Tugu teknik ini memiliki filosofi tersendiri, 5 trap mencerminkan pendidikan tinggi teknik beserta sivitas akademik &amp; alumni FT UGM dalam kehidupannya selalu berpedoman pada Pancasila. Bagian penopang yang menyerupai Candi Bentar melambangkan sistem pendidikan tinggi teknik beserta sivitas akademik &amp; alumni senantiasa mesti berpijak pada akar kebudayaan asli Indonesia.</p><p>&nbsp;</p><p>Adapun jumlah 3 buah penopang tersebut mencerminkan 3 kelompok/rumpun keilmuwan teknik FT UGM yaitu Kelompok Sipil &amp; Perencanaan (meliputi Arsitektur, Teknik Geodesi dan Teknik Sipil), Kelompok Industri (meliputi Teknik Kimia, Teknik Mesin dan Teknik Elektro) dan Kelompok Energi (meliputi Teknik Nuklir dan Teknik Geologi). Pada bagian atas yang terdiri dari 8 kubus stainless steel melambangkan 8 Departemen di Fakultas Teknik UGM dengan sistem molekuler yang bermakna kesolidan tiap sivitas akademika dan alumni Fakultas Teknik UGM dalam implementasi misi pengembangan ilmu pengetahuan</p><p>&nbsp;</p><p>Sumber :&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>',
         isMap: false,
@@ -15152,7 +18488,7 @@ export const Landmarks = {
         objectName: 'TUGU TEKNIK',
         uid: 'tugu_teknik',
         createdAt: '2023-05-02T17:15:18.940Z',
-        updatedAt: '2023-05-07T20:29:29.789Z',
+        updatedAt: '2023-05-08T04:14:06.872Z',
         publishedAt: '2023-05-02T17:39:46.738Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -15186,7 +18522,10 @@ export const Landmarks = {
                       height: 123,
                       size: 6.27,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491362/thumbnail_R0010618_d5bf97de65.jpg',
-                      provider_metadata: { public_id: 'thumbnail_R0010618_d5bf97de65', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_R0010618_d5bf97de65',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_R0010618.jpg',
@@ -15198,7 +18537,10 @@ export const Landmarks = {
                       height: 250,
                       size: 21.44,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491362/small_R0010618_d5bf97de65.jpg',
-                      provider_metadata: { public_id: 'small_R0010618_d5bf97de65', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_R0010618_d5bf97de65',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_R0010618.jpg',
@@ -15210,7 +18552,10 @@ export const Landmarks = {
                       height: 500,
                       size: 74.29,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491363/large_R0010618_d5bf97de65.jpg',
-                      provider_metadata: { public_id: 'large_R0010618_d5bf97de65', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_R0010618_d5bf97de65',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_R0010618.jpg',
@@ -15222,7 +18567,10 @@ export const Landmarks = {
                       height: 375,
                       size: 44.77,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491363/medium_R0010618_d5bf97de65.jpg',
-                      provider_metadata: { public_id: 'medium_R0010618_d5bf97de65', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_R0010618_d5bf97de65',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'R0010618_d5bf97de65',
@@ -15232,7 +18580,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491363/R0010618_d5bf97de65.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'R0010618_d5bf97de65', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'R0010618_d5bf97de65',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T20:29:24.559Z',
                   updatedAt: '2023-05-07T20:29:24.559Z',
                 },
@@ -15260,7 +18611,10 @@ export const Landmarks = {
                   height: 114,
                   size: 66.13,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/thumbnail_TUGU_TEKNIK_min_37bdc2891e.png',
-                  provider_metadata: { public_id: 'thumbnail_TUGU_TEKNIK_min_37bdc2891e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_TUGU_TEKNIK_min_37bdc2891e',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_TUGU_TEKNIK-min.png',
@@ -15272,7 +18626,10 @@ export const Landmarks = {
                   height: 234,
                   size: 237.48,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/small_TUGU_TEKNIK_min_37bdc2891e.png',
-                  provider_metadata: { public_id: 'small_TUGU_TEKNIK_min_37bdc2891e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_TUGU_TEKNIK_min_37bdc2891e',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_TUGU_TEKNIK-min.png',
@@ -15284,7 +18641,10 @@ export const Landmarks = {
                   height: 350,
                   size: 491.51,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/medium_TUGU_TEKNIK_min_37bdc2891e.png',
-                  provider_metadata: { public_id: 'medium_TUGU_TEKNIK_min_37bdc2891e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_TUGU_TEKNIK_min_37bdc2891e',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_TUGU_TEKNIK-min.png',
@@ -15296,7 +18656,10 @@ export const Landmarks = {
                   height: 467,
                   size: 831.8,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/large_TUGU_TEKNIK_min_37bdc2891e.png',
-                  provider_metadata: { public_id: 'large_TUGU_TEKNIK_min_37bdc2891e', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_TUGU_TEKNIK_min_37bdc2891e',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'TUGU_TEKNIK_min_37bdc2891e',
@@ -15306,7 +18669,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/TUGU_TEKNIK_min_37bdc2891e.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'TUGU_TEKNIK_min_37bdc2891e', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'TUGU_TEKNIK_min_37bdc2891e',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:12.084Z',
               updatedAt: '2023-05-05T02:30:12.084Z',
             },
@@ -15317,19 +18683,19 @@ export const Landmarks = {
     {
       id: 14,
       attributes: {
-        name: 'MASJID',
+        name: 'MASJID FT',
         isDescription: true,
         description:
-          '<p style="margin-left:0px;text-align:justify;"><span style="background-color:rgb(255,255,255);color:rgb(34,34,34);">Masjid Al-Mustadam Fakultas Teknik UGM telah diresmikan pada Ahad, 10 Juli 2022. Al-Mustadam berarti&nbsp;lestari, berkelanjutan, </span><i>sustainable.</i></p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid Al-Mustadam merupakan pengembangan/renovasi dari Musholla Teknik yang dibangun pada tahun 1999/2000. Peletakan batu pertama renovasi dilaksanakan 20 September 2018, sementara renovasi dimulai pada 14 Oktober 2019.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Renovasi dilakukan dengan 2 fase. Fase pertama pengerjaan pondasi, struktur dan atap. Sementara fase 2 dibagi pada 3 tahap: tahap 1 plafond dan lantai 3 serta tempat wudhu; tahap 2 plafond dan lantai 2 serta tangga utara dan selatan, tempat wudhu, fasad; sementara tahap 3 lantai 1 dan taman.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid yang terdiri dari 3 lantai ini mampu menampung kurang lebih 3000-3500 jamaah, dengan berbagai pemanfaatan. Mulai dari ibadah, kajian, <i>co-working space</i>, menampung tamu, <i>meeting point</i> para purnakarya, dan kegiatan lainnya.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pembangunan didukung oleh berbagai pihak. Kontribusi Dr. (HC) Ir. Budi Karya Sumadi dalam penggalangan dana mampu menggerakkan berbagai donatur untuk ikut berkontribusi. Beberapa pihak yang turut berkontribusi pada renovasi/pengembangan ini antara lain: BRI, PT KPN, LEN Railway System, PT KCIC, PT PP, Angkasa Pura II, Pelindo, dan berbagai instansi lainnya. Tentu saja, alumni berbagai departemen yang tergabung dalam KATGAMA.</p><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Nama Al-Mustadam dipilih sebagai nama karena beberapa hal. Masjid mempertahankan bangunan lama, tidak boros material dan sumber daya alam, mengurangi <i>carbon footprint</i>.&nbsp;Desain fasad bisa meneruskan udara segar, tidak menggunakan AC dan memanfaatkan pencahayaan alami, mengurangi potensi penularan virus dan penyakit karena <i>fresh air</i> yang melimpah.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Air wudhu akan digunakan kembali untuk sistem siram tanaman di taman dan <i>landscape</i> SGLC, masjid dan sekitarnya, sehingga dapat menciptakan lingkungan yang hijau dan asri. Masjid juga dibangun ramah terhadap difable, orang lanjut usia, dan anak-anak.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Al-Mustadam diharapkan juga menjadi pelecut semangat melestarikan dan mengoptimalkan fungsi masjid untuk ibadah, muamalah, penanaman integritas, tempat rekreasi, belajar dan bersosialisasi.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sumber :&nbsp;</p>',
+          '<p style="margin-left:0px;text-align:justify;">Masjid Al-Mustadam Fakultas Teknik UGM telah diresmikan pada Ahad, 10 Juli 2022. Al-Mustadam berarti&nbsp;lestari, berkelanjutan,<i> sustainable.</i></p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid Al-Mustadam merupakan pengembangan/renovasi dari Musholla Teknik yang dibangun pada tahun 1999/2000. Peletakan batu pertama renovasi dilaksanakan 20 September 2018, sementara renovasi dimulai pada 14 Oktober 2019.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Renovasi dilakukan dengan 2 fase. Fase pertama pengerjaan pondasi, struktur dan atap. Sementara fase 2 dibagi pada 3 tahap: tahap 1 plafond dan lantai 3 serta tempat wudhu; tahap 2 plafond dan lantai 2 serta tangga utara dan selatan, tempat wudhu, fasad; sementara tahap 3 lantai 1 dan taman.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid yang terdiri dari 3 lantai ini mampu menampung kurang lebih 3000-3500 jamaah, dengan berbagai pemanfaatan. Mulai dari ibadah, kajian, <i>co-working space</i>, menampung tamu, <i>meeting point</i> para purnakarya, dan kegiatan lainnya.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pembangunan didukung oleh berbagai pihak. Kontribusi Dr. (HC) Ir. Budi Karya Sumadi dalam penggalangan dana mampu menggerakkan berbagai donatur untuk ikut berkontribusi. Beberapa pihak yang turut berkontribusi pada renovasi/pengembangan ini antara lain: BRI, PT KPN, LEN Railway System, PT KCIC, PT PP, Angkasa Pura II, Pelindo, dan berbagai instansi lainnya. Tentu saja, alumni berbagai departemen yang tergabung dalam KATGAMA.</p><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Nama Al-Mustadam dipilih sebagai nama karena beberapa hal. Masjid mempertahankan bangunan lama, tidak boros material dan sumber daya alam, mengurangi <i>carbon footprint</i>.&nbsp;Desain fasad bisa meneruskan udara segar, tidak menggunakan AC dan memanfaatkan pencahayaan alami, mengurangi potensi penularan virus dan penyakit karena <i>fresh air</i> yang melimpah.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Air wudhu akan digunakan kembali untuk sistem siram tanaman di taman dan <i>landscape</i> SGLC, masjid dan sekitarnya, sehingga dapat menciptakan lingkungan yang hijau dan asri. Masjid juga dibangun ramah terhadap difable, orang lanjut usia, dan anak-anak.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Al-Mustadam diharapkan juga menjadi pelecut semangat melestarikan dan mengoptimalkan fungsi masjid untuk ibadah, muamalah, penanaman integritas, tempat rekreasi, belajar dan bersosialisasi.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sumber : <a href="https://ft.ugm.ac.id/rektor-resmikan-masjid-al-mustadam-ft-ugm/">Rektor Resmikan Masjid Al Mustadam – Fakultas Teknik (ugm.ac.id)</a></p>',
         isMap: false,
         subName: null,
         isGallery: false,
         isPanorama: true,
         location: null,
-        objectName: 'MASJID',
+        objectName: 'MASJID FT',
         uid: 'masjid',
         createdAt: '2023-05-02T17:21:24.837Z',
-        updatedAt: '2023-05-08T03:40:03.729Z',
+        updatedAt: '2023-05-08T15:18:08.471Z',
         publishedAt: '2023-05-02T17:21:45.152Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -15363,7 +18729,10 @@ export const Landmarks = {
                       height: 123,
                       size: 6.68,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491269/thumbnail_R0010795_2d0de126f3.jpg',
-                      provider_metadata: { public_id: 'thumbnail_R0010795_2d0de126f3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_R0010795_2d0de126f3',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_R0010795.JPG',
@@ -15375,7 +18744,10 @@ export const Landmarks = {
                       height: 250,
                       size: 22.22,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491270/small_R0010795_2d0de126f3.jpg',
-                      provider_metadata: { public_id: 'small_R0010795_2d0de126f3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_R0010795_2d0de126f3',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_R0010795.JPG',
@@ -15387,7 +18759,10 @@ export const Landmarks = {
                       height: 500,
                       size: 75.35,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491270/large_R0010795_2d0de126f3.jpg',
-                      provider_metadata: { public_id: 'large_R0010795_2d0de126f3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_R0010795_2d0de126f3',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_R0010795.JPG',
@@ -15399,7 +18774,10 @@ export const Landmarks = {
                       height: 375,
                       size: 45.52,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491270/medium_R0010795_2d0de126f3.jpg',
-                      provider_metadata: { public_id: 'medium_R0010795_2d0de126f3', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_R0010795_2d0de126f3',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'R0010795_2d0de126f3',
@@ -15409,7 +18787,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683491271/R0010795_2d0de126f3.jpg',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'R0010795_2d0de126f3', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'R0010795_2d0de126f3',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T20:27:52.637Z',
                   updatedAt: '2023-05-07T20:27:52.637Z',
                 },
@@ -15437,7 +18818,10 @@ export const Landmarks = {
                   height: 114,
                   size: 67.51,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253809/thumbnail_MASJID_min_a060165dc1.png',
-                  provider_metadata: { public_id: 'thumbnail_MASJID_min_a060165dc1', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_MASJID_min_a060165dc1',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_MASJID-min.png',
@@ -15449,7 +18833,10 @@ export const Landmarks = {
                   height: 350,
                   size: 509.87,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/medium_MASJID_min_a060165dc1.png',
-                  provider_metadata: { public_id: 'medium_MASJID_min_a060165dc1', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_MASJID_min_a060165dc1',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_MASJID-min.png',
@@ -15461,7 +18848,10 @@ export const Landmarks = {
                   height: 233,
                   size: 242.92,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253809/small_MASJID_min_a060165dc1.png',
-                  provider_metadata: { public_id: 'small_MASJID_min_a060165dc1', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_MASJID_min_a060165dc1',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_MASJID-min.png',
@@ -15473,7 +18863,10 @@ export const Landmarks = {
                   height: 467,
                   size: 869.43,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/large_MASJID_min_a060165dc1.png',
-                  provider_metadata: { public_id: 'large_MASJID_min_a060165dc1', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_MASJID_min_a060165dc1',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'MASJID_min_a060165dc1',
@@ -15483,7 +18876,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253809/MASJID_min_a060165dc1.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'MASJID_min_a060165dc1', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'MASJID_min_a060165dc1',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:11.324Z',
               updatedAt: '2023-05-05T02:33:27.849Z',
             },
@@ -15497,7 +18893,7 @@ export const Landmarks = {
         name: 'SGLC',
         isDescription: true,
         description:
-          '<p>gedung SGLC direncanakan sebagai pusat pembelajaran di lingkungan Fakultas Teknik yang bertujuan untuk meningkatkan kapasitas dan kemampuan sumber daya civitas academica secara individual dan institusional serta mengembangkan kompetensi profesionalisme. Gedung ini dirancang dengan 11 lantai dan sebuah ruangan bawah tanah dengan fasilitas ruang kelas, general office, learning space, meeting room/conference room, open public area, co-working space, dll. Secara lokasi, gedung SGLC menggunakan tapak gedung Kantor Pusat Fakultas Teknik.</p><p>&nbsp;</p><p>Guna mengenang jasa pendiri dan dekan pertama Fakultas Teknik Universitas Gadjah Mada (FT UGM) Prof Roosseno Soerjohadikoesoemo, maka nama Bapak Beton Indonesia ini diabadikan sebagai nama pada gedung baru, Smart and Green Learning Center (SGLC) FT UGM.</p><p>&nbsp;</p><p>Tidak sekedar pemberian nama, kata Prof Selo menuturkan dengan dilekatkan nama tersebut diharapkan bisa menginspirasi pada dosen dan mahasiswa teknik UGM untuk meneruskan kiprah Prof. Roosseno dan Herman Johannes yang telah membangun berbagai karya monumental di Indonesia.</p><p>&nbsp;</p><p>Sebagaimana diketahui, pada era Presiden Soekarno, sosok Prof. Dr. Ir. Roosseno Soerjohadikoesoemo, atau yang akrab dikenal dengan panggilan Prof.Roosseno merupakan ilmuwan bidang teknik sipil yang diberikan mandat oleh kepala negara untuk merancang dan membangun sejumlah proyek mercusuar di Indonesia saat itu.</p><p>&nbsp;</p><p>Tercatat karya ciptanya lebih dari 32 bangunan bersejarah meliputi gedung, jembatan, hotel, pelabuhan termasuk restorasi Candi Borobudur. Sejumlah bangunan tersebut, hingga saat ini masih berdiri kokoh sebagai ikon kebanggaan Indonesia seperti Monumen Nasional (Monas), Masjid Istiqlal, Gelora Bung Karno Senayan, Hotel Indonesia, dan lainnya. Berkat pemikirannya yang cemerlang, karya-karya monumental telah dipancangkan di bumi pertiwi sebagai wujud nyata kecintaan anak bangsa untuk negerinya.</p><p>&nbsp;</p><p>&nbsp;</p><p>sumber : <a href="https://www.bulaksumurugm.com/2021/03/19/kelanjutan-pembangunan-gedung-sglc-dan-eric-fakultas-teknik-ugm-2021/">Kelanjutan Pembangunan Gedung SGLC dan ERIC Fakultas Teknik UGM 2021 — Bulaksumur +Plus (bulaksumurugm.com)</a></p><p><a href="https://www.beritasatu.com/news/960247/nama-prof-roosseno-diabadikan-pada-gedung-baru-sglc-ugm/4">Nama Prof Roosseno Diabadikan pada Gedung Baru SGLC UGM - Halaman 4 (beritasatu.com)</a></p>',
+          '<p>gedung SGLC direncanakan sebagai pusat pembelajaran di lingkungan Fakultas Teknik yang bertujuan untuk meningkatkan kapasitas dan kemampuan sumber daya civitas academica secara individual dan institusional serta mengembangkan kompetensi profesionalisme. Gedung ini dirancang dengan 11 lantai dan sebuah ruangan bawah tanah dengan fasilitas ruang kelas, general office, learning space, meeting room/conference room, open public area, co-working space, dll. Secara lokasi, gedung SGLC menggunakan tapak gedung Kantor Pusat Fakultas Teknik.</p><p>&nbsp;</p><p>Guna mengenang jasa pendiri dan dekan pertama Fakultas Teknik Universitas Gadjah Mada (FT UGM) Prof Roosseno Soerjohadikoesoemo, maka nama Bapak Beton Indonesia ini diabadikan sebagai nama pada gedung baru, Smart and Green Learning Center (SGLC) FT UGM.</p><p>&nbsp;</p><p>Tidak sekedar pemberian nama, kata Prof Selo menuturkan dengan dilekatkan nama tersebut diharapkan bisa menginspirasi pada dosen dan mahasiswa teknik UGM untuk meneruskan kiprah Prof. Roosseno dan Herman Johannes yang telah membangun berbagai karya monumental di Indonesia.</p><p>&nbsp;</p><p>Sebagaimana diketahui, pada era Presiden Soekarno, sosok Prof. Dr. Ir. Roosseno Soerjohadikoesoemo, atau yang akrab dikenal dengan panggilan Prof.Roosseno merupakan ilmuwan bidang teknik sipil yang diberikan mandat oleh kepala negara untuk merancang dan membangun sejumlah proyek mercusuar di Indonesia saat itu.</p><p>&nbsp;</p><p>Tercatat karya ciptanya lebih dari 32 bangunan bersejarah meliputi gedung, jembatan, hotel, pelabuhan termasuk restorasi Candi Borobudur. Sejumlah bangunan tersebut, hingga saat ini masih berdiri kokoh sebagai ikon kebanggaan Indonesia seperti Monumen Nasional (Monas), Masjid Istiqlal, Gelora Bung Karno Senayan, Hotel Indonesia, dan lainnya. Berkat pemikirannya yang cemerlang, karya-karya monumental telah dipancangkan di bumi pertiwi sebagai wujud nyata kecintaan anak bangsa untuk negerinya.</p><p>&nbsp;</p><p>Selengkapnya <a href="https://ugrg.ft.ugm.ac.id/sglc-eric/sglc-eric-foe-ugm/" target="_blank" rel="noopener noreferrer">Tentang SGLC dan ERIC</a></p><p>&nbsp;</p><p>sumber :&nbsp;</p><p><a href="https://www.bulaksumurugm.com/2021/03/19/kelanjutan-pembangunan-gedung-sglc-dan-eric-fakultas-teknik-ugm-2021/">Kelanjutan Pembangunan Gedung SGLC dan ERIC Fakultas Teknik UGM 2021 — Bulaksumur +Plus (bulaksumurugm.com)</a></p><p><a href="https://www.beritasatu.com/news/960247/nama-prof-roosseno-diabadikan-pada-gedung-baru-sglc-ugm/4">Nama Prof Roosseno Diabadikan pada Gedung Baru SGLC UGM - Halaman 4 (beritasatu.com)</a></p>',
         isMap: true,
         subName: 'Smart Green Learning Center',
         isGallery: false,
@@ -15506,7 +18902,7 @@ export const Landmarks = {
         objectName: 'SGLC',
         uid: 'sglc',
         createdAt: '2023-05-02T17:24:46.670Z',
-        updatedAt: '2023-05-08T03:05:09.216Z',
+        updatedAt: '2023-05-08T12:44:48.467Z',
         publishedAt: '2023-05-02T17:24:49.828Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -15537,7 +18933,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -15549,7 +18948,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -15561,7 +18963,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -15573,7 +18978,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -15583,7 +18991,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -15595,7 +19006,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_1_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.223503495834253, yaw: -177.91077526407395, transition: 'sglc_lantai_1_2' },
+                  {
+                    pitch: -9.223503495834253,
+                    yaw: -177.91077526407395,
+                    transition: 'sglc_lantai_1_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -15619,7 +19034,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.99,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/thumbnail_R0010747_80e8ea75be.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010747_80e8ea75be', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010747_80e8ea75be',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010747.jpg',
@@ -15631,7 +19049,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/small_R0010747_80e8ea75be.jpg',
-                          provider_metadata: { public_id: 'small_R0010747_80e8ea75be', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010747_80e8ea75be',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010747.jpg',
@@ -15643,7 +19064,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/medium_R0010747_80e8ea75be.jpg',
-                          provider_metadata: { public_id: 'medium_R0010747_80e8ea75be', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010747_80e8ea75be',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010747.jpg',
@@ -15655,7 +19079,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/large_R0010747_80e8ea75be.jpg',
-                          provider_metadata: { public_id: 'large_R0010747_80e8ea75be', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010747_80e8ea75be',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010747_80e8ea75be',
@@ -15665,7 +19092,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/R0010747_80e8ea75be.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010747_80e8ea75be', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010747_80e8ea75be',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:06:21.737Z',
                       updatedAt: '2023-05-07T19:06:21.737Z',
                     },
@@ -15677,8 +19107,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_1_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.223503495834253, yaw: -8.258998840337204, transition: 'sglc_lantai_1_1' },
-                  { pitch: -2.223503495834253, yaw: 89.65946981832555, transition: 'sglc_lantai_1_3' },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: -8.258998840337204,
+                    transition: 'sglc_lantai_1_1',
+                  },
+                  {
+                    pitch: -2.223503495834253,
+                    yaw: 89.65946981832555,
+                    transition: 'sglc_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -15702,7 +19140,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/thumbnail_R0010748_ea25c40c95.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010748_ea25c40c95', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010748_ea25c40c95',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010748.jpg',
@@ -15714,7 +19155,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.44,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/medium_R0010748_ea25c40c95.jpg',
-                          provider_metadata: { public_id: 'medium_R0010748_ea25c40c95', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010748_ea25c40c95',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010748.jpg',
@@ -15726,7 +19170,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/small_R0010748_ea25c40c95.jpg',
-                          provider_metadata: { public_id: 'small_R0010748_ea25c40c95', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010748_ea25c40c95',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010748.jpg',
@@ -15738,7 +19185,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.14,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/large_R0010748_ea25c40c95.jpg',
-                          provider_metadata: { public_id: 'large_R0010748_ea25c40c95', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010748_ea25c40c95',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010748_ea25c40c95',
@@ -15748,7 +19198,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/R0010748_ea25c40c95.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010748_ea25c40c95', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010748_ea25c40c95',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:06:22.343Z',
                       updatedAt: '2023-05-07T19:06:22.343Z',
                     },
@@ -15760,9 +19213,21 @@ export const Landmarks = {
                 name: 'sglc_lantai_1_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.223503495834253, yaw: 11.91077526407395, transition: 'sglc_lantai_1_2' },
-                  { pitch: -7.223503495834253, yaw: -113.45853725540651, transition: 'sglc_lantai_1_4' },
-                  { pitch: -5.223503495834253, yaw: 104.69288639552354, transition: 'sglc_lantai_1_5' },
+                  {
+                    pitch: -7.223503495834253,
+                    yaw: 11.91077526407395,
+                    transition: 'sglc_lantai_1_2',
+                  },
+                  {
+                    pitch: -7.223503495834253,
+                    yaw: -113.45853725540651,
+                    transition: 'sglc_lantai_1_4',
+                  },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: 104.69288639552354,
+                    transition: 'sglc_lantai_1_5',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -15786,7 +19251,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/thumbnail_R0010749_3bbf862a7c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010749_3bbf862a7c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010749_3bbf862a7c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010749.jpg',
@@ -15798,7 +19266,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/small_R0010749_3bbf862a7c.jpg',
-                          provider_metadata: { public_id: 'small_R0010749_3bbf862a7c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010749_3bbf862a7c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010749.jpg',
@@ -15810,7 +19281,10 @@ export const Landmarks = {
                           height: 375,
                           size: 30.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/medium_R0010749_3bbf862a7c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010749_3bbf862a7c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010749_3bbf862a7c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010749.jpg',
@@ -15822,7 +19296,10 @@ export const Landmarks = {
                           height: 500,
                           size: 49.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/large_R0010749_3bbf862a7c.jpg',
-                          provider_metadata: { public_id: 'large_R0010749_3bbf862a7c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010749_3bbf862a7c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010749_3bbf862a7c',
@@ -15832,7 +19309,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/R0010749_3bbf862a7c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010749_3bbf862a7c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010749_3bbf862a7c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:06:22.265Z',
                       updatedAt: '2023-05-07T19:06:22.265Z',
                     },
@@ -15844,7 +19324,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_1_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.223503495834253, yaw: 78.91077526407395, transition: 'sglc_lantai_1_3' },
+                  {
+                    pitch: -0.223503495834253,
+                    yaw: 78.91077526407395,
+                    transition: 'sglc_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -15868,7 +19352,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/thumbnail_R0010750_cb9a2144c8.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010750_cb9a2144c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010750_cb9a2144c8',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010750.jpg',
@@ -15880,7 +19367,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/small_R0010750_cb9a2144c8.jpg',
-                          provider_metadata: { public_id: 'small_R0010750_cb9a2144c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010750_cb9a2144c8',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010750.jpg',
@@ -15892,7 +19382,10 @@ export const Landmarks = {
                           height: 375,
                           size: 38.89,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/medium_R0010750_cb9a2144c8.jpg',
-                          provider_metadata: { public_id: 'medium_R0010750_cb9a2144c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010750_cb9a2144c8',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010750.jpg',
@@ -15904,7 +19397,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.71,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/large_R0010750_cb9a2144c8.jpg',
-                          provider_metadata: { public_id: 'large_R0010750_cb9a2144c8', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010750_cb9a2144c8',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010750_cb9a2144c8',
@@ -15914,7 +19410,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/R0010750_cb9a2144c8.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010750_cb9a2144c8', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010750_cb9a2144c8',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:06:22.484Z',
                       updatedAt: '2023-05-07T19:06:22.484Z',
                     },
@@ -15926,7 +19425,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_1_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -17.223503495834255, yaw: 4.91077526407395, transition: 'sglc_lantai_1_3' },
+                  {
+                    pitch: -17.223503495834255,
+                    yaw: 4.91077526407395,
+                    transition: 'sglc_lantai_1_3',
+                  },
                 ],
                 mapCoordinate: [10, 90, 10],
                 isCrooked: null,
@@ -15950,7 +19453,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/thumbnail_R0010751_1caa1fc12d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010751_1caa1fc12d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010751_1caa1fc12d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010751.jpg',
@@ -15962,7 +19468,10 @@ export const Landmarks = {
                           height: 375,
                           size: 28.19,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/medium_R0010751_1caa1fc12d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010751_1caa1fc12d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010751_1caa1fc12d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010751.jpg',
@@ -15974,7 +19483,10 @@ export const Landmarks = {
                           height: 250,
                           size: 14.56,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486380/small_R0010751_1caa1fc12d.jpg',
-                          provider_metadata: { public_id: 'small_R0010751_1caa1fc12d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010751_1caa1fc12d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010751.jpg',
@@ -15986,7 +19498,10 @@ export const Landmarks = {
                           height: 500,
                           size: 45.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486381/large_R0010751_1caa1fc12d.jpg',
-                          provider_metadata: { public_id: 'large_R0010751_1caa1fc12d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010751_1caa1fc12d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010751_1caa1fc12d',
@@ -15996,7 +19511,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486382/R0010751_1caa1fc12d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010751_1caa1fc12d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010751_1caa1fc12d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:06:23.105Z',
                       updatedAt: '2023-05-07T19:06:23.105Z',
                     },
@@ -16030,7 +19548,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -16042,7 +19563,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -16054,7 +19578,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -16066,7 +19593,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -16076,7 +19606,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -16088,7 +19621,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_2_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.023331182009087, yaw: 88.24753660027966, transition: 'sglc_lantai_2_2' },
+                  {
+                    pitch: -2.023331182009087,
+                    yaw: 88.24753660027966,
+                    transition: 'sglc_lantai_2_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -16112,7 +19649,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.41,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/thumbnail_R0010752_d2c155998a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010752_d2c155998a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010752_d2c155998a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010752.jpg',
@@ -16124,7 +19664,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/small_R0010752_d2c155998a.jpg',
-                          provider_metadata: { public_id: 'small_R0010752_d2c155998a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010752_d2c155998a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010752.jpg',
@@ -16136,7 +19679,10 @@ export const Landmarks = {
                           height: 500,
                           size: 38.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/large_R0010752_d2c155998a.jpg',
-                          provider_metadata: { public_id: 'large_R0010752_d2c155998a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010752_d2c155998a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010752.jpg',
@@ -16148,7 +19694,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.03,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/medium_R0010752_d2c155998a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010752_d2c155998a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010752_d2c155998a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010752_d2c155998a',
@@ -16158,7 +19707,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487148/R0010752_d2c155998a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010752_d2c155998a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010752_d2c155998a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:19:09.011Z',
                       updatedAt: '2023-05-07T19:19:09.011Z',
                     },
@@ -16170,7 +19722,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_2_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 1.223503495834253, yaw: -6.91077526407395, transition: 'sglc_lantai_2_1' },
+                  {
+                    pitch: 1.223503495834253,
+                    yaw: -6.91077526407395,
+                    transition: 'sglc_lantai_2_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -16194,7 +19750,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.04,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/thumbnail_R0010753_28a0669eb2.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010753_28a0669eb2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010753_28a0669eb2',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010753.jpg',
@@ -16206,7 +19765,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.9,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/medium_R0010753_28a0669eb2.jpg',
-                          provider_metadata: { public_id: 'medium_R0010753_28a0669eb2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010753_28a0669eb2',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010753.jpg',
@@ -16218,7 +19780,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/small_R0010753_28a0669eb2.jpg',
-                          provider_metadata: { public_id: 'small_R0010753_28a0669eb2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010753_28a0669eb2',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010753.jpg',
@@ -16230,7 +19795,10 @@ export const Landmarks = {
                           height: 500,
                           size: 48.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487147/large_R0010753_28a0669eb2.jpg',
-                          provider_metadata: { public_id: 'large_R0010753_28a0669eb2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010753_28a0669eb2',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010753_28a0669eb2',
@@ -16240,7 +19808,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487148/R0010753_28a0669eb2.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010753_28a0669eb2', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010753_28a0669eb2',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:19:08.672Z',
                       updatedAt: '2023-05-07T19:19:08.672Z',
                     },
@@ -16274,7 +19845,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -16286,7 +19860,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -16298,7 +19875,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -16310,7 +19890,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -16320,7 +19903,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -16332,7 +19918,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_3_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.223503495834253, yaw: 153.66502092534478, transition: 'sglc_lantai_3_2' },
+                  {
+                    pitch: -8.223503495834253,
+                    yaw: 153.66502092534478,
+                    transition: 'sglc_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -16356,7 +19946,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.1,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487292/thumbnail_R0010755_142c23bd78.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010755_142c23bd78', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010755_142c23bd78',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010755.jpg',
@@ -16368,7 +19961,10 @@ export const Landmarks = {
                           height: 375,
                           size: 35.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/medium_R0010755_142c23bd78.jpg',
-                          provider_metadata: { public_id: 'medium_R0010755_142c23bd78', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010755_142c23bd78',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010755.jpg',
@@ -16380,7 +19976,10 @@ export const Landmarks = {
                           height: 250,
                           size: 18.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/small_R0010755_142c23bd78.jpg',
-                          provider_metadata: { public_id: 'small_R0010755_142c23bd78', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010755_142c23bd78',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010755.jpg',
@@ -16392,7 +19991,10 @@ export const Landmarks = {
                           height: 500,
                           size: 57.71,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/large_R0010755_142c23bd78.jpg',
-                          provider_metadata: { public_id: 'large_R0010755_142c23bd78', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010755_142c23bd78',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010755_142c23bd78',
@@ -16402,7 +20004,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/R0010755_142c23bd78.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010755_142c23bd78', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010755_142c23bd78',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:21:34.259Z',
                       updatedAt: '2023-05-07T19:21:34.259Z',
                     },
@@ -16414,9 +20019,21 @@ export const Landmarks = {
                 name: 'sglc_lantai_3_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.223503495834253, yaw: -5.91077526407395, transition: 'sglc_lantai_3_1' },
-                  { pitch: -7.223503495834253, yaw: -95.98882584466426, transition: 'sglc_lantai_3_3' },
-                  { pitch: -9.223503495834253, yaw: 83.91077526407395, transition: 'sglc_lantai_3_4' },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: -5.91077526407395,
+                    transition: 'sglc_lantai_3_1',
+                  },
+                  {
+                    pitch: -7.223503495834253,
+                    yaw: -95.98882584466426,
+                    transition: 'sglc_lantai_3_3',
+                  },
+                  {
+                    pitch: -9.223503495834253,
+                    yaw: 83.91077526407395,
+                    transition: 'sglc_lantai_3_4',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -16440,7 +20057,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/thumbnail_R0010756_4682f11e79.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010756_4682f11e79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010756_4682f11e79',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010756.jpg',
@@ -16452,7 +20072,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/small_R0010756_4682f11e79.jpg',
-                          provider_metadata: { public_id: 'small_R0010756_4682f11e79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010756_4682f11e79',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010756.jpg',
@@ -16464,7 +20087,10 @@ export const Landmarks = {
                           height: 375,
                           size: 26.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/medium_R0010756_4682f11e79.jpg',
-                          provider_metadata: { public_id: 'medium_R0010756_4682f11e79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010756_4682f11e79',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010756.jpg',
@@ -16476,7 +20102,10 @@ export const Landmarks = {
                           height: 500,
                           size: 42.6,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/large_R0010756_4682f11e79.jpg',
-                          provider_metadata: { public_id: 'large_R0010756_4682f11e79', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010756_4682f11e79',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010756_4682f11e79',
@@ -16486,7 +20115,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487294/R0010756_4682f11e79.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010756_4682f11e79', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010756_4682f11e79',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:21:34.755Z',
                       updatedAt: '2023-05-07T19:21:34.755Z',
                     },
@@ -16498,7 +20130,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_3_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.723503495834253, yaw: 94.96687131987514, transition: 'sglc_lantai_3_2' },
+                  {
+                    pitch: -1.723503495834253,
+                    yaw: 94.96687131987514,
+                    transition: 'sglc_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -16522,7 +20158,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.99,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/small_R0010757_b969e3b0f1.jpg',
-                          provider_metadata: { public_id: 'small_R0010757_b969e3b0f1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010757_b969e3b0f1',
+                            resource_type: 'image',
+                          },
                         },
                         thumbnail: {
                           name: 'thumbnail_R0010757.jpg',
@@ -16534,7 +20173,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.78,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/thumbnail_R0010757_b969e3b0f1.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010757_b969e3b0f1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010757_b969e3b0f1',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010757.jpg',
@@ -16546,7 +20188,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.01,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/large_R0010757_b969e3b0f1.jpg',
-                          provider_metadata: { public_id: 'large_R0010757_b969e3b0f1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010757_b969e3b0f1',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010757.jpg',
@@ -16558,7 +20203,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/medium_R0010757_b969e3b0f1.jpg',
-                          provider_metadata: { public_id: 'medium_R0010757_b969e3b0f1', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010757_b969e3b0f1',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010757_b969e3b0f1',
@@ -16568,7 +20216,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487294/R0010757_b969e3b0f1.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010757_b969e3b0f1', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010757_b969e3b0f1',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:21:34.954Z',
                       updatedAt: '2023-05-07T19:21:34.954Z',
                     },
@@ -16580,7 +20231,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_3_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.223503495834253, yaw: 0.51077526407395, transition: 'sglc_lantai_3_2' },
+                  {
+                    pitch: -6.223503495834253,
+                    yaw: 0.51077526407395,
+                    transition: 'sglc_lantai_3_2',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -16604,7 +20259,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.23,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/thumbnail_R0010758_920f1b5319.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010758_920f1b5319', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010758_920f1b5319',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010758.jpg',
@@ -16616,7 +20274,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/small_R0010758_920f1b5319.jpg',
-                          provider_metadata: { public_id: 'small_R0010758_920f1b5319', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010758_920f1b5319',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010758.jpg',
@@ -16628,7 +20289,10 @@ export const Landmarks = {
                           height: 500,
                           size: 39.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/large_R0010758_920f1b5319.jpg',
-                          provider_metadata: { public_id: 'large_R0010758_920f1b5319', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010758_920f1b5319',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010758.jpg',
@@ -16640,7 +20304,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.62,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487293/medium_R0010758_920f1b5319.jpg',
-                          provider_metadata: { public_id: 'medium_R0010758_920f1b5319', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010758_920f1b5319',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010758_920f1b5319',
@@ -16650,7 +20317,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487294/R0010758_920f1b5319.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010758_920f1b5319', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010758_920f1b5319',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:21:34.897Z',
                       updatedAt: '2023-05-07T19:21:34.897Z',
                     },
@@ -16684,7 +20354,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -16696,7 +20369,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -16708,7 +20384,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -16720,7 +20399,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -16730,7 +20412,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -16742,9 +20427,21 @@ export const Landmarks = {
                 name: 'sglc_lantai_4_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.583466022045638, yaw: 157.20614418205582, transition: 'sglc_lantai_4_2' },
-                  { pitch: -3.583466022045638, yaw: 179.01877686810664, transition: 'sglc_lantai_4_3' },
-                  { pitch: -3.583466022045638, yaw: -3.01877686810664, transition: 'sglc_lantai_4_5' },
+                  {
+                    pitch: -8.583466022045638,
+                    yaw: 157.20614418205582,
+                    transition: 'sglc_lantai_4_2',
+                  },
+                  {
+                    pitch: -3.583466022045638,
+                    yaw: 179.01877686810664,
+                    transition: 'sglc_lantai_4_3',
+                  },
+                  {
+                    pitch: -3.583466022045638,
+                    yaw: -3.01877686810664,
+                    transition: 'sglc_lantai_4_5',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -16768,7 +20465,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489268/thumbnail_R0010760_14b751db42.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010760_14b751db42', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010760_14b751db42',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010760.JPG',
@@ -16780,7 +20480,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489268/small_R0010760_14b751db42.jpg',
-                          provider_metadata: { public_id: 'small_R0010760_14b751db42', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010760_14b751db42',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010760.JPG',
@@ -16792,7 +20495,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.05,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489268/medium_R0010760_14b751db42.jpg',
-                          provider_metadata: { public_id: 'medium_R0010760_14b751db42', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010760_14b751db42',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010760.JPG',
@@ -16804,7 +20510,10 @@ export const Landmarks = {
                           height: 500,
                           size: 39.72,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489268/large_R0010760_14b751db42.jpg',
-                          provider_metadata: { public_id: 'large_R0010760_14b751db42', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010760_14b751db42',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010760_14b751db42',
@@ -16814,7 +20523,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489269/R0010760_14b751db42.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010760_14b751db42', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010760_14b751db42',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:22:38.621Z',
                       updatedAt: '2023-05-07T19:54:29.751Z',
                     },
@@ -16826,7 +20538,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_4_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -13.223503495834253, yaw: -24.21247013912121, transition: 'sglc_lantai_4_1' },
+                  {
+                    pitch: -13.223503495834253,
+                    yaw: -24.21247013912121,
+                    transition: 'sglc_lantai_4_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -16850,7 +20566,10 @@ export const Landmarks = {
                           height: 123,
                           size: 6.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489301/thumbnail_R0010761_d83ab74e27.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010761_d83ab74e27', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010761_d83ab74e27',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010761.JPG',
@@ -16862,7 +20581,10 @@ export const Landmarks = {
                           height: 375,
                           size: 39.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489301/medium_R0010761_d83ab74e27.jpg',
-                          provider_metadata: { public_id: 'medium_R0010761_d83ab74e27', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010761_d83ab74e27',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010761.JPG',
@@ -16874,7 +20596,10 @@ export const Landmarks = {
                           height: 250,
                           size: 20.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489301/small_R0010761_d83ab74e27.jpg',
-                          provider_metadata: { public_id: 'small_R0010761_d83ab74e27', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010761_d83ab74e27',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010761.JPG',
@@ -16886,7 +20611,10 @@ export const Landmarks = {
                           height: 500,
                           size: 61.92,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489301/large_R0010761_d83ab74e27.jpg',
-                          provider_metadata: { public_id: 'large_R0010761_d83ab74e27', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010761_d83ab74e27',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010761_d83ab74e27',
@@ -16896,7 +20624,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489302/R0010761_d83ab74e27.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010761_d83ab74e27', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010761_d83ab74e27',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:22:39.730Z',
                       updatedAt: '2023-05-07T19:55:03.006Z',
                     },
@@ -16908,8 +20639,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_4_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.223503495834253, yaw: -15.191302394107224, transition: 'sglc_lantai_4_1' },
-                  { pitch: -5.223503495834253, yaw: -176.7230349193007, transition: 'sglc_lantai_4_4' },
+                  {
+                    pitch: -9.223503495834253,
+                    yaw: -15.191302394107224,
+                    transition: 'sglc_lantai_4_1',
+                  },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: -176.7230349193007,
+                    transition: 'sglc_lantai_4_4',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -16933,7 +20672,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489322/thumbnail_R0010762_a5073799bc.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010762_a5073799bc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010762_a5073799bc',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010762.JPG',
@@ -16945,7 +20687,10 @@ export const Landmarks = {
                           height: 250,
                           size: 10.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489322/small_R0010762_a5073799bc.jpg',
-                          provider_metadata: { public_id: 'small_R0010762_a5073799bc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010762_a5073799bc',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010762.JPG',
@@ -16957,7 +20702,10 @@ export const Landmarks = {
                           height: 375,
                           size: 20.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489322/medium_R0010762_a5073799bc.jpg',
-                          provider_metadata: { public_id: 'medium_R0010762_a5073799bc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010762_a5073799bc',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010762.JPG',
@@ -16969,7 +20717,10 @@ export const Landmarks = {
                           height: 500,
                           size: 32.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489322/large_R0010762_a5073799bc.jpg',
-                          provider_metadata: { public_id: 'large_R0010762_a5073799bc', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010762_a5073799bc',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010762_a5073799bc',
@@ -16979,7 +20730,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489323/R0010762_a5073799bc.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010762_a5073799bc', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010762_a5073799bc',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:22:39.101Z',
                       updatedAt: '2023-05-07T19:55:23.934Z',
                     },
@@ -16991,7 +20745,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_4_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -14.223503495834253, yaw: -27.170714795968152, transition: 'sglc_lantai_4_3' },
+                  {
+                    pitch: -14.223503495834253,
+                    yaw: -27.170714795968152,
+                    transition: 'sglc_lantai_4_3',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -17015,7 +20773,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.91,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489340/thumbnail_R0010763_9707c7e709.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010763_9707c7e709', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010763_9707c7e709',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010763.JPG',
@@ -17027,7 +20788,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.77,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489340/small_R0010763_9707c7e709.jpg',
-                          provider_metadata: { public_id: 'small_R0010763_9707c7e709', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010763_9707c7e709',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010763.JPG',
@@ -17039,7 +20803,10 @@ export const Landmarks = {
                           height: 500,
                           size: 41.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489341/large_R0010763_9707c7e709.jpg',
-                          provider_metadata: { public_id: 'large_R0010763_9707c7e709', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010763_9707c7e709',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010763.JPG',
@@ -17051,7 +20818,10 @@ export const Landmarks = {
                           height: 375,
                           size: 26.05,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489341/medium_R0010763_9707c7e709.jpg',
-                          provider_metadata: { public_id: 'medium_R0010763_9707c7e709', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010763_9707c7e709',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010763_9707c7e709',
@@ -17061,7 +20831,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489341/R0010763_9707c7e709.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010763_9707c7e709', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010763_9707c7e709',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:22:38.909Z',
                       updatedAt: '2023-05-07T19:55:42.406Z',
                     },
@@ -17073,7 +20846,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_4_5',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -9.223503495834253, yaw: 25.949258350799134, transition: 'sglc_lantai_4_1' },
+                  {
+                    pitch: -9.223503495834253,
+                    yaw: 25.949258350799134,
+                    transition: 'sglc_lantai_4_1',
+                  },
                 ],
                 mapCoordinate: [10, 90, 10],
                 isCrooked: null,
@@ -17097,7 +20874,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.74,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489359/thumbnail_R0010764_3f490fffb6.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010764_3f490fffb6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010764_3f490fffb6',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010764.JPG',
@@ -17109,7 +20889,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489359/medium_R0010764_3f490fffb6.jpg',
-                          provider_metadata: { public_id: 'medium_R0010764_3f490fffb6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010764_3f490fffb6',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010764.JPG',
@@ -17121,7 +20904,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489359/large_R0010764_3f490fffb6.jpg',
-                          provider_metadata: { public_id: 'large_R0010764_3f490fffb6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010764_3f490fffb6',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010764.JPG',
@@ -17133,7 +20919,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489359/small_R0010764_3f490fffb6.jpg',
-                          provider_metadata: { public_id: 'small_R0010764_3f490fffb6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010764_3f490fffb6',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010764_3f490fffb6',
@@ -17143,7 +20932,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683489360/R0010764_3f490fffb6.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010764_3f490fffb6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010764_3f490fffb6',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:22:39.479Z',
                       updatedAt: '2023-05-07T19:56:00.662Z',
                     },
@@ -17177,7 +20969,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -17189,7 +20984,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -17201,7 +20999,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -17213,7 +21014,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -17223,7 +21027,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -17235,8 +21042,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_5_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: 2.223503495834253, yaw: 92.07471947523598, transition: 'sglc_lantai_5_3' },
-                  { pitch: -6.223503495834253, yaw: -86, transition: 'sglc_lantai_5_2' },
+                  {
+                    pitch: 2.223503495834253,
+                    yaw: 92.07471947523598,
+                    transition: 'sglc_lantai_5_3',
+                  },
+                  {
+                    pitch: -6.223503495834253,
+                    yaw: -86,
+                    transition: 'sglc_lantai_5_2',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -17260,7 +21075,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487413/thumbnail_R0010766_20e244fca7.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010766_20e244fca7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010766_20e244fca7',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010766.jpg',
@@ -17272,7 +21090,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.12,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/small_R0010766_20e244fca7.jpg',
-                          provider_metadata: { public_id: 'small_R0010766_20e244fca7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010766_20e244fca7',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010766.jpg',
@@ -17284,7 +21105,10 @@ export const Landmarks = {
                           height: 500,
                           size: 40.69,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/large_R0010766_20e244fca7.jpg',
-                          provider_metadata: { public_id: 'large_R0010766_20e244fca7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010766_20e244fca7',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010766.jpg',
@@ -17296,7 +21120,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.21,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/medium_R0010766_20e244fca7.jpg',
-                          provider_metadata: { public_id: 'medium_R0010766_20e244fca7', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010766_20e244fca7',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010766_20e244fca7',
@@ -17306,7 +21133,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/R0010766_20e244fca7.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010766_20e244fca7', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010766_20e244fca7',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:23:35.531Z',
                       updatedAt: '2023-05-07T19:23:35.531Z',
                     },
@@ -17318,7 +21148,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_5_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.223503495834253, yaw: -8.256953226962358, transition: 'sglc_lantai_5_1' },
+                  {
+                    pitch: -1.223503495834253,
+                    yaw: -8.256953226962358,
+                    transition: 'sglc_lantai_5_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -17342,7 +21176,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.92,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/thumbnail_R0010767_7b4f5174ac.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010767_7b4f5174ac', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010767_7b4f5174ac',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010767.jpg',
@@ -17354,7 +21191,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/small_R0010767_7b4f5174ac.jpg',
-                          provider_metadata: { public_id: 'small_R0010767_7b4f5174ac', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010767_7b4f5174ac',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010767.jpg',
@@ -17366,7 +21206,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/medium_R0010767_7b4f5174ac.jpg',
-                          provider_metadata: { public_id: 'medium_R0010767_7b4f5174ac', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010767_7b4f5174ac',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010767.jpg',
@@ -17378,7 +21221,10 @@ export const Landmarks = {
                           height: 500,
                           size: 40.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/large_R0010767_7b4f5174ac.jpg',
-                          provider_metadata: { public_id: 'large_R0010767_7b4f5174ac', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010767_7b4f5174ac',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010767_7b4f5174ac',
@@ -17388,7 +21234,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/R0010767_7b4f5174ac.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010767_7b4f5174ac', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010767_7b4f5174ac',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:23:36.202Z',
                       updatedAt: '2023-05-07T19:23:36.202Z',
                     },
@@ -17400,8 +21249,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_5_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.223503495834253, yaw: -14.91077526407395, transition: 'sglc_lantai_5_1' },
-                  { pitch: -15.223503495834253, yaw: -173.91077526407395, transition: 'sglc_lantai_5_4' },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: -14.91077526407395,
+                    transition: 'sglc_lantai_5_1',
+                  },
+                  {
+                    pitch: -15.223503495834253,
+                    yaw: -173.91077526407395,
+                    transition: 'sglc_lantai_5_4',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -17425,7 +21282,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/thumbnail_R0010768_b30bb4d91e.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010768_b30bb4d91e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010768_b30bb4d91e',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010768.jpg',
@@ -17437,7 +21297,10 @@ export const Landmarks = {
                           height: 250,
                           size: 14.07,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/small_R0010768_b30bb4d91e.jpg',
-                          provider_metadata: { public_id: 'small_R0010768_b30bb4d91e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010768_b30bb4d91e',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010768.jpg',
@@ -17449,7 +21312,10 @@ export const Landmarks = {
                           height: 375,
                           size: 26.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/medium_R0010768_b30bb4d91e.jpg',
-                          provider_metadata: { public_id: 'medium_R0010768_b30bb4d91e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010768_b30bb4d91e',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010768.jpg',
@@ -17461,7 +21327,10 @@ export const Landmarks = {
                           height: 500,
                           size: 41.67,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/large_R0010768_b30bb4d91e.jpg',
-                          provider_metadata: { public_id: 'large_R0010768_b30bb4d91e', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010768_b30bb4d91e',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010768_b30bb4d91e',
@@ -17471,7 +21340,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/R0010768_b30bb4d91e.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010768_b30bb4d91e', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010768_b30bb4d91e',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:23:36.284Z',
                       updatedAt: '2023-05-07T19:23:36.284Z',
                     },
@@ -17483,7 +21355,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_5_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.223503495834253, yaw: -43.91077526407395, transition: 'sglc_lantai_5_3' },
+                  {
+                    pitch: -8.223503495834253,
+                    yaw: -43.91077526407395,
+                    transition: 'sglc_lantai_5_3',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -17507,7 +21383,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.51,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487414/thumbnail_R0010769_2acc28eeae.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010769_2acc28eeae', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010769_2acc28eeae',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010769.jpg',
@@ -17519,7 +21398,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/small_R0010769_2acc28eeae.jpg',
-                          provider_metadata: { public_id: 'small_R0010769_2acc28eeae', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010769_2acc28eeae',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010769.jpg',
@@ -17531,7 +21413,10 @@ export const Landmarks = {
                           height: 500,
                           size: 46.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/large_R0010769_2acc28eeae.jpg',
-                          provider_metadata: { public_id: 'large_R0010769_2acc28eeae', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010769_2acc28eeae',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010769.jpg',
@@ -17543,7 +21428,10 @@ export const Landmarks = {
                           height: 375,
                           size: 29.93,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/medium_R0010769_2acc28eeae.jpg',
-                          provider_metadata: { public_id: 'medium_R0010769_2acc28eeae', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010769_2acc28eeae',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010769_2acc28eeae',
@@ -17553,7 +21441,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487415/R0010769_2acc28eeae.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010769_2acc28eeae', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010769_2acc28eeae',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:23:36.514Z',
                       updatedAt: '2023-05-07T19:23:36.514Z',
                     },
@@ -17587,7 +21478,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -17599,7 +21493,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -17611,7 +21508,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -17623,7 +21523,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -17633,7 +21536,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -17645,8 +21551,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_6_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -4.223503495834253, yaw: -26.92644929670913, transition: 'sglc_lantai_6_2' },
-                  { pitch: -3.223503495834253, yaw: 155.13693546963628, transition: 'sglc_lantai_6_3' },
+                  {
+                    pitch: -4.223503495834253,
+                    yaw: -26.92644929670913,
+                    transition: 'sglc_lantai_6_2',
+                  },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: 155.13693546963628,
+                    transition: 'sglc_lantai_6_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -17670,7 +21584,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/thumbnail_R0010771_57793b03cf.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010771_57793b03cf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010771_57793b03cf',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010771.jpg',
@@ -17682,7 +21599,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.82,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/small_R0010771_57793b03cf.jpg',
-                          provider_metadata: { public_id: 'small_R0010771_57793b03cf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010771_57793b03cf',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010771.jpg',
@@ -17694,7 +21614,10 @@ export const Landmarks = {
                           height: 500,
                           size: 38.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/large_R0010771_57793b03cf.jpg',
-                          provider_metadata: { public_id: 'large_R0010771_57793b03cf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010771_57793b03cf',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010771.jpg',
@@ -17706,7 +21629,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/medium_R0010771_57793b03cf.jpg',
-                          provider_metadata: { public_id: 'medium_R0010771_57793b03cf', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010771_57793b03cf',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010771_57793b03cf',
@@ -17716,7 +21642,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487461/R0010771_57793b03cf.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010771_57793b03cf', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010771_57793b03cf',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:24:22.061Z',
                       updatedAt: '2023-05-07T19:24:22.061Z',
                     },
@@ -17728,7 +21657,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_6_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.223503495834253, yaw: 24.807538832407012, transition: 'sglc_lantai_6_1' },
+                  {
+                    pitch: -2.223503495834253,
+                    yaw: 24.807538832407012,
+                    transition: 'sglc_lantai_6_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -17752,7 +21685,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.66,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/thumbnail_R0010772_e57bc8c24c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010772_e57bc8c24c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010772_e57bc8c24c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010772.jpg',
@@ -17764,7 +21700,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.87,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/small_R0010772_e57bc8c24c.jpg',
-                          provider_metadata: { public_id: 'small_R0010772_e57bc8c24c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010772_e57bc8c24c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010772.jpg',
@@ -17776,7 +21715,10 @@ export const Landmarks = {
                           height: 500,
                           size: 36.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/large_R0010772_e57bc8c24c.jpg',
-                          provider_metadata: { public_id: 'large_R0010772_e57bc8c24c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010772_e57bc8c24c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010772.jpg',
@@ -17788,7 +21730,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.81,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/medium_R0010772_e57bc8c24c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010772_e57bc8c24c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010772_e57bc8c24c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010772_e57bc8c24c',
@@ -17798,7 +21743,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487477/R0010772_e57bc8c24c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010772_e57bc8c24c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010772_e57bc8c24c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:24:37.814Z',
                       updatedAt: '2023-05-07T19:24:37.814Z',
                     },
@@ -17810,8 +21758,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_6_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.223503495834253, yaw: -30.91077526407395, transition: 'sglc_lantai_6_1' },
-                  { pitch: -3.223503495834253, yaw: 165.91077526407395, transition: 'sglc_lantai_6_4' },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: -30.91077526407395,
+                    transition: 'sglc_lantai_6_1',
+                  },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: 165.91077526407395,
+                    transition: 'sglc_lantai_6_4',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -17835,7 +21791,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.36,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/thumbnail_R0010773_7b575a06a4.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010773_7b575a06a4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010773_7b575a06a4',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010773.jpg',
@@ -17847,7 +21806,10 @@ export const Landmarks = {
                           height: 250,
                           size: 11.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/small_R0010773_7b575a06a4.jpg',
-                          provider_metadata: { public_id: 'small_R0010773_7b575a06a4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010773_7b575a06a4',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010773.jpg',
@@ -17859,7 +21821,10 @@ export const Landmarks = {
                           height: 375,
                           size: 21.99,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/medium_R0010773_7b575a06a4.jpg',
-                          provider_metadata: { public_id: 'medium_R0010773_7b575a06a4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010773_7b575a06a4',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010773.jpg',
@@ -17871,7 +21836,10 @@ export const Landmarks = {
                           height: 500,
                           size: 33.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/large_R0010773_7b575a06a4.jpg',
-                          provider_metadata: { public_id: 'large_R0010773_7b575a06a4', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010773_7b575a06a4',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010773_7b575a06a4',
@@ -17881,7 +21849,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487461/R0010773_7b575a06a4.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010773_7b575a06a4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010773_7b575a06a4',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:24:22.262Z',
                       updatedAt: '2023-05-07T19:24:22.262Z',
                     },
@@ -17893,7 +21864,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_6_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -16.223503495834255, yaw: -52.91077526407395, transition: 'sglc_lantai_6_3' },
+                  {
+                    pitch: -16.223503495834255,
+                    yaw: -52.91077526407395,
+                    transition: 'sglc_lantai_6_3',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -17917,7 +21892,10 @@ export const Landmarks = {
                           height: 123,
                           size: 5.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/thumbnail_R0010774_879ffa4579.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010774_879ffa4579', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010774_879ffa4579',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010774.jpg',
@@ -17929,7 +21907,10 @@ export const Landmarks = {
                           height: 250,
                           size: 15.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/small_R0010774_879ffa4579.jpg',
-                          provider_metadata: { public_id: 'small_R0010774_879ffa4579', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010774_879ffa4579',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010774.jpg',
@@ -17941,7 +21922,10 @@ export const Landmarks = {
                           height: 375,
                           size: 28.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487460/medium_R0010774_879ffa4579.jpg',
-                          provider_metadata: { public_id: 'medium_R0010774_879ffa4579', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010774_879ffa4579',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010774.jpg',
@@ -17953,7 +21937,10 @@ export const Landmarks = {
                           height: 500,
                           size: 45.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487461/large_R0010774_879ffa4579.jpg',
-                          provider_metadata: { public_id: 'large_R0010774_879ffa4579', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010774_879ffa4579',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010774_879ffa4579',
@@ -17963,7 +21950,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487461/R0010774_879ffa4579.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010774_879ffa4579', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010774_879ffa4579',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:24:21.954Z',
                       updatedAt: '2023-05-07T19:24:21.954Z',
                     },
@@ -17997,7 +21987,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -18009,7 +22002,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -18021,7 +22017,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -18033,7 +22032,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -18043,7 +22045,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -18055,8 +22060,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_7_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -8.223503495834253, yaw: -99.06917044491077, transition: 'sglc_lantai_7_2' },
-                  { pitch: -3.223503495834253, yaw: 88.760562237196, transition: 'sglc_lantai_7_3' },
+                  {
+                    pitch: -8.223503495834253,
+                    yaw: -99.06917044491077,
+                    transition: 'sglc_lantai_7_2',
+                  },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: 88.760562237196,
+                    transition: 'sglc_lantai_7_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -18080,7 +22093,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487567/thumbnail_R0010776_b6f962a174.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010776_b6f962a174', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010776_b6f962a174',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010776.jpg',
@@ -18092,7 +22108,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.32,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/small_R0010776_b6f962a174.jpg',
-                          provider_metadata: { public_id: 'small_R0010776_b6f962a174', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010776_b6f962a174',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010776.jpg',
@@ -18104,7 +22123,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.45,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/medium_R0010776_b6f962a174.jpg',
-                          provider_metadata: { public_id: 'medium_R0010776_b6f962a174', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010776_b6f962a174',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010776.jpg',
@@ -18116,7 +22138,10 @@ export const Landmarks = {
                           height: 500,
                           size: 41.17,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/large_R0010776_b6f962a174.jpg',
-                          provider_metadata: { public_id: 'large_R0010776_b6f962a174', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010776_b6f962a174',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010776_b6f962a174',
@@ -18126,7 +22151,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/R0010776_b6f962a174.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010776_b6f962a174', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010776_b6f962a174',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:09.506Z',
                       updatedAt: '2023-05-07T19:26:09.506Z',
                     },
@@ -18138,7 +22166,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_7_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.223503495834253, yaw: -27.170714795968152, transition: 'sglc_lantai_7_1' },
+                  {
+                    pitch: -10.223503495834253,
+                    yaw: -27.170714795968152,
+                    transition: 'sglc_lantai_7_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -18162,7 +22194,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.68,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487567/thumbnail_R0010777_a7bda3c665.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010777_a7bda3c665', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010777_a7bda3c665',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010777.jpg',
@@ -18174,7 +22209,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.02,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/small_R0010777_a7bda3c665.jpg',
-                          provider_metadata: { public_id: 'small_R0010777_a7bda3c665', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010777_a7bda3c665',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010777.jpg',
@@ -18186,7 +22224,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.96,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/large_R0010777_a7bda3c665.jpg',
-                          provider_metadata: { public_id: 'large_R0010777_a7bda3c665', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010777_a7bda3c665',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010777.jpg',
@@ -18198,7 +22239,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.99,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/medium_R0010777_a7bda3c665.jpg',
-                          provider_metadata: { public_id: 'medium_R0010777_a7bda3c665', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010777_a7bda3c665',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010777_a7bda3c665',
@@ -18208,7 +22252,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/R0010777_a7bda3c665.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010777_a7bda3c665', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010777_a7bda3c665',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:09.403Z',
                       updatedAt: '2023-05-07T19:26:09.403Z',
                     },
@@ -18220,8 +22267,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_7_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.223503495834253, yaw: -5.91077526407395, transition: 'sglc_lantai_7_1' },
-                  { pitch: -5.223503495834253, yaw: -174.91077526407395, transition: 'sglc_lantai_7_4' },
+                  {
+                    pitch: -6.223503495834253,
+                    yaw: -5.91077526407395,
+                    transition: 'sglc_lantai_7_1',
+                  },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: -174.91077526407395,
+                    transition: 'sglc_lantai_7_4',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -18245,7 +22300,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.63,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/thumbnail_R0010778_f49ef1ce9d.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010778_f49ef1ce9d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010778_f49ef1ce9d',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010778.jpg',
@@ -18257,7 +22315,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/small_R0010778_f49ef1ce9d.jpg',
-                          provider_metadata: { public_id: 'small_R0010778_f49ef1ce9d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010778_f49ef1ce9d',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010778.jpg',
@@ -18269,7 +22330,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/medium_R0010778_f49ef1ce9d.jpg',
-                          provider_metadata: { public_id: 'medium_R0010778_f49ef1ce9d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010778_f49ef1ce9d',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010778.jpg',
@@ -18281,7 +22345,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.59,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/large_R0010778_f49ef1ce9d.jpg',
-                          provider_metadata: { public_id: 'large_R0010778_f49ef1ce9d', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010778_f49ef1ce9d',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010778_f49ef1ce9d',
@@ -18291,7 +22358,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487569/R0010778_f49ef1ce9d.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010778_f49ef1ce9d', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010778_f49ef1ce9d',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:09.772Z',
                       updatedAt: '2023-05-07T19:26:09.772Z',
                     },
@@ -18303,7 +22373,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_7_4',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -16.223503495834255, yaw: -66.91077526407395, transition: 'sglc_lantai_7_3' },
+                  {
+                    pitch: -16.223503495834255,
+                    yaw: -66.91077526407395,
+                    transition: 'sglc_lantai_7_3',
+                  },
                 ],
                 mapCoordinate: [10, 70, 10],
                 isCrooked: null,
@@ -18327,7 +22401,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.88,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/thumbnail_R0010779_5a34edb96a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010779_5a34edb96a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010779_5a34edb96a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010779.jpg',
@@ -18339,7 +22416,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.8,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/small_R0010779_5a34edb96a.jpg',
-                          provider_metadata: { public_id: 'small_R0010779_5a34edb96a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010779_5a34edb96a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010779.jpg',
@@ -18351,7 +22431,10 @@ export const Landmarks = {
                           height: 500,
                           size: 41.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/large_R0010779_5a34edb96a.jpg',
-                          provider_metadata: { public_id: 'large_R0010779_5a34edb96a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010779_5a34edb96a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010779.jpg',
@@ -18363,7 +22446,10 @@ export const Landmarks = {
                           height: 375,
                           size: 26.12,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487568/medium_R0010779_5a34edb96a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010779_5a34edb96a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010779_5a34edb96a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010779_5a34edb96a',
@@ -18373,7 +22459,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487569/R0010779_5a34edb96a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010779_5a34edb96a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010779_5a34edb96a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:09.929Z',
                       updatedAt: '2023-05-07T19:26:09.929Z',
                     },
@@ -18407,7 +22496,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -18419,7 +22511,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -18431,7 +22526,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -18443,7 +22541,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -18453,7 +22554,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -18465,8 +22569,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_8_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.223503495834253, yaw: 175.56045846502417, transition: 'sglc_lantai_8_2' },
-                  { pitch: -2.223503495834253, yaw: -2.91077526407395, transition: 'sglc_lantai_8_3' },
+                  {
+                    pitch: -7.223503495834253,
+                    yaw: 175.56045846502417,
+                    transition: 'sglc_lantai_8_2',
+                  },
+                  {
+                    pitch: -2.223503495834253,
+                    yaw: -2.91077526407395,
+                    transition: 'sglc_lantai_8_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -18490,7 +22602,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.64,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/thumbnail_R0010781_8893ca1b7a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010781_8893ca1b7a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010781_8893ca1b7a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010781.jpg',
@@ -18502,7 +22617,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.25,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/medium_R0010781_8893ca1b7a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010781_8893ca1b7a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010781_8893ca1b7a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010781.jpg',
@@ -18514,7 +22632,10 @@ export const Landmarks = {
                           height: 500,
                           size: 40.69,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/large_R0010781_8893ca1b7a.jpg',
-                          provider_metadata: { public_id: 'large_R0010781_8893ca1b7a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010781_8893ca1b7a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010781.jpg',
@@ -18526,7 +22647,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.26,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/small_R0010781_8893ca1b7a.jpg',
-                          provider_metadata: { public_id: 'small_R0010781_8893ca1b7a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010781_8893ca1b7a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010781_8893ca1b7a',
@@ -18536,7 +22660,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487615/R0010781_8893ca1b7a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010781_8893ca1b7a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010781_8893ca1b7a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:55.563Z',
                       updatedAt: '2023-05-07T19:26:55.563Z',
                     },
@@ -18548,7 +22675,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_8_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.223503495834253, yaw: -7.91077526407395, transition: 'sglc_lantai_8_1' },
+                  {
+                    pitch: -2.223503495834253,
+                    yaw: -7.91077526407395,
+                    transition: 'sglc_lantai_8_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -18572,7 +22703,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.13,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/thumbnail_R0010782_9a1f2b4cf6.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010782_9a1f2b4cf6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010782_9a1f2b4cf6',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010782.jpg',
@@ -18584,7 +22718,10 @@ export const Landmarks = {
                           height: 250,
                           size: 11.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/small_R0010782_9a1f2b4cf6.jpg',
-                          provider_metadata: { public_id: 'small_R0010782_9a1f2b4cf6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010782_9a1f2b4cf6',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010782.jpg',
@@ -18596,7 +22733,10 @@ export const Landmarks = {
                           height: 500,
                           size: 33.37,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/large_R0010782_9a1f2b4cf6.jpg',
-                          provider_metadata: { public_id: 'large_R0010782_9a1f2b4cf6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010782_9a1f2b4cf6',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010782.jpg',
@@ -18608,7 +22748,10 @@ export const Landmarks = {
                           height: 375,
                           size: 21.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/medium_R0010782_9a1f2b4cf6.jpg',
-                          provider_metadata: { public_id: 'medium_R0010782_9a1f2b4cf6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010782_9a1f2b4cf6',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010782_9a1f2b4cf6',
@@ -18618,7 +22761,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/R0010782_9a1f2b4cf6.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010782_9a1f2b4cf6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010782_9a1f2b4cf6',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:55.395Z',
                       updatedAt: '2023-05-07T19:26:55.395Z',
                     },
@@ -18630,7 +22776,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_8_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -7.223503495834253, yaw: -120.91077526407395, transition: 'sglc_lantai_8_1' },
+                  {
+                    pitch: -7.223503495834253,
+                    yaw: -120.91077526407395,
+                    transition: 'sglc_lantai_8_1',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -18654,7 +22804,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.83,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487613/thumbnail_R0010783_5b64ee1628.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010783_5b64ee1628', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010783_5b64ee1628',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010783.jpg',
@@ -18666,7 +22819,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.36,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/small_R0010783_5b64ee1628.jpg',
-                          provider_metadata: { public_id: 'small_R0010783_5b64ee1628', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010783_5b64ee1628',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010783.jpg',
@@ -18678,7 +22834,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.44,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/medium_R0010783_5b64ee1628.jpg',
-                          provider_metadata: { public_id: 'medium_R0010783_5b64ee1628', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010783_5b64ee1628',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010783.jpg',
@@ -18690,7 +22849,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.67,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487614/large_R0010783_5b64ee1628.jpg',
-                          provider_metadata: { public_id: 'large_R0010783_5b64ee1628', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010783_5b64ee1628',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010783_5b64ee1628',
@@ -18700,7 +22862,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487615/R0010783_5b64ee1628.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010783_5b64ee1628', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010783_5b64ee1628',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:26:55.503Z',
                       updatedAt: '2023-05-07T19:26:55.503Z',
                     },
@@ -18734,7 +22899,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -18746,7 +22914,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -18758,7 +22929,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -18770,7 +22944,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -18780,7 +22957,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -18792,8 +22972,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_9_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -0.923503495834253, yaw: -64.91077526407395, transition: 'sglc_lantai_9_2' },
-                  { pitch: -8.923503495834254, yaw: 117.91077526407395, transition: 'sglc_lantai_9_3' },
+                  {
+                    pitch: -0.923503495834253,
+                    yaw: -64.91077526407395,
+                    transition: 'sglc_lantai_9_2',
+                  },
+                  {
+                    pitch: -8.923503495834254,
+                    yaw: 117.91077526407395,
+                    transition: 'sglc_lantai_9_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -18817,7 +23005,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.53,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487653/thumbnail_R0010785_042f1313e2.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010785_042f1313e2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010785_042f1313e2',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010785.jpg',
@@ -18829,7 +23020,10 @@ export const Landmarks = {
                           height: 250,
                           size: 13.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/small_R0010785_042f1313e2.jpg',
-                          provider_metadata: { public_id: 'small_R0010785_042f1313e2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010785_042f1313e2',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010785.jpg',
@@ -18841,7 +23035,10 @@ export const Landmarks = {
                           height: 500,
                           size: 41.34,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/large_R0010785_042f1313e2.jpg',
-                          provider_metadata: { public_id: 'large_R0010785_042f1313e2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010785_042f1313e2',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010785.jpg',
@@ -18853,7 +23050,10 @@ export const Landmarks = {
                           height: 375,
                           size: 25.65,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/medium_R0010785_042f1313e2.jpg',
-                          provider_metadata: { public_id: 'medium_R0010785_042f1313e2', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010785_042f1313e2',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010785_042f1313e2',
@@ -18863,7 +23063,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487655/R0010785_042f1313e2.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010785_042f1313e2', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010785_042f1313e2',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:27:35.628Z',
                       updatedAt: '2023-05-07T19:27:35.628Z',
                     },
@@ -18875,7 +23078,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_9_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.723503495834253, yaw: 2.0008473395741335, transition: 'sglc_lantai_9_1' },
+                  {
+                    pitch: -3.723503495834253,
+                    yaw: 2.0008473395741335,
+                    transition: 'sglc_lantai_9_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -18899,7 +23106,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487653/thumbnail_R0010786_dc7bcb3c34.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010786_dc7bcb3c34', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010786_dc7bcb3c34',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010786.jpg',
@@ -18911,7 +23121,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.52,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487653/small_R0010786_dc7bcb3c34.jpg',
-                          provider_metadata: { public_id: 'small_R0010786_dc7bcb3c34', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010786_dc7bcb3c34',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010786.jpg',
@@ -18923,7 +23136,10 @@ export const Landmarks = {
                           height: 500,
                           size: 36.31,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/large_R0010786_dc7bcb3c34.jpg',
-                          provider_metadata: { public_id: 'large_R0010786_dc7bcb3c34', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010786_dc7bcb3c34',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010786.jpg',
@@ -18935,7 +23151,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/medium_R0010786_dc7bcb3c34.jpg',
-                          provider_metadata: { public_id: 'medium_R0010786_dc7bcb3c34', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010786_dc7bcb3c34',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010786_dc7bcb3c34',
@@ -18945,7 +23164,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/R0010786_dc7bcb3c34.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010786_dc7bcb3c34', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010786_dc7bcb3c34',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:27:35.424Z',
                       updatedAt: '2023-05-07T19:27:35.424Z',
                     },
@@ -18957,7 +23179,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_9_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -5.223503495834253, yaw: -4.303160838449974, transition: 'sglc_lantai_9_1' },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: -4.303160838449974,
+                    transition: 'sglc_lantai_9_1',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -18981,7 +23207,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.27,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487653/thumbnail_R0010787_710672b1c0.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010787_710672b1c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010787_710672b1c0',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010787.jpg',
@@ -18993,7 +23222,10 @@ export const Landmarks = {
                           height: 250,
                           size: 11.94,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487653/small_R0010787_710672b1c0.jpg',
-                          provider_metadata: { public_id: 'small_R0010787_710672b1c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010787_710672b1c0',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010787.jpg',
@@ -19005,7 +23237,10 @@ export const Landmarks = {
                           height: 375,
                           size: 22.15,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/medium_R0010787_710672b1c0.jpg',
-                          provider_metadata: { public_id: 'medium_R0010787_710672b1c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010787_710672b1c0',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010787.jpg',
@@ -19017,7 +23252,10 @@ export const Landmarks = {
                           height: 500,
                           size: 34.73,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/large_R0010787_710672b1c0.jpg',
-                          provider_metadata: { public_id: 'large_R0010787_710672b1c0', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010787_710672b1c0',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010787_710672b1c0',
@@ -19027,7 +23265,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487654/R0010787_710672b1c0.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010787_710672b1c0', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010787_710672b1c0',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:27:35.440Z',
                       updatedAt: '2023-05-07T19:27:35.440Z',
                     },
@@ -19061,7 +23302,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -19073,7 +23317,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -19085,7 +23332,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -19097,7 +23347,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -19107,7 +23360,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -19119,8 +23375,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_10_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -6.223503495834253, yaw: -96.91077526407395, transition: 'sglc_lantai_10_2' },
-                  { pitch: -5.223503495834253, yaw: 82.91077526407395, transition: 'sglc_lantai_10_3' },
+                  {
+                    pitch: -6.223503495834253,
+                    yaw: -96.91077526407395,
+                    transition: 'sglc_lantai_10_2',
+                  },
+                  {
+                    pitch: -5.223503495834253,
+                    yaw: 82.91077526407395,
+                    transition: 'sglc_lantai_10_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -19144,7 +23408,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.33,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/thumbnail_R0010788_ade967582c.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010788_ade967582c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010788_ade967582c',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010788.jpg',
@@ -19156,7 +23423,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.43,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/small_R0010788_ade967582c.jpg',
-                          provider_metadata: { public_id: 'small_R0010788_ade967582c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010788_ade967582c',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010788.jpg',
@@ -19168,7 +23438,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/large_R0010788_ade967582c.jpg',
-                          provider_metadata: { public_id: 'large_R0010788_ade967582c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010788_ade967582c',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010788.jpg',
@@ -19180,7 +23453,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.54,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/medium_R0010788_ade967582c.jpg',
-                          provider_metadata: { public_id: 'medium_R0010788_ade967582c', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010788_ade967582c',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010788_ade967582c',
@@ -19190,7 +23466,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487701/R0010788_ade967582c.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010788_ade967582c', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010788_ade967582c',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:28:22.195Z',
                       updatedAt: '2023-05-07T19:28:22.195Z',
                     },
@@ -19202,7 +23481,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_10_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -2.223503495834253, yaw: 2.91077526407395, transition: 'sglc_lantai_10_1' },
+                  {
+                    pitch: -2.223503495834253,
+                    yaw: 2.91077526407395,
+                    transition: 'sglc_lantai_10_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -19226,7 +23509,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.58,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/thumbnail_R0010789_ae8fb9398f.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010789_ae8fb9398f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010789_ae8fb9398f',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010789.jpg',
@@ -19238,7 +23524,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.49,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/small_R0010789_ae8fb9398f.jpg',
-                          provider_metadata: { public_id: 'small_R0010789_ae8fb9398f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010789_ae8fb9398f',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010789.jpg',
@@ -19250,7 +23539,10 @@ export const Landmarks = {
                           height: 375,
                           size: 23.53,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/medium_R0010789_ae8fb9398f.jpg',
-                          provider_metadata: { public_id: 'medium_R0010789_ae8fb9398f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010789_ae8fb9398f',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010789.jpg',
@@ -19262,7 +23554,10 @@ export const Landmarks = {
                           height: 500,
                           size: 36.79,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/large_R0010789_ae8fb9398f.jpg',
-                          provider_metadata: { public_id: 'large_R0010789_ae8fb9398f', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010789_ae8fb9398f',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010789_ae8fb9398f',
@@ -19272,7 +23567,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487701/R0010789_ae8fb9398f.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010789_ae8fb9398f', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010789_ae8fb9398f',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:28:22.051Z',
                       updatedAt: '2023-05-07T19:28:22.051Z',
                     },
@@ -19284,7 +23582,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_10_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.723503495834253, yaw: -0.11077526407395, transition: 'sglc_lantai_10_1' },
+                  {
+                    pitch: -1.723503495834253,
+                    yaw: -0.11077526407395,
+                    transition: 'sglc_lantai_10_1',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -19308,7 +23610,10 @@ export const Landmarks = {
                           height: 123,
                           size: 3.97,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/thumbnail_R0010790_80271ad0fa.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010790_80271ad0fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010790_80271ad0fa',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010790.jpg',
@@ -19320,7 +23625,10 @@ export const Landmarks = {
                           height: 250,
                           size: 11.21,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/small_R0010790_80271ad0fa.jpg',
-                          provider_metadata: { public_id: 'small_R0010790_80271ad0fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010790_80271ad0fa',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010790.jpg',
@@ -19332,7 +23640,10 @@ export const Landmarks = {
                           height: 500,
                           size: 32.7,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/large_R0010790_80271ad0fa.jpg',
-                          provider_metadata: { public_id: 'large_R0010790_80271ad0fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010790_80271ad0fa',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010790.jpg',
@@ -19344,7 +23655,10 @@ export const Landmarks = {
                           height: 375,
                           size: 20.76,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487700/medium_R0010790_80271ad0fa.jpg',
-                          provider_metadata: { public_id: 'medium_R0010790_80271ad0fa', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010790_80271ad0fa',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010790_80271ad0fa',
@@ -19354,7 +23668,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487701/R0010790_80271ad0fa.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010790_80271ad0fa', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010790_80271ad0fa',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:28:22.025Z',
                       updatedAt: '2023-05-07T19:28:22.025Z',
                     },
@@ -19388,7 +23705,10 @@ export const Landmarks = {
                       height: 156,
                       size: 14.13,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486210/thumbnail_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'thumbnail_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'thumbnail_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     small: {
                       name: 'small_DTAP_1-min.png',
@@ -19400,7 +23720,10 @@ export const Landmarks = {
                       height: 500,
                       size: 63.99,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/small_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'small_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'small_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     large: {
                       name: 'large_DTAP_1-min.png',
@@ -19412,7 +23735,10 @@ export const Landmarks = {
                       height: 1000,
                       size: 160.01,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/large_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'large_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'large_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                     medium: {
                       name: 'medium_DTAP_1-min.png',
@@ -19424,7 +23750,10 @@ export const Landmarks = {
                       height: 750,
                       size: 108.74,
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/medium_DTAP_1_min_d38264d4e4.png',
-                      provider_metadata: { public_id: 'medium_DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'medium_DTAP_1_min_d38264d4e4',
+                        resource_type: 'image',
+                      },
                     },
                   },
                   hash: 'DTAP_1_min_d38264d4e4',
@@ -19434,7 +23763,10 @@ export const Landmarks = {
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683486211/DTAP_1_min_d38264d4e4.png',
                   previewUrl: null,
                   provider: 'cloudinary',
-                  provider_metadata: { public_id: 'DTAP_1_min_d38264d4e4', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'DTAP_1_min_d38264d4e4',
+                    resource_type: 'image',
+                  },
                   createdAt: '2023-05-07T19:03:32.259Z',
                   updatedAt: '2023-05-07T19:03:32.259Z',
                 },
@@ -19446,8 +23778,16 @@ export const Landmarks = {
                 name: 'sglc_lantai_11_1',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -1.223503495834253, yaw: -116.91077526407395, transition: 'sglc_lantai_11_2' },
-                  { pitch: -4.223503495834253, yaw: 61.91077526407395, transition: 'sglc_lantai_11_3' },
+                  {
+                    pitch: -1.223503495834253,
+                    yaw: -116.91077526407395,
+                    transition: 'sglc_lantai_11_2',
+                  },
+                  {
+                    pitch: -4.223503495834253,
+                    yaw: 61.91077526407395,
+                    transition: 'sglc_lantai_11_3',
+                  },
                 ],
                 mapCoordinate: [10, 10, 10],
                 isCrooked: null,
@@ -19471,7 +23811,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487741/thumbnail_R0010791_6c6c64600a.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010791_6c6c64600a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010791_6c6c64600a',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010791.jpg',
@@ -19483,7 +23826,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.72,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/small_R0010791_6c6c64600a.jpg',
-                          provider_metadata: { public_id: 'small_R0010791_6c6c64600a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010791_6c6c64600a',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010791.jpg',
@@ -19495,7 +23841,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.24,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/medium_R0010791_6c6c64600a.jpg',
-                          provider_metadata: { public_id: 'medium_R0010791_6c6c64600a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010791_6c6c64600a',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010791.jpg',
@@ -19507,7 +23856,10 @@ export const Landmarks = {
                           height: 500,
                           size: 39.18,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/large_R0010791_6c6c64600a.jpg',
-                          provider_metadata: { public_id: 'large_R0010791_6c6c64600a', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010791_6c6c64600a',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010791_6c6c64600a',
@@ -19517,7 +23869,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487743/R0010791_6c6c64600a.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010791_6c6c64600a', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010791_6c6c64600a',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:29:03.826Z',
                       updatedAt: '2023-05-07T19:29:03.826Z',
                     },
@@ -19529,7 +23884,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_11_2',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -10.223503495834253, yaw: -21.91077526407395, transition: 'sglc_lantai_11_1' },
+                  {
+                    pitch: -10.223503495834253,
+                    yaw: -21.91077526407395,
+                    transition: 'sglc_lantai_11_1',
+                  },
                 ],
                 mapCoordinate: [10, 30, 10],
                 isCrooked: null,
@@ -19553,7 +23912,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.67,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487741/thumbnail_R0010792_47fa5dd54b.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010792_47fa5dd54b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010792_47fa5dd54b',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010792.jpg',
@@ -19565,7 +23927,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.95,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/small_R0010792_47fa5dd54b.jpg',
-                          provider_metadata: { public_id: 'small_R0010792_47fa5dd54b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010792_47fa5dd54b',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010792.jpg',
@@ -19577,7 +23942,10 @@ export const Landmarks = {
                           height: 500,
                           size: 37.98,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/large_R0010792_47fa5dd54b.jpg',
-                          provider_metadata: { public_id: 'large_R0010792_47fa5dd54b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010792_47fa5dd54b',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010792.jpg',
@@ -19589,7 +23957,10 @@ export const Landmarks = {
                           height: 375,
                           size: 24.16,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/medium_R0010792_47fa5dd54b.jpg',
-                          provider_metadata: { public_id: 'medium_R0010792_47fa5dd54b', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010792_47fa5dd54b',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010792_47fa5dd54b',
@@ -19599,7 +23970,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/R0010792_47fa5dd54b.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010792_47fa5dd54b', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010792_47fa5dd54b',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:29:03.465Z',
                       updatedAt: '2023-05-07T19:29:03.465Z',
                     },
@@ -19611,7 +23985,11 @@ export const Landmarks = {
                 name: 'sglc_lantai_11_3',
                 description: '',
                 panoramaCoordinate: [
-                  { pitch: -3.223503495834253, yaw: -25.91077526407395, transition: 'sglc_lantai_11_1' },
+                  {
+                    pitch: -3.223503495834253,
+                    yaw: -25.91077526407395,
+                    transition: 'sglc_lantai_11_1',
+                  },
                 ],
                 mapCoordinate: [10, 50, 10],
                 isCrooked: null,
@@ -19635,7 +24013,10 @@ export const Landmarks = {
                           height: 123,
                           size: 4.39,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487741/thumbnail_R0010793_d0a00530c6.jpg',
-                          provider_metadata: { public_id: 'thumbnail_R0010793_d0a00530c6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'thumbnail_R0010793_d0a00530c6',
+                            resource_type: 'image',
+                          },
                         },
                         small: {
                           name: 'small_R0010793.jpg',
@@ -19647,7 +24028,10 @@ export const Landmarks = {
                           height: 250,
                           size: 12.08,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487741/small_R0010793_d0a00530c6.jpg',
-                          provider_metadata: { public_id: 'small_R0010793_d0a00530c6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'small_R0010793_d0a00530c6',
+                            resource_type: 'image',
+                          },
                         },
                         medium: {
                           name: 'medium_R0010793.jpg',
@@ -19659,7 +24043,10 @@ export const Landmarks = {
                           height: 375,
                           size: 22.09,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/medium_R0010793_d0a00530c6.jpg',
-                          provider_metadata: { public_id: 'medium_R0010793_d0a00530c6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'medium_R0010793_d0a00530c6',
+                            resource_type: 'image',
+                          },
                         },
                         large: {
                           name: 'large_R0010793.jpg',
@@ -19671,7 +24058,10 @@ export const Landmarks = {
                           height: 500,
                           size: 34.14,
                           url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/large_R0010793_d0a00530c6.jpg',
-                          provider_metadata: { public_id: 'large_R0010793_d0a00530c6', resource_type: 'image' },
+                          provider_metadata: {
+                            public_id: 'large_R0010793_d0a00530c6',
+                            resource_type: 'image',
+                          },
                         },
                       },
                       hash: 'R0010793_d0a00530c6',
@@ -19681,7 +24071,10 @@ export const Landmarks = {
                       url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683487742/R0010793_d0a00530c6.jpg',
                       previewUrl: null,
                       provider: 'cloudinary',
-                      provider_metadata: { public_id: 'R0010793_d0a00530c6', resource_type: 'image' },
+                      provider_metadata: {
+                        public_id: 'R0010793_d0a00530c6',
+                        resource_type: 'image',
+                      },
                       createdAt: '2023-05-07T19:29:03.141Z',
                       updatedAt: '2023-05-07T19:29:03.141Z',
                     },
@@ -19713,7 +24106,10 @@ export const Landmarks = {
                   height: 115,
                   size: 72.99,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253810/thumbnail_SGLC_min_9a07e7e951.png',
-                  provider_metadata: { public_id: 'thumbnail_SGLC_min_9a07e7e951', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_SGLC_min_9a07e7e951',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_SGLC-min.png',
@@ -19725,7 +24121,10 @@ export const Landmarks = {
                   height: 234,
                   size: 270.16,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/small_SGLC_min_9a07e7e951.png',
-                  provider_metadata: { public_id: 'small_SGLC_min_9a07e7e951', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_SGLC_min_9a07e7e951',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_SGLC-min.png',
@@ -19737,7 +24136,10 @@ export const Landmarks = {
                   height: 351,
                   size: 569.84,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/medium_SGLC_min_9a07e7e951.png',
-                  provider_metadata: { public_id: 'medium_SGLC_min_9a07e7e951', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_SGLC_min_9a07e7e951',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_SGLC-min.png',
@@ -19749,7 +24151,10 @@ export const Landmarks = {
                   height: 468,
                   size: 974.59,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/large_SGLC_min_9a07e7e951.png',
-                  provider_metadata: { public_id: 'large_SGLC_min_9a07e7e951', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_SGLC_min_9a07e7e951',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'SGLC_min_9a07e7e951',
@@ -19759,7 +24164,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683253811/SGLC_min_9a07e7e951.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'SGLC_min_9a07e7e951', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'SGLC_min_9a07e7e951',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:30:12.340Z',
               updatedAt: '2023-05-05T02:30:12.340Z',
             },
@@ -19773,23 +24181,118 @@ export const Landmarks = {
         name: 'ERIC',
         isDescription: true,
         description:
-          '<p><span style="background-color:rgb(255,255,255);color:rgb(34,34,34);font-family:Verdana, Geneva, sans-serif;">gedung ERIC bertujuan sebagai pusat riset unggulan dan hilirisasi riset yang bertujuan untuk mengembangkan produk dan inovasi serta mencari solusi atas permasalahan nyata di masyarakat. Dengan rencana pembangunan 5 lantai, fasilitas yang nantinya tersedia pada gedung ini adalah laboratorium penelitian, ruang penunjang penelitian, management room, LKFT, research group, meeting room, training room, workshop room, dan lain-lain. Gedung ini sendiri akan berdiri di lahan bekas gedung Gama Press.</span></p>',
+          '<p>gedung ERIC bertujuan sebagai pusat riset unggulan dan hilirisasi riset yang bertujuan untuk mengembangkan produk dan inovasi serta mencari solusi atas permasalahan nyata di masyarakat. Dengan rencana pembangunan 5 lantai, fasilitas yang nantinya tersedia pada gedung ini adalah laboratorium penelitian, ruang penunjang penelitian, management room, LKFT, research group, meeting room, training room, workshop room, dan lain-lain. Gedung ini sendiri akan berdiri di lahan bekas gedung Gama Press.</p><p>&nbsp;</p><p>Selengkapnya <a href="https://ugrg.ft.ugm.ac.id/sglc-eric/sglc-eric-foe-ugm/" target="_blank" rel="noopener noreferrer">Tentang SGLC dan ERIC</a></p>',
         isMap: false,
         subName: 'Engineering Research Innovation Center',
         isGallery: false,
-        isPanorama: false,
+        isPanorama: true,
         location: null,
         objectName: 'ERIC',
         uid: 'eric',
         createdAt: '2023-05-02T17:25:57.401Z',
-        updatedAt: '2023-05-07T20:35:27.510Z',
+        updatedAt: '2023-05-08T12:45:39.692Z',
         publishedAt: '2023-05-02T17:25:59.076Z',
         zoomTarget: null,
         zoomCamera: null,
         tooltipLocation: null,
         mapDetail: [],
         galleryDetail: [],
-        panoramaDetail: [],
+        panoramaDetail: [
+          {
+            id: 14,
+            __component: 'panorama.panorama-information',
+            name: null,
+            description: '',
+            location: null,
+            panoramaImage: {
+              data: {
+                id: 330,
+                attributes: {
+                  name: 'R0010880.jpg',
+                  alternativeText: null,
+                  caption: null,
+                  width: 5376,
+                  height: 2688,
+                  formats: {
+                    thumbnail: {
+                      name: 'thumbnail_R0010880.jpg',
+                      hash: 'thumbnail_R0010880_18d9b8e3a1',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 245,
+                      height: 123,
+                      size: 6.96,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683549920/thumbnail_R0010880_18d9b8e3a1.jpg',
+                      provider_metadata: {
+                        public_id: 'thumbnail_R0010880_18d9b8e3a1',
+                        resource_type: 'image',
+                      },
+                    },
+                    small: {
+                      name: 'small_R0010880.jpg',
+                      hash: 'small_R0010880_18d9b8e3a1',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 500,
+                      height: 250,
+                      size: 23.08,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683549921/small_R0010880_18d9b8e3a1.jpg',
+                      provider_metadata: {
+                        public_id: 'small_R0010880_18d9b8e3a1',
+                        resource_type: 'image',
+                      },
+                    },
+                    large: {
+                      name: 'large_R0010880.jpg',
+                      hash: 'large_R0010880_18d9b8e3a1',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 1000,
+                      height: 500,
+                      size: 77.76,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683549921/large_R0010880_18d9b8e3a1.jpg',
+                      provider_metadata: {
+                        public_id: 'large_R0010880_18d9b8e3a1',
+                        resource_type: 'image',
+                      },
+                    },
+                    medium: {
+                      name: 'medium_R0010880.jpg',
+                      hash: 'medium_R0010880_18d9b8e3a1',
+                      ext: '.jpg',
+                      mime: 'image/jpeg',
+                      path: null,
+                      width: 750,
+                      height: 375,
+                      size: 47.3,
+                      url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683549921/medium_R0010880_18d9b8e3a1.jpg',
+                      provider_metadata: {
+                        public_id: 'medium_R0010880_18d9b8e3a1',
+                        resource_type: 'image',
+                      },
+                    },
+                  },
+                  hash: 'R0010880_18d9b8e3a1',
+                  ext: '.jpg',
+                  mime: 'image/jpeg',
+                  size: 963.43,
+                  url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683549922/R0010880_18d9b8e3a1.jpg',
+                  previewUrl: null,
+                  provider: 'cloudinary',
+                  provider_metadata: {
+                    public_id: 'R0010880_18d9b8e3a1',
+                    resource_type: 'image',
+                  },
+                  createdAt: '2023-05-08T12:45:22.966Z',
+                  updatedAt: '2023-05-08T12:45:22.966Z',
+                },
+              },
+            },
+          },
+        ],
         thumbnail: {
           data: {
             id: 30,
@@ -19810,7 +24313,10 @@ export const Landmarks = {
                   height: 115,
                   size: 68.56,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683254121/thumbnail_ERIC_min_72a7396a7c.png',
-                  provider_metadata: { public_id: 'thumbnail_ERIC_min_72a7396a7c', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'thumbnail_ERIC_min_72a7396a7c',
+                    resource_type: 'image',
+                  },
                 },
                 small: {
                   name: 'small_ERIC-min.png',
@@ -19822,7 +24328,10 @@ export const Landmarks = {
                   height: 235,
                   size: 246.71,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683254122/small_ERIC_min_72a7396a7c.png',
-                  provider_metadata: { public_id: 'small_ERIC_min_72a7396a7c', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'small_ERIC_min_72a7396a7c',
+                    resource_type: 'image',
+                  },
                 },
                 medium: {
                   name: 'medium_ERIC-min.png',
@@ -19834,7 +24343,10 @@ export const Landmarks = {
                   height: 353,
                   size: 510.17,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683254123/medium_ERIC_min_72a7396a7c.png',
-                  provider_metadata: { public_id: 'medium_ERIC_min_72a7396a7c', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'medium_ERIC_min_72a7396a7c',
+                    resource_type: 'image',
+                  },
                 },
                 large: {
                   name: 'large_ERIC-min.png',
@@ -19846,7 +24358,10 @@ export const Landmarks = {
                   height: 471,
                   size: 854.35,
                   url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683254123/large_ERIC_min_72a7396a7c.png',
-                  provider_metadata: { public_id: 'large_ERIC_min_72a7396a7c', resource_type: 'image' },
+                  provider_metadata: {
+                    public_id: 'large_ERIC_min_72a7396a7c',
+                    resource_type: 'image',
+                  },
                 },
               },
               hash: 'ERIC_min_72a7396a7c',
@@ -19856,7 +24371,10 @@ export const Landmarks = {
               url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1683254122/ERIC_min_72a7396a7c.png',
               previewUrl: null,
               provider: 'cloudinary',
-              provider_metadata: { public_id: 'ERIC_min_72a7396a7c', resource_type: 'image' },
+              provider_metadata: {
+                public_id: 'ERIC_min_72a7396a7c',
+                resource_type: 'image',
+              },
               createdAt: '2023-05-05T02:35:24.235Z',
               updatedAt: '2023-05-05T02:35:24.235Z',
             },
@@ -19865,5 +24383,12 @@ export const Landmarks = {
       },
     },
   ],
-  meta: { pagination: { page: 1, pageSize: 25, pageCount: 1, total: 13 } },
+  meta: {
+    pagination: {
+      page: 1,
+      pageSize: 25,
+      pageCount: 1,
+      total: 13,
+    },
+  },
 }

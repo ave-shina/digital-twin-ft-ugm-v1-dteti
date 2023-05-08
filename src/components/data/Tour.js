@@ -6,7 +6,7 @@ export const TourData = {
       description:
         '<h3 style="margin-left:0px;text-align:justify;"><strong>Sejarah Fakultas Teknik</strong></h3><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Fakultas&nbsp; Teknik&nbsp; Universitas&nbsp; Gadjah&nbsp; Mada&nbsp; lahir&nbsp; dalam&nbsp; kancah revolusi.&nbsp; Pada&nbsp; akhir&nbsp; Perang&nbsp; Dunia II, setelah Jepang menyerah pada tahun 1945, dan diproklamasikan Kemerdekaan&nbsp; Indonesia pada tanggal 17 Agustus 1945, lahirlah Sekolah Tinggi Teknik (STT) Bandoeng. Sebagai hasil&nbsp; pengambilalihan kekuasaan dari&nbsp; pemerintah Jepang oleh Pemerintah Republik Indonesia, STT ini merupakan kelanjutan&nbsp;Koo Gyoo Dai Gaku&nbsp;pada masa pendudukan Jepang dan&nbsp;Technische Hoogeschool&nbsp;pada masa pendudukan Belanda.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Akibat pertikaian antara pemerintah Republik Indonesia dengan pemerintah Belanda yang dibantu oleh tentara Sekutu, dan juga atas usul beberapa mahasiswa, STT Bandoeng pada bulan Januari 1946 mengungsi ke Yogyakarta. Secara resmi, STT&nbsp; Bandoeng&nbsp; di Jogjakarta&nbsp; dibuka pada tanggal 17 Februari 1946, dengan bagian-bagian yang sama seperti ketika masih di Bandung, yakni Bagian Teknik Sipil, Bagian Teknik Mesin-Listrik, dan Bagian Teknik Kimia. Pada awal kegiatannya di Yogyakarta, STT ini&nbsp; menempati ruang-ruang di gedung olah raga Sekolah Menengah Tinggi (SMT) di kawasan Kota Baru. Kegiatan kuliah diselenggarakan pada sore hari.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun yang sama, yakni bulan Januari 1946 di Yogyakarta dibentuk Universitas atau Balai Perguruan Tinggi (BPT) Swasta Gadjah Mada. Namun STT Bandoeng tidak menjadi bagian dari Perguruan Tinggi Swasta tersebut, karena STT Bandoeng di Jogjakarta adalah lembaga pemerintah (negeri). Jadi STT Bandung merupakan perguruan tinggi negeri yang pertama di Yogyakarta.</p><p style="margin-left:0px;text-align:justify;"><br>Tidak lama kemudian STT Bandoeng di Jogjakarta diubah menjadi Sekolah Tinggi Teknik Jogjakarta, dan kegiatan perkuliahan pindah dari Kotabaru ke Kampus Jetis Yogyakarta. Dalam perkembangan selanjutnya selain Kampus Jetis, STT Jogjakarta juga memiliki laboratorium di Jl. Krasak dan di Jl. Pingit Yogyakarta.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Dalam masa perjuangan mempertahankan negara (Clash II, Desember 1948 – Oktober 1949), baik STT Jogjakarta maupun BPT&nbsp; Swasta Gadjah Mada terpaksa ditutup. Para dosen, mahasiswa dan pegawai STT Jogjakarta membantu perjuangan fisik dan turut bergerilya bersama-sama rakyat dan Tentara Nasional Indonesia. Pada tanggal 19 Desember 1949 setelah kedaulatan kembali ke tangan Republik Indonesia, STT Jogjakarta digabung dengan Sekolah Tinggi&nbsp; Kedokteran (yang sebelumnya hijrah ke Klaten setelah Jakarta diduduki Sekutu), dan Balai Perguruan Tinggi Gadjah Mada (swasta) menjadi Universiteit Negeri Gadjah Mada. STT Jogjakarta kemudian berstatus sebagai Fakulteit Teknik Universiteit Gadjah Mada dengan bagian yang sama seperti ketika masih di Bandung. Tanggal tersebut kemudian dinyatakan sebagai tanggal kelahiran Universitas Gadjah Mada.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1950, karena kekurangan staf pengajar dan mahasiswa. Bagian Mesin-Listrik Fakultas Teknik terpaksa ditutup. Pada tahun 1957 – 1966, Fakultas Teknik UGM memperoleh bantuan dari University of California Los Angeles (UCLA) berupa tenaga-tenaga pengajar,&nbsp; peralatan,&nbsp; buku-buku&nbsp; untuk pendidikan dan&nbsp; beasiswa pendidikan lanjut untuk staf pengajar. Dalam periode ini Fakultas Teknik UGM mengembangkan bagian-bagian baru, yaitu Bagian Teknik Mesin (1959), Bagian Teknik Geodesi-Geologi (1959) yang kemudian dipisah menjadi Bagian Teknik Geodesi dan Bagian Teknik Geologi (1962), Bagian Teknik Arsitektur (1962), dan&nbsp; Bagian Teknik Listrik (1963).</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Memasuki tahun 1966, awal masa pemerintahan Orde Baru, Fakultas Teknik UGM mengalami masa yang sulit, karena dana yang terbatas untuk perkembangannya. Kesulitan itu merangsang gagasan untuk mengadakan reuni dan mengajak para alumni Fakultas Teknik UGM untuk menyumbang tenaga dan pikiran bagi pengembangan Fakultas. Reuni ini melahirkan KATGAMA (Keluarga Alumni Teknik Universitas Gadjah Mada) yang ternyata mempunyai peran yang tidak kecil dalam berbagai upaya pembinaan dan pengembangan Fakultas Teknik UGM. KATGAMA ini pada perkembangan selanjutnya secara organisasi merupakan salah satu Komisariat dari KAGAMA (Keluarga Alumni Universitas Gadjah Mada).</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tanggal 5 Desember 1974 ditandatangani Kerjasama Induk antara Universitas Gadjah Mada dan Badan Tenaga Atom Nasional (BATAN) yang kemudian diperpanjang pada tanggal 22 Februari 1978. Pendidikan Teknik Nuklir merupakan salah satu kerjasama tersebut yang dituangkan dalam beberapa Naskah Pengaturan Kerjasama antara Universitas Gadjah Mada dengan Pusat Penelitian Bahan Murni dan Instrumentasi (PPBMI) dan Pusat Pendidikan dan Latihan (PUSDIKLAT) BATAN Yogyakarta. Hasil dari kerjasama tersebut adalah didirikannya Bagian Teknik Nuklir pada bulan Agustus 1977.Sesuai Surat Keputusan Menteri Pendidikan dan Kebudayaan No.: 043/U/1975 tentang pembentukan Pendidikan Ahli Teknik (PAT), pendidikan setelah pendidikan menengah harus diselenggarakan oleh Perguruan Tinggi, dalam hal ini Universitas/Institut. Berdasarkan surat keputusan tersebut beberapa Akademi Teknologi Negeri (ATN) di Yogyakarta dan sekitarnya yaitu Magelang, Purworejo, dan Klaten di-phase-in ke Fakultas Teknik Universitas Gadjah Mada menjadi PAT. Secara resmi PAT di Fakultas Teknik UGM dibuka pada tanggal 5 September 1977.Selanjutnya berdasarkan Peraturan Pemerintah No. : 27 tahun 1981 tentang Penataan Fakultas pada Universitas dan Peraturan Pemerintah No. : 53 Tahun 1982 tentang Sususan Organisasi Universitas Gadjah Mada, PAT yang semula berada di Fakultas Teknik UGM dikembangkan menjadi Fakultas tersendiri di lingkungan UGM dengan nama Fakultas Non-Gelar Teknologi (FNT), dan resmi dinyatakan berdiri pada awal Juni 1983 dengan tiga (3) jurusan, yaitu Teknik Elektro, Teknik Mesin, dan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sesuai dengan Peraturan Pemerintah No. 5 Tahun 1980&nbsp; maka&nbsp; mulai tahun 1981 setiap Bagian di lingkungan Fakultas Teknik UGM diubah menjadi Jurusan, sehingga namanya menjadi Jurusan Teknik Arsitektur, Jurusan&nbsp; Teknik&nbsp; Elektro,&nbsp; Jurusan&nbsp; Teknik&nbsp; Geodesi, Jurusan Teknik Geologi, Jurusan Teknik Kimia, Jurusan Teknik Mesin, Jurusan Teknik Nuklir, dan Jurusan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun yang sama sesuai dengan Surat Keputusan Menteri Pendidikan dan Kebudayaan No. 0218/U/1980 tentang Kurikulum Nasional Program Sarjana Ilmu Teknik, pada awal tahun akademik 1980/1981 seluruh jurusan di lingkungan Fakultas Teknik UGM melakukan penyempurnaan kurikulum secara serentak, menyesuaikan diri dengan Kurikulum Nasional.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1989 Dewan Perwakilan Rakyat Republik Indonesia mengesahkan Undang-undang tentang Sistem Pendidikan nasional (UUSPN) yang dikenal dengan Undang-undang No. : 2 Tahun 1989, yang diikuti dengan keluarnya Peraturan Pemerintah No. : 30 Tahun 1990 tanggal 10 Juli 1990 tentang Pendidikan Tinggi. Menindaklanjuti peraturan tersebut diatas adalah dikeluarkannya Surat Keputusan Menteri Pendidikan dan Kebudayaan RI No. : 0312/0/1991 tanggal 6 Juni 1991 yang mengatur tentang penutupan dan pengintegrasian Fakultas Non-Gelar Teknologi kedalam lingkungan Universitas dan Institut. Didalam lampiran surat keputusan tersebut ditetapkan bahwa jurusan-jurusan yang sesuai dengan FNT diintegrasikan ke jurusan-jurusan yang sesuai di Fakultas Teknik. Pada surat keputusan tersebut ditetapkan bahwa pelaksanaan ketentuan itu diatur oleh Rektor masing-masing Perguruan Tinggi.&nbsp; Setelah diterbitkannya Surat Keputusan Rektor UGM No.: UGM/2/119/UM/01/37 dan Surat Keputusan Dekan Fakultas Teknik UGM No. : UGM/TK/ 907/UM/01/39, maka mulai saat itu FNT sudah tidak ada.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Mulai tahun 1999, dibuka Program Diploma I Bidang Survey &amp; Pemetaan Kadastral di Jurusan Teknik Geodesi. Namun pada tahun 2000, program ini dikembangkan menjadi Program Diploma III Teknik Geomatika.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sejak tahun 1980 Fakultas Teknik mendapat bantuan dari Program Pendidikan IX Bank Dunia untuk pengembangannya. Pelaksanaan efektif Program Pendidikan Bank Dunia dimulai bulan Agustus 1981 dengan pengiriman tenaga pengajar Fakultas Teknik UGM untuk belajar di luar negeri. Selain itu juga didatangkan dosen tamu dan perencanaan pembangunan ruang kuliah dan&nbsp; ruang laboratorium. Sejak tahun 1996 kedelapan jurusan yang ada di Fakultas Teknik UGM telah menempati komplek Fakultas Teknik UGM yang baru, yaitu di Jl. Grafika 2, Kampus UGM Yogyakarta.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Tahun 1994 Fakultas Teknik UGM mulai menyelenggarakan program Pendidikan&nbsp; Ekstensi (S-1), Teknik Arsitektur dan Teknik Sipil bagi lulusan Sarjana Muda dan Program Diploma III sejenis. Mulai tahun akademik 1997/1998 dibuka Program Sarjana Ekstensi Pola A untuk lulusan SLTA dan Program Sarjana Ekstensi Pola B untuk lulusan Sarjana Muda dan Program Diploma III, melanjutkan Program Ekstensi yang sudah ada. Program Ekstensi berkembang dengan pesat, dan sejak tahun 2003 namanya berubah menjadi Program Swadaya A dan B. Saat ini Program Swadaya B telah diselenggarakan di Jurusan Teknik Arsitektur, Teknik Elektro, Teknik Fisika, Teknik Geodesi, Teknik Mesin (Program Studi Teknik Industri dan Program Studi Teknik Mesin), dan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1998 Fakultas Teknik UGM membuka Program Studi Teknik Industri yang berada di bawah Jurusan Teknik Mesin dan Program Studi Teknik Fisika yang berada di bawah Jurusan Teknik Nuklir. Pada tahun itu pula Jurusan Teknik Nuklir diganti menjadi Jurusan Teknik Fisika, dengan menyelenggarakan 2 (dua) program studi, yaitu Teknik Fisika dan Teknik Nuklir.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Dengan diberlakukannya Keputusan Menteri Pendidikan Nasional No. 232/U/2000, maka sejak tahun 2001/2002 seluruh program studi di lingkungan Fakultas Teknik UGM telah memberlakukan kurikulum baru yang berbasis pada kompentensi lulusan yang berorientasi kepada&nbsp;learning to know, learning to do, learning to live together dan learning to be. Kurikulum 2001/2002 tersebut lebih ringkas dan lebih padat, yakni berkisar antara 144 sks – 151 sks dan terdistribusi dalam 8 semester, sehingga diharapkan dapat meningkatkan jumlah dan kualitas lulusan serta memper-pendek lama studi rerata mahasiswa.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sebagai bagian dari perkembangan tata kelola UGM, melalui SK MWA nomor 4/SK/MWA/2014, frasa jurusan berubah menjadi departemen. Sehingga saat ini terdapat 8 departemen di lingkungan FT UGM, yaitu: Departemen Teknik Arsitektur dan Perencanaan, Departemen Teknik Elektro dan Teknologi Informasi, Departemen Teknik Nuklir dan Teknik Fisika, Departemen Teknik Geodesi, Departemen Teknik Geologi, Departemen Teknik Kimia, Departemen Teknik Mesin dan Industri, dan Departemen Teknik Sipil dan Lingkungan.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p>',
       createdAt: '2023-04-26T12:10:58.307Z',
-      updatedAt: '2023-05-08T03:39:13.306Z',
+      updatedAt: '2023-05-08T05:13:01.723Z',
       publishedAt: '2023-04-26T12:10:59.934Z',
       panoramaData: [
         {
@@ -230,7 +230,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [730, 290, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 217,
@@ -548,7 +548,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [560, 105, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 219,
@@ -654,7 +654,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [460, 55, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 220,
@@ -1189,7 +1189,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [110, 365, 10],
-              isCrooked: null,
+              isCrooked: true,
               mapImage: {
                 data: {
                   id: 226,
@@ -1295,7 +1295,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [45, 465, 10],
-              isCrooked: null,
+              isCrooked: true,
               mapImage: {
                 data: {
                   id: 227,
@@ -1507,7 +1507,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [245, 553, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 232,
@@ -1613,7 +1613,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [345, 520, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 230,
@@ -1719,7 +1719,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [435, 545, 10],
-              isCrooked: null,
+              isCrooked: false,
               mapImage: {
                 data: {
                   id: 229,
@@ -1816,7 +1816,7 @@ export const TourData = {
                 {
                   pitch: -14.601367383055635,
                   yaw: 170.20089927214275,
-                  transition: 'jalan-ft-ugm-17',
+                  transition: 'jalan-ft-ugm-18',
                 },
                 {
                   pitch: 8.448402722670659,
@@ -1931,7 +1931,7 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [705, 660, 10],
-              isCrooked: null,
+              isCrooked: true,
               mapImage: {
                 data: {
                   id: 231,
@@ -5470,7 +5470,7 @@ export const TourData = {
                 {
                   pitch: 0.4482533736514234,
                   yaw: 112.7603103664817,
-                  transition: 'dtsl-2',
+                  transition: 'dtsl-1',
                 },
               ],
               mapCoordinate: [545, 290, 10],

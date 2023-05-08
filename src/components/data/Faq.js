@@ -2,27 +2,27 @@ export const faqData = {
   data: {
     id: 1,
     attributes: {
-      name: 'Pertanayaan Umum',
+      name: 'Faq',
       subName: null,
       description:
-        '<p>Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Eget nullam non nisi est sit amet facilisis magna. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Nulla facilisi morbi tempus iaculis urna id volutpat. Felis donec et odio pellentesque diam volutpat. Non tellus orci ac auctor augue mauris augue. Mattis aliquam faucibus purus in massa tempor. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Velit euismod in pellentesque massa placerat duis ultricies. Blandit turpis cursus in hac habitasse platea.</p>',
+        '<p>Fitur FAQ (Frequently Asked Questions) pada website Fakultas Teknik Universitas Gadjah Mada (UGM) berfungsi sebagai sumber informasi yang berisi pertanyaan-pertanyaan yang sering diajukan oleh pengunjung.</p>',
       createdAt: '2023-04-25T11:49:09.880Z',
-      updatedAt: '2023-04-25T12:14:30.727Z',
+      updatedAt: '2023-05-08T12:39:58.202Z',
       publishedAt: '2023-04-25T11:49:15.649Z',
       FaqDetail: [
         {
-          id: 1,
+          id: 3,
           __component: 'faq.faq-data',
-          question: 'Dimanakah Saya dapat masuk ke Teknik ?',
+          question: 'Bagaimana Cara untuk masuk ke area Fakultas Teknik Universitas Gadjah Mada ?',
           answer:
-            '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget nullam non. Felis imperdiet proin fermentum leo vel orci porta. Cras fermentum odio eu feugiat pretium nibh ipsum. Magna sit amet purus gravida quis. Augue eget arcu dictum varius duis at. Libero justo laoreet sit amet cursus sit amet dictum sit. Nunc sed augue lacus viverra vitae. Ultrices vitae auctor eu augue ut lectus arcu. Sit amet purus gravida quis blandit turpis cursus. Morbi tristique senectus et netus et malesuada fames ac turpis. Nunc scelerisque viverra mauris in aliquam sem. Leo a diam sollicitudin tempor.</p><p>&nbsp;</p><p><img src="https://res.cloudinary.com/dhobqwoky/image/upload/v1682424850/0006_0e985289e1.jpg"></p><p>&nbsp;</p><p>Velit euismod in pellentesque massa. Risus pretium quam vulputate dignissim suspendisse in est ante. Dis parturient montes nascetur ridiculus mus mauris vitae. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. In egestas erat imperdiet sed euismod nisi. Tempus egestas sed sed risus pretium quam vulputate. Gravida cum sociis natoque penatibus et magnis dis parturient. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Ac turpis egestas maecenas pharetra convallis posuere. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Euismod lacinia at quis risus sed. Venenatis urna cursus eget nunc scelerisque viverra mauris.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>',
+            '<p style="margin-left:0px;">Berikut adalah langkah-langkah yang dapat digunakan untuk menjelaskan proses tersebut:</p><p style="margin-left:0px;">&nbsp;</p><ol style="list-style-type:decimal;"><li>Sebelum memasuki area Fakultas Teknik UGM, pastikan Anda sudah memiliki kartu identitas yang terdaftar di layanan Fakultas Teknik. Bagi civitas akademik, seperti mahasiswa, dosen, dan staf, kartu identitas ini adalah kartu tanda pengenal resmi dari UGM.</li><li>Jika Anda seorang tamu yang ingin berkunjung ke Fakultas Teknik UGM, Anda harus mengunjungi pos keamanan yang terletak di dekat Tugu Teknik. Di sana, Anda akan diberikan kartu tamu setelah memberikan informasi yang diperlukan, seperti nama, alamat, dan tujuan kunjungan.</li><li>Setelah mendapatkan kartu identitas atau kartu tamu yang sesuai, lanjutkan ke pintu masuk Fakultas Teknik. Di sana, Anda akan menemukan sistem pemindaian kartu yang digunakan untuk mengontrol akses ke area fakultas.</li><li>Tempelkan kartu identitas atau kartu tamu Anda pada pembaca kartu yang tersedia di pintu masuk. Pastikan informasi pada kartu terbaca dengan benar oleh sistem.</li><li>Jika kartu berhasil terbaca, pintu akan terbuka, dan Anda diizinkan untuk memasuki area Fakultas Teknik. Jika kartu tidak berhasil terbaca, pastikan Anda memegang kartu dengan benar dan mencoba lagi. Jika masih mengalami kesulitan, hubungi petugas keamanan untuk bantuan.</li><li>Setelah memasuki area Fakultas Teknik, pastikan Anda selalu membawa kartu identitas atau kartu tamu Anda. Kartu ini mungkin diperlukan untuk mengakses fasilitas tertentu.</li><li>Jika Anda seorang tamu, pastikan untuk mengembalikan kartu tamu Anda ke pos keamanan sebelum meninggalkan area Fakultas Teknik.</li></ol><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;">Dengan mengikuti langkah-langkah ini, civitas akademik dan tamu dapat memasuki Fakultas Teknik UGM dengan aman dan sesuai dengan aturan yang berlaku.</p>',
         },
         {
-          id: 2,
+          id: 1,
           __component: 'faq.faq-data',
-          question: 'Apa Saja Fasilitas yang dimiliki oleh Fakultas Teknik ?',
+          question: 'Di mana saya bisa memarkirkan kendaraan di area Fakultas Teknik?',
           answer:
-            '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget nullam non. Felis imperdiet proin fermentum leo vel orci porta. Cras fermentum odio eu feugiat pretium nibh ipsum. Magna sit amet purus gravida quis. Augue eget arcu dictum varius duis at. Libero justo laoreet sit amet cursus sit amet dictum sit. Nunc sed augue lacus viverra vitae. Ultrices vitae auctor eu augue ut lectus arcu. Sit amet purus gravida quis blandit turpis cursus. Morbi tristique senectus et netus et malesuada fames ac turpis. Nunc scelerisque viverra mauris in aliquam sem. Leo a diam sollicitudin tempor. Velit euismod in pellentesque massa. Risus pretium quam vulputate dignissim suspendisse in est ante. Dis parturient montes nascetur ridiculus mus mauris vitae. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. In egestas erat imperdiet sed euismod nisi. Tempus egestas sed sed risus pretium quam vulputate. Gravida cum sociis natoque penatibus et magnis dis parturient. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Ac turpis egestas maecenas pharetra convallis posuere. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Euismod lacinia at quis risus sed. Venenatis urna cursus eget nunc scelerisque viverra mauris.</p>',
+            '<p>Di Fakultas Teknik Universitas Gadjah Mada (UGM), area parkir kendaraan tersedia di setiap departemen. Pengunjung dapat memarkirkan kendaraan mereka di lokasi yang sesuai dengan tujuan kunjungan mereka, sehingga memudahkan akses ke berbagai fasilitas di lingkungan fakultas.</p>',
         },
       ],
     },

@@ -24,7 +24,7 @@ export default function Layout(props) {
         <div className={clsx('absolute h-full  w-full', navigation.showTooltip ? 'z-[99999999]' : '')}>
           <div className={clsx('  min-h-full w-full ', navigation.theme === 'dark' ? 'bg-black' : 'bg-white')}>
             <Navbar></Navbar>
-            <div className={clsx('flex w-full flex-col items-start justify-center  py-32')}>
+            <div className={clsx('flex w-full flex-col items-start justify-center  pt-32')}>
               {navigation.content === 'search' && <Search></Search>}
               {navigation.content === 'tour' && <Tour></Tour>}
               {navigation.content === 'faq' && <Faq></Faq>}

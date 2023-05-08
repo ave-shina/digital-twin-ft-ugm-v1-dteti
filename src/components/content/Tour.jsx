@@ -42,8 +42,8 @@ export default function Tour() {
     },
   ]
 
-  const [title, setTitle] = useState({ state: 1 })
-  const [prevTitle, setPrevTitle] = useState({ state: 1 })
+  const [title, setTitle] = useState({ state: 0 })
+  const [prevTitle, setPrevTitle] = useState({ state: 0 })
   const [open, setOpen] = useState(false)
   useEffect(() => {
     if (title.state !== prevTitle.state) {

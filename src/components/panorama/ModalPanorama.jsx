@@ -96,6 +96,7 @@ export default function ModalPanorama(props) {
             <div className={clsx('flex h-full w-full flex-col items-center justify-center')}>
               {sceneObject && (
                 <Pannellum
+                  hfov={130}
                   ref={panImage}
                   width='100%'
                   height='100%'
@@ -105,7 +106,7 @@ export default function ModalPanorama(props) {
                     setPitch(panImage.current.getViewer().mouseEventToCoords(event)[0])
                     setYaw(panImage.current.getViewer().mouseEventToCoords(event)[1])
                   }}>
-                  {sceneObject.hotSpotsArr.map((hotSpot, index) => {
+                  {sceneObject?.hotSpotsArr?.map((hotSpot, index) => {
                     // console.log(hotSpot)
                     return (
                       <Pannellum.Hotspot

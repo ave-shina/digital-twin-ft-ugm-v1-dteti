@@ -42,7 +42,8 @@ export default function Landmark(props) {
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({
       sceneName: mapInformation[i]?.name,
-      scenePanoImg: mapInformation[i].mapImage.data.attributes,
+      scenePanoImg:
+        mapInformation[i]?.mapImage?.data?.attributes != null ? mapInformation[i].mapImage.data.attributes : '',
       hotSpotsArr: mapInformation[i].panoramaCoordinate,
     })
   }
@@ -78,8 +79,8 @@ export default function Landmark(props) {
     },
   ]
 
-  const [title, setTitle] = useState({ state: 1 })
-  const [prevTitle, setPrevTitle] = useState({ state: 1 })
+  const [title, setTitle] = useState({ state: 0 })
+  const [prevTitle, setPrevTitle] = useState({ state: 0 })
   const [open, setOpen] = useState(false)
   useEffect(() => {
     if (title.state !== prevTitle.state) {

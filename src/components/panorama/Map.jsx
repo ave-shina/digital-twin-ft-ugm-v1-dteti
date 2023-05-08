@@ -14,6 +14,7 @@ function Map(props) {
       x: mapInformation[i].mapCoordinate[0],
       y: mapInformation[i].mapCoordinate[1],
       name: mapInformation[i].name,
+      isCrooked: mapInformation[i].isCrooked,
     })
   }
 
@@ -83,7 +84,7 @@ function Map(props) {
                       x={data.x}
                       y={data.y}
                       radius={5}
-                      fill='red'
+                      fill={data.isCrooked == false || data.isCrooked == null ? 'blue' : 'red'}
                       cursor='pointer'
                       onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave}

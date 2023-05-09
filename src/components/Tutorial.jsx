@@ -1,22 +1,23 @@
 import React, { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { useSelector } from 'react-redux'
+
 import Fade from 'react-reveal/Fade'
+import clsx from 'clsx'
+
+import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-
-import clsx from 'clsx'
-
 SwiperCore.use([Navigation, Pagination])
-
-import { useSelector } from 'react-redux'
 
 export default function Tutorial(props) {
   const { setIntroduction } = props
+  // Digunakan untuk mengganti slide di Swiper
   const [prevEl, setPrevEl] = useState(null)
   const [nextEl, setNextEl] = useState(null)
 
+  // Mengambil data di Redux
   const navigation = useSelector((state) => state.navigation)
 
   return (

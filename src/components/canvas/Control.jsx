@@ -1,20 +1,26 @@
+import { useRef } from 'react'
+
+import * as THREE from 'three'
 import { OrbitControls } from '@react-three/drei'
 import { useThree, useFrame } from '@react-three/fiber'
-import { useRef } from 'react'
-import * as THREE from 'three'
+
 import { useSelector } from 'react-redux'
 
 export default function Controls(props) {
   const { introduction, locationData, freeControl } = props
   const { gl, camera } = useThree()
-  const controls = useRef()
+
   const vec = new THREE.Vector3()
 
   const navigation = useSelector((state) => state.navigation)
 
+  // agar mendapatkan akses kontrol
+  const controls = useRef()
   const step = 0.025
 
+  // useFrame digunakan untuk memantau setiap perubahan vektor 3dimensi pada threejs
   useFrame((state) => {
+    // ketika mulai maka fov yang berubah
     if (introduction === 'storyBoard') {
       state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, 50, step)
       state.camera.position.lerp(vec.set(camera.position.x, camera.position.y, camera.position.z), step)
@@ -22,9 +28,9 @@ export default function Controls(props) {
       state.camera.updateProjectionMatrix()
     }
 
+    // untuk control
     if (controls.current && introduction === '' && freeControl == true) {
       let _v = new THREE.Vector3()
-
       let minPan = new THREE.Vector3(0, 0, 0)
       let maxPan = new THREE.Vector3(0, 0, 0)
       _v.copy(controls.current.target)
@@ -33,10 +39,8 @@ export default function Controls(props) {
       camera.position.sub(_v)
     }
 
+    // untuk zoom
     if (locationData) {
-      const vectorLookAt = controls.current.target
-      const lookAt = new THREE.Vector3(locationData.target.x, 0, locationData.target.z)
-      const start = new THREE.Vector3(0, 0, 0)
       state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, navigation.location ? 15 : 50, step)
       state.camera.position.lerp(
         vec.set(
@@ -46,15 +50,14 @@ export default function Controls(props) {
         ),
         step,
       )
-      state.camera.lookAt(vectorLookAt.lerp(navigation.location != '' ? lookAt : start, 0.1))
+
+      const vectorLookAt = controls.current.target
+      const lookAt = new THREE.Vector3(locationData.target.x, 0, locationData.target.z)
+      const start = new THREE.Vector3(0, 0, 0)
+      state.camera.lookAt(vectorLookAt.lerp(navigation.location != '' ? lookAt : start, step))
       state.camera.updateProjectionMatrix()
     }
-
-    // state.camera.updateProjectionMatrix()
   })
-
-  // scene.fog = new THREE.Fog('#000000', 600, 1000)
-  // console.log(navigation.location)
 
   return (
     <>

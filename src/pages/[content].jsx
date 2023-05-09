@@ -13,6 +13,7 @@ export default function Content() {
   const router = useRouter()
   const dispatch = useDispatch()
 
+  // Iniasi Redux sesuai dengan router
   useEffect(() => {
     if (router.query.content != undefined) {
       dispatch(toggleContent(router.query.content))
@@ -22,16 +23,15 @@ export default function Content() {
     }
   }, [router])
 
+  // Mencari Data yang dibutuhkan
   const navigation = useSelector((state) => state.navigation)
   const data = Landmarks.data.find((item) => item.attributes.objectName === navigation.location)
 
+  // Image ketika akses bukan dari main route
   const thumbnail = data?.attributes.thumbnail.data.attributes
 
-  // console.log('test redux', navigation.content, navigation.location)
-  // console.log('test thumbnail', thumbnail && navigation.content === 'landmark')
-
+  // Komponen musik
   const myRef = useRef()
-
   useEffect(() => {
     if (!navigation.music) {
       myRef.current.pause()
@@ -42,6 +42,7 @@ export default function Content() {
     }
   }, [navigation.music])
 
+  // Mematikan musik saat berganti tab
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.hidden) {
@@ -60,6 +61,7 @@ export default function Content() {
 
   return (
     <div className='absolute h-full w-full bg-black'>
+      {/* Komponen Musik */}
       <audio ref={myRef} preload='none'>
         <source
           src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'
@@ -67,6 +69,7 @@ export default function Content() {
         />
       </audio>
       <div className={clsx('absolute h-full w-full')}>
+        {/* Komponen Latar belakang */}
         {thumbnail && navigation.content === 'landmark' && (
           <div className='relative h-full w-full'>
             <Image
@@ -83,6 +86,7 @@ export default function Content() {
           </div>
         )}
       </div>
+      {/* Komponen Fitur */}
       {navigation.content != undefined && <Layout></Layout>}
     </div>
   )

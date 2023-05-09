@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
-const { Pannellum } = require('@georgedrpg/pannellum-react-next')
 
+const { Pannellum } = require('@georgedrpg/pannellum-react-next')
 import '@georgedrpg/pannellum-react-next/es/css/video-js.css'
 import '@georgedrpg/pannellum-react-next/es/css/pannellum.css'
 import '@georgedrpg/pannellum-react-next/es/css/style-textInfo.css'
@@ -11,10 +11,16 @@ import { useSelector } from 'react-redux'
 
 export default function ModalPanorama(props) {
   const { currentScene, setCurrentScene, setOpenPanorama, openPanorama, sceneInformation, title } = props
+
+  // Current Scene = Lokasi panorama
+  // Scene Information = semua informasi Panorama yang terdapat pada satu lantai di satu landmark
+
+  // Diguunakan untuk meangetahui letak mouse di panorama
   const [yaw, setYaw] = useState(0)
   const [pitch, setPitch] = useState(0)
   const panImage = useRef(null)
 
+  // Membuat Tombol untuk navigasi antar lokasi
   const hotspotIcon = (hotSpotDiv) => {
     const image = document.createElement('img')
     image.classList.add('image')
@@ -24,19 +30,13 @@ export default function ModalPanorama(props) {
     hotSpotDiv.appendChild(image)
   }
 
+  // Mendapatkan data di setiap lantai di setiap landmark berdasarkan nama setiap panorama
   const [sceneObject, setSceneObject] = useState(false)
   useEffect(() => {
-    // console.log(currentScene)
     setSceneObject(sceneInformation.find((item) => item.sceneName === currentScene))
-    // console.log(sceneObject)
   }, [currentScene, title])
 
   const navigation = useSelector((state) => state.navigation)
-
-  // console.log(sceneObject.scenePanoImg.url)
-  // console.log(sceneObject)
-
-  // console.log(currentScene)
 
   return (
     <div
@@ -66,6 +66,7 @@ export default function ModalPanorama(props) {
           )}>
           {/* <!-- Modal body --> */}
           <div className={clsx('relative flex h-full items-center justify-center  p-4')}>
+            {/* Menampilkan Lokasi Kursor */}
             <p className={clsx('absolute bottom-4 z-50', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
             </p>

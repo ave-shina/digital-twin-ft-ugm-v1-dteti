@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react'
+// Komponen Map dan panorama
 import Map from '../panorama/Map'
 import ModalPanorama from '../panorama/ModalPanorama'
+
 import clsx from 'clsx'
+// Data utama untuk fitur Tour
 import { TourData } from '../data/Tour'
+
 import { useSelector } from 'react-redux'
 
 export default function Tour() {
+  // Digunakan untuk menentukan lokasi panorama yang dibuka
   const [currentScene, setCurrentScene] = useState(0)
   const [openPanorama, setOpenPanorama] = useState(false)
-  const [currentMap, setCurrentMap] = useState(0)
 
   const navigation = useSelector((state) => state.navigation)
 
-  const data = TourData.data
-  const mapInformation = data?.attributes?.panoramaData[0].MapInformation
+  // Mengambil data
+  const mapInformation = TourData.data?.attributes?.panoramaData[0].MapInformation
   const sceneInformation = []
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({
@@ -23,12 +27,12 @@ export default function Tour() {
     })
   }
 
-  // console.log(sceneInformation)
-
+  // Menentukan lokasi panorama awal
   useEffect(() => {
     setCurrentScene(mapInformation[0].name)
-  }, [currentMap])
+  }, [mapInformation])
 
+  // konten apa saja yang terdapat pada fitur tour
   const section = [
     {
       title: `Tentang Fakultas Teknik`,
@@ -42,9 +46,12 @@ export default function Tour() {
     },
   ]
 
+  // Fungsi dropdown
   const [title, setTitle] = useState({ state: 1 })
   const [prevTitle, setPrevTitle] = useState({ state: 1 })
   const [open, setOpen] = useState(false)
+
+  // Logika untuk menampilkan dan menyembunyikan dropdown
   useEffect(() => {
     if (title.state !== prevTitle.state) {
       setPrevTitle(title)
@@ -54,10 +61,11 @@ export default function Tour() {
     }
   }, [title])
 
+  // Konten utama
   function Content(content) {
     switch (content) {
       case 'description':
-        return <div dangerouslySetInnerHTML={{ __html: data.attributes.description }} />
+        return <div dangerouslySetInnerHTML={{ __html: TourData.data.attributes.description }} />
       case 'map':
         return (
           <div className='flex w-full flex-col'>
@@ -69,12 +77,11 @@ export default function Tour() {
               <Map
                 open={open}
                 currentIndex={title}
-                sceneInformation={sceneInformation}
                 mapInformation={mapInformation}
                 openPanorama={openPanorama}
-                mapName={data.attributes.panoramaData[0].name}
+                mapName={TourData.data.attributes.panoramaData[0].name}
                 setOpenPanorama={setOpenPanorama}
-                mapImage={data.attributes.panoramaData[0].mapImage.data.attributes.formats.large}
+                mapImage={TourData.data.attributes.panoramaData[0].mapImage.data.attributes.formats.large}
                 setCurrentScene={setCurrentScene}
               />
             </div>
@@ -109,6 +116,7 @@ export default function Tour() {
 
   return (
     <>
+      {/* Komponen Modal Panorama */}
       {sceneInformation.length > 0 && (
         <ModalPanorama
           sceneInformation={sceneInformation}

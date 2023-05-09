@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react'
+
 import Image from 'next/image'
 import Lightbox from 'react-image-lightbox'
-import clsx from 'clsx'
 import 'react-image-lightbox/style.css'
+
+import clsx from 'clsx'
 
 export default function Gallery(props) {
   const { galleryDetail } = props
 
+  // Logika untuk membuka LightBox
   const [isOpen, setIsOpen] = useState({ open: false })
   const [photoIndex, setPhotoIndex] = useState({ key: 1 })
-
   const images = []
 
+  // Mengambil data URL Image
   for (let i = 0; i < galleryDetail.length; i++) {
     images.push(`${galleryDetail[i]?.galleryImage.data.attributes.url}`)
   }
@@ -50,7 +53,9 @@ export default function Gallery(props) {
 
   return (
     <div className='flex w-screen flex-col items-center justify-center'>
+      {/* List Gallery */}
       {galleryList}
+      {/* Light Box */}
       {isOpen.open && (
         <Lightbox
           mainSrc={`${images[photoIndex.key]}`}

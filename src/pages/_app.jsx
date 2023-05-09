@@ -15,9 +15,12 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      {/* Analytucs Next JS */}
       <Analytics />
+      {/* Provider digunakan untuk Redux */}
       <Provider store={store}>
         <Header title={pageProps.title} />
+        {/* Komponen utama */}
         <Layout ref={ref}>
           <Component {...pageProps} />
         </Layout>

@@ -1,10 +1,12 @@
 import React from 'react'
+
 const { Pannellum } = require('@georgedrpg/pannellum-react-next')
 import '@georgedrpg/pannellum-react-next/es/css/video-js.css'
 import '@georgedrpg/pannellum-react-next/es/css/pannellum.css'
 import '@georgedrpg/pannellum-react-next/es/css/style-textInfo.css'
 
 export default function Panorama(props) {
+  // Komponen untuk memuat satu panorma saja
   const { panoramaImage } = props
 
   return (

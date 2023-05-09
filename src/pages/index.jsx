@@ -1,8 +1,15 @@
 import { useEffect, useState, useRef } from 'react'
-import Loading from '@/components/Loading'
+
 import dynamic from 'next/dynamic'
+import { useRouter } from 'next/router'
+import { useSelector, useDispatch } from 'react-redux'
+import { setFirstTutorial } from 'redux/navigation'
+
+import Layout from '@/components/content/Layout'
+import Loading from '@/components/Loading'
 import StoryBoard from '@/components/StoryBoard'
 import Tutorial from '@/components/Tutorial'
+const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
 
 import Logo from '@/components/navigation/Logo'
 import Main from '@/components/navigation/Main'
@@ -10,30 +17,20 @@ import BottomLeft from '@/components/navigation/BottomLeft'
 import BottomRight from '@/components/navigation/BottomRight'
 import TopRight from '@/components/navigation/TopRight'
 
-import Layout from '@/components/content/Layout'
-
-import { useRouter } from 'next/router'
-
-const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: true })
-import { useSelector, useDispatch } from 'react-redux'
-import { setFirstTutorial } from 'redux/navigation'
-
 export default function Page(props) {
   const dispatch = useDispatch()
   const navigation = useSelector((state) => state.navigation)
 
   const [introduction, setIntroduction] = useState('storyBoard')
-
   const [freeControl, setFreeControl] = useState(false)
 
   const myRef = useRef()
-
   const router = useRouter()
 
   const [musicStart, setMusicStart] = useState(false)
-
   const [openForm, setOpenForm] = useState(false)
 
+  // Mulai Jelajah
   const startVmap = () => {
     setMusicStart(true)
     setOpenForm(true)
@@ -49,6 +46,7 @@ export default function Page(props) {
     }
   }
 
+  // Untuk menyalakan dan mematikan musik
   useEffect(() => {
     if (!navigation.music && musicStart) {
       myRef.current.pause()
@@ -59,6 +57,7 @@ export default function Page(props) {
     }
   }, [navigation.music])
 
+  // Untuk mematikan musik ketika berpindah tab
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.hidden) {
@@ -77,15 +76,18 @@ export default function Page(props) {
 
   return (
     <>
+      {/* Loading */}
       <Loading></Loading>
+      {/* Komponen Audio */}
       <audio ref={myRef} preload='none'>
         <source
           src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'
           type='audio/mpeg'
         />
       </audio>
-
+      {/* Konten Utama */}
       <div className='absolute h-full w-full bg-black'>
+        {/* Letak Komponen Three Js */}
         <Scene
           shadows
           colorManagement
@@ -99,14 +101,17 @@ export default function Page(props) {
         {/*  */}
         {/*  */}
 
+        {/* Komponen Introduction */}
         {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
         {introduction === 'tutorial' && <Tutorial setIntroduction={setIntroduction} />}
 
+        {/* Komponen Fitur */}
         {router.query.content && <Layout></Layout>}
 
         {/*  */}
         {/*  */}
 
+        {/* Komponen Navigasi */}
         {navigation.content == '' && (
           <>
             {' '}
@@ -117,7 +122,6 @@ export default function Page(props) {
             <BottomLeft setIntroduction={setIntroduction}></BottomLeft>
           </>
         )}
-
         {/*  */}
         {/*  */}
       </div>

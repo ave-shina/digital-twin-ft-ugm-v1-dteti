@@ -1,10 +1,11 @@
 import React from 'react'
+
 import Image from 'next/image'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
-import { useSelector } from 'react-redux'
 
 export default function StoryBoard(props) {
+  // mengecek apakah aplikasi sudah dimulai
   const { startVmap } = props
 
   return (

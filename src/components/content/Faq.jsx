@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
+
 import { faqData } from '../data/Faq'
+
 import clsx from 'clsx'
+
 import { useSelector } from 'react-redux'
 
 export default function Faq() {

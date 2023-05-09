@@ -19,26 +19,34 @@ import Navbar from './Navbar'
 import { useSelector } from 'react-redux'
 
 export default function Landmark(props) {
-  const [openPanorama, setOpenPanorama] = useState(false)
   const navigation = useSelector((state) => state.navigation)
 
   const [prevEl, setPrevEl] = useState(null)
   const [nextEl, setNextEl] = useState(null)
 
+  // Mencari data landmark berdasarkan lokasi sesuai dengan objectName
   const data = Landmarks.data.find((item) => item.attributes.objectName === navigation.location)
 
+  // Informasi mengenai Map
   const mapDetail = data?.attributes?.mapDetail
-  const galleryDetail = data?.attributes?.galleryDetail
+  // Informasi mengenai Panorama
   const panoramaDetail = data?.attributes?.panoramaDetail
+  // Informasi mengenai galeri
+  const galleryDetail = data?.attributes?.galleryDetail
 
+  //  Menentukan Map mana yang dibuka, berhubungan dengan swiper
   const [currentMap, setCurrentMap] = useState(0)
+  // Digunakan untuk menentukan lokasi panorama yang dibuka
+  const [openPanorama, setOpenPanorama] = useState(false)
   const [currentScene, setCurrentScene] = useState(data?.attributes?.mapDetail[currentMap]?.MapInformation[0]?.name)
 
-  const sceneInformation = []
-
+  // Mengambil data Map yang tampil
   const mapInformation = data?.attributes?.mapDetail[currentMap]?.MapInformation
     ? data?.attributes?.mapDetail[currentMap]?.MapInformation
     : []
+
+  // Mengambil data Panorama yang tampil
+  const sceneInformation = []
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({
       sceneName: mapInformation[i]?.name,
@@ -48,14 +56,12 @@ export default function Landmark(props) {
     })
   }
 
-  // console.log(sceneInformation)
-
+  // Menentukan lokasi panorama awal
   useEffect(() => {
     setCurrentScene(mapInformation[0] ? mapInformation[0].name : 0)
   }, [currentMap])
 
-  // console.log('test', sceneInformation)
-
+  // konten apa saja yang terdapat pada fitur landmark
   const section = [
     {
       title: `Tentang ${data.attributes.name}`,
@@ -79,9 +85,12 @@ export default function Landmark(props) {
     },
   ]
 
+  // Fungsi dropdown
   const [title, setTitle] = useState({ state: 0 })
   const [prevTitle, setPrevTitle] = useState({ state: 0 })
   const [open, setOpen] = useState(false)
+
+  // Logika untuk menampilkan dan menyembunyikan dropdown
   useEffect(() => {
     if (title.state !== prevTitle.state) {
       setPrevTitle(title)
@@ -91,6 +100,7 @@ export default function Landmark(props) {
     }
   }, [title])
 
+  // Konten utama
   function Content(content) {
     switch (content) {
       case 'description':
@@ -175,6 +185,7 @@ export default function Landmark(props) {
 
   return (
     <>
+      {/* Komponen Modal Panorama */}
       {sceneInformation.length > 0 && (
         <ModalPanorama
           title={title}

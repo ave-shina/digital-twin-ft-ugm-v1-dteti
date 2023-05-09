@@ -8,6 +8,7 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
 
   const dispatch = useDispatch()
 
+  // Digunakan untuk inisasi redux berdasarkan dengan local storage item di setiap device
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const theme = localStorage.getItem('theme')

@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import clsx from 'clsx'
+
+// Komponen Peta untuk menggeser dan berinterkasi dengan peta
 import { MapInteractionCSS } from 'react-map-interaction'
 const { Stage, Layer, Image, Circle } = require('react-konva')
+
 import { useSelector, useDispatch } from 'react-redux'
 import { toggleLocation, toggleContent } from 'redux/navigation'
 
@@ -10,9 +13,14 @@ import { useRouter } from 'next/router'
 function Map(props) {
   const router = useRouter()
   const { setCurrentScene, setOpenPanorama, mapInformation, mapImage, mapName, open, currentIndex } = props
+  // set Current Scen digunakan untuk merubah Tampilan Panorama
+  // Map Information = Semua titik lokasi dalam satu map
+  // Map Image = Gambar Peta
 
+  // Deklarasi Lokasi titik panorama
   const map = []
 
+  // Deklarasi lokasi titik panorama ketika di halaman tour
   const mapTour = [
     { name: 'DTETI', position: [300, 480, 10], isRoute: false },
     { name: 'DTAP', position: [340, 160, 10], isRoute: false },
@@ -41,8 +49,8 @@ function Map(props) {
     })
   }
 
+  // Memuat Image Peta
   const [image, setImage] = useState(null)
-
   useEffect(() => {
     const img = new window.Image()
     img.src = mapImage.url
@@ -52,19 +60,7 @@ function Map(props) {
     }
   }, [])
 
-  const handleMouseEnter = (e) => {
-    // Set the cursor style to a pointer when the mouse is over the circle
-    const container = e.target.getStage().container()
-    container.style.cursor = 'pointer'
-  }
-
-  const handleMouseLeave = (e) => {
-    // Reset the cursor style when the mouse leaves the circle
-    const container = e.target.getStage().container()
-    container.style.cursor = 'default'
-    container.style.bgColor = 'red'
-  }
-
+  // Digunakan untuk menengahkan peta ketika di load
   const mapContainer = useRef(null)
   const mapRef = useRef(null)
   const [value, setValue] = useState(null)
@@ -77,8 +73,20 @@ function Map(props) {
     }
   }, [open, currentIndex])
 
-  const dispatch = useDispatch()
+  const handleMouseEnter = (e) => {
+    // Set the cursor style to a pointer when the mouse is over the circle
+    const container = e.target.getStage().container()
+    container.style.cursor = 'pointer'
+  }
+  const handleMouseLeave = (e) => {
+    // Reset the cursor style when the mouse leaves the circle
+    const container = e.target.getStage().container()
+    container.style.cursor = 'default'
+    container.style.bgColor = 'red'
+  }
 
+  // Logika untuk membuka panorama atau membuka lokasi landmark
+  const dispatch = useDispatch()
   function handleClick(isRoute, name) {
     if (isRoute) {
       setCurrentScene(name)
@@ -98,6 +106,7 @@ function Map(props) {
       )
     }
   }
+
   return (
     <div
       className={clsx(

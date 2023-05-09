@@ -1,13 +1,13 @@
-import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
+
 import { useProgress } from '@react-three/drei'
 import clsx from 'clsx'
 
 export default function Loading() {
-  const { progress } = useProgress()
-
   const [load, setLoad] = useState(true)
 
+  // Menggunakan komponen react three drei untuk memantau pemuatan model
+  const { progress } = useProgress()
   useEffect(() => {
     if (progress === 100) {
       setLoad(false)

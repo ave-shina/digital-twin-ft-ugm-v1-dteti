@@ -138,7 +138,7 @@ export default function Scene({ children, ...props }) {
           <directionalLight intensity={0.75} />
           <ambientLight intensity={0.75} />
           <Preload all />
-          <Perf />
+          {/* <Perf /> */}
           {/*  */}
           {/* */}
           <Controls locationData={locationData} introduction={introduction} freeControl={freeControl} />

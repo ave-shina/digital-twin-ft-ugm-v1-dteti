@@ -31,8 +31,12 @@ export default function Page(props) {
   const router = useRouter()
 
   const [musicStart, setMusicStart] = useState(false)
+
+  const [openForm, setOpenForm] = useState(false)
+
   const startVmap = () => {
     setMusicStart(true)
+    setOpenForm(true)
     {
       navigation.firstTutorial
         ? (setIntroduction(''), setFreeControl(true), setFreeControl(true))
@@ -108,7 +112,7 @@ export default function Page(props) {
             {' '}
             <Logo></Logo>
             <TopRight></TopRight>
-            <BottomRight></BottomRight>
+            <BottomRight setOpenForm={setOpenForm} openForm={openForm}></BottomRight>
             <Main></Main>
             <BottomLeft setIntroduction={setIntroduction}></BottomLeft>
           </>

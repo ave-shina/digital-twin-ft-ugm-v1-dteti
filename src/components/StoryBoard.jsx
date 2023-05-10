@@ -9,7 +9,7 @@ export default function StoryBoard(props) {
   const { startVmap } = props
 
   return (
-    <div className='absolute z-[9999999999]  h-full w-screen'>
+    <div className='absolute z-[999999999]  h-full w-screen'>
       <div className='relative h-full w-screen'>
         <div className='animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-[#121212]  bg-opacity-40'></div>
         <div className='absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center'>

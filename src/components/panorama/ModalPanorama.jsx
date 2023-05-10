@@ -65,15 +65,19 @@ export default function ModalPanorama(props) {
             navigation.theme === 'dark' ? ' border-white  bg-gray-950' : 'border-black  bg-white ',
           )}>
           {/* <!-- Modal body --> */}
-          <div className={clsx('relative flex h-full items-center justify-center  p-4')}>
+          <div className={clsx('relative flex h-full w-full items-center justify-center p-4')}>
             {/* Menampilkan Lokasi Kursor */}
-            <p className={clsx('absolute bottom-4 z-50', navigation.theme === 'dark' ? ' text-white' : ' text-black ')}>
+            <p
+              className={clsx(
+                'absolute  bottom-3.5 left-1/2 z-50 -translate-x-1/2  px-4 py-2 ',
+                navigation.theme === 'dark' ? 'bg-black   text-white' : 'bg-white text-black',
+              )}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
             </p>
             <p
               className={clsx(
-                'absolute top-4 z-10 text-xl',
-                navigation.theme === 'dark' ? ' text-white' : ' text-black ',
+                'absolute top-3.5 z-10 px-4 py-2 text-xl',
+                navigation.theme === 'dark' ? 'bg-black   text-white' : 'bg-white text-black',
               )}>
               {currentScene}
             </p>
@@ -82,16 +86,13 @@ export default function ModalPanorama(props) {
                 setOpenPanorama(false)
               }}
               className={clsx(
-                'group  absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid bg-transparent text-black sm:h-14 sm:w-14 ',
-                navigation.theme === 'dark' ? ' border-white' : 'border-black',
+                'group  absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:h-10 sm:w-10 ',
+                ' stroke-black',
               )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <path
                   d='M21 21L1 1M21 1L1 21'
-                  className={clsx(
-                    '  group-hover:stroke-2',
-                    navigation.theme === 'dark' ? ' stroke-white' : 'stroke-black',
-                  )}
+                  className={clsx('  group-hover:stroke-2', ' stroke-black')}
                   stroke-linecap='round'
                   stroke-linejoin='round'
                 />

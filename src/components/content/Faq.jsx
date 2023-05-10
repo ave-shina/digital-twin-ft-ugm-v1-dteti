@@ -23,7 +23,7 @@ export default function Faq() {
   }, [question])
 
   return (
-    <div className={clsx('min-h-[calc(100vh-96px)] w-full px-[10%]')}>
+    <div className={clsx('min-h-[calc(100vh-96px)] w-full px-[10%]  pb-8 pt-4')}>
       <h1
         className={clsx(
           ' ml-[-4px] pb-8  font-medium leading-none text-black',

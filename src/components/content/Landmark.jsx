@@ -205,7 +205,7 @@ export default function Landmark(props) {
               <div className={clsx('mx-4 border-white', 'border-none sm:border sm:border-solid')}></div>
               <p
                 className={clsx(
-                  ' mt-2 flex items-center font-medium text-white',
+                  'mt-2 flex items-center font-medium text-white',
                   'w-full  text-2xl sm:w-1/2 sm:text-4xl',
                 )}>
                 {data.attributes.subName}
@@ -213,6 +213,7 @@ export default function Landmark(props) {
             </>
           )}
         </div>
+
         <div className={clsx('absolute top-0 w-full')}>
           <Navbar theme='light'></Navbar>
         </div>
@@ -220,7 +221,7 @@ export default function Landmark(props) {
       <div
         className={clsx(
           'absolute top-[100%] flex min-h-full w-full  flex-col    py-8',
-          'px-8 sm:px-[10%]',
+          'px-6 sm:px-[10%]',
           navigation.theme === 'dark' ? ' bg-black' : '  bg-white',
         )}>
         <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>

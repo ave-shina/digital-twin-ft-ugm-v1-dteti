@@ -12,14 +12,14 @@ export default function Main(props) {
   return (
     <div
       className={clsx(
-        'absolute bottom-6 left-1/2 z-20 flex h-14 w-[250px] -translate-x-1/2 flex-row items-center justify-between rounded-full border border-solid border-white px-6 sm:h-16 sm:w-[400px]',
+        'absolute bottom-6 left-1/2 z-20 flex h-14 w-[250px] -translate-x-1/2 flex-row items-center justify-between rounded-full border border-solid border-white px-6 sm:h-14 sm:w-[400px]',
       )}>
       <button
         onClick={() => {
           dispatch(setShowTooltip(!navigation.showTooltip))
         }}
         className={clsx(
-          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-14 sm:w-14  ',
+          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-12 sm:w-12  ',
         )}>
         {navigation.showTooltip ? (
           <svg width='32' height='20' viewBox='0 0 22 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -50,7 +50,7 @@ export default function Main(props) {
           )
         }}
         className={clsx(
-          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-14 sm:w-14 ',
+          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         <svg width='35' height='24' viewBox='0 0 35 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <path
@@ -72,7 +72,7 @@ export default function Main(props) {
           )
         }}
         className={clsx(
-          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-14 sm:w-14 ',
+          ' group flex h-10 w-10 cursor-pointer items-center  justify-center  rounded-full hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         <svg width='27' height='26' viewBox='0 0 27 26' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <path

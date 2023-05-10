@@ -16833,7 +16833,7 @@ export const Landmarks = {
     {
       id: 12,
       attributes: {
-        name: 'PERPUSTAKAAN',
+        name: 'Perpustakaan',
         isDescription: true,
         description:
           '<p style="margin-left:0px;">Perpustakaan Fakultas Teknik (FT) UGM merupakan perpustakaan pada tingkat fakultas.&nbsp;Perpustakaan ini tidak banyak mengelola koleksi cetak, sebagian besar koleksi tersebut dan koleksi cetak khas teknik berada di perpustakaan jurusan.</p><p style="margin-left:0px;">Dalam upaya peningkatan layanan, Perpustakaan FT UGM memberikan layanan khas berbentuk kegiatan, konsultasi, diskusi dan semacamnya untuk mendukung kemampuan mahasiswa mengikuti kegiatan akademik selama perkuliahan. Kegiatan ini merupakan usulan dari mahasiswa, hasil studi banding dari berbagai perpustakaan lain atau hasil pengamatan pada kondisi di fakultas.</p><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;"><strong>Visi:</strong><br>Menjadi perpustakaan yang representatif untuk menopang kegiatan akademik keteknikan dan sebagai tempat rekreasi serta pengembangan diri civitas akademika FT UGM</p><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;"><strong>Misi:</strong></p><ol><li>Menyediakan tempat yang nyaman untuk mendukung kegiatan belajar civitas FT UGM</li><li>Meningkatkan kualitas SDM perpustakaan</li><li>Menyediakan koleksi teknik dan non teknik untuk pengembangan diri</li><li>Membangun layanan-layanan kreatif untuk mahasiswa</li><li>Bekerjasama dengan berbagai pihak dalam rangka pengembangan perpustakaan</li><li>Perancangan/inovasi digital library dan implementasi digital library dengan berbagai bentuknya</li></ol><p>&nbsp;</p><p><strong>Fasilitas</strong></p><p><strong>Ruang</strong></p><ul><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/ruang-studio-mini/" target="_blank" rel="noopener noreferrer">Ruang Studio Mini</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/ruang/zona-hijau/" target="_blank" rel="noopener noreferrer">Ruang Belajar dan Diskusi</a></li><li><a href="http://Ruang Belajar Mandiri dan Diskusi Lantai 3" target="_blank" rel="noopener noreferrer">Ruang Belajar Mandiri dan Diskusi Lantai 3</a></li><li><a href="https://lib.ft.ugm.ac.id/ruang-olahraga/" target="_blank" rel="noopener noreferrer">Ruang Olahraga</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/ruang/ruang-diskusi/" target="_blank" rel="noopener noreferrer">Ruang Diskusi Tertutup</a></li></ul><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;"><strong>Teknologi Informasi</strong></p><ul><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/fasilitas-sistem-informasi/" target="_blank" rel="noopener noreferrer">Fasilitas Cloud Apps dan lainnya</a></li><li><a href="https://lib.ft.ugm.ac.id/dukungan-eduroam/" target="_blank" rel="noopener noreferrer">Dukungan Eduroam</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/perangkat-ti/layar-led/" target="_blank" rel="noopener noreferrer">Layar LED</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/perangkat-ti/lib-x-pencarian-yang-menyenangkan/" target="_blank" rel="noopener noreferrer">LiB-X: pencarian yang menyenangkan</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/perangkat-ti/mlibrary-pinjam-antar-perpustakaan/" target="_blank" rel="noopener noreferrer">MLibrary: library @yourphone</a></li><li><a href="https://lib.ft.ugm.ac.id/akun-perpustakaan-perpanjang-lihat-denda-pesan-buku-secara-online/" target="_blank" rel="noopener noreferrer">Akun Perpustakaan: perpanjang, lihat denda, pesan buku secara online</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/perangkat-ti/persocal-computer/" target="_blank" rel="noopener noreferrer">Personal Computer</a></li><li><a href="https://lib.ft.ugm.ac.id/blockquote-page/perangkat-ti/wifi-ugmhotspot/" target="_blank" rel="noopener noreferrer">Wifi UGMHotspot</a></li><li><a href="https://lib.ft.ugm.ac.id/layanan/pojok-baca-buku-untuk-semua/" target="_blank" rel="noopener noreferrer">Pojok Baca “Buku untuk Semua”</a></li></ul><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;">Perpustakaan FT UGM juga bekerjasama dengan&nbsp;<strong>ECC (Engineering Career Center) UGM</strong> untuk menyelenggarakan berbagai pelatihan <i>softskill</i>. Khusus kegiatan bersama <strong>ECC</strong> ini khusus untuk civitas FT UGM.</p><p style="margin-left:0px;">Informasi lengkap kegiatan tersebut dapat dilihat di&nbsp;<a href="http://lib.ft.ugm.ac.id/web/layanan/program-literasi-informasi/">sini</a>. Informasi tentang Perpustakaan FT UGM dapat diperoleh melalui <a href="http://lib.ft.ugm.ac.id/">http://lib.ft.ugm.ac.id</a></p>',
@@ -16845,7 +16845,7 @@ export const Landmarks = {
         objectName: 'PERPUSTAKAAN',
         uid: 'perpustakaan',
         createdAt: '2023-05-02T16:12:28.254Z',
-        updatedAt: '2023-05-08T02:18:03.095Z',
+        updatedAt: '2023-05-10T02:11:08.180Z',
         publishedAt: '2023-05-02T16:12:39.743Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -18476,7 +18476,7 @@ export const Landmarks = {
     {
       id: 13,
       attributes: {
-        name: 'TUGU TEKNIK',
+        name: 'Tugu Teknik',
         isDescription: true,
         description:
           '<p>Tugu Teknik yang berada di area masuk Fakultas Teknik dibangun pada perayaan 50 tahun Pendidikan Tinggi Teknik, 17 Februari 1996. Desain Tugu Teknik merupakan karya Mahasiswa Jurusan Arsitektur UGM bernama Gatot Suprihadi yang mengalahkan 21 peserta lain dari kalangan arsitek, seniman dan profesional.</p><p>&nbsp;</p><p>Tugu teknik ini memiliki filosofi tersendiri, 5 trap mencerminkan pendidikan tinggi teknik beserta sivitas akademik &amp; alumni FT UGM dalam kehidupannya selalu berpedoman pada Pancasila. Bagian penopang yang menyerupai Candi Bentar melambangkan sistem pendidikan tinggi teknik beserta sivitas akademik &amp; alumni senantiasa mesti berpijak pada akar kebudayaan asli Indonesia.</p><p>&nbsp;</p><p>Adapun jumlah 3 buah penopang tersebut mencerminkan 3 kelompok/rumpun keilmuwan teknik FT UGM yaitu Kelompok Sipil &amp; Perencanaan (meliputi Arsitektur, Teknik Geodesi dan Teknik Sipil), Kelompok Industri (meliputi Teknik Kimia, Teknik Mesin dan Teknik Elektro) dan Kelompok Energi (meliputi Teknik Nuklir dan Teknik Geologi). Pada bagian atas yang terdiri dari 8 kubus stainless steel melambangkan 8 Departemen di Fakultas Teknik UGM dengan sistem molekuler yang bermakna kesolidan tiap sivitas akademika dan alumni Fakultas Teknik UGM dalam implementasi misi pengembangan ilmu pengetahuan</p><p>&nbsp;</p><p>Sumber :&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>',
@@ -18488,7 +18488,7 @@ export const Landmarks = {
         objectName: 'TUGU TEKNIK',
         uid: 'tugu_teknik',
         createdAt: '2023-05-02T17:15:18.940Z',
-        updatedAt: '2023-05-08T04:14:06.872Z',
+        updatedAt: '2023-05-10T02:12:20.926Z',
         publishedAt: '2023-05-02T17:39:46.738Z',
         zoomTarget: null,
         zoomCamera: null,
@@ -18683,7 +18683,7 @@ export const Landmarks = {
     {
       id: 14,
       attributes: {
-        name: 'MASJID FT',
+        name: 'Masjid FT',
         isDescription: true,
         description:
           '<p style="margin-left:0px;text-align:justify;">Masjid Al-Mustadam Fakultas Teknik UGM telah diresmikan pada Ahad, 10 Juli 2022. Al-Mustadam berarti&nbsp;lestari, berkelanjutan,<i> sustainable.</i></p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid Al-Mustadam merupakan pengembangan/renovasi dari Musholla Teknik yang dibangun pada tahun 1999/2000. Peletakan batu pertama renovasi dilaksanakan 20 September 2018, sementara renovasi dimulai pada 14 Oktober 2019.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Renovasi dilakukan dengan 2 fase. Fase pertama pengerjaan pondasi, struktur dan atap. Sementara fase 2 dibagi pada 3 tahap: tahap 1 plafond dan lantai 3 serta tempat wudhu; tahap 2 plafond dan lantai 2 serta tangga utara dan selatan, tempat wudhu, fasad; sementara tahap 3 lantai 1 dan taman.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Masjid yang terdiri dari 3 lantai ini mampu menampung kurang lebih 3000-3500 jamaah, dengan berbagai pemanfaatan. Mulai dari ibadah, kajian, <i>co-working space</i>, menampung tamu, <i>meeting point</i> para purnakarya, dan kegiatan lainnya.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pembangunan didukung oleh berbagai pihak. Kontribusi Dr. (HC) Ir. Budi Karya Sumadi dalam penggalangan dana mampu menggerakkan berbagai donatur untuk ikut berkontribusi. Beberapa pihak yang turut berkontribusi pada renovasi/pengembangan ini antara lain: BRI, PT KPN, LEN Railway System, PT KCIC, PT PP, Angkasa Pura II, Pelindo, dan berbagai instansi lainnya. Tentu saja, alumni berbagai departemen yang tergabung dalam KATGAMA.</p><p style="margin-left:0px;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Nama Al-Mustadam dipilih sebagai nama karena beberapa hal. Masjid mempertahankan bangunan lama, tidak boros material dan sumber daya alam, mengurangi <i>carbon footprint</i>.&nbsp;Desain fasad bisa meneruskan udara segar, tidak menggunakan AC dan memanfaatkan pencahayaan alami, mengurangi potensi penularan virus dan penyakit karena <i>fresh air</i> yang melimpah.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Air wudhu akan digunakan kembali untuk sistem siram tanaman di taman dan <i>landscape</i> SGLC, masjid dan sekitarnya, sehingga dapat menciptakan lingkungan yang hijau dan asri. Masjid juga dibangun ramah terhadap difable, orang lanjut usia, dan anak-anak.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Al-Mustadam diharapkan juga menjadi pelecut semangat melestarikan dan mengoptimalkan fungsi masjid untuk ibadah, muamalah, penanaman integritas, tempat rekreasi, belajar dan bersosialisasi.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sumber : <a href="https://ft.ugm.ac.id/rektor-resmikan-masjid-al-mustadam-ft-ugm/">Rektor Resmikan Masjid Al Mustadam – Fakultas Teknik (ugm.ac.id)</a></p>',
@@ -18695,7 +18695,7 @@ export const Landmarks = {
         objectName: 'MASJID FT',
         uid: 'masjid',
         createdAt: '2023-05-02T17:21:24.837Z',
-        updatedAt: '2023-05-08T15:18:08.471Z',
+        updatedAt: '2023-05-10T02:12:36.076Z',
         publishedAt: '2023-05-02T17:21:45.152Z',
         zoomTarget: null,
         zoomCamera: null,

@@ -15,7 +15,7 @@ export default function Navbar(props) {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.pageYOffset)
+      setScrollY(window.scrollY)
     }
 
     // just trigger this so that the initial state
@@ -43,11 +43,11 @@ export default function Navbar(props) {
           (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
           ? ' bg-transparent'
           : navigation.theme === 'dark'
-          ? ' bg-black shadow-md'
+          ? ' border-b border-solid border-gray-700 bg-black shadow-md'
           : ' bg-white shadow-md',
       )}>
       <div className={clsx(' left-6 top-6 flex  flex-row items-center justify-center')}>
-        <div className={clsx('relative mr-2 h-12 w-12 ')}>
+        <div className={clsx('relative mr-2 h-10 w-10 ')}>
           <Image
             src={
               (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
@@ -69,7 +69,7 @@ export default function Navbar(props) {
         </div>
         <h1
           className={clsx(
-            ' text-xl font-bold ',
+            ' text-lg font-bold ',
             (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
               (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
               ? 'text-white'
@@ -87,7 +87,7 @@ export default function Navbar(props) {
             dispatch(toggleTheme())
           }}
           className={clsx(
-            ' group  flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid bg-transparent text-white sm:h-14 sm:w-14 ',
+            ' group  flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid bg-transparent text-white sm:h-12 sm:w-12 ',
             (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
               (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
               ? 'border-white hover:bg-white'
@@ -130,7 +130,7 @@ export default function Navbar(props) {
             dispatch(toggleMusic())
           }}
           className={clsx(
-            ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-white sm:h-14 sm:w-14 ',
+            ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-white sm:h-12 sm:w-12 ',
             (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
               (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
               ? 'border-white hover:bg-white'
@@ -201,7 +201,7 @@ export default function Navbar(props) {
             router.push('/')
           }}
           className={clsx(
-            'group right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-14 sm:w-14 ',
+            'group right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-12 sm:w-12 ',
             (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
               (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
               ? 'border-white hover:bg-white'
@@ -214,7 +214,7 @@ export default function Navbar(props) {
               d='M21 21L1 1M21 1L1 21'
               className={clsx(
                 '  group-hover:stroke-2',
-                'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-14 sm:w-14 ',
+                'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-12 sm:w-12 ',
                 (scrollY < screenHeight && navigation.theme === 'dark' && navigation.content === 'landmark') ||
                   (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
                   ? 'stroke-white group-hover:stroke-black'

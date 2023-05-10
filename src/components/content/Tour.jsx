@@ -128,7 +128,7 @@ export default function Tour() {
 
       <div
         className={clsx(
-          'flex min-h-[calc(100vh-96px)]  w-full flex-col px-[10%]',
+          'flex min-h-[calc(100vh-96px)]  w-full flex-col px-[10%] pb-8 pt-4',
           navigation.theme === 'dark' ? ' bg-black' : 'bg-white',
         )}>
         <h1

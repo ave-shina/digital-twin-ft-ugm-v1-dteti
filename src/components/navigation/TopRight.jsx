@@ -16,7 +16,7 @@ export default function TopRight(props) {
           dispatch(toggleTheme())
         }}
         className={clsx(
-          ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-14 sm:w-14 ',
+          ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         {navigation.theme === 'dark' ? (
           <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -39,7 +39,7 @@ export default function TopRight(props) {
           dispatch(toggleMusic())
         }}
         className={clsx(
-          ' group  flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-14 sm:w-14 ',
+          ' group  flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         {navigation.music ? (
           <svg width='27' height='20' viewBox='0 0 27 20' fill='none' xmlns='http://www.w3.org/2000/svg'>

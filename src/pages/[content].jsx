@@ -59,6 +59,8 @@ export default function Content() {
     }
   }, [navigation.music])
 
+  // console.log(navigation.content)
+
   return (
     <div className='absolute h-full w-full bg-black'>
       {/* Komponen Musik */}

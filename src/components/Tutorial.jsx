@@ -244,7 +244,7 @@ export default function Tutorial(props) {
                 setIntroduction('')
               }}
               className={clsx(
-                'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-14 sm:w-14 ',
+                'group absolute right-6 top-6 !z-30 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid  bg-transparent text-black sm:h-12 sm:w-12 ',
                 navigation.theme === 'dark' ? 'border-white' : 'border-black',
               )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>

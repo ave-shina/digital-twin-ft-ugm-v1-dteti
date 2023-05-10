@@ -86,8 +86,8 @@ export default function Landmark(props) {
   ]
 
   // Fungsi dropdown
-  const [title, setTitle] = useState({ state: 1 })
-  const [prevTitle, setPrevTitle] = useState({ state: 1 })
+  const [title, setTitle] = useState({ state: 0 })
+  const [prevTitle, setPrevTitle] = useState({ state: 0 })
   const [open, setOpen] = useState(false)
 
   // Logika untuk menampilkan dan menyembunyikan dropdown
@@ -96,7 +96,7 @@ export default function Landmark(props) {
       setPrevTitle(title)
       setOpen(true)
     } else if (title.state === prevTitle.state) {
-      setOpen(open)
+      setOpen(!open)
     }
   }, [title])
 

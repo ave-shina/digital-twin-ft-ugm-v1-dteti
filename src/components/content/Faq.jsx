@@ -23,11 +23,11 @@ export default function Faq() {
   }, [question])
 
   return (
-    <div className={clsx('min-h-[calc(100vh-96px)] w-full px-[10%]  pb-8 pt-4')}>
+    <div className={clsx('min-h-[calc(100vh-96px)] w-full px-6  pb-8 pt-4 sm:px-[10%]')}>
       <h1
         className={clsx(
           ' ml-[-4px] pb-8  font-medium leading-none text-black',
-          'text-6xl sm:text-6xl',
+          'text-4xl sm:text-6xl',
           navigation.theme === 'dark' ? ' text-white' : ' text-black',
         )}>
         Frequently Asked Questions

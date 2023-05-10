@@ -44,8 +44,7 @@ export default function BottomRight(props) {
           </>
         )}
         <a target='_blank' href='https://www.google.com/' rel='noopener noreferrer'>
-          <button
-            className={clsx('about-us group flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
+          <button className={clsx(' group flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
             <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
               <circle cx='12' cy='12' r='12' className={clsx(' fill-white group-hover:fill-black')} />
               <path
@@ -72,7 +71,7 @@ export default function BottomRight(props) {
             { shallow: true },
           )
         }}
-        className={clsx('about group flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
+        className={clsx('about-us group flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
         <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <path
             d='M12 18C12.34 18 12.6252 17.8848 12.8556 17.6544C13.086 17.424 13.2008 17.1392 13.2 16.8V11.97C13.2 11.63 13.0848 11.35 12.8544 11.13C12.624 10.91 12.3392 10.8 12 10.8C11.66 10.8 11.3748 10.9152 11.1444 11.1456C10.914 11.376 10.7992 11.6608 10.8 12V16.83C10.8 17.17 10.9152 17.45 11.1456 17.67C11.376 17.89 11.6608 18 12 18ZM12 8.4C12.34 8.4 12.6252 8.2848 12.8556 8.0544C13.086 7.824 13.2008 7.5392 13.2 7.2C13.2 6.86 13.0848 6.5748 12.8544 6.3444C12.624 6.114 12.3392 5.9992 12 6C11.66 6 11.3748 6.1152 11.1444 6.3456C10.914 6.576 10.7992 6.8608 10.8 7.2C10.8 7.54 10.9152 7.8252 11.1456 8.0556C11.376 8.286 11.6608 8.4008 12 8.4ZM12 24C10.34 24 8.78 23.6848 7.32 23.0544C5.86 22.424 4.59 21.5692 3.51 20.49C2.43 19.41 1.5752 18.14 0.9456 16.68C0.316 15.22 0.0008 13.66 0 12C0 10.34 0.3152 8.78 0.9456 7.32C1.576 5.86 2.4308 4.59 3.51 3.51C4.59 2.43 5.86 1.5752 7.32 0.9456C8.78 0.316 10.34 0.0008 12 0C13.66 0 15.22 0.3152 16.68 0.9456C18.14 1.576 19.41 2.4308 20.49 3.51C21.57 4.59 22.4252 5.86 23.0556 7.32C23.686 8.78 24.0008 10.34 24 12C24 13.66 23.6848 15.22 23.0544 16.68C22.424 18.14 21.5692 19.41 20.49 20.49C19.41 21.57 18.14 22.4252 16.68 23.0556C15.22 23.686 13.66 24.0008 12 24Z'

@@ -19,7 +19,7 @@ export default function Loading() {
   return (
     <div
       className={clsx(
-        ' absolute z-[99999999] !min-h-screen !w-screen flex-col items-center justify-center overflow-hidden bg-white',
+        ' absolute z-[99999999999] !min-h-screen !w-screen flex-col items-center justify-center overflow-hidden bg-white',
         load ? 'flex' : 'hidden',
       )}>
       <div className='flex  flex-col items-center justify-center'>

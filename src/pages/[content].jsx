@@ -4,7 +4,7 @@ import Layout from '@/components/content/Layout'
 
 import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
-import { toggleContent, toggleLocation } from 'redux/navigation'
+import { toggleContent, toggleLocation, setMusic } from 'redux/navigation'
 import clsx from 'clsx'
 import { Landmarks } from '../components/data/Landamarks'
 import Image from 'next/image'
@@ -22,6 +22,10 @@ export default function Content() {
       dispatch(toggleLocation(router.query.location))
     }
   }, [router])
+
+  useEffect(() => {
+    dispatch(setMusic(false))
+  }, [])
 
   // Mencari Data yang dibutuhkan
   const navigation = useSelector((state) => state.navigation)
@@ -62,7 +66,7 @@ export default function Content() {
   // console.log(navigation.content)
 
   return (
-    <div className='absolute h-full w-full bg-black'>
+    <div className='absolute h-full w-full bg-[#121212]'>
       {/* Komponen Musik */}
       <audio ref={myRef} preload='none'>
         <source

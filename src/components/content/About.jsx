@@ -22,18 +22,17 @@ export default function About() {
             navigation.theme === 'dark' ? ' text-white' : ' text-black',
           )}>
           <p>
-            Selamat datang di Virtual Tour Fakultas Teknik Universitas Gadjah Mada (FT UGM)! kami persembahkan
-            pengalaman tur virtual yang akan membawa Anda menjelajahi keindahan dan keunikan kampus kami. Dalam
-            perjalanan virtual ini, Anda akan diajak mengenal lebih dekat berbagai fasilitas, gedung akademik,
-            laboratorium, serta lingkungan kampus yang mendukung proses pembelajaran dan penelitian di FT UGM. Selain
-            itu, Anda juga akan merasakan suasana kehidupan kampus yang penuh dengan semangat inovasi, kolaborasi, dan
-            keberagaman.
+            Selamat datang di Virtual Tour Fakultas Teknik Universitas Gadjah Mada (FT UGM)! bersama kami kembangkan
+            pengalaman tur virtual yang akan membawa Anda menjelajahi Fakultas Teknik Universitas Gadjah Mada. Dalam
+            perjalanan virtual ini, Anda akan diajak mengenal lebih dekat berbagai gedung akademik, dan lingkungan
+            kampus yang mendukung proses pembelajaran dan penelitian di FT UGM. Selain itu, Anda juga akan merasakan
+            suasana kehidupan kampus yang penuh dengan semangat inovasi, kolaborasi, dan keberagaman.
           </p>
 
           <p>
             {' '}
-            Selamat menikmati Virtual Tour FT UGM, semoga pengalaman ini memberikan wawasan yang bermanfaat dan
-            menginspirasi. Selamat menjelajah!
+            Selamat menikmati Virtual Tour FT UGM, semoga pengalaman ini memberikan wawasan dan isnpirasi yang
+            bermanfat. Selamat menjelajah!
           </p>
         </div>
 

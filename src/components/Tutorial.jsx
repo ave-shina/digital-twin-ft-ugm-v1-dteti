@@ -25,7 +25,7 @@ export default function Tutorial(props) {
       <div className={clsx('relative h-full w-screen')}>
         <div
           className={clsx(
-            'animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black  bg-opacity-40',
+            'animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-[#121212]  bg-opacity-40',
           )}>
           {' '}
         </div>

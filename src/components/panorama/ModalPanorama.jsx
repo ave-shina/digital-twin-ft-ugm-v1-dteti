@@ -52,7 +52,7 @@ export default function ModalPanorama(props) {
           setOpenPanorama(false)
         }}
         className={clsx(
-          'absolute top-0  flex !h-full !w-screen  items-center justify-center bg-black  bg-opacity-80',
+          'absolute top-0  flex !h-full !w-screen  items-center justify-center bg-[#121212]  bg-opacity-80',
         )}></div>
       <div
         className={clsx(
@@ -70,14 +70,14 @@ export default function ModalPanorama(props) {
             <p
               className={clsx(
                 'absolute  bottom-3.5 left-1/2 z-50 -translate-x-1/2  px-4 py-2 ',
-                navigation.theme === 'dark' ? 'bg-black   text-white' : 'bg-white text-black',
+                navigation.theme === 'dark' ? 'bg-[#121212]   text-white' : 'bg-white text-black',
               )}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
             </p>
             <p
               className={clsx(
                 'absolute top-3.5 z-10 px-4 py-2 text-xl',
-                navigation.theme === 'dark' ? 'bg-black   text-white' : 'bg-white text-black',
+                navigation.theme === 'dark' ? 'bg-[#121212]   text-white' : 'bg-white text-black',
               )}>
               {currentScene}
             </p>

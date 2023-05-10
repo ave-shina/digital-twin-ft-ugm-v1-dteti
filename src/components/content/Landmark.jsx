@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Map from '../panorama/Map'
 import ModalPanorama from '../panorama/ModalPanorama'
 import Panorama from '../panorama/Panorama'
@@ -183,6 +183,10 @@ export default function Landmark(props) {
     }
   }
 
+  const scrollRef = useRef(null)
+
+  const executeScroll = () => scrollRef.current.scrollIntoView()
+
   return (
     <>
       {/* Komponen Modal Panorama */}
@@ -195,25 +199,54 @@ export default function Landmark(props) {
           currentScene={currentScene}
           setCurrentScene={setCurrentScene}></ModalPanorama>
       )}
-      <div className={clsx('absolute flex min-h-full w-full ')}>
-        <div className={clsx('absolute bottom-4 left-4 mb-8 flex sm:left-8 ', 'flex-col sm:flex-row')}>
-          <h1 className={clsx('  font-medium leading-none text-white', 'text-6xl sm:text-9xl')}>
-            {data.attributes.objectName}
-          </h1>
-          {data.attributes.subName != null && (
-            <>
-              <div className={clsx('mx-4 border-white', 'border-none sm:border sm:border-solid')}></div>
-              <p
-                className={clsx(
-                  'mt-2 flex items-center font-medium text-white',
-                  'w-full  text-2xl sm:w-1/2 sm:text-4xl',
-                )}>
-                {data.attributes.subName}
-              </p>
-            </>
-          )}
+      <div
+        className={clsx(
+          'absolute flex min-h-full w-full scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-gray-600  ',
+        )}>
+        <div
+          className={clsx(
+            'absolute bottom-4 mb-4 flex w-full items-center px-4 sm:px-6  ',
+            'flex-col sm:mb-6 sm:flex-row',
+          )}>
+          <div className='mb-4 flex !h-full w-full flex-col flex-wrap  md:mb-0 md:flex-row'>
+            <h1 ref={scrollRef} className={clsx('h-full  font-medium leading-none text-white', 'text-6xl sm:text-9xl')}>
+              {data.attributes.objectName}
+            </h1>
+            {data.attributes.subName != null && (
+              <>
+                <div className={clsx('mx-4 h-32 border-solid border-white', 'hidden md:flex md:border')}></div>
+                <p
+                  className={clsx(
+                    'mt-2 flex items-center font-medium text-white',
+                    'w-full  text-2xl sm:text-4xl md:w-1/2',
+                  )}>
+                  {data.attributes.subName}
+                </p>
+              </>
+            )}
+          </div>
+
+          <div
+            onClick={() => {
+              executeScroll()
+            }}
+            className='group  flex h-full w-full items-center justify-center text-center text-white sm:w-[20%] sm:justify-end '>
+            <button className='mr-2 no-underline group-hover:underline'>Scroll Down</button>
+            <button className='flex h-6 w-6 items-center justify-center rounded-full border sm:h-10 sm:w-10'>
+              <svg
+                width='12'
+                height='8'
+                viewBox='0 0 12 8'
+                className='bounce'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'>
+                <path d='M1.41 0.580002L6 5.17L10.59 0.580002L12 2L6 8L0 2L1.41 0.580002Z' fill='white' />
+              </svg>
+            </button>
+          </div>
         </div>
 
+        <div ref={scrollRef} className='absolute bottom-64'></div>
         <div className={clsx('absolute top-0 w-full')}>
           <Navbar theme='light'></Navbar>
         </div>
@@ -222,7 +255,7 @@ export default function Landmark(props) {
         className={clsx(
           'absolute top-[100%] flex min-h-full w-full  flex-col    py-8',
           'px-6 sm:px-[10%]',
-          navigation.theme === 'dark' ? ' bg-black' : '  bg-white',
+          navigation.theme === 'dark' ? ' bg-[#121212]' : '  bg-white',
         )}>
         <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>
           {section.map((item, index) => {

@@ -1716,6 +1716,11 @@
   "resolved" "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   "version" "4.2.2"
 
+"a11y-checker@^2.2.1":
+  "integrity" "sha512-Leo0kdHTRRO98Bn8ZL8PIfXuKjnQ7SPOSSEABRsr14mGO18so9Vj2wHbSzZwYZLNShWNRvguAkJjTYw82fRaIA=="
+  "resolved" "https://registry.npmjs.org/a11y-checker/-/a11y-checker-2.2.1.tgz"
+  "version" "2.2.1"
+
 "acorn-import-assertions@^1.7.6":
   "integrity" "sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw=="
   "resolved" "https://registry.npmjs.org/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz"
@@ -2290,10 +2295,10 @@
   "resolved" "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz"
   "version" "0.1.4"
 
-"deepmerge@^4.2.2":
-  "integrity" "sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og=="
-  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.0.tgz"
-  "version" "4.3.0"
+"deepmerge@^4.2.2", "deepmerge@^4.3.1":
+  "integrity" "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
+  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
+  "version" "4.3.1"
 
 "define-lazy-prop@^2.0.0":
   "integrity" "sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og=="
@@ -4653,12 +4658,12 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   "version" "18.2.0"
 
-"react-joyride@^2.5.3":
-  "integrity" "sha512-DKKvb/JAAsHm0x/RWO3WI6NOtTMHDso5v8MTauxTSz2dFs7Tu1rWg1BDBWmEMj6pUCvem7hblFbCiDAcvhs8tQ=="
-  "resolved" "https://registry.npmjs.org/react-joyride/-/react-joyride-2.5.3.tgz"
-  "version" "2.5.3"
+"react-joyride@^2.5.4":
+  "integrity" "sha512-CLV1Ju79iRKIP/KqsEX05nSxMBzT41BhPAyNrTdBQWEYAkpyo6iiCPelk6No2W8iPgw373JKk2cK7AQ5Q3lFew=="
+  "resolved" "https://registry.npmjs.org/react-joyride/-/react-joyride-2.5.4.tgz"
+  "version" "2.5.4"
   dependencies:
-    "deepmerge" "^4.2.2"
+    "deepmerge" "^4.3.1"
     "exenv" "^1.2.2"
     "is-lite" "^0.9.2"
     "prop-types" "^15.8.1"
@@ -5346,7 +5351,12 @@
     "@pkgr/utils" "^2.3.1"
     "tslib" "^2.5.0"
 
-"tailwindcss@^3.2.2", "tailwindcss@^3.3.1":
+"tailwind-scrollbar@^3.0.1":
+  "integrity" "sha512-mM0ecSf/RGRGWw/qB0Zg1bWhuXIkpmleNAFgMxdb4eERgA6eQ0kVouYsF3/OvBqDSK8RJikZC/ynGPxnfXeddw=="
+  "resolved" "https://registry.npmjs.org/tailwind-scrollbar/-/tailwind-scrollbar-3.0.1.tgz"
+  "version" "3.0.1"
+
+"tailwindcss@^3.2.2", "tailwindcss@^3.3.1", "tailwindcss@3.x":
   "integrity" "sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.3.1.tgz"
   "version" "3.3.1"

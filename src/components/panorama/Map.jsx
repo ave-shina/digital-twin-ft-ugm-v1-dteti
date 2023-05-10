@@ -73,16 +73,17 @@ function Map(props) {
     }
   }, [open, currentIndex])
 
-  const handleMouseEnter = (e) => {
-    // Set the cursor style to a pointer when the mouse is over the circle
+  // Efek ketika hover titik di peta
+  const [circleName, setcircleName] = useState('jalan-ft-ugm-1')
+  const handleMouseEnter = (e, name) => {
     const container = e.target.getStage().container()
     container.style.cursor = 'pointer'
+    setcircleName(name)
   }
-  const handleMouseLeave = (e) => {
-    // Reset the cursor style when the mouse leaves the circle
+  const handleMouseLeave = (e, name) => {
     const container = e.target.getStage().container()
     container.style.cursor = 'default'
-    container.style.bgColor = 'red'
+    setcircleName(name)
   }
 
   // Logika untuk membuka panorama atau membuka lokasi landmark
@@ -121,6 +122,11 @@ function Map(props) {
             )}>
             {mapName}
           </div>
+          {router.query.content == 'tour' && (
+            <div className='absolute left-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white'>
+              {circleName}
+            </div>
+          )}
           <MapInteractionCSS
             value={value}
             onChange={(value) => {
@@ -130,6 +136,7 @@ function Map(props) {
               <Stage width={mapImage.width} height={mapImage.width}>
                 <Layer>
                   {image && <Image image={image} x={0} y={0} scaleX={1} scaleY={1} />}
+
                   {router.query.content == 'tour' &&
                     mapTour.map((data, index) => (
                       <Circle
@@ -139,8 +146,12 @@ function Map(props) {
                         radius={9}
                         fill={'red'}
                         cursor='pointer'
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
+                        onMouseEnter={(e) => {
+                          handleMouseEnter(e, data.name)
+                        }}
+                        onMouseLeave={(e) => {
+                          handleMouseLeave(e, data.name)
+                        }}
                         onClick={(area) => {
                           handleClick(data.isRoute, data.name)
                         }}
@@ -158,8 +169,12 @@ function Map(props) {
                       radius={5}
                       fill={'blue'}
                       cursor='pointer'
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave}
+                      onMouseEnter={(e) => {
+                        handleMouseEnter(e, data.name)
+                      }}
+                      onMouseLeave={(e) => {
+                        handleMouseLeave(e, data.name)
+                      }}
                       onClick={(area) => {
                         handleClick(data.isRoute, data.name)
                       }}

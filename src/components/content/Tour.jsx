@@ -102,8 +102,8 @@ export default function Tour() {
                 'w-full cursor-pointer border border-solid py-2',
 
                 navigation.theme === 'dark'
-                  ? ' border-black  bg-white text-black  hover:border-white hover:bg-black hover:text-white'
-                  : ' border-white bg-black text-white hover:border-black  hover:bg-white hover:text-black',
+                  ? ' border-black  bg-white text-black  hover:border-white hover:bg-[#121212] hover:text-white'
+                  : ' border-white bg-[#121212] text-white hover:border-black  hover:bg-white hover:text-black',
               )}>
               Mulai Jelajah
             </button>
@@ -129,7 +129,7 @@ export default function Tour() {
       <div
         className={clsx(
           'flex min-h-[calc(100vh-96px)]  w-full flex-col px-[10%] pb-8 pt-4',
-          navigation.theme === 'dark' ? ' bg-black' : 'bg-white',
+          navigation.theme === 'dark' ? ' bg-[#121212]' : 'bg-white',
         )}>
         <h1
           className={clsx(
@@ -137,7 +137,7 @@ export default function Tour() {
             'text-6xl sm:text-8xl',
             navigation.theme === 'dark' ? '  text-white' : ' text-black',
           )}>
-          Fakultas Teknik
+          Jelajah Teknik
         </h1>
         <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>
           {section.map((item, index) => {

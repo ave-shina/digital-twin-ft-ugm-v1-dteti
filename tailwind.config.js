@@ -6,9 +6,13 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        main: 'futura-lt',
+        montserrat: 'Montserrat, sans-serif',
+      },
+    },
   },
-  plugins: [],
   utilities: {
     'h-screen': {
       height: '-webkit-fill-available',
@@ -17,4 +21,5 @@ module.exports = {
       width: '-webkit-fill-available',
     },
   },
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }

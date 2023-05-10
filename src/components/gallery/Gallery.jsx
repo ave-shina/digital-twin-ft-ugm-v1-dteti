@@ -42,6 +42,7 @@ export default function Gallery(props) {
             alt={item.name}
             placeholder='blur'
             blurDataURL={'true'}
+            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
             height={400}
             width={402}
             style={{ objectFit: 'cover' }}

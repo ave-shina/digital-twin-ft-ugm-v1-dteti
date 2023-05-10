@@ -12,11 +12,12 @@ export default function TopRight(props) {
   return (
     <div className={clsx('absolute right-6 top-6 z-20 flex flex-row items-center justify-center')}>
       <button
+        title={navigation.theme === 'dark' ? 'Mode Terang' : 'Mode Gelap'}
         onClick={() => {
           dispatch(toggleTheme())
         }}
         className={clsx(
-          ' group mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
+          ' night-mode top-right-1 group relative mr-4 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         {navigation.theme === 'dark' ? (
           <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -35,11 +36,12 @@ export default function TopRight(props) {
         )}
       </button>
       <button
+        title={navigation.music ? 'Matikan Musik' : 'Nyalakan Musik'}
         onClick={() => {
           dispatch(toggleMusic())
         }}
         className={clsx(
-          ' group  flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
+          'tour-music top-right-2  group flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-white bg-transparent text-white hover:bg-white sm:h-12 sm:w-12 ',
         )}>
         {navigation.music ? (
           <svg width='27' height='20' viewBox='0 0 27 20' fill='none' xmlns='http://www.w3.org/2000/svg'>

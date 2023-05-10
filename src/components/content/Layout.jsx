@@ -3,7 +3,6 @@ import Navbar from './Navbar'
 import clsx from 'clsx'
 import dynamic from 'next/dynamic'
 
-import Search from './Search'
 const Tour = dynamic(() => import('./Tour'), {
   ssr: false,
 })
@@ -21,11 +20,10 @@ export default function Layout(props) {
   return (
     <>
       {navigation.content != '' && navigation.content !== 'landmark' && (
-        <div className={clsx('absolute h-full  w-full', navigation.showTooltip ? 'z-[99999999]' : '')}>
-          <div className={clsx('  min-h-full w-full ', navigation.theme === 'dark' ? 'bg-black' : 'bg-white')}>
+        <div className={clsx('absolute h-full  w-full scrollbar', navigation.showTooltip ? 'z-[99999999]' : '')}>
+          <div className={clsx('  min-h-full w-full  ', navigation.theme === 'dark' ? 'bg-[#121212]' : 'bg-white')}>
             <Navbar></Navbar>
             <div className={clsx('flex w-full flex-col items-start justify-center  pt-32')}>
-              {navigation.content === 'search' && <Search></Search>}
               {navigation.content === 'tour' && <Tour></Tour>}
               {navigation.content === 'faq' && <Faq></Faq>}
               {navigation.content === 'about' && <About></About>}

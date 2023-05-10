@@ -39,6 +39,7 @@ export const navigationSlice = createSlice({
     },
     setMusic: (state, { payload }) => {
       state.music = payload
+      localStorage.setItem('music', payload)
     },
     setFirstTutorial: (state, { payload }) => {
       state.firstTutorial = payload

@@ -43,7 +43,7 @@ export default function Navbar(props) {
           (scrollY < screenHeight && navigation.theme === 'light' && navigation.content === 'landmark')
           ? ' bg-transparent'
           : navigation.theme === 'dark'
-          ? ' border-b border-solid border-gray-700 bg-black shadow-md'
+          ? ' border-b border-solid border-gray-900 bg-[#121212] shadow-md'
           : ' bg-white shadow-md',
       )}>
       <div className={clsx(' left-6 top-6 flex  flex-row items-center justify-center')}>
@@ -93,7 +93,7 @@ export default function Navbar(props) {
               ? 'border-white hover:bg-white'
               : navigation.theme === 'dark'
               ? 'border-white hover:bg-white'
-              : 'border-black hover:bg-black',
+              : 'border-black hover:bg-[#121212]',
           )}>
           {navigation.theme === 'dark' ? (
             <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -136,7 +136,7 @@ export default function Navbar(props) {
               ? 'border-white hover:bg-white'
               : navigation.theme === 'dark'
               ? 'border-white hover:bg-white'
-              : 'border-black hover:bg-black',
+              : 'border-black hover:bg-[#121212]',
           )}>
           {navigation.music ? (
             <svg width='27' height='20' viewBox='0 0 27 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -207,7 +207,7 @@ export default function Navbar(props) {
               ? 'border-white hover:bg-white'
               : navigation.theme === 'dark'
               ? 'border-white hover:bg-white'
-              : 'border-black hover:bg-black',
+              : 'border-black hover:bg-[#121212]',
           )}>
           <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
             <path

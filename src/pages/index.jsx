@@ -246,7 +246,7 @@ export default function Page(props) {
     {
       navigation.firstTutorial
         ? (setIntroduction(''), setFreeControl(true))
-        : (setTutorial(true), dispatch(setFirstTutorial(true), setFreeControl(true)))
+        : (setIntroduction(''), setTutorial(true), dispatch(setFirstTutorial(true), setFreeControl(true)))
     }
     if (navigation.music) {
       myRef.current.volume = 0.1

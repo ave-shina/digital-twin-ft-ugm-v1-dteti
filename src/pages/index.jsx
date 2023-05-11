@@ -33,7 +33,6 @@ export default function Page(props) {
   const [openForm, setOpenForm] = useState(false)
 
   const [tutorial, setTutorial] = useState(false)
-  const [stepIndex, setStepIndex] = useState(0)
 
   const steps = [
     {
@@ -261,7 +260,6 @@ export default function Page(props) {
 
     if ([STATUS.FINISHED, STATUS.SKIPPED].includes(status) || action == 'close') {
       setTutorial(false)
-      setStepIndex(0)
       dispatch(setFirstTutorial(true))
       setIntroduction('')
     }

@@ -4855,7 +4855,7 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('object/Map-o.glb')
+useGLTF.preload('object/map-min.glb')
 
 function SpriteHover(props) {
   const spriteRef = useRef()

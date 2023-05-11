@@ -56,7 +56,7 @@ export default function ModalPanorama(props) {
         )}></div>
       <div
         className={clsx(
-          ' absolute left-1/2 top-1/2 z-50 h-[90%] w-full max-w-[85%] -translate-x-1/2 -translate-y-1/2',
+          ' absolute left-1/2 top-1/2 z-50 h-[95%] w-full max-w-[95%] -translate-x-1/2 -translate-y-1/2 sm:left-1/2 sm:h-[90%] sm:max-w-[85%]',
         )}>
         {/* <!-- Modal content --> */}
         <div
@@ -65,7 +65,7 @@ export default function ModalPanorama(props) {
             navigation.theme === 'dark' ? ' border-white  bg-gray-950' : 'border-black  bg-white ',
           )}>
           {/* <!-- Modal body --> */}
-          <div className={clsx('relative flex h-full w-full items-center justify-center p-4')}>
+          <div className={clsx('relative flex h-full w-full items-center justify-center p-2 sm:p-4')}>
             {/* Menampilkan Lokasi Kursor */}
             {/* <p
               className={clsx(
@@ -86,7 +86,7 @@ export default function ModalPanorama(props) {
                 setOpenPanorama(false)
               }}
               className={clsx(
-                'group  absolute right-6 top-6 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:h-10 sm:w-10 ',
+                'group  absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:right-6 sm:top-6 sm:h-10 sm:w-10 ',
                 ' stroke-black',
               )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>

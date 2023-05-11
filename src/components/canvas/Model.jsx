@@ -1662,28 +1662,28 @@ export default function Model({ ...props }) {
           material={materials.BIRCHTREE_5_BAKE}
           position={[-85.04, 5.35, 33.57]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={1.7}
+          scale={navigation.location === '' ? 1.98 : 1.3}
         />
         <mesh
           geometry={nodes.BirchTree_5_Cube056.geometry}
           material={materials.BIRCHTREE_5_BAKE}
           position={[-75.59, 5.35, 35.66]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={1.55}
+          scale={navigation.location === '' ? 1.55 : 1.2}
         />
         <mesh
           geometry={nodes.BirchTree_5_Cube057.geometry}
           material={materials.BIRCHTREE_5_BAKE}
           position={[-84.25, 5.35, 44.06]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={1.98}
+          scale={navigation.location === '' ? 1.7 : 1.1}
         />
         <mesh
           geometry={nodes.BirchTree_5_Cube058.geometry}
           material={materials.BIRCHTREE_5_BAKE}
           position={[-76.37, 5.35, 45.89]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={1.86}
+          scale={navigation.location === '' ? 1.86 : 1.2}
         />
         <mesh
           geometry={nodes.BirchTree_5_Cube060.geometry}
@@ -2397,7 +2397,7 @@ export default function Model({ ...props }) {
           material={materials.COMMONTREE_2_BAKE}
           position={[-83.24, 5.35, 37.68]}
           rotation={[Math.PI / 2, 0, 1.26]}
-          scale={2.74}
+          scale={navigation.location === '' ? 2.74 : 1}
         />
         <mesh
           geometry={nodes.CommonTree_2_Cube160.geometry}
@@ -2964,7 +2964,7 @@ export default function Model({ ...props }) {
           material={materials.COMMONTREE_4_BAKE}
           position={[-76.43, 5.35, 42.64]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={2.74}
+          scale={navigation.location === '' ? 2.74 : 1}
         />
         <mesh
           geometry={nodes.CommonTree_4_Cube084.geometry}
@@ -4504,7 +4504,7 @@ export default function Model({ ...props }) {
           material={materials.WILLOWTREE_4_BAKE}
           position={[-81.45, 5.35, 39.48]}
           rotation={[Math.PI / 2, 0, 1.51]}
-          scale={2.74}
+          scale={navigation.location === '' ? 2.22 : 1.8}
         />
         <mesh
           geometry={nodes.Willow_4_Cube139.geometry}

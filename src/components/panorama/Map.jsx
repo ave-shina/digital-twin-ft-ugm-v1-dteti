@@ -75,7 +75,7 @@ function Map(props) {
   }, [open, currentIndex])
 
   // Efek ketika hover titik di peta
-  const [circleName, setcircleName] = useState('jalan-ft-ugm-1')
+  const [circleName, setcircleName] = useState(mapInformation[0].name)
   const handleMouseEnter = (e, name) => {
     const container = e.target.getStage().container()
     container.style.cursor = 'pointer'
@@ -117,17 +117,17 @@ function Map(props) {
       )}>
       <div className={clsx(' relative flex  w-full flex-col items-center justify-center')}>
         <div ref={mapContainer} className={clsx('flex h-[600px] w-full items-center justify-center overflow-hidden')}>
+          <div className='absolute left-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white'>
+            {' '}
+            {circleName}
+          </div>
           <div
             className={clsx(
-              'absolute right-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
+              'absolute right-4 top-4  z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
             )}>
             {mapName}
           </div>
-          {router.query.content == 'tour' && (
-            <div className='absolute left-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white'>
-              {circleName}
-            </div>
-          )}
+
           <MapInteractionCSS
             value={value}
             onChange={(value) => {

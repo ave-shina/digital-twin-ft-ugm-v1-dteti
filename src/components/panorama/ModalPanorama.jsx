@@ -67,13 +67,13 @@ export default function ModalPanorama(props) {
           {/* <!-- Modal body --> */}
           <div className={clsx('relative flex h-full w-full items-center justify-center p-4')}>
             {/* Menampilkan Lokasi Kursor */}
-            <p
+            {/* <p
               className={clsx(
                 'absolute  bottom-3.5 left-1/2 z-50 -translate-x-1/2  px-4 py-2 ',
                 navigation.theme === 'dark' ? 'bg-[#121212]   text-white' : 'bg-white text-black',
               )}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
-            </p>
+            </p> */}
             <p
               className={clsx(
                 'absolute top-3.5 z-10 px-4 py-2 text-xl',
@@ -86,7 +86,7 @@ export default function ModalPanorama(props) {
                 setOpenPanorama(false)
               }}
               className={clsx(
-                'group  absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:h-10 sm:w-10 ',
+                'group  absolute right-6 top-6 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:h-10 sm:w-10 ',
                 ' stroke-black',
               )}>
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>

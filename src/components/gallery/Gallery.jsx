@@ -16,7 +16,7 @@ export default function Gallery(props) {
 
   // Mengambil data URL Image
   for (let i = 0; i < galleryDetail.length; i++) {
-    images.push(`${galleryDetail[i]?.galleryImage.data.attributes.url}`)
+    images.push(galleryDetail[i])
   }
 
   useEffect(() => {
@@ -53,19 +53,27 @@ export default function Gallery(props) {
   )
 
   return (
-    <div className='flex w-screen flex-col items-center justify-center'>
+    <div className='relative flex w-screen flex-col items-center justify-center'>
       {/* List Gallery */}
       {galleryList}
       {/* Light Box */}
       {isOpen.open && (
-        <Lightbox
-          mainSrc={`${images[photoIndex.key]}`}
-          nextSrc={`${images[(photoIndex.key + 1) % images.length]}`}
-          prevSrc={`${images[(photoIndex.key + images.length - 1) % images.length]}`}
-          onCloseRequest={() => setIsOpen({ open: false })}
-          onMovePrevRequest={() => setPhotoIndex({ key: (photoIndex.key + images.length - 1) % images.length })}
-          onMoveNextRequest={() => setPhotoIndex({ key: (photoIndex.key + 1) % images.length })}
-        />
+        <>
+          <Lightbox
+            mainSrc={`${images[photoIndex.key].galleryImage.data.attributes.url}`}
+            nextSrc={`${images[(photoIndex.key + 1) % images.length].galleryImage.data.attributes.url}`}
+            prevSrc={`${images[(photoIndex.key + images.length - 1) % images.length].galleryImage.data.attributes.url}`}
+            onCloseRequest={() => setIsOpen({ open: false })}
+            onMovePrevRequest={() => setPhotoIndex({ key: (photoIndex.key + images.length - 1) % images.length })}
+            onMoveNextRequest={() => setPhotoIndex({ key: (photoIndex.key + 1) % images.length })}
+            imageCaption={
+              <div
+                className=' absolute bottom-0 left-1/2 !z-[999999999] -translate-x-1/2 bg-white text-black'
+                dangerouslySetInnerHTML={{ __html: images[photoIndex.key].description }}
+              />
+            }
+          />
+        </>
       )}
     </div>
   )

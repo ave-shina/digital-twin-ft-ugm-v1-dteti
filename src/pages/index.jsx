@@ -17,7 +17,7 @@ import BottomLeft from '@/components/navigation/BottomLeft'
 import BottomRight from '@/components/navigation/BottomRight'
 import TopRight from '@/components/navigation/TopRight'
 
-import Joyride, { STATUS } from 'react-joyride'
+import Joyride, { STATUS, ACTIONS } from 'react-joyride'
 
 export default function Page(props) {
   const dispatch = useDispatch()
@@ -32,7 +32,8 @@ export default function Page(props) {
   const [musicStart, setMusicStart] = useState(false)
   const [openForm, setOpenForm] = useState(false)
 
-  const [run, setTutorial] = useState(false)
+  const [tutorial, setTutorial] = useState(false)
+  const [stepIndex, setStepIndex] = useState(0)
 
   const steps = [
     {
@@ -247,6 +248,7 @@ export default function Page(props) {
         ? (setIntroduction(''), setFreeControl(true))
         : (setIntroduction(''), setTutorial(true), dispatch(setFirstTutorial(true), setFreeControl(true)))
     }
+
     if (navigation.music) {
       myRef.current.volume = 0.1
       myRef.current.play()
@@ -255,11 +257,11 @@ export default function Page(props) {
   }
 
   const handleJoyrideCallback = (data) => {
-    const { status } = data
-    const finishedStatuses = [STATUS.FINISHED, STATUS.SKIPPED]
+    const { status, action, index } = data
 
-    if (finishedStatuses.includes(status)) {
+    if ([STATUS.FINISHED, STATUS.SKIPPED].includes(status) || action == 'close') {
       setTutorial(false)
+      setStepIndex(0)
       dispatch(setFirstTutorial(true))
       setIntroduction('')
     }
@@ -308,7 +310,9 @@ export default function Page(props) {
       <div className='absolute h-full w-full bg-[#121212]'>
         <Joyride
           callback={handleJoyrideCallback}
-          run={run}
+          run={tutorial}
+          steps={steps}
+          disableBeacon
           continuous={true}
           scrollToFirstStep={true}
           showProgress={false}
@@ -316,7 +320,6 @@ export default function Page(props) {
           spotlightClicks={true}
           disableOverlayClose={true}
           disableCloseOnEsc={true}
-          steps={steps}
           styles={{
             options: {
               zIndex: 999999999,

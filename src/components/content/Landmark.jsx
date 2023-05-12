@@ -132,6 +132,12 @@ export default function Landmark(props) {
               })}
             </Swiper>
 
+            <p className='mt-4'>
+              {' '}
+              Catatan: Anda dapat memulai penjelajahan dengan menekan titik berbentuk lingkaran di tampilan atas.
+              lingkaran biru akan memperlihatkan panorama jalan. Selanjutnya, panorama akan ditampilkan dengan adanya
+              ikon berbentuk kamera. Ikon ini akan membantu Anda menavigasi dan berpindah lokasi.
+            </p>
             <div
               className={clsx(
                 'absolute left-[12%] top-1/2 z-20 m-auto flex -translate-x-1/2 -translate-y-1/2 cursor-pointer ',
@@ -203,6 +209,7 @@ export default function Landmark(props) {
         className={clsx(
           'absolute flex min-h-full w-full scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-gray-600  ',
         )}>
+        <div className='absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-black to-transparent  opacity-80'></div>
         <div
           className={clsx(
             'absolute bottom-4 mb-4 flex w-full items-center px-4 sm:px-6  ',
@@ -316,7 +323,7 @@ export default function Landmark(props) {
 
                     <div
                       className={clsx(
-                        'answer h-full w-full py-2',
+                        'answer flex h-full w-full flex-col py-2',
                         index === title.state && open ? 'flex' : 'hidden',
                         navigation.theme === 'dark' ? ' text-white' : ' text-black',
                       )}>

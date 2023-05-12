@@ -24,7 +24,7 @@ export default function Model({ ...props }) {
     { name: 'DTGL', position: [26.34, 8.98, 36.02] },
     { name: 'DTNTF', position: [9.8, 7.84, 54.66] },
     { name: 'TUGU TEKNIK', position: [61.33, 7.82, 22.06] },
-    { name: 'SGLC', position: [-36.13, 5.12, 25.22] },
+    { name: 'SGLC', position: [-36.13, 10.12, 18.22] },
     { name: 'PERPUSTAKAAN', position: [-18.1, 9.93, 41.7] },
     { name: 'MASJID FT', position: [-58.2, 8.58, -33.63] },
     { name: 'ERIC', position: [108.55, 9.99, 10.4] },
@@ -4869,18 +4869,29 @@ function SpriteHover(props) {
 
   return (
     <group ref={spriteRef} visible={false}>
+      {/* <Html
+        sprite
+        transform
+        position={[0, 0.2, 0]}
+        style={{
+          height: '200px',
+          backgroundColor: 'white',
+          width: '7px',
+          position: 'absolute',
+          zIndex: '-10',
+        }}></Html> */}
       <Html
         sprite
         transform
         position={[0, 0.2, 0]}
         style={{
           background: 'white',
-          fontSize: '148px',
+          fontSize: '128px',
           textAlign: 'center',
-          padding: '10px 45px',
-          borderRadius: '25px',
+          padding: '10px 60px',
           display: props.object ? 'block' : 'none',
           zIndex: 10,
+          border: 'black solid 4px',
         }}>
         {props.object ? props.object.name.replace(/\_/g, ' ') : null}
       </Html>

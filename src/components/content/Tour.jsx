@@ -85,13 +85,17 @@ export default function Tour() {
                 setCurrentScene={setCurrentScene}
               />
             </div>
+
             <p
               className={clsx(
                 ' mb-4 text-base leading-8 text-black',
                 navigation.theme === 'dark' ? ' text-white' : ' text-black',
               )}>
-              Anda dapat Mulai jelajah Fakultas Teknik dengan menekan titik berbentuk lingkaran di atas atau dengan
-              menekan tombol dibawah ini
+              Catatan: Anda dapat memulai penjelajahan Fakultas Teknik dengan menekan titik berbentuk lingkaran di
+              tampilan atas. Lingkaran merah akan menunjukkan informasi detail tentang bangunan, sementara lingkaran
+              biru akan memperlihatkan panorama jalan. Jangan lupa, Anda juga bisa memulai penjelajahan dengan menekan
+              tombol di bawah ini. Mari kita jelajahi bersama!
+              <br />
             </p>
             <button
               onClick={() => {

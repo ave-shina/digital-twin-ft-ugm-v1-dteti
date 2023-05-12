@@ -42,7 +42,10 @@ export default function Tutorial(props) {
       title: <h2>Jelajah Teknik</h2>,
       content: (
         <div>
-          <p style={{ textAlign: 'center' }}>Tombol ini digunakan untuk menampilkan halaman Jelajah Teknik.</p>
+          <p style={{ textAlign: 'center' }}>
+            Tombol ini digunakan untuk menampilkan halaman Jelajah Teknik yang akan membantu Anda dalam menjelajahi
+            panorama teknik dengan lebih baik.
+          </p>
         </div>
       ),
     },

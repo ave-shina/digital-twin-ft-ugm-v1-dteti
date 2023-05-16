@@ -67,13 +67,13 @@ export default function ModalPanorama(props) {
           {/* <!-- Modal body --> */}
           <div className={clsx('relative flex h-full w-full items-center justify-center p-2 sm:p-4')}>
             {/* Menampilkan Lokasi Kursor */}
-            {/* <p
+            <p
               className={clsx(
                 'absolute  bottom-3.5 left-1/2 z-50 -translate-x-1/2  px-4 py-2 ',
                 navigation.theme === 'dark' ? 'bg-[#121212]   text-white' : 'bg-white text-black',
               )}>
               pitch: {pitch}, yaw: {yaw}, transition:{' '}
-            </p> */}
+            </p>
             <p
               className={clsx(
                 'absolute top-3.5 z-10 px-4 py-2 text-xl',

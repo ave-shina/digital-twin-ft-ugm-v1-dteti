@@ -16,6 +16,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import { toggleLocation, toggleContent } from 'redux/navigation'
 import { useRouter } from 'next/router'
 
+import { Landmarks } from '../data/Landamarks'
+
 export default function Scene({ children, ...props }) {
   const { freeControl, introduction, showTooltip } = props
 
@@ -29,82 +31,12 @@ export default function Scene({ children, ...props }) {
   }
 
   // Digunakan untuk Zoom ketika object diklik
-  const locationData = {
-    name: '',
-    target: {},
-    camera: {},
+  const locationDataDefault = {
+    name: 'Default',
+    zoomTarget: [0, 0, 0],
+    zoomCamera: [200, 0, 10],
   }
-  switch (navigation.location) {
-    case 'DTETI':
-      locationData.name = 'DTETI'
-      locationData.target = { x: -50.97, z: 63.76 }
-      locationData.camera = { x: -120, y: 45, z: 0 }
-      break
-    case 'DTAP':
-      locationData.name = 'DTAP'
-      locationData.target = { x: -100.25, z: -70.23 }
-      locationData.camera = { x: 20, y: 70, z: -10 }
-      break
-    case 'DTSL':
-      locationData.name = 'DTSL'
-      locationData.target = { x: -5.34, z: -42.67 }
-      locationData.camera = { x: -80, y: 50, z: -80 }
-      break
-    case 'DTMI':
-      locationData.name = 'DTMI'
-      locationData.target = { x: -107.63, z: 60.57 }
-      locationData.camera = { x: 0, y: 55, z: 10 }
-      break
-    case 'DTK':
-      locationData.name = 'DTK'
-      locationData.target = { x: -105.56, z: 16.54 }
-      locationData.camera = { x: -15, y: 55, z: 65 }
-      break
-    case 'DTGD':
-      locationData.name = 'DTGD'
-      locationData.target = { x: -32.33, z: -90.66 }
-      locationData.camera = { x: -60, y: 47, z: -10 }
-      break
-    case 'DTGL':
-      locationData.name = 'DTGL'
-      locationData.target = { x: 38.34, z: 30.02 }
-      locationData.camera = { x: -40, y: 40, z: 65 }
-      break
-    case 'DTNTF':
-      locationData.name = 'DTNTF'
-      locationData.target = { x: 15.8, z: 60.66 }
-      locationData.camera = { x: -5, y: 30, z: 15 }
-      break
-    case 'TUGU TEKNIK':
-      locationData.name = 'TUGU TEKNIK'
-      locationData.target = { x: 45.33, z: 15.06 }
-      locationData.camera = { x: 150, y: 45, z: 65 }
-      break
-    case 'SGLC':
-      locationData.name = 'SGLC'
-      locationData.target = { x: -70.13, z: -5.22 }
-      locationData.camera = { x: 100, y: 70, z: 75 }
-      break
-    case 'PERPUSTAKAAN':
-      locationData.name = 'PERPUSTAKAAN'
-      locationData.target = { x: -30.1, z: 65.7 }
-      locationData.camera = { x: 5, y: 25, z: -10 }
-      break
-    case 'MASJID FT':
-      locationData.name = 'MASJID FT'
-      locationData.target = { x: -80.2, z: -38.63 }
-      locationData.camera = { x: 0, y: 40, z: -20 }
-      break
-    case 'ERIC':
-      locationData.name = 'ERIC'
-      locationData.target = { x: 100.55, z: 0.4 }
-      locationData.camera = { x: 200, y: 55, z: 90 }
-      break
-    default:
-      locationData.name = 'TUGU TEKNIK'
-      locationData.target = { x: 0, z: 0 }
-      locationData.camera = { x: 200, y: 0, z: 10 }
-  }
+  const locationData = Landmarks.data.find((item) => item.attributes.objectName === navigation.location)?.attributes
 
   const router = useRouter()
 
@@ -149,7 +81,11 @@ export default function Scene({ children, ...props }) {
           {/* <Perf /> */}
 
           {/* Controls */}
-          <Controls locationData={locationData} introduction={introduction} freeControl={freeControl} />
+          <Controls
+            locationData={locationData ? locationData : locationDataDefault}
+            introduction={introduction}
+            freeControl={freeControl}
+          />
           {/* mODEL */}
           <Model showTooltip={showTooltip} locationData={locationData} toggleZoom={toggleZoom}></Model>
           {/* Background */}

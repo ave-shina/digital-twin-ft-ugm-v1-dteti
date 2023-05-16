@@ -44,15 +44,15 @@ export default function Controls(props) {
       state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, navigation.location ? 15 : 50, step)
       state.camera.position.lerp(
         vec.set(
-          navigation.location != '' ? locationData.camera.x : camera.position.x,
-          navigation.location != '' ? locationData.camera.y : camera.position.y,
-          navigation.location != '' ? locationData.camera.z : camera.position.z,
+          navigation.location != '' ? locationData.zoomCamera[0] : camera.position.x,
+          navigation.location != '' ? locationData.zoomCamera[1] : camera.position.y,
+          navigation.location != '' ? locationData.zoomCamera[2] : camera.position.z,
         ),
         step,
       )
 
       const vectorLookAt = controls.current.target
-      const lookAt = new THREE.Vector3(locationData.target.x, 0, locationData.target.z)
+      const lookAt = new THREE.Vector3(locationData.zoomTarget[0], 0, locationData.zoomTarget[2])
       const start = new THREE.Vector3(0, 0, 0)
       state.camera.lookAt(vectorLookAt.lerp(navigation.location != '' ? lookAt : start, step))
       state.camera.updateProjectionMatrix()

@@ -5,6 +5,8 @@ import { useFrame } from '@react-three/fiber'
 
 import { useSelector } from 'react-redux'
 
+import { Landmarks } from '../data/Landamarks'
+
 export default function Model({ ...props }) {
   const navigation = useSelector((state) => state.navigation)
   // Mendapatkan fungsi toggle zoom dari parent
@@ -14,21 +16,16 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF('object/map-min.glb')
 
   //Deklarasi untuk Lokasi Tooltip
-  const locationData = [
-    { name: 'DTETI', position: [-59.97, 8.8, 53.76] },
-    { name: 'DTAP', position: [-84.25, 7.79, -62.23] },
-    { name: 'DTSL', position: [11.34, 11.07, -52.67] },
-    { name: 'DTMI', position: [-101.63, 7.76, 54.57] },
-    { name: 'DTK', position: [-89.56, 7.96, 24.54] },
-    { name: 'DTGD', position: [-36.33, 8.96, -76.66] },
-    { name: 'DTGL', position: [26.34, 8.98, 36.02] },
-    { name: 'DTNTF', position: [9.8, 7.84, 54.66] },
-    { name: 'TUGU TEKNIK', position: [61.33, 7.82, 22.06] },
-    { name: 'SGLC', position: [-36.13, 10.12, 18.22] },
-    { name: 'PERPUSTAKAAN', position: [-18.1, 9.93, 41.7] },
-    { name: 'MASJID FT', position: [-58.2, 8.58, -33.63] },
-    { name: 'ERIC', position: [108.55, 9.99, 10.4] },
-  ]
+  const locationData = []
+
+  for (let i = 0; i < Landmarks.data.length; i++) {
+    locationData.push({
+      name: Landmarks.data[i].attributes.objectName,
+      position: Landmarks.data[i].attributes.tooltipLocation,
+    })
+  }
+
+  console.log(locationData)
 
   const [object, setObject] = useState([])
 

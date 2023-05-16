@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Map from '../panorama/Map'
 import ModalPanorama from '../panorama/ModalPanorama'
-import Panorama from '../panorama/Panorama'
 import clsx from 'clsx'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -29,8 +28,6 @@ export default function Landmark(props) {
 
   // Informasi mengenai Map
   const mapDetail = data?.attributes?.mapDetail
-  // Informasi mengenai Panorama
-  const panoramaDetail = data?.attributes?.panoramaDetail
   // Informasi mengenai galeri
   const galleryDetail = data?.attributes?.galleryDetail
 
@@ -78,16 +75,11 @@ export default function Landmark(props) {
       id: 'gallery',
       show: data.attributes.isGallery,
     },
-    {
-      title: `Panorama`,
-      id: 'panorama',
-      show: data.attributes.isPanorama,
-    },
   ]
 
   // Fungsi dropdown
-  const [title, setTitle] = useState({ state: 0 })
-  const [prevTitle, setPrevTitle] = useState({ state: 0 })
+  const [title, setTitle] = useState({ state: 1 })
+  const [prevTitle, setPrevTitle] = useState({ state: 1 })
   const [open, setOpen] = useState(false)
 
   // Logika untuk menampilkan dan menyembunyikan dropdown
@@ -175,15 +167,6 @@ export default function Landmark(props) {
         )
       case 'gallery':
         return <Gallery galleryDetail={galleryDetail}></Gallery>
-      case 'panorama':
-        return (
-          <>
-            {panoramaDetail.map((item, index) => {
-              // console.log('test', item.show === true)
-              return <Panorama panoramaImage={`${item?.panoramaImage?.data.attributes.url}`} key={index} />
-            })}
-          </>
-        )
       default:
         return <></>
     }

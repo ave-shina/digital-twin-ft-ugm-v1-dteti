@@ -61,7 +61,6 @@ export default function BottomRight(props) {
       <button
         onClick={() => {
           dispatch(toggleContent('about'))
-          dispatch(setShowTooltip(false))
           router.push(
             {
               pathname: '/',

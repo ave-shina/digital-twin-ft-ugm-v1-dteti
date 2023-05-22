@@ -120,10 +120,10 @@ export default function Landmark(props) {
         </button>
       </div>
       <p>
-        Anda dapat memulai penjelajahan dengan menekan titik berbentuk lingkaran pada denah tersebut. lingkaran biru
-        nantinya akan memperlihatkan panorama jalan{' '}
-        <span className='mx-1 inline-block h-2 w-2 rounded-full bg-blue-600'></span>. Selanjutnya, pada tampilan
-        panorama akan ditampilkan dengan adanya ikon berbentuk kamera{' '}
+        Anda dapat memulai penjelajahan dengan menekan titik berbentuk lingkaran pada denah tersebut. lingkaran biru{' '}
+        <span className='mx-1 inline-block h-2 w-2 rounded-full bg-blue-600'></span>
+        akan menampilkan panorama lingkungan di sekitar titik tersebut . Selanjutnya, pada tampilan panorama akan
+        ditampilkan dengan adanya simbol berbentuk kamera{' '}
         <span className=' relative -bottom-1 inline-block h-4 w-4'>
           <Image
             src='https://img.icons8.com/material/4ac144/256/camera.png'
@@ -133,7 +133,7 @@ export default function Landmark(props) {
             className={clsx('h-full w-full')}
           />
         </span>
-        . Ikon ini akan membantu Anda menavigasi dan berpindah lokasi di dalam panorama.
+        .Simbol ini akan membantu Anda menavigasi dan berpindah lokasi di dalam panorama.
       </p>
     </p>
   )

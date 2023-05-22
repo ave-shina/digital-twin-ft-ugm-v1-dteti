@@ -91,11 +91,11 @@ export default function Tour() {
 
       <p>
         Anda dapat memulai penjelajahan Fakultas Teknik dengan menekan titik berbentuk lingkaran pada denah tersebut.
-        Lingkaran merah <span className='mx-1 inline-block h-2 w-2 rounded-full bg-red-500'></span> akan menunjukkan
-        informasi detail tentang bangunan, sementara lingkaran biru{' '}
-        <span className='mx-1 inline-block h-2 w-2 rounded-full bg-blue-600'></span> akan memperlihatkan panorama jalan.
-        Jangan lupa, Anda juga bisa memulai penjelajahan dengan menekan tombol di bawah ini. Selanjutnya, pada tampilan
-        panorama akan ditampilkan dengan adanya ikon berbentuk kamera{' '}
+        Lingkaran merah <span className='mx-1 inline-block h-2 w-2 rounded-full bg-red-500'></span> akan mengarahkan ke
+        halaman detail bangunan tersebut, sementara lingkaran biru{' '}
+        <span className='mx-1 inline-block h-2 w-2 rounded-full bg-blue-600'></span> akan menampilkan panorama
+        lingkungan di sekitar titik tersebut. Anda juga bisa memulai penjelajahan dengan menekan tombol di bawah ini.
+        Selanjutnya, pada tampilan panorama akan ditampilkan dengan adanya simbol berbentuk kamera{' '}
         <span className=' relative -bottom-1 inline-block h-4 w-4'>
           <Image
             src='https://img.icons8.com/material/4ac144/256/camera.png'
@@ -105,7 +105,7 @@ export default function Tour() {
             className={clsx('h-full w-full')}
           />
         </span>
-        . Ikon ini akan membantu Anda menavigasi dan berpindah lokasi di dalam panorama.Mari kita jelajahi bersama!
+        . Simbol ini akan membantu Anda menavigasi dan berpindah lokasi di dalam panorama.Mari kita jelajahi bersama!
       </p>
     </p>
   )

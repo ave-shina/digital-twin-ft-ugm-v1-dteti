@@ -136,7 +136,7 @@ function Map(props, children) {
               }}
               className={clsx(
                 !navigation.mapTourMessage ? ' left-4 cursor-pointer' : 'inset-x-4',
-                'absolute  bottom-8  z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
+                'absolute  bottom-4  z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
               )}>
               {!navigation.mapTourMessage ? (
                 <button className='my-1 flex cursor-pointer items-center justify-center'>
@@ -160,7 +160,7 @@ function Map(props, children) {
               }}
               className={clsx(
                 !navigation.mapLandmarkMessage ? ' left-4 !cursor-pointer' : 'inset-x-4',
-                'absolute bottom-8 z-[15] overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
+                'absolute bottom-4 z-[15] overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
               )}>
               {!navigation.mapLandmarkMessage ? (
                 <button className='my-1 flex cursor-pointer items-center justify-center'>

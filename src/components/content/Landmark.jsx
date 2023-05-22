@@ -152,7 +152,7 @@ export default function Landmark(props) {
               pagination={true}
               navigation={{ prevEl, nextEl }}
               className={clsx(
-                'mySwiper z-20 flex w-full rounded-md border border-solid  bg-gray-300',
+                'mySwiper z-10 flex w-full rounded-md border border-solid  bg-gray-300',
                 navigation.theme === 'dark' ? ' border-white' : ' !border-black',
               )}>
               {mapDetail.map((item, index) => {
@@ -176,7 +176,7 @@ export default function Landmark(props) {
 
             <div
               className={clsx(
-                'absolute left-[12%] top-1/2 z-20 m-auto flex -translate-x-1/2 -translate-y-1/2 cursor-pointer ',
+                'absolute left-[12%] top-1/2 z-10 m-auto flex -translate-x-1/2 -translate-y-1/2 cursor-pointer ',
                 navigation.theme === 'dark' ? ' text-white' : ' text-black',
               )}
               onClick={() => {
@@ -245,7 +245,7 @@ export default function Landmark(props) {
           <div className='mb-4 flex !h-full w-full flex-col flex-wrap  md:mb-0 md:flex-row'>
             <h1
               ref={scrollRef}
-              className={clsx('h-full w-screen font-medium leading-none text-white', 'text-5xl sm:text-9xl')}>
+              className={clsx('h-full w-full font-medium leading-none text-white', 'text-5xl sm:text-9xl')}>
               {data.attributes.objectName}
             </h1>
             {data.attributes.subName != null && (

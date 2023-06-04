@@ -2,12 +2,15 @@ export const TourData = {
   data: {
     id: 1,
     attributes: {
-      title: 'Jelajah Teknik',
       description:
         '<h3 style="margin-left:0px;text-align:justify;"><strong>Sejarah Fakultas Teknik</strong></h3><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Fakultas&nbsp; Teknik&nbsp; Universitas&nbsp; Gadjah&nbsp; Mada&nbsp; lahir&nbsp; dalam&nbsp; kancah revolusi.&nbsp; Pada&nbsp; akhir&nbsp; Perang&nbsp; Dunia II, setelah Jepang menyerah pada tahun 1945, dan diproklamasikan Kemerdekaan&nbsp; Indonesia pada tanggal 17 Agustus 1945, lahirlah Sekolah Tinggi Teknik (STT) Bandoeng. Sebagai hasil&nbsp; pengambilalihan kekuasaan dari&nbsp; pemerintah Jepang oleh Pemerintah Republik Indonesia, STT ini merupakan kelanjutan&nbsp;Koo Gyoo Dai Gaku&nbsp;pada masa pendudukan Jepang dan&nbsp;Technische Hoogeschool&nbsp;pada masa pendudukan Belanda.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Akibat pertikaian antara pemerintah Republik Indonesia dengan pemerintah Belanda yang dibantu oleh tentara Sekutu, dan juga atas usul beberapa mahasiswa, STT Bandoeng pada bulan Januari 1946 mengungsi ke Yogyakarta. Secara resmi, STT&nbsp; Bandoeng&nbsp; di Jogjakarta&nbsp; dibuka pada tanggal 17 Februari 1946, dengan bagian-bagian yang sama seperti ketika masih di Bandung, yakni Bagian Teknik Sipil, Bagian Teknik Mesin-Listrik, dan Bagian Teknik Kimia. Pada awal kegiatannya di Yogyakarta, STT ini&nbsp; menempati ruang-ruang di gedung olah raga Sekolah Menengah Tinggi (SMT) di kawasan Kota Baru. Kegiatan kuliah diselenggarakan pada sore hari.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun yang sama, yakni bulan Januari 1946 di Yogyakarta dibentuk Universitas atau Balai Perguruan Tinggi (BPT) Swasta Gadjah Mada. Namun STT Bandoeng tidak menjadi bagian dari Perguruan Tinggi Swasta tersebut, karena STT Bandoeng di Jogjakarta adalah lembaga pemerintah (negeri). Jadi STT Bandung merupakan perguruan tinggi negeri yang pertama di Yogyakarta.</p><p style="margin-left:0px;text-align:justify;"><br>Tidak lama kemudian STT Bandoeng di Jogjakarta diubah menjadi Sekolah Tinggi Teknik Jogjakarta, dan kegiatan perkuliahan pindah dari Kotabaru ke Kampus Jetis Yogyakarta. Dalam perkembangan selanjutnya selain Kampus Jetis, STT Jogjakarta juga memiliki laboratorium di Jl. Krasak dan di Jl. Pingit Yogyakarta.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Dalam masa perjuangan mempertahankan negara (Clash II, Desember 1948 – Oktober 1949), baik STT Jogjakarta maupun BPT&nbsp; Swasta Gadjah Mada terpaksa ditutup. Para dosen, mahasiswa dan pegawai STT Jogjakarta membantu perjuangan fisik dan turut bergerilya bersama-sama rakyat dan Tentara Nasional Indonesia. Pada tanggal 19 Desember 1949 setelah kedaulatan kembali ke tangan Republik Indonesia, STT Jogjakarta digabung dengan Sekolah Tinggi&nbsp; Kedokteran (yang sebelumnya hijrah ke Klaten setelah Jakarta diduduki Sekutu), dan Balai Perguruan Tinggi Gadjah Mada (swasta) menjadi Universiteit Negeri Gadjah Mada. STT Jogjakarta kemudian berstatus sebagai Fakulteit Teknik Universiteit Gadjah Mada dengan bagian yang sama seperti ketika masih di Bandung. Tanggal tersebut kemudian dinyatakan sebagai tanggal kelahiran Universitas Gadjah Mada.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1950, karena kekurangan staf pengajar dan mahasiswa. Bagian Mesin-Listrik Fakultas Teknik terpaksa ditutup. Pada tahun 1957 – 1966, Fakultas Teknik UGM memperoleh bantuan dari University of California Los Angeles (UCLA) berupa tenaga-tenaga pengajar,&nbsp; peralatan,&nbsp; buku-buku&nbsp; untuk pendidikan dan&nbsp; beasiswa pendidikan lanjut untuk staf pengajar. Dalam periode ini Fakultas Teknik UGM mengembangkan bagian-bagian baru, yaitu Bagian Teknik Mesin (1959), Bagian Teknik Geodesi-Geologi (1959) yang kemudian dipisah menjadi Bagian Teknik Geodesi dan Bagian Teknik Geologi (1962), Bagian Teknik Arsitektur (1962), dan&nbsp; Bagian Teknik Listrik (1963).</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Memasuki tahun 1966, awal masa pemerintahan Orde Baru, Fakultas Teknik UGM mengalami masa yang sulit, karena dana yang terbatas untuk perkembangannya. Kesulitan itu merangsang gagasan untuk mengadakan reuni dan mengajak para alumni Fakultas Teknik UGM untuk menyumbang tenaga dan pikiran bagi pengembangan Fakultas. Reuni ini melahirkan KATGAMA (Keluarga Alumni Teknik Universitas Gadjah Mada) yang ternyata mempunyai peran yang tidak kecil dalam berbagai upaya pembinaan dan pengembangan Fakultas Teknik UGM. KATGAMA ini pada perkembangan selanjutnya secara organisasi merupakan salah satu Komisariat dari KAGAMA (Keluarga Alumni Universitas Gadjah Mada).</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tanggal 5 Desember 1974 ditandatangani Kerjasama Induk antara Universitas Gadjah Mada dan Badan Tenaga Atom Nasional (BATAN) yang kemudian diperpanjang pada tanggal 22 Februari 1978. Pendidikan Teknik Nuklir merupakan salah satu kerjasama tersebut yang dituangkan dalam beberapa Naskah Pengaturan Kerjasama antara Universitas Gadjah Mada dengan Pusat Penelitian Bahan Murni dan Instrumentasi (PPBMI) dan Pusat Pendidikan dan Latihan (PUSDIKLAT) BATAN Yogyakarta. Hasil dari kerjasama tersebut adalah didirikannya Bagian Teknik Nuklir pada bulan Agustus 1977.Sesuai Surat Keputusan Menteri Pendidikan dan Kebudayaan No.: 043/U/1975 tentang pembentukan Pendidikan Ahli Teknik (PAT), pendidikan setelah pendidikan menengah harus diselenggarakan oleh Perguruan Tinggi, dalam hal ini Universitas/Institut. Berdasarkan surat keputusan tersebut beberapa Akademi Teknologi Negeri (ATN) di Yogyakarta dan sekitarnya yaitu Magelang, Purworejo, dan Klaten di-phase-in ke Fakultas Teknik Universitas Gadjah Mada menjadi PAT. Secara resmi PAT di Fakultas Teknik UGM dibuka pada tanggal 5 September 1977.Selanjutnya berdasarkan Peraturan Pemerintah No. : 27 tahun 1981 tentang Penataan Fakultas pada Universitas dan Peraturan Pemerintah No. : 53 Tahun 1982 tentang Sususan Organisasi Universitas Gadjah Mada, PAT yang semula berada di Fakultas Teknik UGM dikembangkan menjadi Fakultas tersendiri di lingkungan UGM dengan nama Fakultas Non-Gelar Teknologi (FNT), dan resmi dinyatakan berdiri pada awal Juni 1983 dengan tiga (3) jurusan, yaitu Teknik Elektro, Teknik Mesin, dan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sesuai dengan Peraturan Pemerintah No. 5 Tahun 1980&nbsp; maka&nbsp; mulai tahun 1981 setiap Bagian di lingkungan Fakultas Teknik UGM diubah menjadi Jurusan, sehingga namanya menjadi Jurusan Teknik Arsitektur, Jurusan&nbsp; Teknik&nbsp; Elektro,&nbsp; Jurusan&nbsp; Teknik&nbsp; Geodesi, Jurusan Teknik Geologi, Jurusan Teknik Kimia, Jurusan Teknik Mesin, Jurusan Teknik Nuklir, dan Jurusan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun yang sama sesuai dengan Surat Keputusan Menteri Pendidikan dan Kebudayaan No. 0218/U/1980 tentang Kurikulum Nasional Program Sarjana Ilmu Teknik, pada awal tahun akademik 1980/1981 seluruh jurusan di lingkungan Fakultas Teknik UGM melakukan penyempurnaan kurikulum secara serentak, menyesuaikan diri dengan Kurikulum Nasional.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1989 Dewan Perwakilan Rakyat Republik Indonesia mengesahkan Undang-undang tentang Sistem Pendidikan nasional (UUSPN) yang dikenal dengan Undang-undang No. : 2 Tahun 1989, yang diikuti dengan keluarnya Peraturan Pemerintah No. : 30 Tahun 1990 tanggal 10 Juli 1990 tentang Pendidikan Tinggi. Menindaklanjuti peraturan tersebut diatas adalah dikeluarkannya Surat Keputusan Menteri Pendidikan dan Kebudayaan RI No. : 0312/0/1991 tanggal 6 Juni 1991 yang mengatur tentang penutupan dan pengintegrasian Fakultas Non-Gelar Teknologi kedalam lingkungan Universitas dan Institut. Didalam lampiran surat keputusan tersebut ditetapkan bahwa jurusan-jurusan yang sesuai dengan FNT diintegrasikan ke jurusan-jurusan yang sesuai di Fakultas Teknik. Pada surat keputusan tersebut ditetapkan bahwa pelaksanaan ketentuan itu diatur oleh Rektor masing-masing Perguruan Tinggi.&nbsp; Setelah diterbitkannya Surat Keputusan Rektor UGM No.: UGM/2/119/UM/01/37 dan Surat Keputusan Dekan Fakultas Teknik UGM No. : UGM/TK/ 907/UM/01/39, maka mulai saat itu FNT sudah tidak ada.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Mulai tahun 1999, dibuka Program Diploma I Bidang Survey &amp; Pemetaan Kadastral di Jurusan Teknik Geodesi. Namun pada tahun 2000, program ini dikembangkan menjadi Program Diploma III Teknik Geomatika.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sejak tahun 1980 Fakultas Teknik mendapat bantuan dari Program Pendidikan IX Bank Dunia untuk pengembangannya. Pelaksanaan efektif Program Pendidikan Bank Dunia dimulai bulan Agustus 1981 dengan pengiriman tenaga pengajar Fakultas Teknik UGM untuk belajar di luar negeri. Selain itu juga didatangkan dosen tamu dan perencanaan pembangunan ruang kuliah dan&nbsp; ruang laboratorium. Sejak tahun 1996 kedelapan jurusan yang ada di Fakultas Teknik UGM telah menempati komplek Fakultas Teknik UGM yang baru, yaitu di Jl. Grafika 2, Kampus UGM Yogyakarta.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Tahun 1994 Fakultas Teknik UGM mulai menyelenggarakan program Pendidikan&nbsp; Ekstensi (S-1), Teknik Arsitektur dan Teknik Sipil bagi lulusan Sarjana Muda dan Program Diploma III sejenis. Mulai tahun akademik 1997/1998 dibuka Program Sarjana Ekstensi Pola A untuk lulusan SLTA dan Program Sarjana Ekstensi Pola B untuk lulusan Sarjana Muda dan Program Diploma III, melanjutkan Program Ekstensi yang sudah ada. Program Ekstensi berkembang dengan pesat, dan sejak tahun 2003 namanya berubah menjadi Program Swadaya A dan B. Saat ini Program Swadaya B telah diselenggarakan di Jurusan Teknik Arsitektur, Teknik Elektro, Teknik Fisika, Teknik Geodesi, Teknik Mesin (Program Studi Teknik Industri dan Program Studi Teknik Mesin), dan Teknik Sipil.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Pada tahun 1998 Fakultas Teknik UGM membuka Program Studi Teknik Industri yang berada di bawah Jurusan Teknik Mesin dan Program Studi Teknik Fisika yang berada di bawah Jurusan Teknik Nuklir. Pada tahun itu pula Jurusan Teknik Nuklir diganti menjadi Jurusan Teknik Fisika, dengan menyelenggarakan 2 (dua) program studi, yaitu Teknik Fisika dan Teknik Nuklir.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Dengan diberlakukannya Keputusan Menteri Pendidikan Nasional No. 232/U/2000, maka sejak tahun 2001/2002 seluruh program studi di lingkungan Fakultas Teknik UGM telah memberlakukan kurikulum baru yang berbasis pada kompentensi lulusan yang berorientasi kepada&nbsp;learning to know, learning to do, learning to live together dan learning to be. Kurikulum 2001/2002 tersebut lebih ringkas dan lebih padat, yakni berkisar antara 144 sks – 151 sks dan terdistribusi dalam 8 semester, sehingga diharapkan dapat meningkatkan jumlah dan kualitas lulusan serta memper-pendek lama studi rerata mahasiswa.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p><p style="margin-left:0px;text-align:justify;">Sebagai bagian dari perkembangan tata kelola UGM, melalui SK MWA nomor 4/SK/MWA/2014, frasa jurusan berubah menjadi departemen. Sehingga saat ini terdapat 8 departemen di lingkungan FT UGM, yaitu: Departemen Teknik Arsitektur dan Perencanaan, Departemen Teknik Elektro dan Teknologi Informasi, Departemen Teknik Nuklir dan Teknik Fisika, Departemen Teknik Geodesi, Departemen Teknik Geologi, Departemen Teknik Kimia, Departemen Teknik Mesin dan Industri, dan Departemen Teknik Sipil dan Lingkungan.</p><p style="margin-left:0px;text-align:justify;">&nbsp;</p>',
       createdAt: '2023-04-26T12:10:58.307Z',
-      updatedAt: '2023-05-08T05:13:01.723Z',
+      updatedAt: '2023-06-04T05:06:35.023Z',
       publishedAt: '2023-04-26T12:10:59.934Z',
+      name: 'Jelajah Teknik',
+      isMap: true,
+      isGallery: true,
+      isDescription: true,
       panoramaData: [
         {
           id: 7,
@@ -124,7 +127,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [685, 420, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 215,
@@ -230,7 +232,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [730, 290, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 217,
@@ -336,7 +337,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [720, 170, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 218,
@@ -442,7 +442,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [630, 135, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 216,
@@ -548,7 +547,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [560, 105, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 219,
@@ -654,7 +652,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [460, 55, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 220,
@@ -760,7 +757,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [350, 40, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 221,
@@ -866,7 +862,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [230, 120, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 223,
@@ -972,7 +967,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [235, 275, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 225,
@@ -1083,7 +1077,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [160, 340, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 224,
@@ -1189,7 +1182,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [110, 365, 10],
-              isCrooked: true,
               mapImage: {
                 data: {
                   id: 226,
@@ -1295,7 +1287,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [45, 465, 10],
-              isCrooked: true,
               mapImage: {
                 data: {
                   id: 227,
@@ -1401,7 +1392,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [155, 553, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 228,
@@ -1507,7 +1497,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [245, 553, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 232,
@@ -1613,7 +1602,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [345, 520, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 230,
@@ -1719,7 +1707,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [435, 545, 10],
-              isCrooked: false,
               mapImage: {
                 data: {
                   id: 229,
@@ -1825,7 +1812,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [535, 600, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 233,
@@ -1931,7 +1917,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [705, 660, 10],
-              isCrooked: true,
               mapImage: {
                 data: {
                   id: 231,
@@ -2037,7 +2022,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [705, 570, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 234,
@@ -2143,7 +2127,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [300, 440, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 245,
@@ -2249,7 +2232,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [260, 430, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 253,
@@ -2360,7 +2342,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [265, 390, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 254,
@@ -2466,7 +2447,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [225, 385, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 255,
@@ -2572,7 +2552,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [205, 360, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 252,
@@ -2678,7 +2657,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [275, 370, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 250,
@@ -2789,7 +2767,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [330, 390, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 257,
@@ -2895,7 +2872,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [325, 425, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 256,
@@ -3001,7 +2977,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [370, 395, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 261,
@@ -3107,7 +3082,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [410, 410, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 259,
@@ -3218,7 +3192,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [445, 415, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 263,
@@ -3334,7 +3307,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [470, 385, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 258,
@@ -3445,7 +3417,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [470, 340, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 262,
@@ -3551,7 +3522,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [450, 330, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 260,
@@ -3662,7 +3632,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [405, 320, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 264,
@@ -3768,7 +3737,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [375, 325, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 265,
@@ -3874,7 +3842,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [370, 360, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 266,
@@ -3990,7 +3957,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [445, 270, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 269,
@@ -4101,7 +4067,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [455, 240, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 270,
@@ -4207,7 +4172,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [425, 230, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 273,
@@ -4313,7 +4277,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [405, 200, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 271,
@@ -4415,11 +4378,10 @@ export const TourData = {
                 {
                   pitch: -0.248253373651424,
                   yaw: 20.871965149115468,
-                  transition: 'taman-teknik-2-5',
+                  transition: 'taman-teknik-2-4',
                 },
               ],
               mapCoordinate: [415, 165, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 272,
@@ -4525,7 +4487,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [515, 220, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 268,
@@ -4631,7 +4592,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [500, 245, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 274,
@@ -4742,7 +4702,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [665, 475, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 279,
@@ -4843,7 +4802,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [655, 510, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 278,
@@ -4949,7 +4907,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [505, 395, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 277,
@@ -5055,7 +5012,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [575, 420, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 275,
@@ -5161,7 +5117,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [620, 435, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 276,
@@ -5267,7 +5222,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [450, 440, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 284,
@@ -5373,7 +5327,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [495, 275, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 282,
@@ -5474,7 +5427,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [545, 290, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 280,
@@ -5585,7 +5537,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [475, 415, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 281,
@@ -5696,7 +5647,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [505, 455, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 283,
@@ -5802,7 +5752,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [525, 475, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 285,
@@ -5908,7 +5857,6 @@ export const TourData = {
                 },
               ],
               mapCoordinate: [500, 495, 10],
-              isCrooked: null,
               mapImage: {
                 data: {
                   id: 286,
@@ -5998,6 +5946,117 @@ export const TourData = {
               },
             },
           ],
+        },
+      ],
+      galleryDetail: [
+        {
+          id: 71,
+          name: 'FT_UGM_1',
+          description: '',
+          galleryImage: {
+            data: {
+              id: 375,
+              attributes: {
+                name: 'hqdefault.jpg',
+                alternativeText: null,
+                caption: null,
+                width: 480,
+                height: 360,
+                formats: {
+                  thumbnail: {
+                    name: 'thumbnail_hqdefault.jpg',
+                    hash: 'thumbnail_hqdefault_aeea64cde0',
+                    ext: '.jpg',
+                    mime: 'image/jpeg',
+                    path: null,
+                    width: 208,
+                    height: 156,
+                    size: 10.58,
+                    url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1685855140/thumbnail_hqdefault_aeea64cde0.jpg',
+                    provider_metadata: {
+                      public_id: 'thumbnail_hqdefault_aeea64cde0',
+                      resource_type: 'image',
+                    },
+                  },
+                },
+                hash: 'hqdefault_aeea64cde0',
+                ext: '.jpg',
+                mime: 'image/jpeg',
+                size: 59.77,
+                url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1685855141/hqdefault_aeea64cde0.jpg',
+                previewUrl: null,
+                provider: 'cloudinary',
+                provider_metadata: {
+                  public_id: 'hqdefault_aeea64cde0',
+                  resource_type: 'image',
+                },
+                createdAt: '2023-06-04T05:05:41.621Z',
+                updatedAt: '2023-06-04T05:05:41.621Z',
+              },
+            },
+          },
+        },
+        {
+          id: 72,
+          name: 'FT_UGM_2',
+          description: '',
+          galleryImage: {
+            data: {
+              id: 376,
+              attributes: {
+                name: '221108_インドネシア_UGM_SGLC-headquarter.jpg',
+                alternativeText: null,
+                caption: null,
+                width: 739,
+                height: 620,
+                formats: {
+                  thumbnail: {
+                    name: 'thumbnail_221108_インドネシア_UGM_SGLC-headquarter.jpg',
+                    hash: 'thumbnail_221108_UGM_SGLC_headquarter_aa2a3c2142',
+                    ext: '.jpg',
+                    mime: 'image/jpeg',
+                    path: null,
+                    width: 186,
+                    height: 156,
+                    size: 10.16,
+                    url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1685855140/thumbnail_221108_UGM_SGLC_headquarter_aa2a3c2142.jpg',
+                    provider_metadata: {
+                      public_id: 'thumbnail_221108_UGM_SGLC_headquarter_aa2a3c2142',
+                      resource_type: 'image',
+                    },
+                  },
+                  small: {
+                    name: 'small_221108_インドネシア_UGM_SGLC-headquarter.jpg',
+                    hash: 'small_221108_UGM_SGLC_headquarter_aa2a3c2142',
+                    ext: '.jpg',
+                    mime: 'image/jpeg',
+                    path: null,
+                    width: 500,
+                    height: 419,
+                    size: 68.82,
+                    url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1685855141/small_221108_UGM_SGLC_headquarter_aa2a3c2142.jpg',
+                    provider_metadata: {
+                      public_id: 'small_221108_UGM_SGLC_headquarter_aa2a3c2142',
+                      resource_type: 'image',
+                    },
+                  },
+                },
+                hash: '221108_UGM_SGLC_headquarter_aa2a3c2142',
+                ext: '.jpg',
+                mime: 'image/jpeg',
+                size: 442.03,
+                url: 'https://res.cloudinary.com/dhobqwoky/image/upload/v1685855142/221108_UGM_SGLC_headquarter_aa2a3c2142.jpg',
+                previewUrl: null,
+                provider: 'cloudinary',
+                provider_metadata: {
+                  public_id: '221108_UGM_SGLC_headquarter_aa2a3c2142',
+                  resource_type: 'image',
+                },
+                createdAt: '2023-06-04T05:05:42.729Z',
+                updatedAt: '2023-06-04T05:05:42.729Z',
+              },
+            },
+          },
         },
       ],
     },

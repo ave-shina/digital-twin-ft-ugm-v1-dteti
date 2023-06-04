@@ -9,7 +9,7 @@ import clsx from 'clsx'
 
 import { useSelector } from 'react-redux'
 
-export default function ModalPanorama(props) {
+export default function Panorama(props) {
   const { currentScene, setCurrentScene, setOpenPanorama, openPanorama, sceneInformation, title } = props
 
   // Current Scene = Lokasi panorama

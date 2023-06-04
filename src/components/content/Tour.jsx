@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 // Komponen Map dan panorama
-import Map from '../panorama/Map'
-import ModalPanorama from '../panorama/ModalPanorama'
+import Map from '../Map/Map'
+import Panorama from '../panorama/Panorama'
 
 import clsx from 'clsx'
 // Data utama untuk fitur Tour
@@ -9,6 +9,8 @@ import { TourData } from '../data/Tour'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setMapTourMessage } from 'redux/navigation'
+
+import Gallery from '../gallery/Gallery'
 
 import Image from 'next/image'
 
@@ -30,6 +32,8 @@ export default function Tour() {
     })
   }
 
+  const galleryDetail = TourData.data?.attributes?.galleryDetail
+
   // Menentukan lokasi panorama awal
   useEffect(() => {
     setCurrentScene(mapInformation[0].name)
@@ -45,6 +49,11 @@ export default function Tour() {
     {
       title: `Jelajah `,
       id: 'map',
+      show: true,
+    },
+    {
+      title: `Gallery`,
+      id: 'gallery',
       show: true,
     },
   ]
@@ -151,6 +160,8 @@ export default function Tour() {
             </button>
           </div>
         )
+      case 'gallery':
+        return <Gallery galleryDetail={galleryDetail}></Gallery>
       default:
         return <></>
     }
@@ -160,12 +171,12 @@ export default function Tour() {
     <>
       {/* Komponen Modal Panorama */}
       {sceneInformation.length > 0 && (
-        <ModalPanorama
+        <Panorama
           sceneInformation={sceneInformation}
           openPanorama={openPanorama}
           setOpenPanorama={setOpenPanorama}
           currentScene={currentScene}
-          setCurrentScene={setCurrentScene}></ModalPanorama>
+          setCurrentScene={setCurrentScene}></Panorama>
       )}
 
       <div

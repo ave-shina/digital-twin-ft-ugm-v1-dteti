@@ -14,7 +14,7 @@ const Landmark = dynamic(() => import('./Landmark'), {
 
 import { useSelector } from 'react-redux'
 
-export default function Layout(props) {
+export default function Content(props) {
   const navigation = useSelector((state) => state.navigation)
 
   return (

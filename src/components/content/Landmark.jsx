@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
-import Map from '../panorama/Map'
-import ModalPanorama from '../panorama/ModalPanorama'
+import Map from '../Map/Map'
+import Panorama from '../panorama/Panorama'
 import clsx from 'clsx'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -246,13 +246,13 @@ export default function Landmark(props) {
     <>
       {/* Komponen Modal Panorama */}
       {sceneInformation.length > 0 && (
-        <ModalPanorama
+        <Panorama
           title={title}
           sceneInformation={sceneInformation}
           openPanorama={openPanorama}
           setOpenPanorama={setOpenPanorama}
           currentScene={currentScene}
-          setCurrentScene={setCurrentScene}></ModalPanorama>
+          setCurrentScene={setCurrentScene}></Panorama>
       )}
       <div
         className={clsx(

@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import { useSelector, useDispatch } from 'react-redux'
 import { setFirstTutorial } from 'redux/navigation'
 
-import Layout from '@/components/content/Layout'
+import Content from '@/components/content/Content'
 import Loading from '@/components/Loading'
 import StoryBoard from '@/components/StoryBoard'
 const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: false })
@@ -16,7 +16,7 @@ import BottomLeft from '@/components/navigation/BottomLeft'
 import BottomRight from '@/components/navigation/BottomRight'
 import TopRight from '@/components/navigation/TopRight'
 
-import Tutorial from '@/components/Tutorial'
+import Tutorial from '@/components/Tutorial/Tutorial'
 
 export default function Page(props) {
   const dispatch = useDispatch()
@@ -111,7 +111,7 @@ export default function Page(props) {
         <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction}></Tutorial>
 
         {/* Komponen Fitur */}
-        {router.query.content && <Layout></Layout>}
+        {router.query.content && <Content></Content>}
 
         {/*  */}
         {/*  */}

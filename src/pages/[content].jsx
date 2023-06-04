@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 
-import Layout from '@/components/content/Layout'
-
+import Content from '@/components/content/Content'
 import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
 import { toggleContent, toggleLocation, setMusic } from 'redux/navigation'
@@ -9,7 +8,7 @@ import clsx from 'clsx'
 import { Landmarks } from '../components/data/Landamarks'
 import Image from 'next/image'
 
-export default function Content() {
+export default function ContentLayout() {
   const router = useRouter()
   const dispatch = useDispatch()
 
@@ -93,7 +92,7 @@ export default function Content() {
         )}
       </div>
       {/* Komponen Fitur */}
-      {navigation.content != undefined && <Layout></Layout>}
+      {navigation.content != undefined && <Content></Content>}
     </div>
   )
 }

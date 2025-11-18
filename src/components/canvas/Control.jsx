@@ -83,7 +83,7 @@ export default function Controls(props) {
         ref={controls}
         //
         //
-        autoRotateSpeed={introduction === 'storyBoard' ? 0.5 : 0.01}
+        autoRotateSpeed={introduction === 'storyBoard' ? 0.5 : 0.3}
         minDistance={130}
         maxDistance={180}
         maxPolarAngle={Math.PI / 2 - 0.1}

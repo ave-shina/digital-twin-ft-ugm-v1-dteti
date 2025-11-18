@@ -25,10 +25,19 @@ export default function Scene({ children, ...props }) {
   const navigation = useSelector((state) => state.navigation)
 
   // Konfigurasi posisi kamera dan FoV semakin besar semakin luas
+  // camStartPosition: Initial camera position (x, y, z)
+  // camSBAwalFov: Initial field of view (larger = wider view)
   const config = {
     camStartPosition: new THREE.Vector3(0, 15, 25),
     camSBAwalFov: 30,
   }
+
+  // Camera rendering distance (clipping planes)
+  // near: Objects closer than this won't render (default: 0.1)
+  // far: Objects farther than this won't render (default: 500)
+  // Increase 'far' to see objects at greater distances
+  const CAMERA_NEAR = 0.1
+  const CAMERA_FAR = 500
 
   // Digunakan untuk Zoom ketika object diklik
   const locationDataDefault = {
@@ -82,10 +91,13 @@ export default function Scene({ children, ...props }) {
         // Agar tidak selalu Rendering
         frameloop='demand'
         // Memasukkan konfigurasi yang sudah dideklarasikan sebelumnya
-        camera={{ fov: config.camSBAwalFov, near: 0.1, far: 500, position: config.camStartPosition }}
+        camera={{ fov: config.camSBAwalFov, near: CAMERA_NEAR, far: CAMERA_FAR, position: config.camStartPosition }}
         {...props}>
+        {/* Set background color to white */}
+        {/* <color attach='background' args={['white']} /> */}
         {/* Performen Monitor default factor 0,5 */}
         <PerformanceMonitor onChange={({ factor }) => setDpr(round(0.5 + 1 * factor, 1))}>
+          {/* Fog effect to blur objects before they touch the background */}
           {/* Lightning Three */}
           <directionalLight intensity={0.75} />
           <ambientLight intensity={0.75} />

@@ -24,6 +24,7 @@ export default function Page(props) {
 
   const [introduction, setIntroduction] = useState('storyBoard')
   const [freeControl, setFreeControl] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
 
   const myRef = useRef()
   const router = useRouter()
@@ -31,6 +32,11 @@ export default function Page(props) {
   const [musicStart, setMusicStart] = useState(false)
   const [openForm, setOpenForm] = useState(false)
   const [tutorial, setTutorial] = useState(false)
+
+  // Ensure component is mounted before using router.query
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
 
   // Mulai Jelajah
   const startVmap = () => {
@@ -43,32 +49,54 @@ export default function Page(props) {
         : (setIntroduction(''), setTutorial(true), dispatch(setFirstTutorial(true), setFreeControl(true)))
     }
 
-    if (navigation.music) {
+    if (navigation.music && myRef.current) {
       myRef.current.volume = 0.1
-      myRef.current.play()
       myRef.current.loop = true
+      const playPromise = myRef.current.play()
+      if (playPromise !== undefined) {
+        playPromise.catch((error) => {
+          // Auto-play was prevented or failed
+          console.log('Audio play failed:', error)
+        })
+      }
     }
   }
 
   // Untuk menyalakan dan mematikan musik
   useEffect(() => {
+    if (typeof window === 'undefined' || !myRef.current) return
+
     if (!navigation.music && musicStart) {
       myRef.current.pause()
     } else if (navigation.music && musicStart) {
-      myRef.current.play()
       myRef.current.volume = 0.1
       myRef.current.loop = true
+      const playPromise = myRef.current.play()
+      if (playPromise !== undefined) {
+        playPromise.catch((error) => {
+          // Auto-play was prevented or failed
+          console.log('Audio play failed:', error)
+        })
+      }
     }
-  }, [navigation.music])
+  }, [navigation.music, musicStart])
 
   // Untuk mematikan musik ketika berpindah tab
   useEffect(() => {
+    if (typeof window === 'undefined') return
+
     const handleVisibilityChange = () => {
       if (document.hidden) {
-        myRef.current.pause()
+        myRef.current?.pause()
       } else {
-        if (navigation.music) {
-          myRef.current.play()
+        if (navigation.music && myRef.current) {
+          const playPromise = myRef.current.play()
+          if (playPromise !== undefined) {
+            playPromise.catch((error) => {
+              // Auto-play was prevented or failed
+              console.log('Audio play failed:', error)
+            })
+          }
         }
       }
     }
@@ -83,11 +111,8 @@ export default function Page(props) {
       {/* Loading */}
       <Loading></Loading>
       {/* Komponen Audio */}
-      <audio ref={myRef}>
-        <source
-          src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'
-          type='audio/mpeg'
-        />
+      <audio ref={myRef} preload='auto'>
+        <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
       {/* Konten Utama */}
       <div className='absolute h-full w-full bg-[#121212]'>
@@ -108,13 +133,10 @@ export default function Page(props) {
         {/* Komponen Introduction */}
         {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
         {/* Komponen Tutotrial */}
-        <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction}></Tutorial>
+        <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction} />
 
         {/* Komponen Fitur */}
-        {router.query.content && <Content></Content>}
-
-        {/*  */}
-        {/*  */}
+        {isMounted && router.query.content && <Content />}
 
         {/* Komponen Navigasi */}
         {navigation.content == '' && (

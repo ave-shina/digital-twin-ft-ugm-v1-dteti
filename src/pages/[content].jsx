@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 import Content from '@/components/content/Content'
 import { useRouter } from 'next/router'
@@ -11,16 +11,22 @@ import Image from 'next/image'
 export default function ContentLayout() {
   const router = useRouter()
   const dispatch = useDispatch()
+  const [isMounted, setIsMounted] = useState(false)
+
+  // Ensure component is mounted before using router.query
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
 
   // Iniasi Redux sesuai dengan router
   useEffect(() => {
-    if (router.query.content != undefined) {
+    if (isMounted && router.query.content != undefined) {
       dispatch(toggleContent(router.query.content))
     }
-    if (router.query.location != undefined) {
+    if (isMounted && router.query.location != undefined) {
       dispatch(toggleLocation(router.query.location))
     }
-  }, [router])
+  }, [router, isMounted, dispatch])
 
   useEffect(() => {
     dispatch(setMusic(false))
@@ -36,23 +42,39 @@ export default function ContentLayout() {
   // Komponen musik
   const myRef = useRef()
   useEffect(() => {
+    if (typeof window === 'undefined' || !myRef.current) return
+
     if (!navigation.music) {
       myRef.current.pause()
     } else if (navigation.music) {
-      myRef.current.play()
       myRef.current.volume = 0.1
       myRef.current.loop = true
+      const playPromise = myRef.current.play()
+      if (playPromise !== undefined) {
+        playPromise.catch((error) => {
+          // Auto-play was prevented or failed
+          console.log('Audio play failed:', error)
+        })
+      }
     }
   }, [navigation.music])
 
   // Mematikan musik saat berganti tab
   useEffect(() => {
+    if (typeof window === 'undefined') return
+
     const handleVisibilityChange = () => {
       if (document.hidden) {
-        myRef.current.pause()
+        myRef.current?.pause()
       } else {
-        if (navigation.music) {
-          myRef.current.play()
+        if (navigation.music && myRef.current) {
+          const playPromise = myRef.current.play()
+          if (playPromise !== undefined) {
+            playPromise.catch((error) => {
+              // Auto-play was prevented or failed
+              console.log('Audio play failed:', error)
+            })
+          }
         }
       }
     }
@@ -67,11 +89,8 @@ export default function ContentLayout() {
   return (
     <div className='absolute h-full w-full bg-[#121212]'>
       {/* Komponen Musik */}
-      <audio ref={myRef} preload='none'>
-        <source
-          src='https://drive.google.com/uc?authuser=0&id=1nm8IgNlq-mi1jS9W6Pg9UtE1obAaXAGD&export=download'
-          type='audio/mpeg'
-        />
+      <audio ref={myRef} preload='auto'>
+        <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
       <div className={clsx('absolute h-full w-full')}>
         {/* Komponen Latar belakang */}
@@ -82,7 +101,7 @@ export default function ContentLayout() {
               className='h-full w-full'
               alt={thumbnail.name}
               placeholder='blur'
-              blurDataURL={'true'}
+              blurDataURL={thumbnail.url}
               height={720}
               width={192}
               style={{ objectFit: 'cover' }}
@@ -92,7 +111,7 @@ export default function ContentLayout() {
         )}
       </div>
       {/* Komponen Fitur */}
-      {navigation.content != undefined && <Content></Content>}
+      {navigation.content != undefined && <Content />}
     </div>
   )
 }

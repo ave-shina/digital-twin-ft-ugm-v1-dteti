@@ -17,6 +17,8 @@ export default function Controls(props) {
   // agar mendapatkan akses kontrol
   const controls = useRef()
   const step = 0.025
+  // Maximum radius for circular pan boundary (adjust this value to change the circle size)
+  const maxPanRadius = 60
 
   // useFrame digunakan untuk memantau setiap perubahan vektor 3dimensi pada threejs
   useFrame((state) => {
@@ -28,34 +30,50 @@ export default function Controls(props) {
       state.camera.updateProjectionMatrix()
     }
 
-    // untuk control
-    if (controls.current && introduction === '' && freeControl == true) {
-      let _v = new THREE.Vector3()
-      let minPan = new THREE.Vector3(0, 0, 0)
-      let maxPan = new THREE.Vector3(0, 0, 0)
-      _v.copy(controls.current.target)
-      navigation.location === '' && controls.current.target.clamp(minPan, maxPan)
-      _v.sub(controls.current.target)
-      camera.position.sub(_v)
+    // untuk zoom
+    if (locationData && controls.current) {
+      if (navigation.location !== '') {
+        state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, 15, step)
+        state.camera.position.lerp(
+          vec.set(locationData.zoomCamera[0], locationData.zoomCamera[1], locationData.zoomCamera[2]),
+          step,
+        )
+
+        const vectorLookAt = controls.current.target
+        const lookAt = new THREE.Vector3(locationData.zoomTarget[0], 0, locationData.zoomTarget[2])
+        const targetLerp = vectorLookAt.clone().lerp(lookAt, step)
+        controls.current.target.copy(targetLerp)
+        state.camera.lookAt(targetLerp)
+        state.camera.updateProjectionMatrix()
+      } else {
+        state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, 50, step)
+        state.camera.updateProjectionMatrix()
+      }
     }
 
-    // untuk zoom
-    if (locationData) {
-      state.camera.fov = THREE.MathUtils.lerp(state.camera.fov, navigation.location ? 15 : 50, step)
-      state.camera.position.lerp(
-        vec.set(
-          navigation.location != '' ? locationData.zoomCamera[0] : camera.position.x,
-          navigation.location != '' ? locationData.zoomCamera[1] : camera.position.y,
-          navigation.location != '' ? locationData.zoomCamera[2] : camera.position.z,
-        ),
-        step,
-      )
+    // untuk control - constrain pan center to circular area (only when not zooming to a location)
+    if (controls.current && introduction === '' && freeControl == true && navigation.location === '') {
+      const target = controls.current.target
+      // Keep Y at 0 (horizontal plane)
+      target.y = 0
 
-      const vectorLookAt = controls.current.target
-      const lookAt = new THREE.Vector3(locationData.zoomTarget[0], 0, locationData.zoomTarget[2])
-      const start = new THREE.Vector3(0, 0, 0)
-      state.camera.lookAt(vectorLookAt.lerp(navigation.location != '' ? lookAt : start, step))
-      state.camera.updateProjectionMatrix()
+      // Calculate distance from center on XZ plane
+      const distanceFromCenter = Math.sqrt(target.x * target.x + target.z * target.z)
+
+      // If target is outside the circle, clamp it to the circle boundary
+      if (distanceFromCenter > maxPanRadius) {
+        // Calculate the angle to preserve direction
+        const angle = Math.atan2(target.z, target.x)
+        // Store the offset before clamping
+        const offset = new THREE.Vector3().subVectors(camera.position, target)
+
+        // Clamp target to circle boundary
+        target.x = Math.cos(angle) * maxPanRadius
+        target.z = Math.sin(angle) * maxPanRadius
+
+        // Adjust camera position to maintain relative position to target
+        camera.position.copy(target).add(offset)
+      }
     }
   })
 
@@ -65,11 +83,11 @@ export default function Controls(props) {
         ref={controls}
         //
         //
-        autoRotateSpeed={0.5}
+        autoRotateSpeed={introduction === 'storyBoard' ? 0.5 : 0.01}
         minDistance={130}
-        maxDistance={230}
+        maxDistance={180}
         maxPolarAngle={Math.PI / 2 - 0.1}
-        target={[0, 0, 0]}
+        // Removed fixed target to allow free camera movement
         //
         //
         autoRotate={navigation.location === ''}

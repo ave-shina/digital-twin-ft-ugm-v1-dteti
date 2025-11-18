@@ -17,9 +17,11 @@ export const navigationSlice = createSlice({
   reducers: {
     toggleTheme: (state) => {
       state.theme = state.theme === 'light' ? 'dark' : 'light'
-      localStorage.getItem('theme') === 'light'
-        ? localStorage.setItem('theme', 'dark')
-        : localStorage.setItem('theme', 'light')
+      if (typeof window !== 'undefined') {
+        localStorage.getItem('theme') === 'light'
+          ? localStorage.setItem('theme', 'dark')
+          : localStorage.setItem('theme', 'light')
+      }
     },
     setTheme: (state, { payload }) => {
       state.theme = payload
@@ -35,17 +37,23 @@ export const navigationSlice = createSlice({
     },
     toggleMusic: (state) => {
       state.music = state.music === false ? true : false
-      localStorage.getItem('music') === 'true'
-        ? localStorage.setItem('music', false)
-        : localStorage.setItem('music', true)
+      if (typeof window !== 'undefined') {
+        localStorage.getItem('music') === 'true'
+          ? localStorage.setItem('music', 'false')
+          : localStorage.setItem('music', 'true')
+      }
     },
     setMusic: (state, { payload }) => {
       state.music = payload
-      localStorage.setItem('music', payload)
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('music', payload.toString())
+      }
     },
     setFirstTutorial: (state, { payload }) => {
       state.firstTutorial = payload
-      localStorage.setItem('firstTutorial', true)
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('firstTutorial', payload.toString())
+      }
     },
     setMapTourMessage: (state, { payload }) => {
       state.mapTourMessage = payload

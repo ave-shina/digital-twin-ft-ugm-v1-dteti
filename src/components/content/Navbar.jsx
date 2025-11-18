@@ -14,6 +14,7 @@ export default function Navbar(props) {
   const [scrollY, setScrollY] = useState(0)
   const [prevScrollPos, setPrevScrollPos] = useState(0)
   const [isNavbarVisible, setIsNavbarVisible] = useState(true)
+  const [screenHeight, setScreenHeight] = useState(0)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +31,18 @@ export default function Navbar(props) {
     }
   }, [prevScrollPos])
 
-  const screenHeight = window.screen.height - 400
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+
+    const updateScreenHeight = () => {
+      setScreenHeight(window.innerHeight - 400)
+    }
+
+    updateScreenHeight()
+    window.addEventListener('resize', updateScreenHeight)
+
+    return () => window.removeEventListener('resize', updateScreenHeight)
+  }, [])
 
   const router = useRouter()
 

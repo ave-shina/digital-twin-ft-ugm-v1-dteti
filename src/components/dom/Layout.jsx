@@ -16,6 +16,7 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
 
       if (theme === null) {
         localStorage.setItem('theme', 'light')
+        dispatch(setTheme('light'))
       } else {
         dispatch(setTheme(theme))
       }
@@ -24,6 +25,7 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
 
       if (music === null) {
         localStorage.setItem('music', 'true')
+        dispatch(setMusic(true))
       } else {
         dispatch(setMusic(music === 'true'))
       }
@@ -31,11 +33,12 @@ const Layout = forwardRef(({ children, ...props }, ref) => {
       const firstTutorial = localStorage.getItem('firstTutorial')
       if (firstTutorial === null) {
         localStorage.setItem('firstTutorial', 'false')
+        dispatch(setFirstTutorial(false))
       } else {
         dispatch(setFirstTutorial(firstTutorial === 'true'))
       }
     }
-  }, [typeof window])
+  }, [dispatch])
 
   return (
     <div {...props} ref={localRef} className=' min-h-full w-full !p-0'>

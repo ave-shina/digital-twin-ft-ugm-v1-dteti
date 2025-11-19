@@ -187,7 +187,7 @@ export default function Tour() {
         <h1
           className={clsx(
             '-m-2 pb-8  font-medium leading-none text-black',
-            'text-6xl sm:text-8xl',
+            'text-5xl sm:text-6xl',
             navigation.theme === 'dark' ? '  text-white' : ' text-black',
           )}>
           Jelajah Teknik

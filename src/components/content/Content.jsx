@@ -23,7 +23,7 @@ export default function Content(props) {
         <div className={clsx('absolute h-full  w-full scrollbar', navigation.showTooltip ? 'z-[99999999]' : '')}>
           <div className={clsx('  min-h-full w-full  ', navigation.theme === 'dark' ? 'bg-[#121212]' : 'bg-white')}>
             <Navbar></Navbar>
-            <div className={clsx('flex w-full flex-col items-start justify-center  pt-32')}>
+            <div className={clsx('flex w-full flex-col items-start justify-center pt-24 md:pt-32')}>
               {navigation.content === 'tour' && <Tour></Tour>}
               {navigation.content === 'faq' && <Faq></Faq>}
               {navigation.content === 'about' && <About></About>}

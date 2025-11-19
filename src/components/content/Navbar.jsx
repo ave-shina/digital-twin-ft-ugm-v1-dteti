@@ -75,7 +75,7 @@ export default function Navbar() {
 
   const getNavbarClasses = useCallback(() => {
     return clsx(
-      'fixed z-[99999998] flex w-full flex-row items-center justify-between p-6 navbar-opacity',
+      'fixed z-[99999998] flex w-full flex-row items-center justify-between px-4 py-3 sm:p-6 navbar-opacity',
       !isNavbarVisible && !isTransparentMode && '!hidden',
       isTransparentMode
         ? 'bg-transparent'

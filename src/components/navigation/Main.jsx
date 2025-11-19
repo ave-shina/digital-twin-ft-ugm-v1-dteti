@@ -50,7 +50,7 @@ export default function Main() {
   }, [dispatch, navigation.showWeather])
 
   return (
-    <div className='absolute bottom-6 left-1/2 z-20 flex h-14 w-[300px] -translate-x-1/2 flex-row items-center justify-between rounded-full border border-solid border-white px-6 sm:h-14 sm:w-[450px]'>
+    <div className='absolute bottom-6 left-1/2 z-20 flex h-14 gap-5 -translate-x-1/2 flex-row items-center justify-between rounded-full border border-solid border-white px-6 sm:h-14 md:gap-10'>
       <button
         title={navigation.showTooltip ? 'Sembunyikan Nama Gedung' : 'Lihat Nama Gedung'}
         onClick={handleTooltipToggle}

@@ -1,20 +1,25 @@
-import React, { useRef } from 'react'
+import React, { useMemo } from 'react'
 import { useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 
-export default function Background(props) {
+function Background({ theme }) {
   // Komponen untuk membuat Mesh yang digunakan sebagai later belakang
-  const { theme } = props
-  const myRef = useRef()
-
-  const backgroundURL = theme === 'light' ? '/img/background/bg_light.jpg' : '/img/background/bg_dark.png'
+  const backgroundURL = useMemo(
+    () => (theme === 'light' ? '/img/background/bg_light.jpg' : '/img/background/bg_dark.png'),
+    [theme],
+  )
   // Merubahnya menjadi Texture yang dapat digunakan di mesh
   const image = useTexture(backgroundURL)
 
+  // Optimized geometry args - reduced segments for better performance (background doesn't need high detail)
+  const geometryArgs = useMemo(() => [6, 64, 32], [])
+
   return (
-    <mesh scale={40} position={[0, 0, 1]} ref={myRef}>
-      <sphereGeometry args={[6, 100, 50]} />
-      <meshBasicMaterial map={image} side={THREE.DoubleSide} opacity={1} />
+    <mesh scale={50} position={[0, 0, 1]}>
+      <sphereGeometry args={geometryArgs} />
+      <meshBasicMaterial map={image} side={THREE.DoubleSide} />
     </mesh>
   )
 }
+
+export default React.memo(Background)

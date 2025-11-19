@@ -57,7 +57,7 @@ export default function About() {
                 <a href='https://www.linkedin.com/in/muhammad-apriliano-bagaskara-b30069240/' target='_blank'>
                   Aldo Apriliano
                 </a>
-                <p className='ml-2'>(Potretudara.com),</p>
+                <p className='ml-2'>3D Area Mapping,</p>
               </div>
 
               <div className=' flex flex-row'>

@@ -1,14 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  theme: 'light',
+  theme: 'dark',
   location: '',
   content: '',
-  showTooltip: false,
+  showTooltip: true,
   music: true,
   firstTutorial: false,
   mapTourMessage: true,
   mapLandmarkMessage: true,
+  showWeather: false,
 }
 
 export const navigationSlice = createSlice({
@@ -61,6 +62,9 @@ export const navigationSlice = createSlice({
     setMapLandmarkMessage: (state, { payload }) => {
       state.mapLandmarkMessage = payload
     },
+    setShowWeather: (state, { payload }) => {
+      state.showWeather = payload
+    },
   },
 })
 
@@ -75,6 +79,7 @@ export const {
   setShowTooltip,
   setMapLandmarkMessage,
   setMapTourMessage,
+  setShowWeather,
 } = navigationSlice.actions
 
 export default navigationSlice.reducer

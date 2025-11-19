@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react'
+import * as THREE from 'three'
 
 import { useGLTF, Html } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
@@ -24,11 +25,18 @@ export default function Model({ ...props }) {
   }
 
   const [object, setObject] = useState([])
+  const [hoveredPosition, setHoveredPosition] = useState(null)
 
   // Hover untuk menampilkan Tooltip
-  const handleHover = (e) => {
+  const handleHover = (e, event) => {
     {
       navigation.showTooltip == false && setObject([e])
+    }
+    // Get the tooltip location for lighting
+    const tooltipData = tooltipLocationData.find((obj) => obj.name === e)
+    if (tooltipData && tooltipData.position) {
+      // Use tooltip location position (already in world coordinates)
+      setHoveredPosition(tooltipData.position)
     }
     document.body.style.cursor = 'pointer'
   }
@@ -36,7 +44,7 @@ export default function Model({ ...props }) {
     {
       navigation.showTooltip == false && setObject([])
     }
-
+    setHoveredPosition(null)
     document.body.style.cursor = 'auto'
   }
 
@@ -56,6 +64,10 @@ export default function Model({ ...props }) {
 
   return (
     <>
+      {/* Light effect on hover */}
+      {hoveredPosition && (
+        <pointLight position={hoveredPosition} intensity={1} distance={30} decay={1} color='#ffffff' />
+      )}
       {/* Tooltip tampil dengan mendeteksi panjang dari object */}
       {navigation.location === '' && filteredLocation.map((item, index) => <SpriteHover key={index} object={item} />)}
 
@@ -72,6 +84,11 @@ export default function Model({ ...props }) {
           position={[0.22, -1.35, 1.2]}
           scale={9.27}
         />
+        {/* Sea mesh */}
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 2, 0]} scale={[600, 600, 1]}>
+          <planeGeometry args={[1, 1]} />
+          <meshStandardMaterial color='#73ABE1' transparent opacity={1} roughness={0.1} metalness={0.3} />
+        </mesh>
         <mesh
           geometry={nodes.OUTSIDE_ISLAND_BAKE.geometry}
           material={materials.OUTSIDE_ISLAND_BAKE}
@@ -4675,7 +4692,7 @@ export default function Model({ ...props }) {
           scale={4.09}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('SGLC'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('SGLC', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.SGLC_BAKE.geometry}
           material={materials.SGLC_BAKE}
@@ -4685,7 +4702,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('SGLC'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTK'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTK', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.TEKIM_BAKE.geometry}
           material={materials.TEKIM_BAKE}
@@ -4694,7 +4711,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTK'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTETI'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTETI', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTETI_BAKE.geometry}
           material={materials.TETI_BAKE}
@@ -4735,7 +4752,7 @@ export default function Model({ ...props }) {
           <mesh geometry={nodes.Cube012_1.geometry} material={materials.Grey} />
         </group>
         <mesh
-          onPointerOver={(e) => (handleHover('DTNTF'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTNTF', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTNTF_BAKE.geometry}
           material={materials.TNTF_BAKE}
@@ -4744,7 +4761,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTNTF'), e.stopPropagation())}
         />
         <group
-          onPointerOver={(e) => (handleHover('TUGU TEKNIK'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('TUGU TEKNIK', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           position={[61.33, 7.82, 22.06]}
           scale={0.56}
@@ -4764,7 +4781,7 @@ export default function Model({ ...props }) {
           <mesh geometry={nodes.Mesh_2011_12.geometry} material={materials['default material.006']} />
         </group>
         <mesh
-          onPointerOver={(e) => (handleHover('DTAP'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTAP', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTAP_BAKE.geometry}
           material={materials.DTAP_BAKE}
@@ -4774,7 +4791,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTAP'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTMI'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTMI', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTMI_BAKE.geometry}
           material={materials.DTMI_BAKE}
@@ -4783,7 +4800,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTMI'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTSL'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTSL', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTSL_BAKE.geometry}
           material={materials.DTSL_BAKE}
@@ -4792,7 +4809,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTSL'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('ERIC'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('ERIC', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.ERIC_BAKE.geometry}
           material={materials.ERIC_BAKE}
@@ -4802,7 +4819,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('ERIC'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTGD'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTGD', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTGD_BAKE.geometry}
           material={materials.GEODESI_BAKE}
@@ -4811,7 +4828,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTGD'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('DTGL'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('DTGL', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.DTGL_BAKE.geometry}
           material={materials.GEOLOGI_BAKE}
@@ -4820,7 +4837,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('DTGL'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('MASJID FT'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('MASJID FT', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.MUSTEK_BAKE.geometry}
           material={materials.MUSTEK_BAKE}
@@ -4829,7 +4846,7 @@ export default function Model({ ...props }) {
           onClick={(e) => (toggleZoom('MASJID FT'), e.stopPropagation())}
         />
         <mesh
-          onPointerOver={(e) => (handleHover('PERPUSTAKAAN'), e.stopPropagation())}
+          onPointerOver={(e) => (handleHover('PERPUSTAKAAN', e), e.stopPropagation())}
           onPointerOut={(e) => (clearHover(e), e.stopPropagation())}
           geometry={nodes.PUSTEK_BAKE.geometry}
           material={materials.PUSTEK_BAKE}

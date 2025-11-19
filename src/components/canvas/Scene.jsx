@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useMemo, useCallback } from 'react'
 
 import * as THREE from 'three'
 import { Canvas } from '@react-three/fiber'
 import { Preload, PerformanceMonitor } from '@react-three/drei'
-// import { Perf } from 'r3f-perf'
 import Background from '../Background'
 
 import Model from './Model'
 import Controls from './Control'
 import round from 'lodash/round'
-
-import clsx from 'clsx'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { toggleLocation, toggleContent } from 'redux/navigation'
@@ -18,101 +15,87 @@ import { useRouter } from 'next/router'
 
 import { Landmarks } from '../data/Landamarks'
 
-export default function Scene({ children, ...props }) {
+// Constants moved outside component to avoid recreation
+const CAMERA_NEAR = 0.1
+const CAMERA_FAR = 600
+const CAM_START_POSITION = new THREE.Vector3(0, 15, 25)
+const CAM_SB_AWAL_FOV = 30
+
+// Digunakan untuk Zoom ketika object diklik
+const LOCATION_DATA_DEFAULT = {
+  name: 'Default',
+  zoomTarget: [0, 0, 0],
+  zoomCamera: [200, 0, 10],
+}
+
+function Scene({ children, ...props }) {
   const { freeControl, introduction, showTooltip } = props
 
   const dispatch = useDispatch()
   const navigation = useSelector((state) => state.navigation)
-
-  // Konfigurasi posisi kamera dan FoV semakin besar semakin luas
-  // camStartPosition: Initial camera position (x, y, z)
-  // camSBAwalFov: Initial field of view (larger = wider view)
-  const config = {
-    camStartPosition: new THREE.Vector3(0, 15, 25),
-    camSBAwalFov: 30,
-  }
-
-  // Camera rendering distance (clipping planes)
-  // near: Objects closer than this won't render (default: 0.1)
-  // far: Objects farther than this won't render (default: 500)
-  // Increase 'far' to see objects at greater distances
-  const CAMERA_NEAR = 0.1
-  const CAMERA_FAR = 500
-
-  // Digunakan untuk Zoom ketika object diklik
-  const locationDataDefault = {
-    name: 'Default',
-    zoomTarget: [0, 0, 0],
-    zoomCamera: [200, 0, 10],
-  }
-
-  const locationData = Landmarks.data.find((item) => item.attributes.objectName === navigation.location)?.attributes
   const router = useRouter()
 
-  // const [landmarksData, setLandmarksData] = useState(null)
-  // useEffect(() => {
-  //   async function fetchLandmarksData() {
-  //     const response = await fetch('http://localhost:1337/api/landmarks?populate=deep')
-  //     const data = await response.json()
-  //     setLandmarksData(data)
-  //   }
-  //   fetchLandmarksData()
-  // }, [])
+  // Memoize locationData calculation
+  const locationData = useMemo(
+    () => Landmarks.data.find((item) => item.attributes.objectName === navigation.location)?.attributes,
+    [navigation.location],
+  )
 
-  // console.log('uhuy', landmarksData)
+  // Memoize camera config
+  const cameraConfig = useMemo(
+    () => ({
+      fov: CAM_SB_AWAL_FOV,
+      near: CAMERA_NEAR,
+      far: CAMERA_FAR,
+      position: CAM_START_POSITION,
+    }),
+    [],
+  )
 
   // Logika ketika Object landmark di klik
-  const toggleZoom = (e) => {
-    if (navigation.location != '') {
-      dispatch(toggleContent(''))
-      dispatch(toggleLocation(''))
-      router.push('/')
-    } else if (navigation.location === '') {
-      dispatch(toggleContent('landmark'))
-      dispatch(toggleLocation(e))
-      router.push(
-        {
-          pathname: '/',
-          query: { content: 'landmark', location: e },
-        },
-        `/landmark?location=${e}`,
-        { shallow: true },
-      )
-    }
-  }
+  const toggleZoom = useCallback(
+    (e) => {
+      if (navigation.location !== '') {
+        dispatch(toggleContent(''))
+        dispatch(toggleLocation(''))
+        router.push('/')
+      } else {
+        dispatch(toggleContent('landmark'))
+        dispatch(toggleLocation(e))
+        router.push(
+          {
+            pathname: '/',
+            query: { content: 'landmark', location: e },
+          },
+          `/landmark?location=${e}`,
+          { shallow: true },
+        )
+      }
+    },
+    [navigation.location, dispatch, router],
+  )
 
-  // Performence Monitor, Device Pixel Ratio
+  // Performance Monitor, Device Pixel Ratio
   const [dpr, setDpr] = useState(1)
-  // console.log(navigation)
+
+  // Memoize PerformanceMonitor onChange handler
+  const handlePerformanceChange = useCallback(({ factor }) => {
+    setDpr(round(0.5 + 1 * factor, 1))
+  }, [])
+
+  // Memoize Controls props
+  const controlsLocationData = useMemo(() => locationData || LOCATION_DATA_DEFAULT, [locationData])
+
   return (
-    <div className={clsx('absolute h-full w-full')}>
-      <Canvas
-        dpr={dpr}
-        // Agar tidak selalu Rendering
-        frameloop='demand'
-        // Memasukkan konfigurasi yang sudah dideklarasikan sebelumnya
-        camera={{ fov: config.camSBAwalFov, near: CAMERA_NEAR, far: CAMERA_FAR, position: config.camStartPosition }}
-        {...props}>
-        {/* Set background color to white */}
-        {/* <color attach='background' args={['white']} /> */}
-        {/* Performen Monitor default factor 0,5 */}
-        <PerformanceMonitor onChange={({ factor }) => setDpr(round(0.5 + 1 * factor, 1))}>
-          {/* Fog effect to blur objects before they touch the background */}
-          {/* Lightning Three */}
+    <div className='absolute h-full w-full'>
+      <Canvas dpr={dpr} frameloop='demand' camera={cameraConfig} {...props}>
+        <PerformanceMonitor onChange={handlePerformanceChange}>
           <directionalLight intensity={0.75} />
           <ambientLight intensity={0.75} />
           <Preload all />
-          {/* <Perf /> */}
 
-          {/* Controls */}
-          <Controls
-            locationData={locationData ? locationData : locationDataDefault}
-            introduction={introduction}
-            freeControl={freeControl}
-          />
-          {/* mODEL */}
-          <Model showTooltip={showTooltip} landmarksData={Landmarks} toggleZoom={toggleZoom}></Model>
-          {/* Background */}
+          <Controls locationData={controlsLocationData} introduction={introduction} freeControl={freeControl} />
+          <Model showTooltip={showTooltip} landmarksData={Landmarks} toggleZoom={toggleZoom} />
           <Background theme={navigation.theme} />
           {children}
         </PerformanceMonitor>
@@ -120,3 +103,5 @@ export default function Scene({ children, ...props }) {
     </div>
   )
 }
+
+export default React.memo(Scene)

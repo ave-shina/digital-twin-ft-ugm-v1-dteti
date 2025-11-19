@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useCallback } from 'react'
 
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
@@ -15,108 +15,93 @@ import Main from '@/components/navigation/Main'
 import BottomLeft from '@/components/navigation/BottomLeft'
 import BottomRight from '@/components/navigation/BottomRight'
 import TopRight from '@/components/navigation/TopRight'
+import Weather from '@/components/navigation/Weather'
 
 import Tutorial from '@/components/Tutorial/Tutorial'
 
 export default function Page(props) {
   const dispatch = useDispatch()
   const navigation = useSelector((state) => state.navigation)
+  const router = useRouter()
 
   const [introduction, setIntroduction] = useState('storyBoard')
   const [freeControl, setFreeControl] = useState(false)
-  const [isMounted, setIsMounted] = useState(false)
-
-  const myRef = useRef()
-  const router = useRouter()
-
   const [musicStart, setMusicStart] = useState(false)
   const [openForm, setOpenForm] = useState(false)
   const [tutorial, setTutorial] = useState(false)
 
-  // Ensure component is mounted before using router.query
-  useEffect(() => {
-    setIsMounted(true)
+  const audioRef = useRef(null)
+
+  // Helper function to play audio with error handling
+  const playAudio = useCallback(() => {
+    if (!audioRef.current) return
+
+    audioRef.current.volume = 0.1
+    audioRef.current.loop = true
+    const playPromise = audioRef.current.play()
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.log('Audio play failed:', error)
+      })
+    }
   }, [])
 
   // Mulai Jelajah
-  const startVmap = () => {
+  const startVmap = useCallback(() => {
     setMusicStart(true)
     setOpenForm(true)
+    setIntroduction('')
+    setFreeControl(true)
 
-    {
-      navigation.firstTutorial
-        ? (setIntroduction(''), setFreeControl(true))
-        : (setIntroduction(''), setTutorial(true), dispatch(setFirstTutorial(true), setFreeControl(true)))
+    if (!navigation.firstTutorial) {
+      setTutorial(true)
+      dispatch(setFirstTutorial(true))
     }
 
-    if (navigation.music && myRef.current) {
-      myRef.current.volume = 0.1
-      myRef.current.loop = true
-      const playPromise = myRef.current.play()
-      if (playPromise !== undefined) {
-        playPromise.catch((error) => {
-          // Auto-play was prevented or failed
-          console.log('Audio play failed:', error)
-        })
-      }
+    if (navigation.music) {
+      playAudio()
     }
-  }
+  }, [navigation.firstTutorial, navigation.music, dispatch, playAudio])
 
-  // Untuk menyalakan dan mematikan musik
+  // Handle music toggle
   useEffect(() => {
-    if (typeof window === 'undefined' || !myRef.current) return
+    if (typeof window === 'undefined' || !audioRef.current || !musicStart) return
 
-    if (!navigation.music && musicStart) {
-      myRef.current.pause()
-    } else if (navigation.music && musicStart) {
-      myRef.current.volume = 0.1
-      myRef.current.loop = true
-      const playPromise = myRef.current.play()
-      if (playPromise !== undefined) {
-        playPromise.catch((error) => {
-          // Auto-play was prevented or failed
-          console.log('Audio play failed:', error)
-        })
-      }
+    if (navigation.music) {
+      playAudio()
+    } else {
+      audioRef.current.pause()
     }
-  }, [navigation.music, musicStart])
+  }, [navigation.music, musicStart, playAudio])
 
-  // Untuk mematikan musik ketika berpindah tab
+  // Handle visibility change (pause/resume music when tab changes)
   useEffect(() => {
     if (typeof window === 'undefined') return
 
     const handleVisibilityChange = () => {
+      if (!audioRef.current) return
+
       if (document.hidden) {
-        myRef.current?.pause()
-      } else {
-        if (navigation.music && myRef.current) {
-          const playPromise = myRef.current.play()
-          if (playPromise !== undefined) {
-            playPromise.catch((error) => {
-              // Auto-play was prevented or failed
-              console.log('Audio play failed:', error)
-            })
-          }
-        }
+        audioRef.current.pause()
+      } else if (navigation.music && musicStart) {
+        playAudio()
       }
     }
+
     document.addEventListener('visibilitychange', handleVisibilityChange)
-    return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange)
-    }
-  }, [navigation.music])
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange)
+  }, [navigation.music, musicStart, playAudio])
+
+  const hasContent = router.isReady && router.query.content
+  const showNavigation = navigation.content === ''
 
   return (
     <>
-      {/* Loading */}
-      <Loading></Loading>
-      {/* Komponen Audio */}
-      <audio ref={myRef} preload='auto'>
+      <Loading />
+      <audio ref={audioRef} preload='auto'>
         <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
-      {/* Konten Utama */}
       <div className='absolute h-full w-full bg-[#121212]'>
-        {/* Letak Komponen Three Js */}
         <Scene
           shadows
           colorManagement
@@ -127,30 +112,22 @@ export default function Page(props) {
           eventSource={props.ref}
           eventPrefix='client'
         />
-        {/*  */}
-        {/*  */}
 
-        {/* Komponen Introduction */}
         {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
-        {/* Komponen Tutotrial */}
         <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction} />
 
-        {/* Komponen Fitur */}
-        {isMounted && router.query.content && <Content />}
+        {hasContent && <Content />}
 
-        {/* Komponen Navigasi */}
-        {navigation.content == '' && (
+        {showNavigation && (
           <>
-            {' '}
-            <Logo></Logo>
-            <TopRight></TopRight>
-            <BottomRight setOpenForm={setOpenForm} openForm={openForm}></BottomRight>
-            <Main></Main>
-            <BottomLeft setTutorial={setTutorial}></BottomLeft>
+            <Logo />
+            <TopRight />
+            <BottomRight setOpenForm={setOpenForm} openForm={openForm} />
+            <Main />
+            <BottomLeft setTutorial={setTutorial} />
+            <Weather />
           </>
         )}
-        {/*  */}
-        {/*  */}
       </div>
     </>
   )

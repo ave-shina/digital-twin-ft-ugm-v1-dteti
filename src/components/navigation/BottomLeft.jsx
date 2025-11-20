@@ -10,8 +10,8 @@ export default function BottomLeft(props) {
         onClick={() => {
           setTutorial(true)
         }}
-        className={clsx('tutorial group mr-4 flex h-14 cursor-pointer  items-center justify-center rounded-full  ')}>
-        <FaPlayCircle className={clsx('h-6 w-6 text-white group-hover:text-black')} />
+        className={clsx('tutorial group mr-4 flex h-16 cursor-pointer  items-center justify-center rounded-full  ')}>
+        <FaPlayCircle className={clsx('h-7 w-7 text-white group-hover:text-black')} />
       </button>
     </div>
   )

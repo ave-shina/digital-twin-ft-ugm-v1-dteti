@@ -15,8 +15,8 @@ Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada
 5. [Instalasi](#instalasi)
 6. [Konfigurasi Environment](#konfigurasi-environment)
 7. [Struktur Folder](#struktur-folder)
-8. [Pipeline Integrasi 3D](#pipeline-integrasi-3d)
-9. [Setup Strapi (Backend CMS)](#setup-strapi-backend-cms)
+8. [Struktur Data Manual](#struktur-data-manual)
+9. [Pipeline Integrasi 3D](#pipeline-integrasi-3d)
 10. [Menjalankan Project](#menjalankan-project)
 11. [Build & Deploy](#build--deploy)
 12. [Testing](#testing)
@@ -56,10 +56,9 @@ Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada
 - **[React Konva](https://konvajs.org/)** — Canvas 2D untuk titik lokasi di denah
 - **[Pannellum](https://pannellum.org/)** — Viewer panorama 360
 
-### Backend & Data
-- **[Strapi](https://strapi.io/)** — Headless CMS
-- **MySQL** — Database
-- **Cloudinary** — Image CDN (untuk gambar panorama & denah)
+### Data & Asset
+- **Static TypeScript Modules** — Seluruh data konten (landmark, tour, FAQ) didefinisikan manual sebagai file `.ts` di `src/components/data/` (tidak menggunakan backend/CMS)
+- **Cloudinary** — CDN untuk gambar panorama & denah (URL di-hardcode di file data)
 
 ### Tooling 3D (Pipeline Production)
 - **Drone (DJI)** — Pengambilan foto udara
@@ -70,6 +69,8 @@ Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada
 ---
 
 ## Arsitektur Sistem
+
+Arsitektur project ini **client-side only** — tidak ada backend server, database, atau CMS yang dipakai di runtime. Seluruh data konten di-bundle ke JavaScript saat build time.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -91,26 +92,19 @@ Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada
 │   │           (persisted ke localStorage via middleware)     │   │
 │   └─────────────────────────────┬───────────────────────────┘   │
 │                                 │                                 │
-│            Komponen pendukung: Map (Konva) • Panorama (Pannellum)│
-└─────────────────────────────────┼────────────────────────────────┘
-                                  │  HTTP / REST
+│   ┌─────────────────────────────▼───────────────────────────┐   │
+│   │           Static Data Modules (bundled at build)         │   │
+│   │   src/components/data/                                    │   │
+│   │   ├── Landmarks.ts   (1.2 MB - daftar gedung & detail)   │   │
+│   │   ├── Tour.ts        (262 KB - data tour & panorama)     │   │
+│   │   └── Faq.ts         (3 KB - daftar FAQ)                 │   │
+│   └─────────────────────────────────────────────────────────┘   │
+│                                                                  │
+│   Komponen pendukung: Map (Konva) • Panorama (Pannellum)         │
+└─────────────────────────────────┬────────────────────────────────┘
+                                  │  HTTP (gambar saja)
                   ┌───────────────▼───────────────┐
-                  │     Strapi (Headless CMS)      │
-                  │   • REST API / GraphQL         │
-                  │   • Content Types:             │
-                  │     - Landmarks (gedung)       │
-                  │     - Tours                    │
-                  │     - FAQs                     │
-                  └───────────────┬───────────────┘
-                                  │
-                  ┌───────────────▼───────────────┐
-                  │           MySQL                │
-                  │    (Virtual Machine Cloud)     │
-                  └───────────────────────────────┘
-
-                  Asset Distribution:
-                  ┌───────────────────────────────┐
-                  │          Cloudinary            │
+                  │          Cloudinary CDN         │
                   │  • Panorama images (equirect)  │
                   │  • Denah & thumbnail           │
                   │  • Dynamic optimization (f_auto)│
@@ -121,10 +115,12 @@ Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada
 
 1. **User** mengakses halaman → Next.js me-render React + Canvas R3F
 2. **Model GLB** (`public/object/map-min.glb`) di-load via `useGLTF` dari Drei
-3. **Strapi** menyediakan data landmark, tour, FAQ via REST API
-4. **Cloudinary** meng-host gambar panorama & denah (di-fetch on-demand)
+3. **Data konten** (landmark, tour, FAQ) di-import dari static TS modules — tidak ada fetch ke server
+4. **Cloudinary** hanya dipakai untuk meng-host gambar panorama & denah (di-fetch on-demand)
 5. **Redux** menyimpan state aktif (lokasi yang dipilih, theme, music, dll)
 6. Saat user klik titik di denah → dispatch action → Scene mengubah kamera 3D
+
+> Catatan: Tidak ada backend, tidak ada database, tidak ada CMS. Aplikasi bisa di-deploy sebagai static site murni.
 
 ---
 
@@ -214,13 +210,7 @@ Edit `.env.local` sesuai kebutuhan:
 | `ANALYZE` | Set `'true'` untuk analyze bundle size saat build | kosong |
 | `NODE_ENV` | Environment: `development` atau `production` | `development` |
 
-Jika ingin menghubungkan ke Strapi sendiri, tambahkan:
-
-```env
-NEXT_PUBLIC_STRAPI_URL=https://strapi-domain-anda.com
-```
-
-> URL Strapi dan Cloudinary saat ini di-hardcode di `src/components/data/`. Untuk produksi, disarankan pindahkan ke environment variable.
+> Karena project tidak memakai backend, tidak ada env variable untuk API key/URL server.
 
 ---
 
@@ -269,7 +259,10 @@ virtual-tour-ft-ugm/
 │   │   ├── navigation/          # Navigasi UI (bottom bar, icons)
 │   │   ├── Tutorial/            # Onboarding joyride
 │   │   ├── dom/                 # Layout DOM wrapper
-│   │   ├── data/                # Static data (Tour, Landmarks, Faq)
+│   │   ├── data/                # <<< DATA KONTEN MANUAL (lihat section berikutnya)
+│   │   │   ├── Landmarks.ts
+│   │   │   ├── Tour.ts
+│   │   │   └── Faq.ts
 │   │   ├── StoryBoard.tsx       # Landing overlay ("Mulai")
 │   │   ├── Background.tsx       # Background gradient/canvas
 │   │   ├── Loading.tsx          # Loading screen (useProgress drei)
@@ -306,6 +299,128 @@ virtual-tour-ft-ugm/
 ├── .eslintrc                    # ESLint rules (eqeqeq, no-var, dll)
 └── package.json
 ```
+
+---
+
+## Struktur Data Manual
+
+Project ini **tidak menggunakan backend, database, atau CMS**. Seluruh data konten didefinisikan manual sebagai TypeScript modules di `src/components/data/`. Data di-import langsung oleh komponen React dan di-bundle ke JavaScript saat build.
+
+### File Data
+
+| File | Ukuran | Isi |
+|---|---|---|
+| `Landmarks.ts` | ~1.2 MB | Daftar semua gedung/lokasi di FT UGM beserta deskripsi, denah, panorama, galeri |
+| `Tour.ts` | ~262 KB | Data mode "Jelajah" — peta utama kampus, daftar panorama, galeri |
+| `Faq.ts` | ~3 KB | Daftar pertanyaan & jawaban FAQ |
+
+### Format Data
+
+Setiap file mengekspor object dengan struktur yang konsisten. Contoh `Faq.ts`:
+
+```typescript
+// src/components/data/Faq.ts
+import type { FaqDataShape } from "../../types/data"
+
+const data = {
+  data: {
+    id: 1,
+    attributes: {
+      name: 'Faq',
+      subName: null,
+      description: '<p>Fitur FAQ pada website FT UGM...</p>',
+      FaqDetail: [
+        {
+          question: 'Apa itu Virtual Tour FT UGM?',
+          answer: '<p>Virtual Tour FT UGM adalah platform...</p>',
+        },
+        // ... item FAQ lainnya
+      ],
+    },
+  },
+}
+
+export const faqData = data as FaqDataShape
+```
+
+### Struktur `Landmarks.ts` (Ringkas)
+
+```typescript
+const data = {
+  data: [
+    {
+      attributes: {
+        objectName: 'Gedung FT UGM',         // ID unik untuk routing
+        name: 'Gedung Fakultas Teknik',       // Nama display
+        subName: 'Kampus UGM Yogyakarta',
+        description: '<p>Deskripsi lengkap...</p>',
+        isDescription: true,                  // Tampilkan section description?
+        isMap: true,                          // Tampilkan section denah?
+        isGallery: true,                      // Tampilkan section galeri?
+        thumbnail: { data: { attributes: { url, name, ... } } },
+        tooltipLocation: [x, y, z],           // Posisi tooltip di scene 3D
+        mapCoordinate: [x, y],                // Posisi pin di denah Tour
+        mapDetail: [                          // Daftar denah per lantai
+          {
+            name: 'Lantai 1',
+            mapImage: { data: { attributes: { url, formats, ... } } },
+            MapInformation: [                 // Daftar titik di denah
+              {
+                name: 'Ruang Dosen',
+                mapCoordinate: [x, y],
+                mapImage: { ... },            // Gambar panorama
+                panoramaCoordinate: [         // Hotspot di dalam panorama
+                  { pitch, yaw, transition: 'sceneName' },
+                ],
+              },
+            ],
+          },
+        ],
+        galleryDetail: [                      // Daftar foto galeri
+          { name, description, galleryImage: { data: { attributes: { url } } } },
+        ],
+      },
+    },
+    // ... landmark lainnya
+  ],
+}
+
+export const Landmarks = data as unknown as LandmarksData
+```
+
+### Cara Konsumsi di Komponen
+
+```tsx
+import { Landmarks } from '../data/Landmarks'
+import { TourData } from '../data/Tour'
+import { faqData } from '../data/Faq'
+
+function Landmark() {
+  const navigation = useAppSelector((state) => state.navigation)
+  const data = Landmarks.data.find(
+    (item) => item.attributes.objectName === navigation.location
+  )
+  // Render komponen...
+}
+```
+
+### Cara Update / Tambah Data
+
+Untuk menambahkan landmark atau FAQ baru, edit langsung file TypeScript yang bersangkutan:
+
+1. Buka `src/components/data/Landmarks.ts` (atau `Tour.ts` / `Faq.ts`).
+2. Tambahkan entry baru ke array `data` dengan struktur yang sama.
+3. Pastikan URL gambar valid dan dapat diakses (Cloudinary atau path lokal di `public/`).
+4. Pastikan `objectName` unik karena dipakai sebagai identifier routing.
+5. Jalankan `npm run typecheck` untuk verifikasi struktur data sesuai tipe di `src/types/data.ts`.
+
+> Tips: Gunakan editor dengan TypeScript support (VS Code) agar mendapat autocomplete dan validasi tipe realtime saat editing data.
+
+### Pertimbangan & Catatan
+
+- **Bundle size**: file `Landmarks.ts` (~1.2 MB) dan `Tour.ts` (~262 KB) tergolong besar karena berisi seluruh data konten. Hal ini membuat initial bundle JavaScript membesar.
+- **Performance**: pertimbangkan untuk refactor di masa depan dengan memecah data per-landmark menjadi file terpisah dan di-import dinamis menggunakan `next/dynamic`.
+- **Alternatif**: jika ingin beralih ke backend di masa depan, struktur data yang shaped mirip response REST API (lihat field `data` → `attributes`) sudah mendukung migrasi ke Strapi/Contentful/dll dengan perubahan minimal.
 
 ---
 
@@ -355,7 +470,7 @@ Import mesh hasil Metashape ke Blender untuk dioptimasi:
 - **Material Setup**: assign material dengan texture hasil bake ke mesh.
 - **Export** sebagai `.gltf` (lebih ringan dari `.obj`).
 
-Tutorial recommended: [Blender Guru GLTF export](https://docs.blender.org/manual/en/latest/files/import_export.html)
+Tutorial recommended: [Blender GLTF export](https://docs.blender.org/manual/en/latest/files/import_export.html)
 
 #### 4. Kompresi Draco
 
@@ -370,6 +485,7 @@ gltfpack -i model.gltf -o map-min.glb -cc -tc
 ```
 
 Hasil kompresi:
+
 | Sebelum | Sesudah | Rasio |
 |---|---|---|
 | ~80 MB (mesh mentah) | ~8.8 MB (`map-min.glb`) | ~90% lebih kecil |
@@ -428,102 +544,6 @@ Pastikan `Scene.tsx` membungkus dalam `<Canvas>`:
 
 ---
 
-## Setup Strapi (Backend CMS)
-
-Project ini memakai data dari Strapi sebagai source of truth untuk konten dinamis (deskripsi landmark, gallery, FAQ). Berikut cara setup instance Strapi sendiri:
-
-### 1. Install Strapi di Server/VPS
-
-Strapi di-deploy di virtual machine cloud dengan database MySQL. Ikuti [dokumentasi resmi Strapi](https://docs.strapi.io/dev-docs/installation).
-
-```bash
-# Di server cloud
-npx create-strapi-app@latest my-strapi --quickstart --no-run
-cd my-strapi
-```
-
-Konfigurasi `config/database.js`:
-
-```js
-module.exports = ({ env }) => ({
-  connection: {
-    client: 'mysql',
-    connection: {
-      host: env('DATABASE_HOST', '127.0.0.1'),
-      port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'strapi'),
-      user: env('DATABASE_USERNAME', 'strapi'),
-      password: env('DATABASE_PASSWORD', 'your-password'),
-      ssl: env.bool('DATABASE_SSL', false),
-    },
-  },
-})
-```
-
-### 2. Buat Content Types
-
-Buat Collection Types berikut di admin panel Strapi:
-
-#### Collection: `landmarks`
-Field:
-- `name` (Text)
-- `objectName` (Text, UID) — dipakai sebagai referensi di frontend
-- `subName` (Text)
-- `description` (Rich Text)
-- `thumbnail` (Media, single image)
-- `isDescription` / `isMap` / `isGallery` (Boolean)
-- `mapDetail` (Component, repeatable) — berisi denah tiap lantai
-- `galleryDetail` (Component, repeatable)
-- `tooltipLocation` (JSON, `[x, y, z]`)
-- `mapCoordinate` (JSON, `[x, y]`)
-
-#### Collection: `tours`
-Field:
-- `name` (Text)
-- `description` (Rich Text)
-- `mapImage` (Media)
-- `panoramaData` (Component, repeatable)
-- `galleryDetail` (Component, repeatable)
-
-#### Collection: `faqs`
-Field:
-- `question` (Text)
-- `answer` (Rich Text)
-
-### 3. Set Permission
-
-Di **Settings > Roles > Public**, berikan permission `find` dan `findOne` untuk semua collection di atas.
-
-### 4. Hubungkan ke Frontend
-
-Saat ini data Strapi di-fetch dan di-cache sebagai TypeScript modules di `src/components/data/`:
-
-```
-src/components/data/
-├── Landmarks.ts    # Hasil fetch dari /landmarks?populate=deep
-├── Tour.ts         # Hasil fetch dari /tours?populate=deep
-└── Faq.ts          # Hasil fetch dari /faqs
-```
-
-Untuk dinamis penuh, refactor agar di-fetch via `getStaticProps` atau SWR di runtime:
-
-```tsx
-export async function getStaticProps() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_URL}/api/landmarks?populate=deep`)
-  const landmarks = await res.json()
-  return { props: { landmarks }, revalidate: 60 }
-}
-```
-
-### 5. Konfigurasi Cloudinary
-
-- Buat akun [Cloudinary](https://cloudinary.com/).
-- Upload gambar panorama (equirectangular) dan denah.
-- Copy URL dan set di field Media Strapi, atau gunakan auto-upload plugin Strapi.
-- Frontend akan melakukan transformasi on-the-fly: `/upload/w_4000,f_auto,q_auto/`.
-
----
-
 ## Menjalankan Project
 
 ### Scripts yang Tersedia
@@ -574,22 +594,23 @@ npm run start
 
 ### Static Export (untuk CDN / GitHub Pages / Netlify)
 
+Karena project tidak memakai backend, ia dapat di-export menjadi static site murni:
+
 ```bash
 EXPORT=true npm run build
 # Output ada di folder `out/`
 ```
 
-Deploy folder `out/` ke hosting statis manapun.
+Deploy folder `out/` ke hosting statis manapun (GitHub Pages, Netlify, Cloudflare Pages, dll).
 
 ### Deploy ke Vercel (Recommended)
 
 1. Push repository ke GitHub.
 2. Buka [vercel.com](https://vercel.com) → Import Project.
 3. Pilih repository, Vercel akan auto-detect Next.js.
-4. Set environment variables di Vercel dashboard.
-5. Click **Deploy**.
+4. Click **Deploy** — tidak perlu set env variable apa pun.
 
-> Catatan: Karena project paksa `dynamic({ ssr: false })` untuk Canvas, Vercel akan handle dengan baik tanpa konfigurasi tambahan.
+> Karena project paksa `dynamic({ ssr: false })` untuk Canvas dan data di-bundle statis, Vercel akan handle dengan baik tanpa konfigurasi tambahan.
 
 ### Pertimbangan Performa Produksi
 
@@ -607,6 +628,7 @@ Project telah lulus dua jenis testing:
 ### 1. Blackbox Testing
 
 Semua fitur utama terverifikasi beroperasi sesuai spesifikasi:
+
 - [x] Model 3D load & dapat di-orbit
 - [x] Tooltip nama gedung muncul saat hover
 - [x] Klik landmark → kamera zoom ke lokasi
@@ -621,22 +643,11 @@ Semua fitur utama terverifikasi beroperasi sesuai spesifikasi:
 ### 2. Usability Testing
 
 - **Skor kepuasan pengguna: 84,6%**
-- Metode: SUS (System Usability Scale) atau similar questionnaire
 - Grade: B (Baik)
 
 ### Cara Reproduce Testing
 
 Untuk blackbox testing manual, ikuti checklist di atas dengan `npm run build && npm run start` di environment production.
-
-Untuk automated testing (opsional, belum diimplementasi):
-
-```bash
-# Install dependencies testing
-npm install --save-dev jest @testing-library/react @playwright/test
-
-# E2E test dengan Playwright
-npx playwright test
-```
 
 ---
 
@@ -650,13 +661,13 @@ Kontribusi sangat diterima! Untuk perubahan besar, silakan buka issue terlebih d
 2. Buat branch fitur: `git checkout -b feature/nama-fitur`.
 3. Commit perubahan mengikuti [Conventional Commits](https://www.conventionalcommits.org/):
    ```
-   feat:    fitur baru
-   fix:     bug fix
-   docs:    perubahan dokumentasi
-   style:   formatting, tidak ubah kode
+   feat:     fitur baru
+   fix:      bug fix
+   docs:     perubahan dokumentasi
+   style:    formatting, tidak ubah kode
    refactor: refactoring tanpa ubah perilaku
-   test:    tambah/ubah test
-   chore:   build, deps, dll
+   test:     tambah/ubah test
+   chore:    build, deps, dll
    ```
 4. Push branch: `git push origin feature/nama-fitur`.
 5. Buka Pull Request dengan deskripsi jelas.
@@ -685,6 +696,7 @@ Penelitian dan pengembangan project ini didukung oleh:
 - **Open Source Community** — Untuk library-library yang dipakai (React, Three.js, Next.js, dll)
 
 ### Referensi Pipeline 3D
+
 - [Agisoft Metashape User Manual](https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf)
 - [Blender Documentation](https://docs.blender.org/)
 - [Google Draco](https://github.com/google/draco)

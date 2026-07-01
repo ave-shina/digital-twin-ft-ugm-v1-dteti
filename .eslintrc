@@ -1,10 +1,11 @@
 {
-  "extends": ["next", "next/core-web-vitals" ,"prettier", "plugin:tailwindcss/recommended"],
+  "extends": ["next", "next/core-web-vitals", "prettier", "plugin:tailwindcss/recommended"],
   "rules": {
     "import/prefer-default-export": "off",
     "no-console": "warn",
     "no-var": "error",
     "no-undef": "error",
+    "eqeqeq": ["error", "always"],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",

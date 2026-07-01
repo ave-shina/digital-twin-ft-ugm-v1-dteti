@@ -1,5 +1,5 @@
 {
-  "name": "react-three-next",
+  "name": "virtual-tour-ft-ugm",
   "version": "2.0.0",
   "authors": [
     "Renaud ROHLINGER <https://twitter.com/onirenaud>"
@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=14"
+    "node": ">=18.17.0"
   },
   "scripts": {
     "lint": "yarn prettier && yarn eslint",
@@ -15,9 +15,10 @@
     "prettier": "prettier -l \"./src/**/*.{js,jsx,md}\"",
     "dev": "next dev",
     "build": "next build",
-    "export": "EXPORT=true next build && EXPORT=true next export",
+    "export": "EXPORT=true next build",
     "analyze": "ANALYZE=true next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@georgedrpg/pannellum-react-next": "^1.2.5",
@@ -25,9 +26,11 @@
     "@react-three/fiber": "^8.10.1",
     "@reduxjs/toolkit": "^1.9.5",
     "@studio-freight/lenis": "^1.0.4",
+    "@types/dompurify": "^3.0.5",
     "@vercel/analytics": "^1.0.0",
     "a11y-checker": "^2.2.1",
     "clsx": "^1.2.1",
+    "dompurify": "^3.4.11",
     "glsl-random": "^0.0.5",
     "gltfpack": "^0.18.0",
     "konva": "^9.3.20",
@@ -60,6 +63,11 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.1.6",
+    "@types/lodash": "^4.17.24",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.149.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.36.0",
     "eslint-config-next": "^13.2.4",
@@ -74,6 +82,7 @@
     "prettier": "^2.8.3",
     "raw-loader": "^4.0.2",
     "tailwindcss": "^3.3.1",
+    "typescript": "^5.4.0",
     "url-loader": "^4.1.1"
   }
 }

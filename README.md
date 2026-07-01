@@ -1,6 +1,6 @@
-# Virtual Tour FT UGM
+# Digital Twin FT UGM v1 DTETI
 
-Platform web interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada (FT UGM) secara virtual. Pengguna dapat mengeksplorasi **model 3D kampus**, **denah bangunan**, dan **panorama 360 derajat** baik dari perangkat desktop maupun mobile.
+Platform **digital twin** interaktif untuk menjelajah Fakultas Teknik Universitas Gadjah Mada (FT UGM) secara virtual. Pengguna dapat mengeksplorasi **model 3D kampus**, **denah bangunan**, dan **panorama 360 derajat** baik dari perangkat desktop maupun mobile.
 
 > Penelitian ini menggunakan metode **fotogrametri** dari foto udara drone, diproses dengan Agisoft Metashape, dioptimalkan di Blender, dan dikompresi dengan Draco untuk menghasilkan model 3D yang ringan dan akurat. Hasil usability testing mencatat skor kepuasan **84,6%**.
 
@@ -148,8 +148,8 @@ Untuk pengembangan asset 3D (opsional, hanya tim kreatif):
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/virtual-tour-ft-ugm.git
-cd virtual-tour-ft-ugm
+git clone https://github.com/USERNAME/digital-twin-ft-ugm-v1-dteti.git
+cd digital-twin-ft-ugm-v1-dteti
 ```
 
 ### 2. Install Dependencies
@@ -217,7 +217,7 @@ Edit `.env.local` sesuai kebutuhan:
 ## Struktur Folder
 
 ```
-virtual-tour-ft-ugm/
+digital-twin-ft-ugm-v1-dteti/
 ├── public/
 │   ├── object/
 │   │   ├── map-min.glb          # Model 3D kampus (Draco compressed)
@@ -331,8 +331,8 @@ const data = {
       description: '<p>Fitur FAQ pada website FT UGM...</p>',
       FaqDetail: [
         {
-          question: 'Apa itu Virtual Tour FT UGM?',
-          answer: '<p>Virtual Tour FT UGM adalah platform...</p>',
+          question: 'Apa itu Digital Twin FT UGM?',
+          answer: '<p>Digital Twin FT UGM adalah platform...</p>',
         },
         // ... item FAQ lainnya
       ],
@@ -683,7 +683,7 @@ Kontribusi sangat diterima! Untuk perubahan besar, silakan buka issue terlebih d
 
 ## Lisensi
 
-[MIT License](LICENSE) © Virtual Tour FT UGM Team
+[MIT License](LICENSE) © Digital Twin FT UGM v1 DTETI Team
 
 ---
 

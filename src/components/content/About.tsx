@@ -15,7 +15,8 @@ export default function About({ about }: AboutSectionProps) {
           ' mb-2 pb-8 font-medium leading-none text-black',
           'text-4xl sm:text-8xl',
           navigation.theme === 'dark' ? ' text-white' : ' text-black',
-        )}>
+        )}
+      >
         {about.heading}
       </h1>
       <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>
@@ -29,14 +30,15 @@ export default function About({ about }: AboutSectionProps) {
 
         <div className={clsx('contributor flex flex-col')}>
           <div className={clsx('mb-4 flex flex-col')}>
-            <h6 className={clsx('font-medium mb-2 ', navigation.theme === 'dark' ? ' text-white' : ' text-black')}>
+            <h6 className={clsx('mb-2 font-medium ', navigation.theme === 'dark' ? ' text-white' : ' text-black')}>
               {about.contributorsLabel}
             </h6>
             <div
               className={clsx(
                 'mb-4 flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0',
                 navigation.theme === 'dark' ? ' text-white' : ' text-black',
-              )}>
+              )}
+            >
               {about.contributors.map((contributor, index) => (
                 <div className=' flex flex-row' key={index}>
                   <a href={contributor.linkedinUrl} target='_blank'>

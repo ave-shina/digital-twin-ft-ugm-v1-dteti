@@ -29,7 +29,8 @@ export default function Faq({ faq: faqData }: FaqContentProps) {
           ' ml-[-4px] pb-8  font-medium leading-none text-black',
           'text-4xl sm:text-6xl',
           navigation.theme === 'dark' ? ' text-white' : ' text-black',
-        )}>
+        )}
+      >
         {faqData.data?.attributes?.subName ?? 'Frequently Asked Questions'}
       </h1>
       <div className={clsx('flex w-full flex-col items-center justify-center')}></div>
@@ -43,12 +44,14 @@ export default function Faq({ faq: faqData }: FaqContentProps) {
               className={clsx('mb-2 flex w-full cursor-pointer flex-row items-center justify-between text-left')}
               onClick={() => {
                 setQuestion({ state: index })
-              }}>
+              }}
+            >
               <div
                 className={clsx(
                   'question text-lg font-semibold ',
                   navigation.theme === 'dark' ? ' text-white' : ' text-black',
-                )}>
+                )}
+              >
                 {item.question}
               </div>
               <div className={clsx('logo')}>

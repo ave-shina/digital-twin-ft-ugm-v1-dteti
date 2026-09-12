@@ -19,7 +19,7 @@ import Weather from '@/components/navigation/Weather'
 
 import Tutorial from '@/components/Tutorial/Tutorial'
 import type { PageProps } from '../types/components'
-import { getContentBundle } from '@/lib/prismic/client'
+import { getContentPageProps } from '@/lib/pageProps'
 
 export default function Page(props: PageProps) {
   const dispatch = useAppDispatch()
@@ -43,7 +43,8 @@ export default function Page(props: PageProps) {
     const playPromise = audioRef.current.play()
     if (playPromise !== undefined) {
       playPromise.catch((error) => {
-        console.log('Audio play failed:', error)
+        // eslint-disable-next-line no-console
+        console.warn('Audio play failed:', error)
       })
     }
   }, [])
@@ -99,7 +100,10 @@ export default function Page(props: PageProps) {
 
   // Konten dari Prismic — wajib ada; bila kosong (build tanpa Prismic) komponen
   // tetap merender struktur, hanya tanpa data.
-  const landmarks = props.landmarks ?? { data: [], meta: { pagination: { page: 1, pageSize: 25, pageCount: 1, total: 0 } } }
+  const landmarks = props.landmarks ?? {
+    data: [],
+    meta: { pagination: { page: 1, pageSize: 25, pageCount: 1, total: 0 } },
+  }
   const tour = props.tour
   const faq = props.faq
   const about = props.about
@@ -107,7 +111,8 @@ export default function Page(props: PageProps) {
   return (
     <>
       <Loading />
-      <audio ref={audioRef} preload='auto'>
+      {/* preload='none': audio 1,6 MB tidak diunduh sebelum user memulai musik */}
+      <audio ref={audioRef} preload='none'>
         <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
       <div className='absolute h-full w-full bg-[#121212]'>
@@ -126,9 +131,7 @@ export default function Page(props: PageProps) {
         {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
         <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction} />
 
-        {hasContent && tour && faq && about && (
-          <Content landmarks={landmarks} tour={tour} faq={faq} about={about} />
-        )}
+        {hasContent && tour && faq && about && <Content landmarks={landmarks} tour={tour} faq={faq} about={about} />}
 
         {showNavigation && (
           <>
@@ -145,16 +148,4 @@ export default function Page(props: PageProps) {
   )
 }
 
-export async function getStaticProps() {
-  const bundle = await getContentBundle()
-  return {
-    props: {
-      title: bundle.settings.seo.title,
-      landmarks: bundle.landmarks,
-      tour: bundle.tour,
-      faq: bundle.faq,
-      about: bundle.about,
-      settings: bundle.settings,
-    },
-  }
-}
+export const getStaticProps = getContentPageProps

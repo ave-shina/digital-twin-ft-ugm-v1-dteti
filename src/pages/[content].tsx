@@ -7,7 +7,7 @@ import { setContent, setLocation, setMusic } from 'redux/navigation'
 import clsx from 'clsx'
 import Image from 'next/image'
 
-import { getContentBundle } from '@/lib/prismic/client'
+import { getContentPageProps } from '@/lib/pageProps'
 import type { PageProps } from '../types/components'
 
 export default function ContentLayout(props: PageProps) {
@@ -32,12 +32,14 @@ export default function ContentLayout(props: PageProps) {
 
   useEffect(() => {
     dispatch(setMusic(false))
-  }, [])
+  }, [dispatch])
 
   // Mencari Data yang dibutuhkan — lowercase agar URL yang diketik manual tetap cocok.
   const navigation = useAppSelector((state) => state.navigation)
   const landmarks = props.landmarks
-  const data = landmarks?.data.find((item) => item.attributes.objectName.toLowerCase() === navigation.location.toLowerCase())
+  const data = landmarks?.data.find(
+    (item) => item.attributes.objectName.toLowerCase() === navigation.location.toLowerCase(),
+  )
 
   // Image ketika akses bukan dari main route - guard dengan optional chaining penuh.
   const thumbnail = data?.attributes?.thumbnail?.data?.attributes
@@ -56,7 +58,8 @@ export default function ContentLayout(props: PageProps) {
       if (playPromise !== undefined) {
         playPromise.catch((error) => {
           // Auto-play was prevented or failed
-          console.log('Audio play failed:', error)
+          // eslint-disable-next-line no-console
+          console.warn('Audio play failed:', error)
         })
       }
     }
@@ -75,7 +78,8 @@ export default function ContentLayout(props: PageProps) {
           if (playPromise !== undefined) {
             playPromise.catch((error) => {
               // Auto-play was prevented or failed
-              console.log('Audio play failed:', error)
+              // eslint-disable-next-line no-console
+              console.warn('Audio play failed:', error)
             })
           }
         }
@@ -90,19 +94,20 @@ export default function ContentLayout(props: PageProps) {
   return (
     <div className='absolute h-full w-full bg-[#121212]'>
       {/* Komponen Musik */}
-      <audio ref={myRef} preload='auto'>
+      {/* preload='none': audio 1,6 MB tidak diunduh sebelum user memulai musik */}
+      <audio ref={myRef} preload='none'>
         <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
       <div className={clsx('absolute h-full w-full')}>
         {/* Komponen Latar belakang */}
         {thumbnail && navigation.content === 'landmark' && (
           <div className='relative h-full w-full'>
+            {/* placeholder='blur' + blurDataURL=URL bukan pola yang benar (blurDataURL
+                harusnya base64 gambar kecil) — pakai placeholder bawaan browser. */}
             <Image
               src={`${thumbnail.url}`}
               className='h-full w-full'
               alt={thumbnail.name}
-              placeholder='blur'
-              blurDataURL={thumbnail.url}
               height={720}
               width={192}
               style={{ objectFit: 'cover' }}
@@ -122,21 +127,14 @@ export default function ContentLayout(props: PageProps) {
 // Keempat halaman konten dibangun saat build dengan konten dari Prismic.
 export async function getStaticPaths() {
   return {
-    paths: [{ params: { content: 'landmark' } }, { params: { content: 'tour' } }, { params: { content: 'faq' } }, { params: { content: 'about' } }],
+    paths: [
+      { params: { content: 'landmark' } },
+      { params: { content: 'tour' } },
+      { params: { content: 'faq' } },
+      { params: { content: 'about' } },
+    ],
     fallback: false,
   }
 }
 
-export async function getStaticProps() {
-  const bundle = await getContentBundle()
-  return {
-    props: {
-      title: bundle.settings.seo.title,
-      landmarks: bundle.landmarks,
-      tour: bundle.tour,
-      faq: bundle.faq,
-      about: bundle.about,
-      settings: bundle.settings,
-    },
-  }
-}
+export const getStaticProps = getContentPageProps

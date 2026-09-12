@@ -52,6 +52,7 @@ export default function Weather() {
         }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Unknown error')
+        // eslint-disable-next-line no-console
         console.error('Error fetching weather data:', err)
       } finally {
         setLoading(false)
@@ -73,8 +74,8 @@ export default function Weather() {
 
   if (loading) {
     return (
-      <div className='absolute top-6 left-1/2 -translate-x-1/2 z-20'>
-        <div className='bg-black/70 backdrop-blur-sm rounded-lg px-4 py-2 text-white text-sm'>Memuat data cuaca...</div>
+      <div className='absolute left-1/2 top-6 z-20 -translate-x-1/2'>
+        <div className='rounded-lg bg-black/70 px-4 py-2 text-sm text-white backdrop-blur-sm'>Memuat data cuaca...</div>
       </div>
     )
   }
@@ -84,9 +85,9 @@ export default function Weather() {
   }
 
   return (
-    <div className='absolute bottom-24 left-1/2 -translate-x-1/2 z-20 w-full flex justify-center items-center '>
-      <div className='bg-black/70 md:w-[30%] w-[90%] backdrop-blur-sm rounded-lg px-4 py-3 text-white text-xs'>
-        <div className='flex items-center gap-4 flex-wrap justify-center'>
+    <div className='absolute bottom-24 left-1/2 z-20 flex w-full -translate-x-1/2 items-center justify-center '>
+      <div className='w-[90%] rounded-lg bg-black/70 px-4 py-3 text-xs text-white backdrop-blur-sm md:w-[30%]'>
+        <div className='flex flex-wrap items-center justify-center gap-4'>
           {/* Date/Time */}
           {weatherData.local_datetime && (
             <div className='flex items-center gap-1'>
@@ -127,7 +128,7 @@ export default function Weather() {
             </div>
           )}
         </div>
-        <div className='text-center mt-2  flex flex-row justify-center gap-2 items-center'>
+        <div className='mt-2 flex  flex-row items-center justify-center gap-2 text-center'>
           {locationInfo && (
             <div className='flex items-center gap-1 text-[10px] text-gray-300'>
               <FaMapMarkerAlt className='h-3 w-3' />

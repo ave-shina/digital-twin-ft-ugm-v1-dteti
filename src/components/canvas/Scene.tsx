@@ -7,7 +7,6 @@ import Background from '../Background'
 
 import Model from './Model'
 import Controls from './Control'
-import round from 'lodash/round'
 
 import { useAppSelector, useAppDispatch } from 'redux/hooks'
 import { toggleLocation, toggleContent } from 'redux/navigation'
@@ -30,7 +29,6 @@ const LOCATION_DATA_DEFAULT = {
 }
 
 function Scene({ children, freeControl, introduction, showTooltip, landmarksData, ...canvasProps }: SceneProps) {
-
   const dispatch = useAppDispatch()
   const navigation = useAppSelector((state) => state.navigation)
   const router = useRouter()
@@ -80,7 +78,8 @@ function Scene({ children, freeControl, introduction, showTooltip, landmarksData
 
   // Memoize PerformanceMonitor onChange handler
   const handlePerformanceChange = useCallback(({ factor }: { factor: number }) => {
-    setDpr(round(0.5 + 1 * factor, 1))
+    // Pembulatan 1 desimal (pengganti lodash/round yang jadi dependensi hantu).
+    setDpr(Math.round((0.5 + 1 * factor) * 10) / 10)
   }, [])
 
   // Memoize Controls props

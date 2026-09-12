@@ -28,13 +28,15 @@ export default function TopRight() {
       <button
         title={isDark ? 'Mode Terang' : 'Mode Gelap'}
         onClick={handleThemeToggle}
-        className={clsx('night-mode top-right-1 mr-4', buttonBaseClasses)}>
+        className={clsx('night-mode top-right-1 mr-4', buttonBaseClasses)}
+      >
         <ThemeIcon isDark={isDark} />
       </button>
       <button
         title={navigation.music ? 'Matikan Musik' : 'Nyalakan Musik'}
         onClick={handleMusicToggle}
-        className={clsx('tour-music top-right-2', buttonBaseClasses)}>
+        className={clsx('tour-music top-right-2', buttonBaseClasses)}
+      >
         <MusicIcon isOn={navigation.music} />
       </button>
     </div>

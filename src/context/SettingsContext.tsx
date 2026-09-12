@@ -9,13 +9,7 @@ import type { SiteSettings } from '@/types/prismic'
 
 const SettingsContext = createContext<SiteSettings>(DEFAULT_SETTINGS.settings)
 
-export function SettingsProvider({
-  settings,
-  children,
-}: {
-  settings?: SiteSettings | null
-  children: ReactNode
-}) {
+export function SettingsProvider({ settings, children }: { settings?: SiteSettings | null; children: ReactNode }) {
   return <SettingsContext.Provider value={settings ?? DEFAULT_SETTINGS.settings}>{children}</SettingsContext.Provider>
 }
 

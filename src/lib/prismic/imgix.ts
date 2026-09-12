@@ -3,10 +3,7 @@
  * Menggantikan transformasi URL Cloudinary (`/upload/w_1000,...`).
  * URL non-Prismic dikembalikan apa adanya agar aman dipakai campur.
  */
-export function withImgixParams(
-  url: string,
-  params: Record<string, string | number>,
-): string {
+export function withImgixParams(url: string, params: Record<string, string | number>): string {
   if (!url) return url
   try {
     const parsed = new URL(url)

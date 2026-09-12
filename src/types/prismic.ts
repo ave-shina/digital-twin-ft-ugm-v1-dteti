@@ -5,7 +5,19 @@
  * Data tour (landmark/scene) dinormalisasi ke bentuk lama di
  * `src/types/data.ts` agar komponen konsumen tidak berubah.
  */
-import type { PrismicDocument, RichTextField, ImageField, SelectField, NumberField, BooleanField, KeyTextField, GroupField, ContentRelationshipField, LinkField, AnyRegularField } from '@prismicio/client'
+import type {
+  PrismicDocument,
+  RichTextField,
+  ImageField,
+  SelectField,
+  NumberField,
+  BooleanField,
+  KeyTextField,
+  GroupField,
+  ContentRelationshipField,
+  LinkField,
+  AnyRegularField,
+} from '@prismicio/client'
 
 /* ------------------------------ field helpers ----------------------------- */
 
@@ -165,7 +177,9 @@ export interface TutorialStepGroup {
   [key: string]: AnyRegularField
   title: KeyTextField
   body: RichTextField
-  target: SelectField<'body' | '.show-tooltip' | '.jelajah-teknik' | '.faq' | '.night-mode' | '.tour-music' | '.about-us' | '.tutorial'>
+  target: SelectField<
+    'body' | '.show-tooltip' | '.jelajah-teknik' | '.faq' | '.night-mode' | '.tour-music' | '.about-us' | '.tutorial'
+  >
   diagram: SelectField<TutorialDiagram>
 }
 

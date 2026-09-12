@@ -11,6 +11,13 @@ import type { HTMLRichTextFunctionSerializer } from '@prismicio/client'
 
 const CAMERA_ICON_URL = 'https://img.icons8.com/material/4ac144/256/camera.png'
 
+/**
+ * Label yang dikenal dan diizinkan pada blok Catatan peta. Label di luar
+ * daftar ini jatuh ke serializer default — interpolasi string arbitrer dari
+ * CMS ke atribut class membuka celah stored XSS oleh editor.
+ */
+const ALLOWED_LABELS = new Set(['blue-dot', 'red-dot', 'camera'])
+
 const catatanLabelSerializer: HTMLRichTextFunctionSerializer = (type, node, _text, children) => {
   if (type === 'label') {
     const label = (node as unknown as { data?: { label?: string } }).data?.label
@@ -23,7 +30,7 @@ const catatanLabelSerializer: HTMLRichTextFunctionSerializer = (type, node, _tex
     if (label === 'camera') {
       return `<span class="relative -bottom-1 inline-block h-4 w-4"><img src="${CAMERA_ICON_URL}" alt="ikon kamera" class="h-full w-full" /></span>`
     }
-    if (label) {
+    if (label && ALLOWED_LABELS.has(label)) {
       return `<span class="${label}">${children}</span>`
     }
   }

@@ -66,15 +66,13 @@ export const DEFAULT_SETTINGS: { settings: SiteSettings } = {
       },
       {
         title: 'Musik latar belakang',
-        bodyHtml:
-          '<p>Tombol ini digunakan untuk memutar atau menjeda musik latar belakang Virtual Tour FT UGM.</p>',
+        bodyHtml: '<p>Tombol ini digunakan untuk memutar atau menjeda musik latar belakang Virtual Tour FT UGM.</p>',
         target: '.tour-music',
         diagram: 'none',
       },
       {
         title: 'Tentang Kami',
-        bodyHtml:
-          '<p>Tombol ini digunakan untuk menampilkan halaman Tentang Virtual Tour FT UGM.</p>',
+        bodyHtml: '<p>Tombol ini digunakan untuk menampilkan halaman Tentang Virtual Tour FT UGM.</p>',
         target: '.about-us',
         diagram: 'none',
       },

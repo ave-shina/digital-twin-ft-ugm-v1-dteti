@@ -77,10 +77,11 @@ export default function Panorama(props: PanoramaProps) {
       className={clsx(
         'fixed top-0 !h-full !w-screen items-center justify-center',
         openPanorama ? 'z-[99999999] !w-screen' : 'z-[-99999999] opacity-0',
-      )}>
+      )}
+    >
       <div
         onClick={handleClosePanorama}
-        className='absolute top-0 flex !h-full !w-screen items-center justify-center bg-[#121212] bg-opacity-80'
+        className='absolute top-0 flex !h-full !w-screen items-center justify-center bg-[#121212]/80'
       />
       <div className='absolute left-1/2 top-1/2 z-50 h-[95%] w-full max-w-[95%] -translate-x-1/2 -translate-y-1/2 sm:left-1/2 sm:h-[90%] sm:max-w-[85%]'>
         <div className={clsx('relative h-full rounded-lg border-2 shadow', themeClasses.modal)}>
@@ -89,11 +90,12 @@ export default function Panorama(props: PanoramaProps) {
             <button
               onClick={handleClosePanorama}
               aria-label='Tutup panorama'
-              className='group absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:right-6 sm:top-6 sm:h-10 sm:w-10 stroke-black'>
+              className='group absolute right-4 top-4 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white stroke-black sm:right-6 sm:top-6 sm:h-10 sm:w-10'
+            >
               <svg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <path
                   d='M21 21L1 1M21 1L1 21'
-                  className='group-hover:stroke-2 stroke-black'
+                  className='stroke-black group-hover:stroke-2'
                   strokeLinecap='round'
                   strokeLinejoin='round'
                 />
@@ -110,7 +112,8 @@ export default function Panorama(props: PanoramaProps) {
                   yaw={180}
                   image={imageUrl}
                   autoLoad
-                  showZoomCtrl={false}>
+                  showZoomCtrl={false}
+                >
                   {hotspotsWithHandlers.map((hotSpot, index) => (
                     <Pannellum.Hotspot
                       type='custom'

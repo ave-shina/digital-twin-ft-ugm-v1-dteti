@@ -30,7 +30,8 @@ export function useBackgroundAudio({ music, musicStart = true, volume = 0.1 }: U
     if (playPromise !== undefined) {
       playPromise.catch((error) => {
         // Auto-play dicegah browser atau gagal - log saja, jangan crash.
-        console.log('Audio play failed:', error)
+        // eslint-disable-next-line no-console
+        console.warn('Audio play failed:', error)
       })
     }
   }, [volume])

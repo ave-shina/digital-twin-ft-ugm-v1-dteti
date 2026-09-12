@@ -33,9 +33,7 @@ yarn-error.log*
 /public/workbox-*.js
 /public/sw.js
 
-# prefer yarn than npm
-package-lock.json
-
+# package manager: npm (lockfile package-lock.json di-commit)
 report.*.json
 
 # .vscode Debugging

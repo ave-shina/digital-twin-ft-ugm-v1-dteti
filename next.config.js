@@ -25,6 +25,25 @@ const securityHeaders = [
     value: 'camera=(), microphone=(), geolocation=()',
   },
   {
+    // Catatan: header hanya berlaku saat disajikan lewat server Next/Vercel —
+    // pada `EXPORT=true next build` (next export) headers() tidak diaplikasikan.
+    key: 'Content-Security-Policy',
+    value: [
+      "default-src 'self'",
+      "script-src 'self' 'unsafe-inline'",
+      "style-src 'self' 'unsafe-inline'",
+      "img-src 'self' data: blob: https://images.prismic.io https://img.icons8.com https://res.cloudinary.com",
+      "font-src 'self' data:",
+      "connect-src 'self' https://*.prismic.io",
+      "media-src 'self'",
+      "worker-src 'self' blob:",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "form-action 'self'",
+      "frame-ancestors 'self'",
+    ].join('; '),
+  },
+  {
     key: 'Strict-Transport-Security',
     value: 'max-age=63072000; includeSubDomains; preload',
   },
@@ -32,11 +51,10 @@ const securityHeaders = [
 
 const nextConfig = {
   experimental: {},
-  // Skip ESLint saat build karena @typescript-eslint/parser bawaan eslint-config-next
-  // belum kompatibel dengan TypeScript 5.x (DeprecationError: originalKeywordKind).
-  // ESLint tetap bisa dijalankan manual via `npm run lint`.
+  // Lint wajib lolos saat build (sebelumnya dimatikan karena parser lama
+  // tidak kompatibel TypeScript 5.x — sudah tidak relevan, lint kini bersih).
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   images: {
     // next export tidak mendukung Image Optimization API; gambar Prismic sudah
@@ -88,13 +106,9 @@ const nextConfig = {
   },
 }
 
-// manage i18n
-if (process.env.EXPORT !== 'true') {
-  nextConfig.i18n = {
-    locales: ['en', 'jp'],
-    defaultLocale: 'en',
-  }
-}
+// i18n sengaja tidak dikonfigurasi: satu-satunya locale konten adalah 'id'
+// (PRISMIC_LANG). Konfigurasi locales en/jp sebelumnya tidak pernah dipakai
+// dan hanya menambah redirect /en pada URL.
 
 const KEYS_TO_OMIT = ['webpackDevMiddleware', 'configOrigin', 'target', 'analyticsId', 'webpack5', 'amp', 'assetPrefix']
 

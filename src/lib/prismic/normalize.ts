@@ -84,7 +84,14 @@ export function emptyImage(): ImageData {
  * Konva (Map.tsx) mengukur dari formats.large, jadi ini wajib sinkron dengan
  * gambar yang tampil agar peta tidak molor dan pin tetap presisi.
  */
-function largeFormat(attrs: { filename: string; ext: string; mime: string; width: number; height: number; url: string }): ImageFormats {
+function largeFormat(attrs: {
+  filename: string
+  ext: string
+  mime: string
+  width: number
+  height: number
+  url: string
+}): ImageFormats {
   if (!attrs.width || !attrs.height) return {}
   const scale = Math.min(1, 1000 / attrs.width)
   return {
@@ -104,7 +111,11 @@ function largeFormat(attrs: { filename: string; ext: string; mime: string; width
 }
 
 /** Image field Prismic -> ImageAttributes Strapi (url absolut, formats.large gaya Strapi). */
-export function normalizeImage(field: { url?: string | null; alt?: string | null; dimensions?: { width?: number; height?: number } | null }): ImageData {
+export function normalizeImage(field: {
+  url?: string | null
+  alt?: string | null
+  dimensions?: { width?: number; height?: number } | null
+}): ImageData {
   const url = field?.url ?? ''
   if (!url) return emptyImage()
   let filename = url.split('?')[0].split('/').pop() ?? 'image'
@@ -178,9 +189,7 @@ function uidOf(link: unknown): string | null {
 function groupScenesIntoFloors(landmark: LandmarkDocument, scenes: PanoramaSceneDocument[]): MapDetail[] {
   const floorEntries = landmark.data.map_detail ?? []
 
-  const scenesOfLandmark = scenes.filter(
-    (scene) => !scene.data.is_tour && uidOf(scene.data.landmark) === landmark.uid,
-  )
+  const scenesOfLandmark = scenes.filter((scene) => !scene.data.is_tour && uidOf(scene.data.landmark) === landmark.uid)
 
   const mapDetail: MapDetail[] = []
   let infoId = 0
@@ -232,12 +241,14 @@ export function normalizeLandmark(landmark: LandmarkDocument, allScenes: Panoram
       tooltipLocation: [num(data.tooltip_location_x), num(data.tooltip_location_y), num(data.tooltip_location_z)],
       mapCoordinate: [num(data.map_pin_x), num(data.map_pin_y), num(data.map_pin_radius)],
       mapDetail: groupScenesIntoFloors(landmark, allScenes),
-      galleryDetail: (data.gallery_detail ?? []).map((entry, index): GalleryDetail => ({
-        id: index,
-        name: text(entry.name),
-        description: richTextHtml(entry.description),
-        galleryImage: normalizeImage(entry.gallery_image),
-      })),
+      galleryDetail: (data.gallery_detail ?? []).map(
+        (entry, index): GalleryDetail => ({
+          id: index,
+          name: text(entry.name),
+          description: richTextHtml(entry.description),
+          galleryImage: normalizeImage(entry.gallery_image),
+        }),
+      ),
       thumbnail: normalizeImage(data.thumbnail),
     },
   }
@@ -277,12 +288,14 @@ export function normalizeTour(tour: TourDocument, allScenes: PanoramaSceneDocume
         isGallery: Boolean(data.is_gallery),
         isDescription: Boolean(data.is_description),
         panoramaData,
-        galleryDetail: (data.gallery_detail ?? []).map((entry, index): GalleryDetail => ({
-          id: index,
-          name: text(entry.name),
-          description: richTextHtml(entry.description),
-          galleryImage: normalizeImage(entry.gallery_image),
-        })),
+        galleryDetail: (data.gallery_detail ?? []).map(
+          (entry, index): GalleryDetail => ({
+            id: index,
+            name: text(entry.name),
+            description: richTextHtml(entry.description),
+            galleryImage: normalizeImage(entry.gallery_image),
+          }),
+        ),
       },
     },
     meta: {},

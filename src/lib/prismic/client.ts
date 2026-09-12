@@ -7,7 +7,15 @@
  */
 import * as prismic from '@prismicio/client'
 
-import type { ContentBundle, FaqDocument, LandmarkDocument, PanoramaSceneDocument, AboutDocument, SiteSettingsDocument, TourDocument } from '@/types/prismic'
+import type {
+  ContentBundle,
+  FaqDocument,
+  LandmarkDocument,
+  PanoramaSceneDocument,
+  AboutDocument,
+  SiteSettingsDocument,
+  TourDocument,
+} from '@/types/prismic'
 import { normalizeAbout, normalizeFaq, normalizeLandmarks, normalizeSettings, normalizeTour } from './normalize'
 
 const REPO = process.env.PRISMIC_REPOSITORY_NAME

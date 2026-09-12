@@ -29,7 +29,8 @@ export default function Loading() {
       className={clsx(
         ' absolute !z-[9999999999999999] !min-h-screen !w-screen flex-col items-center justify-center overflow-hidden bg-white',
         load ? 'flex' : 'hidden',
-      )}>
+      )}
+    >
       <div className='flex  flex-col items-center justify-center'>
         <div className=' relative mb-2 h-28 w-28 overflow-hidden sm:h-36 sm:w-36 '>
           <div className=' relative h-full   bg-slate-200 '>
@@ -52,7 +53,8 @@ export default function Loading() {
             </div>
             <div
               className='absolute bottom-1 left-[10%] w-4/5  bg-blue-800'
-              style={{ height: `${progress - 6}%` }}></div>
+              style={{ height: `${progress - 6}%` }}
+            ></div>
           </div>
         </div>
 

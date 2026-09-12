@@ -25,16 +25,20 @@ declare module '@georgedrpg/pannellum-react-next' {
   }
 
   export class Pannellum extends Component<PannellumProps> {
-    static Hotspot: ComponentType<HotspotDev & {
-      tooltip?: (hotSpotDiv: HTMLDivElement) => void
-      handleClick?: (evt: unknown, name: unknown) => void
-    }>
+    static Hotspot: ComponentType<
+      HotspotDev & {
+        tooltip?: (hotSpotDiv: HTMLDivElement) => void
+        handleClick?: (evt: unknown, name: unknown) => void
+      }
+    >
   }
 
-  export const Hotspot: ComponentType<HotspotDev & {
-    tooltip?: (hotSpotDiv: HTMLDivElement) => void
-    handleClick?: (evt: unknown, name: unknown) => void
-  }>
+  export const Hotspot: ComponentType<
+    HotspotDev & {
+      tooltip?: (hotSpotDiv: HTMLDivElement) => void
+      handleClick?: (evt: unknown, name: unknown) => void
+    }
+  >
 }
 
 declare module '@georgedrpg/pannellum-react-next/es/css/video-js.css'
@@ -70,16 +74,6 @@ declare module 'react-map-interaction' {
     [key: string]: unknown
   }
   export const MapInteractionCSS: ComponentType<MapInteractionCSSProps>
-}
-
-declare module 'react-responsive-pinch-zoom-pan' {
-  import type { ComponentType } from 'react'
-  interface PinchZoomPanProps {
-    src?: string
-    [key: string]: unknown
-  }
-  const PinchZoomPan: ComponentType<PinchZoomPanProps>
-  export default PinchZoomPan
 }
 
 declare module 'react-reveal' {

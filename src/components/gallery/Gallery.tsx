@@ -23,7 +23,8 @@ export default function Gallery(props: GalleryProps) {
       className={clsx(
         'lightbox leading-companies grid h-full w-full grid-cols-2 items-center ',
         galleryDetail.length > 2 ? 'md:grid-cols-3' : 'md:grid-cols-2',
-      )}>
+      )}
+    >
       {galleryDetail?.map((item, index) => (
         <button
           type='button'
@@ -35,7 +36,8 @@ export default function Gallery(props: GalleryProps) {
           onClick={() => {
             setPhotoIndex(index)
             setIsOpen(true)
-          }}>
+          }}
+        >
           <Image
             src={`${item?.galleryImage.data.attributes.url}`}
             className='h-full w-full hover:scale-110'

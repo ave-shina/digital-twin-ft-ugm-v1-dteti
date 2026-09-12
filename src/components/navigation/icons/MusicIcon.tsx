@@ -10,7 +10,8 @@ export default function MusicIcon({ isOn, className }: MusicIconProps) {
         viewBox='0 0 27 20'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
-        className={className}>
+        className={className}
+      >
         <path
           d='M1 12.3595V8.14051C1 7.53795 1.23936 6.96008 1.66543 6.53401C2.09151 6.10794 2.66938 5.86857 3.27194 5.86857H6.56624C6.78835 5.86852 7.00557 5.80335 7.19103 5.68114L14.0068 1.18725C14.1781 1.07447 14.3767 1.01015 14.5815 1.00111C14.7864 0.992063 14.9898 1.03864 15.1704 1.13588C15.3509 1.23313 15.5017 1.37743 15.6069 1.55347C15.712 1.72951 15.7675 1.93073 15.7676 2.13578V18.3642C15.7675 18.5693 15.712 18.7705 15.6069 18.9465C15.5017 19.1226 15.3509 19.2669 15.1704 19.3641C14.9898 19.4614 14.7864 19.5079 14.5815 19.4989C14.3767 19.4899 14.1781 19.4255 14.0068 19.3128L7.19103 14.8189C7.00557 14.6966 6.78835 14.6315 6.56624 14.6314H3.27194C2.66938 14.6314 2.09151 14.3921 1.66543 13.966C1.23936 13.5399 1 12.962 1 12.3595Z'
           className={clsx('stroke-white group-hover:stroke-black', className)}
@@ -32,7 +33,8 @@ export default function MusicIcon({ isOn, className }: MusicIconProps) {
       viewBox='0 0 22 18'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
-      className={className}>
+      className={className}
+    >
       <path
         d='M17 11L19 9M19 9L21 7M19 9L17 7M19 9L21 11'
         className={clsx('stroke-white group-hover:stroke-black', className)}

@@ -83,7 +83,7 @@ export default function Navbar() {
 
   const getNavbarClasses = useCallback(() => {
     return clsx(
-      'fixed z-[99999998] flex w-full flex-row items-center justify-between px-4 py-3 sm:p-6 navbar-opacity',
+      'navbar-opacity fixed z-[99999998] flex w-full flex-row items-center justify-between px-4 py-3 sm:p-6',
       !isNavbarVisible && !isTransparentMode && '!hidden',
       isTransparentMode
         ? 'bg-transparent'
@@ -130,7 +130,8 @@ export default function Navbar() {
           onClick={handleThemeToggle}
           aria-label={isDarkTheme ? 'Aktifkan mode terang' : 'Aktifkan mode gelap'}
           aria-pressed={!isDarkTheme}
-          className={getButtonClasses()}>
+          className={getButtonClasses()}
+        >
           {isDarkTheme ? (
             <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
               <path
@@ -151,7 +152,8 @@ export default function Navbar() {
           onClick={handleMusicToggle}
           aria-label={navigation.music ? 'Matikan musik' : 'Nyalakan musik'}
           aria-pressed={navigation.music}
-          className={clsx(getButtonClasses(), 'mr-4')}>
+          className={clsx(getButtonClasses(), 'mr-4')}
+        >
           {navigation.music ? (
             <svg width='27' height='20' viewBox='0 0 27 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
               <path

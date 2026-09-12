@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quality:
+    name: Lint, typecheck, test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run test
+
+  build:
+    name: Build produksi (export statis)
+    runs-on: ubuntu-latest
+    needs: quality
+    env:
+      PRISMIC_REPOSITORY_NAME: ${{ secrets.PRISMIC_REPOSITORY_NAME }}
+      PRISMIC_ACCESS_TOKEN: ${{ secrets.PRISMIC_ACCESS_TOKEN }}
+      PRISMIC_LANG: ${{ secrets.PRISMIC_LANG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      # Build mengambil konten langsung dari Prismic — lewati bila secrets
+      # belum diisi pada settings repository GitHub.
+      - name: Build
+        if: ${{ env.PRISMIC_REPOSITORY_NAME != '' }}
+        run: npm run export
+      - name: Dilewati (secrets Prismic belum diisi)
+        if: ${{ env.PRISMIC_REPOSITORY_NAME == '' }}
+        run: echo "Isi secrets PRISMIC_REPOSITORY_NAME & PRISMIC_ACCESS_TOKEN untuk mengaktifkan job build."

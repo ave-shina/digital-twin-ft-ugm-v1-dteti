@@ -42,7 +42,8 @@ export default class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBo
       return (
         <div
           role='alert'
-          className='flex min-h-screen w-full flex-col items-center justify-center bg-[#121212] p-6 text-center text-white'>
+          className='flex min-h-screen w-full flex-col items-center justify-center bg-[#121212] p-6 text-center text-white'
+        >
           <h1 className='mb-2 text-3xl font-bold'>Terjadi Kesalahan</h1>
           <p className='mb-6 max-w-md text-base text-gray-300'>
             Maaf, terjadi error saat memuat halaman. Silakan coba muat ulang.
@@ -53,7 +54,8 @@ export default class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBo
           <button
             type='button'
             onClick={this.handleReload}
-            className='rounded border border-white bg-white px-6 py-2 text-black hover:bg-gray-200'>
+            className='rounded border border-white bg-white px-6 py-2 text-black hover:bg-gray-200'
+          >
             Muat Ulang
           </button>
         </div>

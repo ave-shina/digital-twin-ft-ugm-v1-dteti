@@ -50,27 +50,30 @@ export default function Main() {
   }, [dispatch, navigation.showWeather])
 
   return (
-    <div className='absolute bottom-6 left-1/2 z-20 flex h-14 gap-5 -translate-x-1/2 flex-row items-center justify-between rounded-full border border-solid border-white px-6 sm:h-14 md:gap-10'>
+    <div className='absolute bottom-6 left-1/2 z-20 flex h-14 -translate-x-1/2 flex-row items-center justify-between gap-5 rounded-full border border-solid border-white px-6 sm:h-14 md:gap-10'>
       <button
         title={navigation.showTooltip ? 'Sembunyikan Nama Gedung' : 'Lihat Nama Gedung'}
         aria-label={navigation.showTooltip ? 'Sembunyikan Nama Gedung' : 'Lihat Nama Gedung'}
         aria-pressed={navigation.showTooltip}
         onClick={handleTooltipToggle}
-        className={`show-tooltip ${buttonBaseClasses}`}>
+        className={`show-tooltip ${buttonBaseClasses}`}
+      >
         {navigation.showTooltip ? <FaTag className={iconClasses} /> : <HiOutlineTag className={iconClasses} />}
       </button>
       <button
         title='Jelajah Fakultas Teknik'
         aria-label='Jelajah Fakultas Teknik'
         onClick={handleTourClick}
-        className={`jelajah-teknik ${buttonBaseClasses}`}>
+        className={`jelajah-teknik ${buttonBaseClasses}`}
+      >
         <TourIcon />
       </button>
       <button
         title='Frequently Asked Questions'
         aria-label='Frequently Asked Questions'
         onClick={handleFaqClick}
-        className={`faq ${buttonBaseClasses}`}>
+        className={`faq ${buttonBaseClasses}`}
+      >
         <FaqIcon />
       </button>
       <button
@@ -78,7 +81,8 @@ export default function Main() {
         aria-label={navigation.showWeather ? 'Sembunyikan Cuaca' : 'Tampilkan Cuaca'}
         aria-pressed={navigation.showWeather}
         onClick={handleWeatherToggle}
-        className={`show-weather ${buttonBaseClasses}`}>
+        className={`show-weather ${buttonBaseClasses}`}
+      >
         {navigation.showWeather ? <FaCloudSun className={iconClasses} /> : <FaSun className={iconClasses} />}
       </button>
     </div>

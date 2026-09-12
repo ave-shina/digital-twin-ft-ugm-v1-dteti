@@ -14,7 +14,8 @@ export default function StoryBoard(props: StoryBoardProps) {
       className='absolute z-[999999999]  h-full w-screen'
       role='dialog'
       aria-modal='true'
-      aria-label='Selamat datang di Virtual Tour FT UGM'>
+      aria-label='Selamat datang di Virtual Tour FT UGM'
+    >
       <div className='relative h-full w-screen'>
         <div className='animate-myfirst animate-bg-blur absolute z-10 flex h-full w-full flex-col items-center justify-center bg-[#121212]  bg-opacity-40'></div>
         <div className='absolute top-0 z-20 flex h-full w-full flex-col items-center justify-center'>
@@ -35,7 +36,8 @@ export default function StoryBoard(props: StoryBoardProps) {
               onClick={() => {
                 startVmap()
               }}
-              className='mt-8 rounded border border-black bg-white px-8 py-2 text-black  hover:bg-slate-300 hover:text-black'>
+              className='mt-8 rounded border border-black bg-white px-8 py-2 text-black  hover:bg-slate-300 hover:text-black'
+            >
               Mulai
             </button>
           </Fade>

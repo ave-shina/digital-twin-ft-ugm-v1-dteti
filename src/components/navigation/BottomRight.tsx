@@ -22,11 +22,12 @@ export default function BottomRight(_props: BottomRightProps) {
   }, [dispatch, router])
 
   return (
-    <div className='absolute bottom-10 md:bottom-9 md:right-10 right-5 z-20 flex flex-col'>
+    <div className='absolute bottom-10 right-5 z-20 flex flex-col md:bottom-9 md:right-10'>
       <button
         onClick={handleAboutClick}
-        className='about-us group flex  cursor-pointer items-center justify-center rounded-full'>
-        <FaGift className='md:w-8 md:h-8 w-7 h-7 fill-white group-hover:fill-black' />
+        className='about-us group flex  cursor-pointer items-center justify-center rounded-full'
+      >
+        <FaGift className='h-7 w-7 fill-white group-hover:fill-black md:h-8 md:w-8' />
       </button>
     </div>
   )

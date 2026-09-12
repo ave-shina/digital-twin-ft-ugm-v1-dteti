@@ -30,7 +30,17 @@ interface MapTourEntry {
 
 function Map(props: MapProps) {
   const router = useRouter()
-  const { setCurrentScene, setOpenPanorama, mapInformation, mapImage, mapName, open, currentIndex, Message, landmarksData } = props
+  const {
+    setCurrentScene,
+    setOpenPanorama,
+    mapInformation,
+    mapImage,
+    mapName,
+    open,
+    currentIndex,
+    Message,
+    landmarksData,
+  } = props
   // set Current Scen digunakan untuk merubah Tampilan Panorama
   // Map Information = Semua titik lokasi dalam satu map
   // Map Image = Gambar Peta
@@ -129,7 +139,8 @@ function Map(props: MapProps) {
       className={clsx(
         'flex h-full w-full  bg-slate-200',
         navigation.theme === 'dark' ? ' bg-slate-700' : ' bg-slate-200',
-      )}>
+      )}
+    >
       <div className={clsx(' relative flex  w-full flex-col items-center justify-center')}>
         <div ref={mapContainer} className={clsx('flex h-[550px] w-full items-center justify-center overflow-hidden')}>
           <div className='absolute left-4 top-4 z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white'>
@@ -139,7 +150,8 @@ function Map(props: MapProps) {
           <div
             className={clsx(
               'absolute right-4 top-4  z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
-            )}>
+            )}
+          >
             {mapName}
           </div>
 
@@ -151,7 +163,8 @@ function Map(props: MapProps) {
               className={clsx(
                 !navigation.mapTourMessage ? ' left-4 cursor-pointer' : 'inset-x-4',
                 'absolute  bottom-4  z-10 overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
-              )}>
+              )}
+            >
               {!navigation.mapTourMessage ? (
                 <button className='my-1 flex cursor-pointer items-center justify-center'>
                   <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -171,11 +184,13 @@ function Map(props: MapProps) {
             value={value}
             onChange={(value) => {
               setValue(value)
-            }}>
+            }}
+          >
             <div ref={mapRef} className={clsx('image-hotspot h-full w-full')}>
               <Stage
                 width={mapImage.formats.large?.width ?? mapImage.width ?? 0}
-                height={mapImage.formats.large?.height ?? mapImage.height ?? 0}>
+                height={mapImage.formats.large?.height ?? mapImage.height ?? 0}
+              >
                 <Layer>
                   {image && <KonvaImage image={image} x={0} y={0} scaleX={1} scaleY={1} />}
 

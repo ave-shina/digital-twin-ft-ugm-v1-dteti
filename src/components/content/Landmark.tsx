@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, useMemo } from 'react'
 // Dynamic import untuk Komponen Map dan panorama - butuh window (Konva/Pannellum).
 import dynamic from 'next/dynamic'
 
@@ -51,10 +51,14 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
     data?.attributes?.mapDetail[currentMap]?.MapInformation[0]?.name,
   )
 
-  // Mengambil data Map yang tampil
-  const mapInformation = data?.attributes?.mapDetail[currentMap]?.MapInformation
-    ? data?.attributes?.mapDetail[currentMap]?.MapInformation
-    : []
+  // Mengambil data Map yang tampil — di-memo agar stabil sebagai dependency efek.
+  const mapInformation = useMemo(
+    () =>
+      data?.attributes?.mapDetail[currentMap]?.MapInformation
+        ? data?.attributes?.mapDetail[currentMap]?.MapInformation
+        : [],
+    [data, currentMap],
+  )
 
   // Mengambil data Panorama yang tampil
   const sceneInformation: SceneInformation[] = []
@@ -62,7 +66,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
     sceneInformation.push({
       sceneName: mapInformation[i]?.name,
       scenePanoImg:
-        mapInformation[i]?.mapImage?.data?.attributes !== null && mapInformation[i]?.mapImage?.data?.attributes !== undefined
+        mapInformation[i]?.mapImage?.data?.attributes !== null &&
+        mapInformation[i]?.mapImage?.data?.attributes !== undefined
           ? mapInformation[i].mapImage.data.attributes
           : null,
       hotSpotsArr: mapInformation[i].panoramaCoordinate,
@@ -72,7 +77,7 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
   // Menentukan lokasi panorama awal
   useEffect(() => {
     setCurrentScene(mapInformation[0] ? mapInformation[0].name : 0)
-  }, [currentMap])
+  }, [currentMap, mapInformation])
 
   // konten apa saja yang terdapat pada fitur landmark
   const section = [
@@ -98,7 +103,9 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
   const [prevTitle, setPrevTitle] = useState<{ state: number }>({ state: 1 })
   const [open, setOpen] = useState(false)
 
-  // Logika untuk menampilkan dan menyembunyikan dropdown
+  // Logika untuk menampilkan dan menyembunyikan dropdown.
+  // open/prevTitle sengaja BUKAN dependency: setelah setPrevTitle efek akan
+  // re-fire dan toggle ganda — deps lengkap justru merusak perilaku.
   useEffect(() => {
     if (title.state !== prevTitle.state) {
       setPrevTitle(title)
@@ -106,6 +113,7 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
     } else if (title.state === prevTitle.state) {
       setOpen(!open)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [title])
 
   const dispatch = useAppDispatch()
@@ -122,7 +130,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
           className={clsx(
             'group  flex h-6 w-6 cursor-pointer items-center justify-center rounded-full border border-solid border-black bg-white sm:right-6 sm:top-6 sm:h-6 sm:w-6 ',
             ' stroke-black',
-          )}>
+          )}
+        >
           <svg width='12' height='12' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
             <path
               d='M21 21L1 1M21 1L1 21'
@@ -153,7 +162,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
               className={clsx(
                 'mySwiper z-20 flex w-full rounded-md border border-solid  bg-gray-300',
                 navigation.theme === 'dark' ? ' border-white' : ' !border-black',
-              )}>
+              )}
+            >
               {navigation.content === 'landmark' && (
                 <div
                   onClick={() => {
@@ -162,7 +172,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                   className={clsx(
                     !navigation.mapLandmarkMessage ? ' left-4 !cursor-pointer' : 'inset-x-4',
                     'absolute bottom-4 z-[99999999] overflow-hidden rounded-md bg-black px-2 py-1 text-base text-white',
-                  )}>
+                  )}
+                >
                   {!navigation.mapLandmarkMessage ? (
                     <button className='my-1 flex cursor-pointer items-center justify-center'>
                       <svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -187,7 +198,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                 }}
                 ref={(node) => {
                   setPrevEl(node)
-                }}>
+                }}
+              >
                 <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path
                     d='M12 0L14.8 2.8L5.59999 12L14.8 21.2L12 24L-1.14441e-05 12L12 0Z'
@@ -202,7 +214,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                 ref={(node) => setNextEl(node)}
                 onClick={() => {
                   setCurrentMap((currentMap + 1) % mapDetail.length)
-                }}>
+                }}
+              >
                 <svg width='15' height='24' viewBox='0 0 15 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path
                     d='M3.00001 24L0.200012 21.2L9.40001 12L0.200012 2.8L3.00001 0L15 12L3.00001 24Z'
@@ -223,7 +236,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                       setOpenPanorama={setOpenPanorama}
                       setCurrentScene={setCurrentScene}
                       Message={Message}
-                      landmarksData={Landmarks}></Map>
+                      landmarksData={Landmarks}
+                    ></Map>
                   </SwiperSlide>
                 )
               })}
@@ -250,21 +264,24 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
           openPanorama={openPanorama}
           setOpenPanorama={setOpenPanorama}
           currentScene={currentScene ?? 0}
-          setCurrentScene={setCurrentScene}></Panorama>
+          setCurrentScene={setCurrentScene}
+        ></Panorama>
       )}
       <div
         className={clsx(
           'absolute flex min-h-full w-full scrollbar-thin scrollbar-track-gray-100 scrollbar-thumb-gray-600  ',
-        )}>
+        )}
+      >
         <div className='absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-black to-transparent  opacity-60'></div>
         <div
           className={clsx(
             'absolute bottom-4 mb-4 flex w-full items-center px-4 sm:px-6  ',
             'flex-col sm:mb-6 sm:flex-row',
-          )}>
+          )}
+        >
           <div className='mb-4 flex !h-full w-full flex-col flex-wrap  md:mb-0 md:flex-row'>
             <h1 ref={scrollRef} className={clsx('h-full font-medium leading-none text-white', 'text-5xl sm:text-9xl')}>
-              {data?.attributes?.objectName ?? ""}
+              {data?.attributes?.objectName ?? ''}
             </h1>
             {data?.attributes?.subName !== null && data?.attributes?.subName !== undefined && (
               <>
@@ -273,7 +290,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                   className={clsx(
                     'mt-2 flex items-center font-medium text-white',
                     'w-full  text-2xl sm:text-4xl md:w-1/2',
-                  )}>
+                  )}
+                >
                   {data?.attributes?.subName}
                 </p>
               </>
@@ -284,7 +302,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
             onClick={() => {
               executeScroll()
             }}
-            className='group  flex h-full w-full items-center justify-center text-center text-white sm:w-[20%] sm:justify-end '>
+            className='group  flex h-full w-full items-center justify-center text-center text-white sm:w-[20%] sm:justify-end '
+          >
             <button className='mr-2 no-underline group-hover:underline'>Scroll Down</button>
             <button className='flex h-6 w-6 items-center justify-center rounded-full border sm:h-10 sm:w-10'>
               <svg
@@ -293,7 +312,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                 viewBox='0 0 12 8'
                 className='bounce'
                 fill='none'
-                xmlns='http://www.w3.org/2000/svg'>
+                xmlns='http://www.w3.org/2000/svg'
+              >
                 <path d='M1.41 0.580002L6 5.17L10.59 0.580002L12 2L6 8L0 2L1.41 0.580002Z' fill='white' />
               </svg>
             </button>
@@ -310,7 +330,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
           'absolute top-[100%] flex min-h-full w-full  flex-col    py-8',
           'px-6 sm:px-[10%]',
           navigation.theme === 'dark' ? ' bg-[#121212]' : '  bg-white',
-        )}>
+        )}
+      >
         <div className={clsx('mb-8 flex h-full w-full flex-col  justify-center ')}>
           {section.map((item, index) => {
             // console.log('test', item.show === true)
@@ -319,19 +340,24 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                 {item.show === true && (
                   <div
                     className={clsx(' mb-4 flex w-full flex-col  border-b border-solid border-gray-400 py-4 ')}
-                    key={index}>
+                    key={index}
+                  >
                     <button
                       type='button'
                       aria-expanded={index === title.state && open}
-                      className={clsx('mb-2 flex w-full cursor-pointer flex-row items-center justify-between text-left')}
+                      className={clsx(
+                        'mb-2 flex w-full cursor-pointer flex-row items-center justify-between text-left',
+                      )}
                       onClick={() => {
                         setTitle({ state: index })
-                      }}>
+                      }}
+                    >
                       <div
                         className={clsx(
                           'title text-2xl font-semibold ',
                           navigation.theme === 'dark' ? ' text-white' : ' text-black',
-                        )}>
+                        )}
+                      >
                         {item.title}
                       </div>
                       <div className={clsx('logo')}>
@@ -341,7 +367,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                             height='10'
                             viewBox='0 0 16 10'
                             fill='none'
-                            xmlns='http://www.w3.org/2000/svg'>
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
                             <path
                               className={clsx(navigation.theme === 'dark' ? '  stroke-white' : '  stroke-black')}
                               d='M15 8.5L8 1.5L1 8.5'
@@ -357,7 +384,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                             height='10'
                             viewBox='0 0 16 10'
                             fill='none'
-                            xmlns='http://www.w3.org/2000/svg'>
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
                             <path
                               d='M15 1.5L8 8.5L1 1.5'
                               className={clsx(navigation.theme === 'dark' ? '  stroke-white' : '  stroke-black')}
@@ -375,7 +403,8 @@ export default function Landmark({ landmarks: Landmarks }: LandmarkContentProps)
                         'answer flex h-full w-full flex-col py-2',
                         index === title.state && open ? 'flex' : 'hidden',
                         navigation.theme === 'dark' ? ' text-white' : ' text-black',
-                      )}>
+                      )}
+                    >
                       {Content(item.id)}
                     </div>
                   </div>

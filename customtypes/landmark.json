@@ -1,0 +1,221 @@
+{
+  "id": "landmark",
+  "label": "Landmark / Gedung",
+  "repeatable": true,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID (slug URL)"
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama tampilan",
+          "placeholder": "cth. DTETI"
+        }
+      },
+      "sub_name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama lengkap",
+          "placeholder": "cth. Departemen Teknik Elektro dan Teknologi Informasi"
+        }
+      },
+      "object_name": {
+        "type": "Text",
+        "config": {
+          "label": "Object Name 3D — JANGAN DIUBAH",
+          "placeholder": "Harus persis sama dengan nama mesh gedung di model 3D, cth. DTETI"
+        }
+      },
+      "location": {
+        "type": "Text",
+        "config": {
+          "label": "Lokasi (opsional)"
+        }
+      },
+      "thumbnail": {
+        "type": "Image",
+        "config": {
+          "label": "Thumbnail / foto hero"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Deskripsi (Tentang gedung)",
+          "allowTargetBlank": true,
+          "placeholder": "Sejarah, visi misi, program studi, dll.",
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      },
+      "is_description": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian deskripsi?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "is_map": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian peta/jelajah?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "is_gallery": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian galeri?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "zoom_target_x": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom target X (3D)"
+        }
+      },
+      "zoom_target_y": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom target Y (3D)"
+        }
+      },
+      "zoom_target_z": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom target Z (3D)"
+        }
+      },
+      "zoom_camera_x": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom camera X (3D)"
+        }
+      },
+      "zoom_camera_y": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom camera Y (3D)"
+        }
+      },
+      "zoom_camera_z": {
+        "type": "Number",
+        "config": {
+          "label": "Zoom camera Z (3D)"
+        }
+      },
+      "tooltip_location_x": {
+        "type": "Number",
+        "config": {
+          "label": "Tooltip 3D X"
+        }
+      },
+      "tooltip_location_y": {
+        "type": "Number",
+        "config": {
+          "label": "Tooltip 3D Y"
+        }
+      },
+      "tooltip_location_z": {
+        "type": "Number",
+        "config": {
+          "label": "Tooltip 3D Z"
+        }
+      },
+      "map_pin_x": {
+        "type": "Number",
+        "config": {
+          "label": "Pin peta kampus X"
+        }
+      },
+      "map_pin_y": {
+        "type": "Number",
+        "config": {
+          "label": "Pin peta kampus Y"
+        }
+      },
+      "map_pin_radius": {
+        "type": "Number",
+        "config": {
+          "label": "Radius pin peta kampus"
+        }
+      },
+      "map_detail": {
+        "type": "Group",
+        "config": {
+          "label": "Lantai (peta lantai)",
+          "repeat": true,
+          "fields": {
+            "floor_name": {
+              "type": "Text",
+              "config": {
+                "label": "Nama lantai",
+                "placeholder": "cth. Lantai 1 DTETI"
+              }
+            },
+            "floor_description": {
+              "type": "Text",
+              "config": {
+                "label": "Deskripsi lantai (belum dipakai UI)"
+              }
+            },
+            "floor_plan": {
+              "type": "Image",
+              "config": {
+                "label": "Gambar denah lantai"
+              }
+            },
+            "order": {
+              "type": "Number",
+              "config": {
+                "label": "Urutan lantai (mulai 0)"
+              }
+            }
+          }
+        }
+      },
+      "gallery_detail": {
+        "type": "Group",
+        "config": {
+          "label": "Galeri",
+          "repeat": true,
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Judul foto"
+              }
+            },
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Keterangan foto",
+                "allowTargetBlank": true,
+                "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+              }
+            },
+            "gallery_image": {
+              "type": "Image",
+              "config": {
+                "label": "Foto"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

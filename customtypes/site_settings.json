@@ -1,0 +1,146 @@
+{
+  "id": "site_settings",
+  "label": "Pengaturan Situs",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "SEO": {
+      "seo_title": {
+        "type": "Text",
+        "config": {
+          "label": "Judul situs (SEO)"
+        }
+      },
+      "seo_description": {
+        "type": "Text",
+        "config": {
+          "label": "Deskripsi situs (SEO)"
+        }
+      },
+      "seo_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Keywords (SEO)"
+        }
+      },
+      "seo_author": {
+        "type": "Text",
+        "config": {
+          "label": "Author (SEO)"
+        }
+      },
+      "seo_url": {
+        "type": "Text",
+        "config": {
+          "label": "URL situs (SEO)"
+        }
+      },
+      "seo_og_image": {
+        "type": "Image",
+        "config": {
+          "label": "Gambar Open Graph"
+        }
+      }
+    },
+    "Branding": {
+      "loading_title": {
+        "type": "Text",
+        "config": {
+          "label": "Teks loading baris 1",
+          "placeholder": "cth. FAKULTAS TEKNIK"
+        }
+      },
+      "loading_subtitle": {
+        "type": "Text",
+        "config": {
+          "label": "Teks loading baris 2",
+          "placeholder": "cth. UNIVERSITAS GADJAH MADA"
+        }
+      }
+    },
+    "Panduan Peta": {
+      "tour_catatan": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Catatan bantuan peta (halaman Jelajah Teknik)",
+          "allowTargetBlank": true,
+          "labels": [
+            "blue-dot",
+            "red-dot",
+            "camera"
+          ],
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      },
+      "landmark_catatan": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Catatan bantuan peta (halaman Gedung)",
+          "allowTargetBlank": true,
+          "labels": [
+            "blue-dot",
+            "red-dot",
+            "camera"
+          ],
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      }
+    },
+    "Tutorial": {
+      "tutorial_steps": {
+        "type": "Group",
+        "config": {
+          "label": "Langkah tutorial",
+          "repeat": true,
+          "fields": {
+            "title": {
+              "type": "Text",
+              "config": {
+                "label": "Judul langkah"
+              }
+            },
+            "body": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Isi langkah",
+                "allowTargetBlank": true,
+                "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+              }
+            },
+            "target": {
+              "type": "Select",
+              "config": {
+                "label": "Target tombol (teknis — jangan diubah)",
+                "options": [
+                  "body",
+                  ".show-tooltip",
+                  ".jelajah-teknik",
+                  ".faq",
+                  ".night-mode",
+                  ".tour-music",
+                  ".about-us",
+                  ".tutorial"
+                ],
+                "default_value": "body"
+              }
+            },
+            "diagram": {
+              "type": "Select",
+              "config": {
+                "label": "Diagram ilustrasi (teknis)",
+                "options": [
+                  "none",
+                  "desktop",
+                  "mobile",
+                  "navigate"
+                ],
+                "default_value": "none"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

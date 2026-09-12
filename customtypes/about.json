@@ -1,0 +1,85 @@
+{
+  "id": "about",
+  "label": "Tentang Kami",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "heading": {
+        "type": "Text",
+        "config": {
+          "label": "Judul halaman",
+          "placeholder": "cth. Virtual Tour FT UGM"
+        }
+      },
+      "welcome": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Paragraf sambutan",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      },
+      "contributors_label": {
+        "type": "Text",
+        "config": {
+          "label": "Judul bagian kontributor",
+          "placeholder": "cth. Kontributor"
+        }
+      },
+      "contributors": {
+        "type": "Group",
+        "config": {
+          "label": "Kontributor",
+          "repeat": true,
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Nama"
+              }
+            },
+            "role": {
+              "type": "Text",
+              "config": {
+                "label": "Peran",
+                "placeholder": "cth. Web Developer"
+              }
+            },
+            "linkedin": {
+              "type": "Link",
+              "config": {
+                "label": "Link LinkedIn",
+                "select": "web"
+              }
+            }
+          }
+        }
+      },
+      "credits": {
+        "type": "Group",
+        "config": {
+          "label": "Kredit aset",
+          "repeat": true,
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Kategori",
+                "placeholder": "cth. Aset 3D"
+              }
+            },
+            "value": {
+              "type": "Text",
+              "config": {
+                "label": "Nilai",
+                "placeholder": "cth. Quaternius"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

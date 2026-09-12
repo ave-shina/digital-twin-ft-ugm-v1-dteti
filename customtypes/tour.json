@@ -1,0 +1,101 @@
+{
+  "id": "tour",
+  "label": "Jelajah Teknik (halaman tour)",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "heading": {
+        "type": "Text",
+        "config": {
+          "label": "Judul halaman",
+          "placeholder": "cth. Jelajah Teknik"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Deskripsi (Sejarah Fakultas Teknik)",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      },
+      "is_description": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian deskripsi?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "is_map": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian peta?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "is_gallery": {
+        "type": "Boolean",
+        "config": {
+          "label": "Tampilkan bagian galeri?",
+          "default_value": true,
+          "placeholder_true": "Tampil",
+          "placeholder_false": "Sembunyi"
+        }
+      },
+      "map_name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama peta kampus",
+          "placeholder": "cth. Peta Fakultas Teknik"
+        }
+      },
+      "map_description": {
+        "type": "Text",
+        "config": {
+          "label": "Deskripsi peta (belum dipakai UI)"
+        }
+      },
+      "floor_plan": {
+        "type": "Image",
+        "config": {
+          "label": "Gambar peta kampus"
+        }
+      },
+      "gallery_detail": {
+        "type": "Group",
+        "config": {
+          "label": "Galeri",
+          "repeat": true,
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Judul foto"
+              }
+            },
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Keterangan foto",
+                "allowTargetBlank": true,
+                "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+              }
+            },
+            "gallery_image": {
+              "type": "Image",
+              "config": {
+                "label": "Foto"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

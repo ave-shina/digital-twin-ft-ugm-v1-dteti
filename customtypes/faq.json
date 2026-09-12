@@ -1,0 +1,62 @@
+{
+  "id": "faq",
+  "label": "FAQ",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "heading": {
+        "type": "Text",
+        "config": {
+          "label": "Judul halaman",
+          "placeholder": "cth. Frequently Asked Questions"
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama (internal)",
+          "placeholder": "cth. Faq"
+        }
+      },
+      "sub_name": {
+        "type": "Text",
+        "config": {
+          "label": "Sub nama (opsional)"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Deskripsi umum FAQ",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+        }
+      },
+      "faq_detail": {
+        "type": "Group",
+        "config": {
+          "label": "Daftar pertanyaan",
+          "repeat": true,
+          "fields": {
+            "question": {
+              "type": "Text",
+              "config": {
+                "label": "Pertanyaan"
+              }
+            },
+            "answer": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Jawaban",
+                "allowTargetBlank": true,
+                "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,list-item,o-list-item,quote,preformatted,image,embed,hyperlink,strong,em,label"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

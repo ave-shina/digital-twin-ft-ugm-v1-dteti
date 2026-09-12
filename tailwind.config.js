@@ -1,0 +1,30 @@
+module.exports = {
+  mode: 'jit',
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
+    // kelas catatan peta (dot/kamera) hidup di string HTML rich text lib prismic
+    './src/lib/**/*.{js,ts,jsx,tsx}',
+  ], // remove unused styles in production
+  darkMode: 'media', // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {
+      fontFamily: {
+        main: 'futura-lt',
+        montserrat: 'Montserrat, sans-serif',
+      },
+    },
+  },
+  utilities: {
+    'h-screen': {
+      height: '-webkit-fill-available',
+    },
+    'w-screen': {
+      width: '-webkit-fill-available',
+    },
+  },
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
+}

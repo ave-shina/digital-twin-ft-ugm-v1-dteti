@@ -1,0 +1,120 @@
+{
+  "id": "panorama_scene",
+  "label": "Scene Panorama 360",
+  "repeatable": true,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID (otomatis dari nama scene)"
+        }
+      },
+      "scene_name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama Scene — JANGAN DIUBAH SEMBARANGAN",
+          "placeholder": "Dipakai sebagai target hotspot antar scene, harus unik per lantai, cth. dteti_lantai_1_1"
+        }
+      },
+      "landmark": {
+        "type": "Link",
+        "config": {
+          "label": "Gedung induk",
+          "select": "document",
+          "customtypes": [
+            "landmark"
+          ]
+        }
+      },
+      "is_tour": {
+        "type": "Boolean",
+        "config": {
+          "label": "Scene milik Jelajah Teknik (peta kampus)?",
+          "default_value": false,
+          "placeholder_true": "Jelajah Teknik",
+          "placeholder_false": "Gedung"
+        }
+      },
+      "floor_name": {
+        "type": "Text",
+        "config": {
+          "label": "Nama lantai/peta induk",
+          "placeholder": "cth. Lantai 1 DTETI"
+        }
+      },
+      "floor_order": {
+        "type": "Number",
+        "config": {
+          "label": "Urutan lantai (mulai 0)"
+        }
+      },
+      "scene_order": {
+        "type": "Number",
+        "config": {
+          "label": "Urutan scene di lantai (mulai 0)"
+        }
+      },
+      "panorama": {
+        "type": "Image",
+        "config": {
+          "label": "Foto panorama 360 (equirectangular)"
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Deskripsi scene (opsional)"
+        }
+      },
+      "map_x": {
+        "type": "Number",
+        "config": {
+          "label": "Pin denah X"
+        }
+      },
+      "map_y": {
+        "type": "Number",
+        "config": {
+          "label": "Pin denah Y"
+        }
+      },
+      "map_radius": {
+        "type": "Number",
+        "config": {
+          "label": "Radius pin denah"
+        }
+      },
+      "hotspots": {
+        "type": "Group",
+        "config": {
+          "label": "Hotspot navigasi panorama",
+          "repeat": true,
+          "fields": {
+            "pitch": {
+              "type": "Number",
+              "config": {
+                "label": "Pitch"
+              }
+            },
+            "yaw": {
+              "type": "Number",
+              "config": {
+                "label": "Yaw"
+              }
+            },
+            "transition": {
+              "type": "Text",
+              "config": {
+                "label": "Pindah ke scene (Nama Scene tujuan)",
+                "placeholder": "cth. dteti_lantai_1_2"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

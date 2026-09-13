@@ -49,6 +49,10 @@ const securityHeaders = [
   },
 ]
 
+// Mode export statis: `EXPORT=true next build` menulis situs HTML lengkap ke
+// folder out/ (output: 'export', stabil sejak Next 13.3).
+const isExport = process.env.EXPORT === 'true'
+
 const nextConfig = {
   experimental: {},
   // Lint wajib lolos saat build (sebelumnya dimatikan karena parser lama
@@ -59,7 +63,7 @@ const nextConfig = {
   images: {
     // next export tidak mendukung Image Optimization API; gambar Prismic sudah
     // teroptimasi di CDN via parameter imgix.
-    unoptimized: process.env.EXPORT === 'true',
+    unoptimized: isExport,
     remotePatterns: [
       { protocol: 'https', hostname: 'res.cloudinary.com' },
       { protocol: 'https', hostname: 'img.icons8.com' },
@@ -67,14 +71,23 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: securityHeaders,
-      },
-    ]
-  },
+  // headers() TIDAK kompatibel dengan output: 'export' — pada mode export,
+  // pasang header keamanan di level host (mis. file _headers Netlify /
+  // Cloudflare Pages yang di-generate dari array securityHeaders yang sama).
+  ...(isExport
+    ? {}
+    : {
+        async headers() {
+          return [
+            {
+              source: '/(.*)',
+              headers: securityHeaders,
+            },
+          ]
+        },
+      }),
+  // Export statis: build langsung menulis situs HTML ke out/.
+  ...(isExport ? { output: 'export' } : {}),
   webpack(config, { isServer }) {
     // audio support
     config.module.rules.push({

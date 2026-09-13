@@ -39,7 +39,8 @@ jobs:
       # belum diisi pada settings repository GitHub.
       - name: Build
         if: ${{ env.PRISMIC_REPOSITORY_NAME != '' }}
-        run: npm run export
+        # Verifikasi output export benar-benar dihasilkan, bukan sekadar exit 0.
+        run: npm run export && test -f out/index.html
       - name: Dilewati (secrets Prismic belum diisi)
         if: ${{ env.PRISMIC_REPOSITORY_NAME == '' }}
         run: echo "Isi secrets PRISMIC_REPOSITORY_NAME & PRISMIC_ACCESS_TOKEN untuk mengaktifkan job build."

@@ -27,10 +27,7 @@ export default function Tour({ tour, landmarksData }: TourContentProps) {
 
   // Mengambil data - guard dengan optional chaining untuk hindari throw saat data belum siap.
   // Di-memo agar identitas stabil sebagai dependency efek (tidak berubah tiap render).
-  const mapInformation = useMemo(
-    () => tour.data?.attributes?.panoramaData?.[0]?.MapInformation ?? [],
-    [tour],
-  )
+  const mapInformation = useMemo(() => tour.data?.attributes?.panoramaData?.[0]?.MapInformation ?? [], [tour])
   const sceneInformation: SceneInformation[] = []
   for (let i = 0; i < mapInformation.length; i++) {
     sceneInformation.push({

@@ -51,4 +51,47 @@ describe('richTextToHtml', () => {
     expect(html).toContain('catatan')
     expect(html).not.toContain('class=kustom')
   })
+
+  it('menyaring embed oEmbed mentah (serializer default menyuntik html apa adanya)', () => {
+    const field = [
+      {
+        type: 'embed',
+        oembed: {
+          html: '<p>aman</p><script>alert(1)</script><iframe src="https://evil.example"></iframe>',
+          embed_url: 'https://evil.example',
+          type: 'rich',
+        },
+      },
+    ] as unknown as RichTextField
+    const html = richTextToHtml(field)
+    expect(html).not.toContain('<script')
+    expect(html).not.toContain('<iframe')
+    expect(html).toContain('aman')
+  })
+
+  it('membuang href javascript: pada hyperlink (sisa tetap dirender)', () => {
+    const field: RichTextField = [
+      {
+        type: 'paragraph',
+        text: 'klik',
+        spans: [{ type: 'hyperlink', start: 0, end: 4, data: { link_type: 'Web', url: 'javascript:alert(1)' } }],
+      },
+    ]
+    const html = richTextToHtml(field)
+    expect(html).not.toContain('javascript:')
+    expect(html).toContain('klik')
+  })
+
+  it('mempertahankan markup yang diizinkan lewat sanitasi', () => {
+    const field: RichTextField = [
+      {
+        type: 'paragraph',
+        text: 'tautan',
+        spans: [{ type: 'hyperlink', start: 0, end: 6, data: { link_type: 'Web', url: 'https://ft.ugm.ac.id' } }],
+      },
+    ]
+    const html = richTextToHtml(field)
+    expect(html).toContain('href="https://ft.ugm.ac.id"')
+    expect(html).toContain('tautan')
+  })
 })

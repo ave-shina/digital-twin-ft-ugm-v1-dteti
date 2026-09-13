@@ -135,8 +135,9 @@ export interface LayoutProps {
 
 /** Page props (index.jsx) */
 export interface PageProps {
-  ref?: RefObject<HTMLDivElement>
   title?: string
+  /** Path halaman konten ('landmark' | 'tour' | 'faq' | 'about') — untuk SEO per halaman. */
+  page?: string
   /** Konten dari Prismic (getStaticProps). */
   landmarks?: LandmarksData
   tour?: TourDataShape

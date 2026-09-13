@@ -5,11 +5,30 @@
  * Label span khusus untuk blok Catatan peta:
  *  - `blue-dot` / `red-dot` -> lingkaran warna
  *  - `camera`               -> ikon kamera (icons8, sama seperti sebelumnya)
+ *
+ * HASILNYA SELALU DISANITASI. Modul ini hanya berjalan saat build
+ * (getStaticProps/SSG) — HTML yang dibekukan ke props halaman statis wajib
+ * bersih, karena sanitasi client (`sanitizeHtml`) tidak pernah berjalan di
+ * server/SSG. Titik rawan: serializer embed bawaan @prismicio/client
+ * menyuntik `oembed.html` mentah — DOMPurify adalah lapisan terakhir sebelum
+ * HTML dibekukan (embed/script/iframe di luar allowlist akan dibuang).
  */
 import { asHTML, type RichTextField } from '@prismicio/client'
 import type { HTMLRichTextFunctionSerializer } from '@prismicio/client'
+import DOMPurify from 'dompurify'
+import { JSDOM } from 'jsdom'
+
+import { SANITIZE_CONFIG } from '@/utils/sanitize'
 
 const CAMERA_ICON_URL = 'https://img.icons8.com/material/4ac144/256/camera.png'
+
+/**
+ * DOMPurify butuh DOM — di Node (build/vitest) kita pakai window jsdom.
+ * Impor jsdom di modul ini AMAN: hanya normalize.ts (server-only) yang
+ * mengimpornya, jadi jsdom tidak pernah masuk bundle browser.
+ */
+type PurifyWindow = NonNullable<Parameters<typeof DOMPurify>[0]>
+const purify = DOMPurify(new JSDOM('').window as unknown as PurifyWindow)
 
 /**
  * Label yang dikenal dan diizinkan pada blok Catatan peta. Label di luar
@@ -38,8 +57,8 @@ const catatanLabelSerializer: HTMLRichTextFunctionSerializer = (type, node, _tex
   return undefined
 }
 
-/** Rich text -> HTML string (fallback ke serializer default untuk blok lain). */
+/** Rich text -> HTML string TERsanitasi (fallback serializer default untuk blok lain). */
 export function richTextToHtml(field: RichTextField | null | undefined): string {
   if (!field || !Array.isArray(field) || field.length === 0) return ''
-  return asHTML(field, { serializer: catatanLabelSerializer }) ?? ''
+  return purify.sanitize(asHTML(field, { serializer: catatanLabelSerializer }) ?? '', SANITIZE_CONFIG)
 }

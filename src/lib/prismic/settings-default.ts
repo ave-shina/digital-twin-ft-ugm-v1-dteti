@@ -17,9 +17,9 @@ export const DEFAULT_SETTINGS: { settings: SiteSettings } = {
       description:
         'Selamat datang di Virtual Tour Fakultas Teknik Universitas Gadjah Mada (FT UGM)!, Dalam perjalanan virtual ini, Anda akan diajak mengenal lebih dekat berbagai gedung akademik dan lingkungan kampus yang mendukung proses pembelajaran dan penelitian di FT UGM.',
       keywords:
-        'Virtual Tour, Fakultask Teknik, Universitas Gadjah Mada, Indonesia, UGM, FT, DTETI, DTSL, DTMI, DTK, DTNTF, DTGL, DTGD, DTAP',
+        'Virtual Tour, Fakultas Teknik, Universitas Gadjah Mada, Indonesia, UGM, FT, DTETI, DTSL, DTMI, DTK, DTNTF, DTGL, DTGD, DTAP',
       author: 'Author',
-      url: 'https://www.virtual-tour-ft-ugm.com',
+      url: 'https://ft-ugm.world',
       ogImage: '/icons/share.png',
     },
     loading: {

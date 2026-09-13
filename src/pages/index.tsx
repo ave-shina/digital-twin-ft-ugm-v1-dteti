@@ -16,6 +16,7 @@ import BottomLeft from '@/components/navigation/BottomLeft'
 import BottomRight from '@/components/navigation/BottomRight'
 import TopRight from '@/components/navigation/TopRight'
 import Weather from '@/components/navigation/Weather'
+import PageSeo from '@/components/dom/PageSeo'
 
 import Tutorial from '@/components/Tutorial/Tutorial'
 import type { PageProps } from '../types/components'
@@ -110,23 +111,19 @@ export default function Page(props: PageProps) {
 
   return (
     <>
+      {/* Beranda memakai judul/deskripsi situs dari Prismic (tanpa judul khusus). */}
+      <PageSeo />
       <Loading />
       {/* preload='none': audio 1,6 MB tidak diunduh sebelum user memulai musik */}
       <audio ref={audioRef} preload='none'>
         <source src='/audio.mp3' type='audio/mpeg' />
       </audio>
       <div className='absolute h-full w-full bg-[#121212]'>
-        <Scene
-          shadows
-          colorManagement
-          shadowMap
-          introduction={introduction}
-          freeControl={freeControl}
-          landmarksData={landmarks}
-          className='pointer-events-none'
-          eventSource={props.ref}
-          eventPrefix='client'
-        />
+        {/* Canvas adalah target event (default R3F). Props lama
+            eventSource={props.ref} tidak pernah terkirim (getStaticProps tidak
+            bisa mengirim ref) — colorManagement/shadowMap bukan prop Canvas
+            R3F v8 dan bocor sebagai atribut DOM tak dikenal. */}
+        <Scene shadows introduction={introduction} freeControl={freeControl} landmarksData={landmarks} />
 
         {introduction === 'storyBoard' && <StoryBoard startVmap={startVmap} />}
         <Tutorial setTutorial={setTutorial} tutorial={tutorial} setIntroduction={setIntroduction} />

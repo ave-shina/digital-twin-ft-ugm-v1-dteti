@@ -2,49 +2,71 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import type { NavigationState } from '@/types/redux'
 import type { Theme } from '@/types/data'
 
-// Initial state membaca dari localStorage jika ada (hanya di client-side).
-// Side-effect persistence ditangani oleh middleware di store.ts, BUKAN di reducer.
-function getInitialState(): NavigationState {
-  const base: NavigationState = {
-    theme: 'dark',
-    location: '',
-    content: '',
-    showTooltip: true,
+/**
+ * Initial state HARUS murni (tanpa membaca localStorage): render server (HTML
+ * SSG) memakai nilai default yang sama. Membaca localStorage di sini membuat
+ * render pertama client berbeda dari HTML server -> hydration mismatch.
+ * Preferensi tersimpan di-restore SETELAH mount lewat action `hydrate`
+ * (dipanggil dari src/components/dom/Layout.tsx).
+ */
+const initialState: NavigationState = {
+  theme: 'dark',
+  location: '',
+  content: '',
+  showTooltip: true,
+  music: true,
+  firstTutorial: false,
+  mapTourMessage: true,
+  mapLandmarkMessage: true,
+  showWeather: false,
+}
+
+/**
+ * Baca preferensi tersimpan dari localStorage (client saja, dipanggil sekali
+ * setelah mount). Default-nya sama dengan yang selama ini ditulis Layout
+ * untuk pengunjung baru: theme light, music on, tutorial belum dilihat.
+ */
+export function readStoredPreferences(): Partial<NavigationState> {
+  if (typeof window === 'undefined') return {}
+
+  const prefs: Partial<NavigationState> = {
+    theme: 'light',
     music: true,
     firstTutorial: false,
-    mapTourMessage: true,
-    mapLandmarkMessage: true,
-    showWeather: false,
   }
-
-  if (typeof window === 'undefined') return base
 
   try {
     const storedTheme = window.localStorage.getItem('theme')
     if (storedTheme === 'light' || storedTheme === 'dark') {
-      base.theme = storedTheme
+      prefs.theme = storedTheme
     }
 
     const storedMusic = window.localStorage.getItem('music')
     if (storedMusic === 'true' || storedMusic === 'false') {
-      base.music = storedMusic === 'true'
+      prefs.music = storedMusic === 'true'
     }
 
     const storedFirstTutorial = window.localStorage.getItem('firstTutorial')
     if (storedFirstTutorial === 'true' || storedFirstTutorial === 'false') {
-      base.firstTutorial = storedFirstTutorial === 'true'
+      prefs.firstTutorial = storedFirstTutorial === 'true'
     }
   } catch {
     // localStorage bisa throw (private mode, dll), abaikan.
   }
 
-  return base
+  return prefs
 }
 
 export const navigationSlice = createSlice({
   name: 'navigation',
-  initialState: getInitialState(),
+  initialState,
   reducers: {
+    /** Restore preferensi tersimpan — satu-satunya jalur rehidrasi. */
+    hydrate: (state, { payload }: PayloadAction<Partial<NavigationState>>) => {
+      if (payload.theme !== undefined) state.theme = payload.theme
+      if (payload.music !== undefined) state.music = payload.music
+      if (payload.firstTutorial !== undefined) state.firstTutorial = payload.firstTutorial
+    },
     // Toggle theme dengan logika yang jelas.
     toggleTheme: (state) => {
       state.theme = state.theme === 'light' ? 'dark' : 'light'
@@ -58,7 +80,6 @@ export const navigationSlice = createSlice({
     toggleContent: (state, { payload }: PayloadAction<string>) => {
       state.content = state.content === '' ? payload : ''
     },
-    // Setter eksplisit (lebih aman daripada toggle berturut-turut).
     setLocation: (state, { payload }: PayloadAction<string>) => {
       state.location = payload
     },
@@ -90,6 +111,7 @@ export const navigationSlice = createSlice({
 })
 
 export const {
+  hydrate,
   setFirstTutorial,
   toggleMusic,
   setMusic,

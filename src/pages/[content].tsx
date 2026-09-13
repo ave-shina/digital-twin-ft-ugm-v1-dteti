@@ -2,13 +2,39 @@ import React, { useEffect, useRef, useState } from 'react'
 
 import Content from '@/components/content/Content'
 import { useRouter } from 'next/router'
+import type { GetStaticPropsContext } from 'next'
 import { useAppDispatch, useAppSelector } from 'redux/hooks'
 import { setContent, setLocation, setMusic } from 'redux/navigation'
 import clsx from 'clsx'
 import Image from 'next/image'
 
+import PageSeo from '@/components/dom/PageSeo'
 import { getContentPageProps } from '@/lib/pageProps'
 import type { PageProps } from '../types/components'
+
+/** Judul & deskripsi SEO per halaman konten — judul disematkan PageSeo dengan
+ * nama situs (mis. "FAQ | Virtual Tour FT UGM"). */
+const PAGE_SEO: Record<string, { title: string; description: string }> = {
+  landmark: {
+    title: 'Landmark',
+    description:
+      'Denah dan daftar bangunan Fakultas Teknik UGM — pilih landmark untuk melihat informasi detail setiap gedung secara virtual.',
+  },
+  tour: {
+    title: 'Jelajah Teknik',
+    description:
+      'Jelajahi panorama 360° gedung-gedung Fakultas Teknik UGM melalui fitur Jelajah Teknik pada Virtual Tour FT UGM.',
+  },
+  faq: {
+    title: 'Frequently Asked Questions',
+    description:
+      'Pertanyaan yang sering diajukan seputar penggunaan Virtual Tour Fakultas Teknik Universitas Gadjah Mada.',
+  },
+  about: {
+    title: 'Tentang Kami',
+    description: 'Mengenal tim di balik pembuatan Virtual Tour Fakultas Teknik Universitas Gadjah Mada.',
+  },
+}
 
 export default function ContentLayout(props: PageProps) {
   const router = useRouter()
@@ -43,6 +69,8 @@ export default function ContentLayout(props: PageProps) {
 
   // Image ketika akses bukan dari main route - guard dengan optional chaining penuh.
   const thumbnail = data?.attributes?.thumbnail?.data?.attributes
+
+  const seo = (props.page && PAGE_SEO[props.page]) || undefined
 
   // Komponen musik
   const myRef = useRef<HTMLAudioElement>(null)
@@ -93,6 +121,11 @@ export default function ContentLayout(props: PageProps) {
 
   return (
     <div className='absolute h-full w-full bg-[#121212]'>
+      <PageSeo
+        title={seo?.title}
+        description={seo?.description}
+        path={seo && props.page ? `/${props.page}` : ''}
+      />
       {/* Komponen Musik */}
       {/* preload='none': audio 1,6 MB tidak diunduh sebelum user memulai musik */}
       <audio ref={myRef} preload='none'>
@@ -137,4 +170,8 @@ export async function getStaticPaths() {
   }
 }
 
-export const getStaticProps = getContentPageProps
+export async function getStaticProps({ params }: GetStaticPropsContext<{ content: string }>) {
+  const { props } = await getContentPageProps()
+  // Path diteruskan ke halaman agar PageSeo memakai judul & canonical yang tepat.
+  return { props: { ...props, page: typeof params?.content === 'string' ? params.content : '' } }
+}

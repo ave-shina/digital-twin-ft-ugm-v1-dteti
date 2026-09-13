@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import type { AppProps } from 'next/app'
 
-import Header from '@/config'
+import HeadDefaults from '@/components/dom/HeadDefaults'
 import Layout from '@/components/dom/Layout'
 import ErrorBoundary from '@/components/ErrorBoundary'
 import '@/styles/index.css'
@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }: AppProps<{ title?: string;
         <ErrorBoundary>
           {/* SettingsProvider membawa konten Prismic (SEO, catatan, tutorial) ke semua komponen */}
           <SettingsProvider settings={settings}>
-            <Header />
+            <HeadDefaults />
             {/* Komponen utama */}
             <Layout ref={ref}>
               <Component {...pageProps} />

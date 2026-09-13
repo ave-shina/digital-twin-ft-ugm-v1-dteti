@@ -5,6 +5,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const withPWA = require('next-pwa')({
   dest: 'public',
   disable: process.env.NODE_ENV === 'development',
+  // GLB (47 MB total) TIDAK di-precache: setiap deploy ulang mengunduh ulang
+  // seluruhnya saat install SW, dan fetch model bisa gagal/tertunda kapan saja
+  // user membuka halaman. Model cukup di-cache saat runtime (NetworkFirst).
+  publicExcludes: ['!noprecache/**/*', '!object/**/*'],
 })
 
 const securityHeaders = [

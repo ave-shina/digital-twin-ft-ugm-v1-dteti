@@ -6,9 +6,19 @@ import { useAppSelector, useAppDispatch } from 'redux/hooks'
 import { setFirstTutorial } from 'redux/navigation'
 
 import Content from '@/components/content/Content'
-import Loading from '@/components/Loading'
+import LoadingShell from '@/components/LoadingShell'
 import StoryBoard from '@/components/StoryBoard'
+
+// Scene, Loading, dan Tutorial hanya berjalan di client dan berat (three.js
+// via Scene/useProgress, react-joyride) — dynamic import menjaga semuanya
+// keluar dari bundle awal halaman.
 const Scene = dynamic(() => import('../components/canvas/Scene'), { ssr: false })
+const Loading = dynamic(() => import('@/components/Loading'), {
+  ssr: false,
+  // Fallback statis — ikut dirender di SSR HTML selama chunk Loading dimuat.
+  loading: () => <LoadingShell visible progress={0} />,
+})
+const Tutorial = dynamic(() => import('@/components/Tutorial/Tutorial'), { ssr: false })
 
 import Logo from '@/components/navigation/Logo'
 import Main from '@/components/navigation/Main'
@@ -18,7 +28,6 @@ import TopRight from '@/components/navigation/TopRight'
 import Weather from '@/components/navigation/Weather'
 import PageSeo from '@/components/dom/PageSeo'
 
-import Tutorial from '@/components/Tutorial/Tutorial'
 import type { PageProps } from '../types/components'
 import { getContentPageProps } from '@/lib/pageProps'
 

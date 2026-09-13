@@ -34,11 +34,22 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline'",
+      // 'wasm-unsafe-eval': decoder Draco (/draco/, self-hosted) adalah WASM —
+      // tanpa ini pemuatan model 3D ditolak CSP. 'unsafe-eval' hanya saat dev
+      // (evaluasi modul webpack + HMR di `next dev` memakai eval); build
+      // produksi tidak pernah eval.
+      // va.vercel-scripts.com: skrip debug @vercel/analytics saat dev
+      // (di produksi analytics dimuat same-origin /_vercel/insights/).
+      `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://va.vercel-scripts.com${
+        process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''
+      }`,
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: https://images.prismic.io https://img.icons8.com https://res.cloudinary.com",
       "font-src 'self' data:",
-      "connect-src 'self' https://*.prismic.io",
+      // blob: wajib — GLTFLoader (Chromium/Firefox≥98) memuat tekstur embed
+      // GLB via fetch() ke blob: URL; tanpa ini semua tekstur putih.
+      // api.bmkg.go.id: widget cuaca (Weather.tsx).
+      "connect-src 'self' blob: https://*.prismic.io https://api.bmkg.go.id",
       "media-src 'self'",
       "worker-src 'self' blob:",
       "object-src 'none'",

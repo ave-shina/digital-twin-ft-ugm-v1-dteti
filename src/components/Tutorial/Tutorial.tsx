@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import clsx from 'clsx'
 import Joyride, { STATUS } from 'react-joyride'
 import type { CallBackProps, Step, Styles } from 'react-joyride'
@@ -223,6 +223,12 @@ export default function Tutorial(props: TutorialProps) {
   const isDark = navigation.theme === 'dark'
   const settings = useSettings()
 
+  // react-joyride merender struktur DOM yang berbeda di server vs client
+  // (tooltip dibuat setelah mount) — tanpa gate ini setiap load melempar
+  // hydration mismatch "Did not expect server HTML to contain a <div>".
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
   // Langkah tutorial dari Prismic (site_settings.tutorial_steps); placement
   // 'center' untuk langkah tanpa target elemen (target 'body').
   const steps = useMemo<Step[]>(
@@ -299,6 +305,8 @@ export default function Tutorial(props: TutorialProps) {
     }),
     [],
   )
+  if (!mounted) return null
+
   return (
     <Joyride
       {...({

@@ -121,11 +121,7 @@ export default function ContentLayout(props: PageProps) {
 
   return (
     <div className='absolute h-full w-full bg-[#121212]'>
-      <PageSeo
-        title={seo?.title}
-        description={seo?.description}
-        path={seo && props.page ? `/${props.page}` : ''}
-      />
+      <PageSeo title={seo?.title} description={seo?.description} path={seo && props.page ? `/${props.page}` : ''} />
       {/* Komponen Musik */}
       {/* preload='none': audio 1,6 MB tidak diunduh sebelum user memulai musik */}
       <audio ref={myRef} preload='none'>

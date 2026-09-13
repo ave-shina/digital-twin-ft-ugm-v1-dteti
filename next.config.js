@@ -2,13 +2,61 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+// Route kustom didahulukan dari default next-pwa (registerRoute dievaluasi
+// berurutan). Tanpa ini: GLB jatuh ke route same-origin "others" NetworkFirst
+// (kedaluwarsa 1 hari, bisa ter-evict), dan gambar Prismic — yang selalu
+// punya query string (?auto=format&w=…) — tidak pernah match route gambar
+// default (anchored $) sehingga hanya bertahan 1 jam di cache cross-origin.
+const defaultPwaCache = require('next-pwa/cache')
+
+const runtimeCaching = [
+  {
+    // Model 3D: besar dan hampir tidak pernah berubah.
+    urlPattern: /\.glb$/i,
+    handler: 'CacheFirst',
+    options: {
+      cacheName: 'gltf-models',
+      rangeRequests: true,
+      expiration: { maxEntries: 4, maxAgeSeconds: 30 * 24 * 60 * 60, purgeOnQuotaError: true },
+      cacheableResponse: { statuses: [0, 200] },
+    },
+  },
+  {
+    // Gambar panorama/peta/galeri dari CDN Prismic.
+    urlPattern: /^https:\/\/images\.prismic\.io\/.*/i,
+    handler: 'StaleWhileRevalidate',
+    options: {
+      cacheName: 'prismic-images',
+      expiration: { maxEntries: 120, maxAgeSeconds: 30 * 24 * 60 * 60 },
+      cacheableResponse: { statuses: [0, 200] },
+    },
+  },
+  {
+    // Prakiraan cuaca BMKG diperbarui berkala — jangan disimpan terlalu lama.
+    urlPattern: /^https:\/\/api\.bmkg\.go\.id\/.*/i,
+    handler: 'NetworkFirst',
+    options: {
+      cacheName: 'bmkg-weather',
+      networkTimeoutSeconds: 5,
+      expiration: { maxEntries: 8, maxAgeSeconds: 6 * 60 * 60 },
+      cacheableResponse: { statuses: [0, 200] },
+    },
+  },
+  ...defaultPwaCache,
+]
+
 const withPWA = require('next-pwa')({
   dest: 'public',
   disable: process.env.NODE_ENV === 'development',
-  // GLB (47 MB total) TIDAK di-precache: setiap deploy ulang mengunduh ulang
-  // seluruhnya saat install SW, dan fetch model bisa gagal/tertunda kapan saja
-  // user membuka halaman. Model cukup di-cache saat runtime (NetworkFirst).
-  publicExcludes: ['!noprecache/**/*', '!object/**/*'],
+  // GLB (±9 MB) TIDAK di-precache — install SW tidak boleh mengunduh model;
+  // ia di-cache runtime oleh route gltf-models di atas. audio.mp3 (1,6 MB)
+  // dan robots/sitemap juga dikeluarkan (audio punya route CacheFirst
+  // bawaan; robots/sitemap harus selalu fresh di mata crawler).
+  publicExcludes: ['!noprecache/**/*', '!object/**/*', '!audio.mp3', '!robots.txt', '!sitemap.xml'],
+  // Pulihkan default Workbox yang tertimpa next-pwa: tanpa ini /?content=…
+  // dianggap URL berbeda dari / pada pencocokan precache & runtime.
+  ignoreURLParametersMatching: [/^utm_/, /^fbclid$/],
+  runtimeCaching,
 })
 
 const securityHeaders = [
@@ -68,6 +116,16 @@ const securityHeaders = [
 // folder out/ (output: 'export', stabil sejak Next 13.3).
 const isExport = process.env.EXPORT === 'true'
 
+// Cache-Control untuk aset statis public/ (aset _next/static ber-hash sudah
+// immutable secara default di host). Salinan JSON dari header ini ada di
+// vercel.json — ubah keduanya bersamaan.
+const immutableCache = [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }]
+const longCache = [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=2592000' }]
+const swHeaders = [
+  { key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' },
+  { key: 'Service-Worker-Allowed', value: '/' },
+]
+
 const nextConfig = {
   experimental: {},
   // Lint wajib lolos saat build (sebelumnya dimatikan karena parser lama
@@ -98,6 +156,13 @@ const nextConfig = {
               source: '/(.*)',
               headers: securityHeaders,
             },
+            { source: '/_next/static/:path*', headers: immutableCache },
+            { source: '/draco/:path*', headers: immutableCache },
+            { source: '/object/:path*', headers: longCache },
+            { source: '/audio.mp3', headers: longCache },
+            { source: '/img/:path*', headers: longCache },
+            { source: '/icons/:path*', headers: longCache },
+            { source: '/sw.js', headers: swHeaders },
           ]
         },
       }),

@@ -42,8 +42,9 @@ export default function Model(props: ModelProps) {
   // Mendapatkan fungsi toggle zoom dari parent
   const { toggleZoom, landmarksData } = props
   const group = useRef<THREE.Group>(null)
-  // import 3dModel
-  const gltf = useGLTF('object/map-min.glb') as unknown as {
+  // import 3dModel — draco decoder di-self-host di /draco/ (bukan gstatic CDN)
+  // agar load model tidak bergantung pada jaringan pihak ketiga.
+  const gltf = useGLTF('object/map-min.glb', '/draco/') as unknown as {
     nodes: { [key: string]: THREE.Mesh }
     materials: { [key: string]: THREE.Material }
   }
@@ -350,7 +351,7 @@ export default function Model(props: ModelProps) {
   )
 }
 
-useGLTF.preload('object/map-min.glb')
+useGLTF.preload('object/map-min.glb', '/draco/')
 
 function SpriteHover(props: SpriteHoverProps) {
   const spriteRef = useRef<THREE.Group>(null)

@@ -21,6 +21,14 @@ export default function Loading() {
     }
   }, [progress, active])
 
+  // Safety net: overlay tidak boleh memblokir halaman selamanya. Jika ada
+  // resource yang gagal/hang (mis. texture atau decoder) sehingga progress
+  // tidak pernah 100, overlay tetap disembunyikan setelah batas waktu.
+  useEffect(() => {
+    const timer = setTimeout(() => setLoad(false), 30000)
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <div
       role='status'
